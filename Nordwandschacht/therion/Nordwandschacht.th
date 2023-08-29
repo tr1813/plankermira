@@ -1,0 +1,25 @@
+survey Nordwandschacht
+    input "./Eingang/Eingang.th"
+    input "./MarieGenevieveSaal/MarieGenevieveSaal.th"
+    input "./Zugzwang/Zugzwang.th"
+    input "./Zwisch/Zwisch.th"
+
+    equate 0@ZugZwang 2.12@MarieGenevieveSaal
+    equate 0@MarieGenevieveSaal 0@Eingang
+
+    map m-all-p -projection plan
+        m-all-p@Eingang
+        m-all-p@MarieGenevieveSaal
+        m-all-p@ZugZwang
+
+        #Zwisch
+    endmap
+
+    centreline 
+        cs UTM33N
+        fix E10@Eingang 425221 5276230 2092
+        station E10@Eingang entrance
+    endcentreline
+
+    input "./dem.th"
+endsurvey

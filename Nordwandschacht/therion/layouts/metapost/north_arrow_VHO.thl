@@ -1,0 +1,84 @@
+
+layout custom_arrow_VHO
+	code metapost
+	    #(contributions of Thomas Holder)
+			def s_northarrow (expr rot) =
+		  	begingroup
+			    interim defaultscale:=0.25; % scale your north arrow here
+			    T:=identity scaled defaultscale rotated -rot;
+			    pickup pencircle scaled (0.08cm * defaultscale);
+
+				# two small circles
+				p := (-5cm,0)..(0,-5cm)..(5cm,0)..(0,5cm)..cycle;
+				thdraw p scaled 0.35; thdraw p scaled 0.4; 
+
+				p := (0,0)--(1cm,0);
+                thdraw p shifted (5cm,0cm) scaled 0.45 rotated 90;
+				thdraw p shifted (5cm,0cm) scaled 0.45 rotated -90;
+                thdraw p shifted (5cm,0cm) scaled 0.45 rotated 180;
+				thdraw p shifted (5cm,0cm) scaled 0.45;
+
+                # label east, west, south, mag. 
+
+                # north arrow 
+                p := (0, -3cm)--(5cm,-8cm)--(0,32cm)--(-5cm,-8cm)--cycle;
+                thfill p shifted (0,-3cm) scaled 0.3 withcolor(.9,.9,.9); thdraw p shifted (0,-3cm) scaled 0.3  ;
+
+                # N symbol
+                #pickup pencircle scaled (0.12cm * defaultscale);
+                #p := (-0.7cm,-1cm)--(-0.7cm,1cm)--(0.7cm,-1cm)--(0.7cm,1cm);
+                #thdraw p shifted (0,0cm) scaled 0.35;
+                # E symbol
+                p := (0.7cm,-1cm)--(-0.7cm,-1cm)--(-0.7cm,0cm)--(0.7cm,0cm)--(-0.7cm,0cm)--(-0.7cm,1cm)--(0.7cm,1cm);
+                thdraw p rotated rot shifted (12cm,0cm) scaled 0.25 ;
+                # W symbol
+                p := (-0.9cm,1cm)--(-0.4cm,-1cm)--(0cm,0.5cm)--(0.4cm,-1cm)--(0.9cm,1cm);
+                thdraw p rotated rot shifted (-12cm,0cm) scaled 0.25;
+                # S symbol
+                p := (0.7cm,0.8cm)..(0cm,1cm)..(-0.7cm,0.5cm)..(0,0)..(0.7cm,-0.5cm)..(0,-1cm)..(-0.7cm,-0.8cm);
+                thdraw p rotated rot shifted (0cm,-13cm) scaled 0.25;
+                
+				label.lrt(thTEX("\size[6] \bf Ntrue"), (0,1cm) shifted (0.3cm,3cm) scaled 0.45 rotated -rot );
+
+                #if MagDecl < 0:
+                #label.llft(thTEX("\size[6] \bf Nmag (2023): " & decimal (MagDecl) & "\thinspace"), (0,-1cm) shifted (-0.3cm,3cm) scaled 0.45 rotated -MagDecl);
+               # else :
+                #label.lrt(thTEX("\size[6] \bf Nmag (2023): " & decimal (MagDecl) & "\thinspace"), (0,-1cm) shifted #(0.3cm,3cm) scaled 0.45 otated -MagDecl );
+                #fi;
+                # two small circles
+				#p := (-5cm,0)..(0,-5cm)..(5cm,0)..(0,5cm)..cycle;
+                #thfill p scaled 0.025 withcolor (0,0,0)
+		  	endgroup;
+		enddef;
+
+
+        def s_scalebar (expr l, units, txt) =
+				begingroup
+				 interim warningcheck:=0;
+				 tmp20:=20 * (l / Scale * cm * units / 100);
+				 tmp40:=40 * (l / Scale * cm * units / 100);
+				 #tmp60:=60 * (l / Scale * cm * units / 100);
+				 #tmp80:=80 * (l / Scale * cm * units / 100);
+
+				 scal20:=20 * l / 100;
+				 scal40:=40 * l / 100;
+
+				 brht:= 5bp;
+				 lblht:= 8bp;
+				endgroup;
+
+				pickup PenD;
+
+			  draw (0,0)--(0,brht)--(tmp40,brht)--(tmp40,0)--(0,0);
+
+			  fill (tmp40,0)--(tmp20,0)--(tmp20,brht/2)--(tmp40,brht/2)--cycle;
+			  fill (tmp20,brht)--(0,brht)--(0,brht/2)--(tmp20,brht/2)--cycle;
+
+			   begingroup
+                 label.top(thTEX("\size[8] 1:" & decimal (Scale*100) ),origin+(tmp20,1*lblht));
+			      label.bot(thTEX("\size[8]" & decimal (scal40) & "\thinspace" & txt),origin+(tmp40,-.5*lblht));
+			      label.bot(thTEX("\size[8]" & decimal (scal20)),origin+(tmp20,-.5*lblht));
+			      label.bot(thTEX("\size[8]" & decimal (0)),origin+(0,-.5*lblht));
+			    endgroup
+        enddef;
+endlayout

@@ -1,0 +1,38 @@
+source Nordwandschacht.th
+
+#export model -fmt survex -o _out/Nordwandschacht.3d
+#export model  -o _out/Nordwandschacht.lox
+#export model -o _out/Nordwandschacht.kml
+
+
+input layouts/detailed-p.thl 
+
+layout local
+    copy detailed-p 
+    copy custom_arrow_VHO
+    scale 1 500
+    symbol-colour line border [0 0 0]
+    symbol-colour line survey:cave [70 10 0]
+    symbol-show point label
+        code tex-map
+     \def\customheader{
+    \size[13]\bf \the\cavename 1625/141 \ss
+    \si \par \size[10]Plankermira Nordwand, Totes Gebirge, Steirmark \ss
+    \par Length mapped: \the\cavelength, depth: \the\cavedepth
+    \par Vermessung 08.2023 --- \the\topoteam
+    \par Verein für Höhlenkunde in Obersteier
+    \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
+      \def\maplayout{
+          \legendbox{\the\numexpr 1\relax}{\the\numexpr 99\relax}{NW}{\customheader}
+          \legendbox{\the\numexpr14\relax}{\the\numexpr86\relax}{S}{\northarrow}
+          \legendbox{\the\numexpr14\relax}{\the\numexpr85\relax}{N}{\scalebar}
+
+          %\legendbox{\the\numexpr0\relax}{\the\numexpr0\relax}{NW}{\hbox{\loadpicture{"omuhako_cave-L.pdf"}}}
+     }
+    endcode 
+
+endlayout
+
+select m-all-p@Nordwandschacht
+
+export map -projection plan -o _out/Nordwandschacht.pdf -layout local -layout-debug station-names

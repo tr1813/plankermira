@@ -1,0 +1,287 @@
+therion 6.1.8+dev (compiled on 2023-07-04)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: Nordwandschacht.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+therion: warning -- year 2024 magnetic declination used for undated surveys
+undated surveys:
+Zwisch.Nordwandschacht
+output coordinate system: UTM33
+meridian convergence (deg): 0.7362
+geomag declinations (deg):
+  2023.1.1  4.5052
+  2024.1.1  4.6592
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 1.64%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.5
+ 2> Copyright © 1990-2021 Olly Betts
+ 3> 
+ 4> Survey contains 2031 survey stations, joined by 2034 shots.
+ 5> There are 6 loops.
+ 6> Survey has 3 connected components.
+ 7> Total length of survey shots = 1972.33m (1972.36m adjusted)
+ 8> Total plan length of survey shots = 1678.33m
+ 9> Total vertical length of survey shots =  774.36m
+10> Vertical range = 264.09m (from 154 at 2092.85m to 1234 at 1828.76m)
+11> North-South range = 299.38m (from 1753 at 5276319.46m to 1199 at 5276020.08m)
+12> East-West range = 416.81m (from 2027 at 425434.04m to 1092 at 425017.23m)
+13> 1853 1-nodes.
+14>   18 2-nodes.
+15>    4 3-nodes.
+16>    3 5-nodes.
+17>    4 6-nodes.
+18>    7 7-nodes.
+19>   13 8-nodes.
+20>    4 9-nodes.
+21>   17 10-nodes.
+22>   13 11-nodes.
+23>    8 12-nodes.
+24>   13 13-nodes.
+25>   11 14-nodes.
+26>    7 15-nodes.
+27>   12 16-nodes.
+28>   13 17-nodes.
+29>    9 18-nodes.
+30>    3 19-nodes.
+31>    4 20-nodes.
+32>    2 21-nodes.
+33>    3 22-nodes.
+34>    1 23-node.
+35>    3 24-nodes.
+36>    2 25-nodes.
+37>    1 28-node.
+38>    1 33-node.
+39>    1 34-node.
+40>    1 43-node.
+41> 
+######################### transcription ########################
+ 4> 2031 : 1.ZH22@Zwisch.Nordwandschacht
+ 5> 6 : .@Eingang.Nordwandschacht
+ 6> 3 : .@Eingang.Nordwandschacht
+10> 154 : .@Eingang.Nordwandschacht -- 1234 : .@MarieGenevieveSaal.Nordwandschacht
+11> 1753 : .@ZugZwang.Nordwandschacht -- 1199 : .@MarieGenevieveSaal.Nordwandschacht
+12> 2027 : 1.ZH18@Zwisch.Nordwandschacht -- 1092 : .@MarieGenevieveSaal.Nordwandschacht
+13> 1853 : .@ZugZwang.Nordwandschacht
+14> 18 : .@Eingang.Nordwandschacht
+15> 4 : .@Eingang.Nordwandschacht
+16> 3 : .@Eingang.Nordwandschacht
+17> 4 : .@Eingang.Nordwandschacht
+18> 7 : .@Eingang.Nordwandschacht
+19> 13 : .@Eingang.Nordwandschacht
+20> 4 : .@Eingang.Nordwandschacht
+21> 17 : .@Eingang.Nordwandschacht
+22> 13 : .@Eingang.Nordwandschacht
+23> 8 : .@Eingang.Nordwandschacht
+24> 13 : .@Eingang.Nordwandschacht
+25> 11 : E2@Eingang.Nordwandschacht
+26> 7 : .@Eingang.Nordwandschacht
+27> 12 : .@Eingang.Nordwandschacht
+28> 13 : .@Eingang.Nordwandschacht
+29> 9 : .@Eingang.Nordwandschacht
+30> 3 : .@Eingang.Nordwandschacht
+31> 4 : .@Eingang.Nordwandschacht
+32> 2 : .@Eingang.Nordwandschacht
+33> 3 : .@Eingang.Nordwandschacht
+34> 1 : E1@Eingang.Nordwandschacht
+35> 3 : .@Eingang.Nordwandschacht
+36> 2 : .@Eingang.Nordwandschacht
+37> 1 : E1@Eingang.Nordwandschacht
+38> 1 : E1@Eingang.Nordwandschacht
+39> 1 : E1@Eingang.Nordwandschacht
+40> 1 : E1@Eingang.Nordwandschacht
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+therion: warning -- layouts/detailed-p.thl [10] -- source layout not found -- custom_arrow
+
+therion: warning -- layouts/detailed-p.thl [10] -- source layout not found -- custom_scalebar
+done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.30%
+
+
+############### export maps & scraps selection #################
+M  1963.87 m-all-p@Nordwandschacht ()
+M  2046.52 m-all-p@Eingang.Nordwandschacht ()
+S  2080.46 Eingang-4p@Eingang.Nordwandschacht ()
+S  2052.40 Eingang-3p@Eingang.Nordwandschacht ()
+S  2041.50 Eingang-2p@Eingang.Nordwandschacht ()
+S  2011.72 Eingang-1p@Eingang.Nordwandschacht ()
+M  1905.11 m-all-p@MarieGenevieveSaal.Nordwandschacht ()
+S  1905.11 MarieGenevieveSaal-1p@MarieGenevieveSaal.Nordwandschacht ()
+M  1939.99 m-all-p@ZugZwang.Nordwandschacht ()
+S  1950.06 Zugzwang-1p0@ZugZwang.Nordwandschacht ()
+S  1938.64 Zugzwang-1p1@ZugZwang.Nordwandschacht ()
+S  1938.50 Zugzwang-1p2@ZugZwang.Nordwandschacht ()
+S  1948.22 Zugzwang-1p7@ZugZwang.Nordwandschacht ()
+S  1945.72 Zugzwang-1p6@ZugZwang.Nordwandschacht ()
+S  1940.24 Zugzwang-1p5@ZugZwang.Nordwandschacht ()
+S  1938.56 Zugzwang-1p4@ZugZwang.Nordwandschacht ()
+S  1919.99 Zugzwang-1p3@ZugZwang.Nordwandschacht ()
+########## end of export maps & scraps selection ###############
+copying_fonts ...
+Arimo-Regular.ttf
+Arimo-Regular.ttf
+Arimo-Bold.ttf
+Arimo-Regular.ttf
+Arimo-Italic.ttf
+done.
+writing _out/Nordwandschacht.pdf ...
+processing projection none ... done
+generating TeX metrics ... done
+####################### metapost log file ########################
+This is MetaPost, version 2.02 (TeX Live 2023/Homebrew) (kpathsea version 6.3.5)  27 AUG 2023 17:46
+**data.mp
+(/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/metapost/base/mpost.mp
+(/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [16]
+Warning: patterncolor not supported in Therion [17] [18]
+[Warning: undefined symbol `l_survey_surface_AUT']
+[Warning: undefined symbol `l_wall_bedrock_MY']
+[Warning: undefined symbol `l_wall_clay_MY']
+[Warning: undefined symbol `l_wall_pebbles_MY']
+[Warning: undefined symbol `l_wall_presumed_MY']
+[Warning: undefined symbol `l_wall_sand_MY']
+[Warning: undefined symbol `l_wall_underlying_MY']
+[Warning: undefined symbol `l_wall_unsurveyed_MY']
+[Warning: undefined symbol `l_wall_pit_MY']
+[Warning: undefined symbol `l_wall_overlying_MY']
+[Warning: undefined symbol `l_wall_moonmilk_MY']
+[Warning: undefined symbol `l_wall_flowstone_MY']
+[Warning: undefined symbol `p_airdraught_summer_MY']
+[Warning: undefined symbol `p_airdraught_winter_MY'] [1] [2] [3] [4] [5] [6]
+[7] [8] [9]
+[Warning: scrap outline intersects itself in scrap Eingang-3p@Eingang.Nordwands
+chacht] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+[Warning: scrap outline intersects itself in scrap Nordwandschacht-xx4@MarieGen
+evieveSaal.Nordwandschacht] [21] [22]
+[Warning: scrap outline intersects itself in scrap Nordwandschacht-xx3@MarieGen
+evieveSaal.Nordwandschacht] [23] [24] [25] [26]
+[Warning: scrap outline intersects itself in scrap Nordwandschacht-xx1@MarieGen
+evieveSaal.Nordwandschacht]
+[Warning: scrap outline intersects itself in scrap Nordwandschacht-xx1@MarieGen
+evieveSaal.Nordwandschacht]
+[Warning: scrap outline intersects itself in scrap Nordwandschacht-xx1@MarieGen
+evieveSaal.Nordwandschacht] [27] [28] [29] [30] [31]
+[Warning: scrap outline intersects itself in scrap Zugzwang-1p3@ZugZwang.Nordwa
+ndschacht] [32] [33] [34] [35]
+[Warning: scrap outline intersects itself in scrap Zugzwang-1p4@ZugZwang.Nordwa
+ndschacht]
+[Warning: scrap outline intersects itself in scrap Zugzwang-1p4@ZugZwang.Nordwa
+ndschacht] [36] [37] [38] [39] [40] [41] [42] [43]
+[Warning: scrap outline intersects itself in scrap Zugzwang-1p6@ZugZwang.Nordwa
+ndschacht] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
+[Warning: scrap outline intersects itself in scrap Zugzwang-1p1@ZugZwang.Nordwa
+ndschacht] [56] [57] [58] [59] [60] [61] [62] (./mptextmp.mp) [63]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [64] [65] [66]
+[67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81]
+[82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] )
+ 
+Here is how much of MetaPost's memory you used:
+ 60464 strings using 1465807 characters
+ 5253520 bytes of node memory
+ 1852 symbolic tokens
+ 11i,82n,16p,350b,5f stack positions out of 16i,98n,17p,390b,6f
+111 output files written: data-patt.1 .. data.93
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+generating TeX metrics ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdftex 2023.6.22)  27 AUG 2023 17:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex (./thfonts.map{
+/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/p
+dftex.map})
+(/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/pdftex/glyph
+tounicode.tex)) (./th_fontdef.tex{a_jhnx6l.enc})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 216 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 442 strings out of 494595
+ 5966 string characters out of 6136697
+ 341730 words of memory out of 5000000
+ 2099 multiletter control sequences out of 15000+600000
+ 16903 words of font info for 57 fonts, out of 8000000 for 9000
+ 1416 hyphenation exceptions out of 8191
+ 8i,5n,6p,322b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/google
+/arimo/Arimo-Bold.pfb></usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fo
+nts/type1/google/arimo/Arimo-Italic.pfb></usr/local/Cellar/texlive/20230313_2/s
+hare/texmf-dist/fonts/type1/google/arimo/Arimo.pfb>
+Output written on data.pdf (1 page, 615274 bytes).
+PDF statistics:
+ 399 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1127 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 13 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  3.07%    4.9m  158.8m  14    4.8m   -0.4m    0.5m [0@MarieGenevieveSaal.Nordwandschacht - 7 - 8 - 9 - 10 - 0.15 - 0.14 - 0.13 - 0.8 - 0.5 - 0.4 - 0.3 - 0.2 - 0.1 - 0]
+  2.39%    0.6m   25.9m   6    0.5m    0.4m    0.1m [36@MarieGenevieveSaal.Nordwandschacht - 42 - 41 - 39 - 38 - 37 - 36]
+  1.70%    3.6m  211.1m  10   -3.4m   -0.6m   -0.9m [10@MarieGenevieveSaal.Nordwandschacht - 11 - 12 - 13 - 14 - 15 - 15.1 - 15.2 - 15.3 - 0.15 - 10]
+  1.64%    1.2m   72.5m   6    1.0m   -0.5m    0.3m [3@MarieGenevieveSaal.Nordwandschacht - 5.3 - 5.2 - 5.1 - 5 - 4 - 3]
+  0.85%    3.6m  422.9m  32    3.1m    1.4m    1.2m [17@MarieGenevieveSaal.Nordwandschacht - 59 - 58 - 57 - 56 - 55 - 54 - 53 - 52 - 51 - 50 - 49 - 48 - 47 - 46 - 45 - 34 - 33 - 32 - 31 - 26 - 25 - 24 - 23.5 - 23.2 - 23.1 - 23 - 22 - 21 - 20 - 19 - 18 - 17]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.76%   79.14%  Eingang-4p@Eingang.Nordwandschacht
+   0.55%   60.42%  MarieGenevieveSaal-1p@MarieGenevieveSaal.Nordwandschacht
+   0.26%   37.84%  Zugzwang-1p7@ZugZwang.Nordwandschacht
+   1.39%   25.36%  Zugzwang-1p5@ZugZwang.Nordwandschacht
+   0.43%   18.06%  Zugzwang-1p3@ZugZwang.Nordwandschacht
+   1.81%    7.60%  Eingang-3p@Eingang.Nordwandschacht
+   0.17%    5.59%  Eingang-1p@Eingang.Nordwandschacht
+   0.91%    5.51%  Zugzwang-1p6@ZugZwang.Nordwandschacht
+   0.05%    2.13%  Zugzwang-1p1@ZugZwang.Nordwandschacht
+   0.07%    1.36%  Zugzwang-1p0@ZugZwang.Nordwandschacht
+   0.04%    1.06%  Zugzwang-1p4@ZugZwang.Nordwandschacht
+   0.00%    0.84%  Nordwandschacht-1p0@MarieGenevieveSaal.Nordwandschacht
+   0.00%    0.64%  Eingang-2p@Eingang.Nordwandschacht
+   0.03%    0.60%  Zugzwang-1p2@ZugZwang.Nordwandschacht
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (14.005, 47.635) (14.006, 47.636)
+  [LAT-LONG → LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LAT-LONG → LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LAT-LONG → UTM33] AoU: [yes] transformation: [axis order change (2D) + UTM zone 33N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=33 ellps=WGS84] accuracy: [0.000 m]
+  [LAT-LONG → EPSG:4326] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM33 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 33N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=33 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM33 → LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 33N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=33 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM33 → UTM33] AoU: [yes] transformation: [Inverse of UTM zone 33N + UTM zone 33N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM33 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 33N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=33 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 → UTM33] AoU: [yes] transformation: [axis order change (2D) + UTM zone 33N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=33 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########
