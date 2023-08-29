@@ -1,0 +1,5 @@
+./gis/342x27x/*
+
+*.tif
+*.tif.aux.xml
+
