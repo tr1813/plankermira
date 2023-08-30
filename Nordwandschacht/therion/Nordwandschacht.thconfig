@@ -1,4 +1,5 @@
-source Nordwandschacht.th
+encoding  utf-8
+source data/Nordwandschacht.th
 
 #export model -fmt survex -o _out/Nordwandschacht.3d
 #export model  -o _out/Nordwandschacht.lox
@@ -35,4 +36,4 @@ endlayout
 
 select m-all-p@Nordwandschacht
 
-export map -projection plan -o _out/Nordwandschacht.pdf -layout local -layout-debug station-names
+export map -projection plan -o out/Nordwandschacht.pdf -layout local -layout-debug station-names
