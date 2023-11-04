@@ -226,7 +226,7 @@ layout custom_areas
 		# randomly fill boulder areas with boulders, scalable as wished
 		def a_u_smallblocks (expr p) =
 			T:=identity;
-			pickup PenD;
+			pickup PenC;
 			save S,sc;
 			string S;
 			numeric sc;

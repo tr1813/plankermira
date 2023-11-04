@@ -34,6 +34,4 @@ layout local
 
 endlayout
 
-select m-all-p@Nordwandschacht
-
 export map -projection plan -o out/Nordwandschacht.pdf -layout local -layout-debug station-names

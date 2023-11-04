@@ -2,7 +2,7 @@ survey Nordwandschacht
     input "./Eingang/Eingang.th"
     input "./MarieGenevieveSaal/MarieGenevieveSaal.th"
     input "./Zugzwang/Zugzwang.th"
-    input "./Zwisch/Zwisch.th"
+    #input "./Zwisch/Zwisch.th"
 
     equate 0@ZugZwang 2.12@MarieGenevieveSaal
     equate 0@MarieGenevieveSaal 0@Eingang

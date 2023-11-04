@@ -4,22 +4,44 @@ survey ZugZwang -title "Zugzwang"
   input Zugzwang-p.th2 
 
   map m-all-p -projection plan 
+  m-p33top-p
+  m-p33middle-p [25 0 m] none
+  m-ZugzwangGangUp-p [25 0 m] none
+  m-ZugzwangGang-p [50 -10 m] none
+  m-KleineSchwesterHalle-p [50 0 m] none
+  endmap
+  
+  map m-p33top-p -projection plan 
     Zugzwang-1p0
     break
     Zugzwang-1p1
-    break
+  endmap
+
+  map m-p33middle-p -projection plan 
     Zugzwang-1p2
-    break
-    Zugzwang-1p7
-    break
-    Zugzwang-1p6
+  endmap
+
+  map m-KleineSchwesterHalle-p -projection plan 
+     Zugzwang-1p6
     break
     Zugzwang-1p5
     break
-    Zugzwang-1p4
+    Zugzwang-1p8
     break
     Zugzwang-1p3
   endmap
+
+  map m-ZugzwangGangUp-p -projection plan 
+    Zugzwang-1p7
+  endmap
+
+  map m-ZugzwangGang-p -projection plan 
+   Zugzwang-1p4
+    break
+
+  endmap
+
+  join Zugzwang-1p6 Zugzwang-1p5
   centerline
     date 2023.08.18 
     explo-date 2023.08.18

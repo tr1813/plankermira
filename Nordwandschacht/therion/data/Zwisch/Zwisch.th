@@ -4,7 +4,7 @@ encoding UTF-8
     centreline -id zug_1
       copyright 2023 "Verein für Höhlenkunde in Obersteier"
       
-      
+      date 2023.08.18
       cs lat-long
       grade BCRA3
       units length meters

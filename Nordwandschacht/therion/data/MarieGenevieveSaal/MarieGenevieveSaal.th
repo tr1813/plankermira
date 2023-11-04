@@ -7,6 +7,9 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
 
    map m-all-p -projection plan
     MarieGenevieveSaal-1p
+    MarieGenevieveSaal-2p
+    MarieGenevieveSaal-3p
+     MarieGenevieveSaal-4p
   endmap 
 
   
