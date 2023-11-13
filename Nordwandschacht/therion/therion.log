@@ -2,7 +2,7 @@ therion 6.1.8 (2023-06-14)
   - using Proj 9.2.1, compiled against 9.2.1
 initialization file: therion.ini
 reading ... done
-configuration file: .\Nordwandschacht.thconfig
+configuration file: d:\PostDoc\Caves\plankermira-main\Nordwandschacht\therion\Nordwandschacht.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
@@ -20,43 +20,43 @@ processing survey data ...
  1> Survex 1.4.4
  2> Copyright ¸ 1990-2021 Olly Betts
  3> 
- 4> Survey contains 2008 survey stations, joined by 2012 shots.
- 5> There are 6 loops.
- 6> Survey has 2 connected components.
- 7> Total length of survey shots = 1818.74m (1818.77m adjusted)
- 8> Total plan length of survey shots = 1538.79m
- 9> Total vertical length of survey shots =  719.38m
-10> Vertical range = 264.09m (from 154 at 2092.85m to 1234 at 1828.76m)
-11> North-South range = 299.38m (from 1753 at 5276319.46m to 1199 at 5276020.08m)
-12> East-West range = 294.07m (from 465 at 425311.29m to 1092 at 425017.22m)
-13> 1849 1-nodes.
-14>    2 2-nodes.
-15>    1 3-node.
-16>    3 5-nodes.
-17>    4 6-nodes.
-18>    7 7-nodes.
-19>   13 8-nodes.
-20>    4 9-nodes.
-21>   17 10-nodes.
-22>   13 11-nodes.
-23>    8 12-nodes.
-24>   13 13-nodes.
-25>   11 14-nodes.
-26>    7 15-nodes.
-27>   12 16-nodes.
-28>   13 17-nodes.
-29>    9 18-nodes.
-30>    3 19-nodes.
-31>    4 20-nodes.
-32>    2 21-nodes.
-33>    3 22-nodes.
-34>    1 23-node.
-35>    3 24-nodes.
-36>    2 25-nodes.
-37>    1 28-node.
-38>    1 33-node.
-39>    1 34-node.
-40>    1 43-node.
+ 4> La topographie contient 2008 stations, connect‚es par 2012 vis‚es.
+ 5> Il y a 6 bouclages.
+ 6> La topographie contient 2 composants connect‚s.
+ 7> Longueur totale de la topographie = 1818.74m (1818.77m ajust‚)
+ 8> Longueur totale en projection horizontale = 1538.79m
+ 9> Longueur totale verticale =  719.38m
+10> Intervalle vertical = 264.09m (de 154 … 2092.85m jusqu'… 1234 … 1828.76m)
+11> Intervalle Nord-Sud = 299.38m (de 1753 … 5276319.46m jusqu'… 1199 … 5276020.08m)
+12> Intervalle Est-Ouest = 294.07m (de 465 … 425311.29m jusqu'… 1092 … 425017.22m)
+13> 1849 1-noeuds.
+14>    2 2-noeuds.
+15>    1 3-noeud.
+16>    3 5-noeuds.
+17>    4 6-noeuds.
+18>    7 7-noeuds.
+19>   13 8-noeuds.
+20>    4 9-noeuds.
+21>   17 10-noeuds.
+22>   13 11-noeuds.
+23>    8 12-noeuds.
+24>   13 13-noeuds.
+25>   11 14-noeuds.
+26>    7 15-noeuds.
+27>   12 16-noeuds.
+28>   13 17-noeuds.
+29>    9 18-noeuds.
+30>    3 19-noeuds.
+31>    4 20-noeuds.
+32>    2 21-noeuds.
+33>    3 22-noeuds.
+34>    1 23-noeud.
+35>    3 24-noeuds.
+36>    2 25-noeuds.
+37>    1 28-noeud.
+38>    1 33-noeud.
+39>    1 34-noeud.
+40>    1 43-noeud.
 41> 
 ######################### transcription ########################
  4> 2008 : .@ZugZwang.Nordwandschacht
@@ -98,21 +98,22 @@ done
 calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... 
-C:\Program Files (x86)\Therion\therion.exe: warning -- layouts/detailed-p.thl [10] -- source layout not found -- custom_arrow
+therion: warning -- layouts/detailed-p.thl [10] -- source layout not found -- custom_arrow
 
-C:\Program Files (x86)\Therion\therion.exe: warning -- layouts/detailed-p.thl [10] -- source layout not found -- custom_scalebar
+therion: warning -- layouts/detailed-p.thl [10] -- source layout not found -- custom_scalebar
 done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.46%
+average distortion: 0.49%
 
 
 ############### export maps & scraps selection #################
-M  1929.44 m-all-p@MarieGenevieveSaal.Nordwandschacht ()
-S  1878.23 MarieGenevieveSaal-1p@MarieGenevieveSaal.Nordwandschacht ()
-S  1927.69 MarieGenevieveSaal-2p@MarieGenevieveSaal.Nordwandschacht ()
+M  1924.03 m-all-p@MarieGenevieveSaal.Nordwandschacht ()
+S  1867.77 MarieGenevieveSaal-1p@MarieGenevieveSaal.Nordwandschacht ()
+S  1927.77 MarieGenevieveSaal-2p@MarieGenevieveSaal.Nordwandschacht ()
 S  1956.71 MarieGenevieveSaal-3p@MarieGenevieveSaal.Nordwandschacht ()
 S  1955.14 MarieGenevieveSaal-4p@MarieGenevieveSaal.Nordwandschacht ()
+S  1912.76 MarieGenevieveSaal-5p@MarieGenevieveSaal.Nordwandschacht ()
 M  1931.81 m-KleineSchwesterHalle-p@ZugZwang.Nordwandschacht ()
 S  1944.36 Zugzwang-1p6@ZugZwang.Nordwandschacht ()
 S  1940.24 Zugzwang-1p5@ZugZwang.Nordwandschacht ()
@@ -144,7 +145,7 @@ writing out/Nordwandschacht.pdf ...
 processing projection none ... done
 generating TeX metrics ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  10 NOV 2023 17:33
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  13 NOV 2023 19:27
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -168,36 +169,37 @@ Warning: patterncolor not supported in Therion [17] [18]
 [Warning: undefined symbol `l_wall_flowstone_MY']
 [Warning: undefined symbol `p_airdraught_summer_MY']
 [Warning: undefined symbol `p_airdraught_winter_MY'] [1] [2] [3] [4] [5] [6]
-[7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
 [Warning: scrap outline intersects itself in scrap Nordwandschacht-xx3@MarieGen
 evieveSaal.Nordwandschacht]
 [Warning: scrap outline intersects itself in scrap Nordwandschacht-xx3@MarieGen
-evieveSaal.Nordwandschacht] [17] [18] [19] [20] [21]
+evieveSaal.Nordwandschacht] [21] [22] [23] [24] [25]
 [Warning: scrap outline intersects itself in scrap Nordwandschacht-xx1@MarieGen
 evieveSaal.Nordwandschacht]
 [Warning: scrap outline intersects itself in scrap Nordwandschacht-xx1@MarieGen
 evieveSaal.Nordwandschacht]
 [Warning: scrap outline intersects itself in scrap Nordwandschacht-xx1@MarieGen
-evieveSaal.Nordwandschacht] [22] [23] [24] [25] [26]
+evieveSaal.Nordwandschacht] [26] [27] [28] [29] [30]
 [Warning: scrap outline intersects itself in scrap Zugzwang-1p3@ZugZwang.Nordwa
-ndschacht] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39]
-[40] [41] [42] [43] [44] [45] [46]
+ndschacht] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
+[44] [45] [46] [47] [48] [49] [50]
 [Warning: scrap outline intersects itself in scrap Zugzwang-1p4@ZugZwang.Nordwa
-ndschacht] [47] [48] [49] [50]
+ndschacht] [51] [52] [53] [54]
 [Warning: scrap outline intersects itself in scrap Zugzwang-1p1@ZugZwang.Nordwa
-ndschacht] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
-[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77]
-(./mptextmp.mp) [78] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90]
-[91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104]
-[105] [106] [107] [108] [109] [110] [111] [112] )
+ndschacht] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67]
+[68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81]
+(./mptextmp.mp) [82] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [83] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) [84] [85] [86] [87] [88] [89] [90] [91] [92]
+[93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106]
+[107] [108] [109] [110] [111] [112] [113] [114] [115] )
  
 Here is how much of MetaPost's memory you used:
- 63456 strings using 1529330 characters
- 7722512 bytes of node memory
- 1855 symbolic tokens
- 11i,82n,16p,390b,5f stack positions out of 16i,98n,17p,390b,6f
-130 output files written: data-patt.1 .. data.112
+ 64212 strings using 1544194 characters
+ 8312620 bytes of node memory
+ 1853 symbolic tokens
+ 11i,82n,19p,456b,5f stack positions out of 16i,98n,22p,487b,6f
+133 output files written: data-patt.1 .. data.115
 
 
 #################### end of metapost log file ####################
@@ -205,31 +207,36 @@ converting scraps ... done
 making map ... done
 generating TeX metrics ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  10 NOV 2023 17:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  13 NOV 2023 19:27
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex (./thfonts.map{
 c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
-(./th_fontdef.tex)
+(./th_fontdef.tex<<th_gour_aaaaaaa.dat>><<th_gour_aaaaaab.dat>><<th_gour_aaaaaa
+c.dat>><<th_gour_aaaaaad.dat>><<th_gour_aaaaaae.dat>><<th_gour_aaaaaaj.dat>><<t
+h_gour_aaaaaba.dat>><<th_gour_aaaaabb.dat>><<th_gour_aaaaabc.dat>><<th_gour_aaa
+aabd.dat>><<th_gour_aaaaabe.dat>><<th_gour_aaaaabf.dat>><<th_gour_aaaaabg.dat>>
+<<th_gour_aaaaabh.dat>><<th_gour_aaaaabi.dat>><<th_gour_aaaaabj.dat>><<th_gour_
+aaaaaca.dat>><<th_gour_aaaaacb.dat>>)
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 208 numeric registers used out of 32768
+ 237 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 433 strings out of 94604
- 5639 string characters out of 1142524
- 1650609 words of memory out of 6427337
- 2085 multiletter control sequences out of 15000+50000
+ 462 strings out of 94604
+ 5915 string characters out of 1142524
+ 1771857 words of memory out of 6549585
+ 2114 multiletter control sequences out of 15000+50000
  16903 words of font info for 57 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
- 8i,5n,6p,309b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 8i,6n,6p,388b,38s stack positions out of 5000i,500n,10000p,200000b,50000s
 {a_jhnx6l.enc}<Arimo-Italic.ttf><Arimo-Bold.ttf><Arimo-Regular.ttf>
-Output written on data.pdf (1 page, 944585 bytes).
+Output written on data.pdf (1 page, 1083699 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
+ 470 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 1109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1391 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -250,13 +257,14 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
+   1.33%   81.29%  MarieGenevieveSaal-2p@MarieGenevieveSaal.Nordwandschacht
    0.76%   79.14%  Eingang-4p@Eingang.Nordwandschacht
-   0.37%   73.71%  MarieGenevieveSaal-3p@MarieGenevieveSaal.Nordwandschacht
-   1.15%   57.66%  MarieGenevieveSaal-2p@MarieGenevieveSaal.Nordwandschacht
+   0.38%   72.27%  MarieGenevieveSaal-3p@MarieGenevieveSaal.Nordwandschacht
+   0.87%   60.10%  MarieGenevieveSaal-5p@MarieGenevieveSaal.Nordwandschacht
    3.74%   55.48%  Zugzwang-1p4@ZugZwang.Nordwandschacht
-   0.54%   29.63%  MarieGenevieveSaal-1p@MarieGenevieveSaal.Nordwandschacht
    0.74%   21.33%  Zugzwang-1p3@ZugZwang.Nordwandschacht
    0.23%   15.39%  Zugzwang-1p8@ZugZwang.Nordwandschacht
+   0.49%   14.79%  MarieGenevieveSaal-1p@MarieGenevieveSaal.Nordwandschacht
    0.22%   11.09%  Zugzwang-1p5@ZugZwang.Nordwandschacht
    0.13%   10.75%  Zugzwang-1p6@ZugZwang.Nordwandschacht
    1.81%    7.61%  Eingang-3p@Eingang.Nordwandschacht
