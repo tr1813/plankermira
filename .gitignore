@@ -3,3 +3,6 @@
 *.tif
 *.tif.aux.xml
 
+*.log
+*.pdf
+
