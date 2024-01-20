@@ -18,6 +18,12 @@ layout custom_lines
 		  draw P withpen PenD withcolor (0.7,0.7,0.7);
 		enddef;
 
+		# grey centreline
+		def l_survey_duplicate_MY (expr P) =
+		  T:=identity;
+		  draw P withpen PenD withcolor (0.7,0.0,0.7);
+		enddef;
+
 		# wall debris
 		def l_wall_debris_MY (expr P)=
       		T:=identity;
@@ -184,6 +190,7 @@ layout custom_lines
 	    initsymbol("l_wall_flowstone");
 	    initsymbol("l_rockborder_MY");
 	    initsymbol("l_survey_cave_MY");
+	    initsymbol("l_survey_duplicate_MY");
 		initsymbol("l_wall_clay_MYEE");
 	    initsymbol("l_contour_MY");
 
