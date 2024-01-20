@@ -1,7 +1,9 @@
 encoding  utf-8
 source data/Nordwandschacht.th
 
-#export model -fmt survex -o _out/Nordwandschacht.3d
+select m-all-p@Nordwandschacht
+
+export model -fmt survex -o out/Nordwandschacht.3d
 #export model  -o _out/Nordwandschacht.lox
 #export model -o _out/Nordwandschacht.kml
 

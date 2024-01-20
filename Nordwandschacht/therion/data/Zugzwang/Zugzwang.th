@@ -251,7 +251,9 @@ survey ZugZwang -title "Zugzwang"
     15 . 23.56 67.6 9.8
     15 . 12.29 342.6 2.6
     extend right
+    flags duplicate
     15 16 12.06 327.9 7.3
+    flags not duplicate
     # extend auto
     16 . 0.87 205.3 -89.2
     16 . 0.63 27.3 -12.7
@@ -333,7 +335,9 @@ survey ZugZwang -title "Zugzwang"
     23 . 0.50 178.3 84.0
     23 . 1.35 103.0 6.2
     extend right
+    flags duplicate
     22 24 15.00 305.9 -6.3
+    flags not duplicate
     # extend auto
     24 . 7.75 274.9 -51.0
     24 . 5.99 237.0 -34.6

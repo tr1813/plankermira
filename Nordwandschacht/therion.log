@@ -1,7 +1,8 @@
-therion 6.1.8+dev (compiled on 2023-07-04)
+therion 6.1.8 (2023-06-14)
   - using Proj 9.2.1, compiled against 9.2.1
-initialization file: /usr/local/etc/therion.ini
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
-therion: error -- can't open file for input -- Nordwandschacht.thconfig
+configuration file: .\therion\Nordwandschacht.thconfig
+reading ...
+C:\Program Files (x86)\Therion\therion.exe: error -- .\therion\Nordwandschacht.thconfig [9] -- can't open file for input -- layouts/detailed-p.thl
+Press ENTER to exit!
