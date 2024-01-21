@@ -1,6 +1,7 @@
 survey Eingang
 
    input Eingang-p.th2
+   input Eingang-e.th2
 
    map m-all-p -projection plan
     Eingang-4p
@@ -11,6 +12,10 @@ survey Eingang
     break
     Eingang-1p
   endmap 
+
+  map m-all-e -projection extended
+    Eingang-1e
+  endmap
 
     centerline
     date 2023.08.15 
@@ -32,9 +37,9 @@ survey Eingang
     E1 . 10.53 70.0 78.2
     E1 . 0.74 47.3 5.5
     E1 . 22.69 175.7 -24.0
-    extend left
-    E1 0 45.26 231.1 -85.6
     extend right
+    E1 0 45.26 231.1 -85.6
+    extend left
     E1 E2 3.77 24.9 62.5
     # extend auto
     E2 . 1.78 267.4 -9.3
@@ -58,7 +63,7 @@ survey Eingang
     E2 . 11.24 326.9 72.3
     E2 . 3.25 351.2 49.1
     E2 . 10.10 96.1 85.3
-    extend right
+    extend left
     E2 E3 8.50 302.9 43.6
     # extend auto
     E3 . 8.83 127.3 -6.0
@@ -77,7 +82,7 @@ survey Eingang
     E3 . 8.80 113.5 -40.2
     E3 . 8.37 118.2 -40.6
     E3 . 11.90 120.6 0.6
-    extend right
+    extend left
     E3 E4 9.54 13.5 85.2
     # extend auto
     E4 . 3.90 155.4 0.1
@@ -98,7 +103,7 @@ survey Eingang
     E4 . 11.81 146.4 -79.1
     E4 . 4.79 291.9 -74.2
     E4 . 2.57 294.4 -22.4
-    extend right
+    extend left
     E4 E5 12.15 286.4 59.9
     # extend auto
     E5 . 15.24 208.0 74.8
@@ -119,7 +124,7 @@ survey Eingang
     E5 . 16.51 244.5 55.9
     E5 . 13.95 189.6 76.7
     E5 . 13.15 247.7 57.6
-    extend right
+    extend left
     E5 E6 14.73 245.5 55.0
     # extend auto
     E6 . 3.99 85.3 4.1
@@ -144,7 +149,7 @@ survey Eingang
     E6 . 2.59 300.7 51.1
     E6 . 2.64 8.6 48.7
     E6 . 2.31 42.4 44.8
-    extend right
+    extend left
     E6 E7 16.47 311.4 83.2
     # extend auto
     E7 . 3.30 233.7 2.6
@@ -162,7 +167,7 @@ survey Eingang
     E7 . 21.83 2.2 85.4
     E7 . 9.36 168.1 84.5
     E7 . 9.80 322.4 76.0
-    extend left
+    extend right
     E7 E8 14.65 342.8 75.8
     # extend auto
     E8 . 4.74 187.3 -5.4
@@ -188,7 +193,7 @@ survey Eingang
     E8 . 2.93 204.9 -49.2
     E8 . 6.98 142.1 -82.9
     E8 . 8.19 137.2 -67.3
-    extend left
+    extend right
     E8 E9 16.26 19.9 83.6
     # extend auto
     E9 . 14.25 237.2 21.0
@@ -211,7 +216,7 @@ survey Eingang
     E9 . 4.25 13.9 42.4
     E9 . 8.80 287.3 59.9
     E9 . 2.42 338.4 -4.2
-    extend right
+    extend left
     E10 E9 10.89 172.1 -58.0
     # extend auto
     E10 . 3.40 112.6 -20.6

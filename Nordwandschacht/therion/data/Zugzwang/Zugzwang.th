@@ -1,6 +1,6 @@
 # 2023.08.22 created by TopoDroid v 6.1.78
 
-survey ZugZwang -title "Zugzwang"
+survey Zugzwang -title "Zugzwang"
   input Zugzwang-p.th2 
 
   map m-all-p -projection plan 
@@ -42,6 +42,17 @@ survey ZugZwang -title "Zugzwang"
   endmap
 
   join Zugzwang-1p6 Zugzwang-1p5
+
+  input ZugZwang-e.th2 
+
+  map m-all-e -projection extended
+    Zugzwang-3e 
+    break
+    Zugzwang-2e
+    break
+    Zugzwang-1e
+  endmap
+  
   centerline
     date 2023.08.18 
     explo-date 2023.08.18
@@ -109,7 +120,7 @@ survey ZugZwang -title "Zugzwang"
     5 . 2.15 184.0 -50.5
     5 . 0.61 176.8 -29.3
     5 . 1.45 244.1 -2.9
-    extend left
+    extend right
     5 6 2.00 225.7 -33.2
     # extend auto
     6 . 3.50 201.1 -50.4
@@ -286,7 +297,7 @@ survey ZugZwang -title "Zugzwang"
     19 . 28.72 192.0 29.7
     19 . 38.37 189.4 18.1
     19 . 24.45 187.4 16.3
-    extend left
+    extend right
     19 20 11.20 107.2 33.3
     # extend auto
     20 . 1.19 70.9 -80.7

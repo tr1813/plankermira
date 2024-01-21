@@ -2,7 +2,8 @@ therion 6.1.8 (2023-06-14)
   - using Proj 9.2.1, compiled against 9.2.1
 initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-configuration file: .\therion\Nordwandschacht.thconfig
-reading ...
-C:\Program Files (x86)\Therion\therion.exe: error -- .\therion\Nordwandschacht.thconfig [9] -- can't open file for input -- layouts/detailed-p.thl
+configuration file: c:\Users\tangr\Documents\GitHub\plankermira\Nordwandschacht\Nordwandschacht_EE.thconfig
+reading ... done
+reading source files ... 
+therion: error -- can't open file for input -- data/Nordwandschacht.th
 Press ENTER to exit!

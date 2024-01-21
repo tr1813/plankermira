@@ -2,23 +2,23 @@ therion 6.1.8 (2023-06-14)
   - using Proj 9.2.1, compiled against 9.2.1
 initialization file: therion.ini
 reading ... done
-configuration file: .\Nordwandschacht.thconfig
+configuration file: Nordwandschacht_EE.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
 output coordinate system: UTM33
-meridian convergence (deg): 0.7368
+meridian convergence (deg): 0.7356
 geomag declinations (deg):
-  2023.1.1  4.5050
-  2024.1.1  4.6591
+  2023.1.1  4.5055
+  2024.1.1  4.6595
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
 average loop error: 1.64%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.4
- 2> Copyright ¸ 1990-2021 Olly Betts
+ 1> Survex 1.4.5
+ 2> Copyright (C) 1990-2021 Olly Betts
  3> 
  4> Survey contains 2008 survey stations, joined by 2012 shots.
  5> There are 6 loops.
@@ -28,7 +28,7 @@ processing survey data ...
  9> Total vertical length of survey shots =  535.86m
 10> Vertical range = 264.09m (from 154 at 2092.85m to 1234 at 1828.76m)
 11> North-South range = 299.38m (from 1753 at 5276319.46m to 1199 at 5276020.08m)
-12> East-West range = 294.07m (from 465 at 425311.29m to 1092 at 425017.22m)
+12> East-West range = 294.06m (from 465 at 425311.29m to 1092 at 425017.23m)
 13> 1849 1-nodes.
 14>    2 2-nodes.
 15>    1 3-node.
@@ -59,13 +59,13 @@ processing survey data ...
 40>    1 43-node.
 41> 
 ######################### transcription ########################
- 4> 2008 : .@ZugZwang.Nordwandschacht
+ 4> 2008 : .@Zugzwang.Nordwandschacht
  5> 6 : .@Eingang.Nordwandschacht
  6> 2 : .@Eingang.Nordwandschacht
 10> 154 : .@Eingang.Nordwandschacht -- 1234 : .@MarieGenevieveSaal.Nordwandschacht
-11> 1753 : .@ZugZwang.Nordwandschacht -- 1199 : .@MarieGenevieveSaal.Nordwandschacht
+11> 1753 : .@Zugzwang.Nordwandschacht -- 1199 : .@MarieGenevieveSaal.Nordwandschacht
 12> 465 : .@MarieGenevieveSaal.Nordwandschacht -- 1092 : .@MarieGenevieveSaal.Nordwandschacht
-13> 1849 : .@ZugZwang.Nordwandschacht
+13> 1849 : .@Zugzwang.Nordwandschacht
 14> 2 : .@Eingang.Nordwandschacht
 15> 1 : E1@Eingang.Nordwandschacht
 16> 3 : .@Eingang.Nordwandschacht
@@ -98,44 +98,36 @@ done
 calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... 
-C:\Program Files (x86)\Therion\therion.exe: warning -- layouts/detailed-p.thl [10] -- source layout not found -- custom_arrow
-
-C:\Program Files (x86)\Therion\therion.exe: warning -- layouts/detailed-p.thl [10] -- source layout not found -- custom_scalebar
+therion: warning -- Nordwandschacht_EE.thconfig [6] -- source layout not found -- custom_arrow_VHO
 done
 selecting export objects ... done
-writing out/Nordwandschacht.3d ... done
+writing out/Nordwandschacht.lox ...
 processing projection plan ... done
 average distortion: 0.52%
+...
+therion: warning -- Eingang-3p@Eingang.Nordwandschacht -- multiple scrap outer outlines not supported yet
+therion: warning -- Eingang-3p@Eingang.Nordwandschacht -- invalid scrap outline
+..
+therion: warning -- Nordwandschacht-1p0@MarieGenevieveSaal.Nordwandschacht -- multiple scrap outer outlines not supported yet
+........
+therion: warning -- Zugzwang-1p1@Zugzwang.Nordwandschacht -- multiple scrap outer outlines not supported yet
+....... done
+processing projection extended ... done
+average distortion: 0.13%
 
 
 ############### export maps & scraps selection #################
-M  1967.66 m-all-p@Nordwandschacht ()
-M  2046.52 m-all-p@Eingang.Nordwandschacht ()
-S  2080.46 Eingang-4p@Eingang.Nordwandschacht ()
-S  2052.40 Eingang-3p@Eingang.Nordwandschacht ()
-S  2041.50 Eingang-2p@Eingang.Nordwandschacht ()
-S  2011.72 Eingang-1p@Eingang.Nordwandschacht ()
-M  1915.62 m-all-p@MarieGenevieveSaal.Nordwandschacht ()
-S  1891.92 MarieGenevieveSaal-1p@MarieGenevieveSaal.Nordwandschacht ()
-S  1927.77 MarieGenevieveSaal-2p@MarieGenevieveSaal.Nordwandschacht ()
-S  1956.71 MarieGenevieveSaal-3p@MarieGenevieveSaal.Nordwandschacht ()
-S  1955.14 MarieGenevieveSaal-4p@MarieGenevieveSaal.Nordwandschacht ()
-S  1912.76 MarieGenevieveSaal-5p@MarieGenevieveSaal.Nordwandschacht ()
-S  1849.44 MarieGenevieveSaal-6p@MarieGenevieveSaal.Nordwandschacht ()
-M  1944.35 m-p33top-p@ZugZwang.Nordwandschacht ()
-S  1950.06 Zugzwang-1p0@ZugZwang.Nordwandschacht ()
-S  1938.64 Zugzwang-1p1@ZugZwang.Nordwandschacht ()
-M  1938.50 m-p33middle-p@ZugZwang.Nordwandschacht ()
-S  1938.50 Zugzwang-1p2@ZugZwang.Nordwandschacht ()
-M  1949.53 m-ZugzwangGangUp-p@ZugZwang.Nordwandschacht ()
-S  1949.53 Zugzwang-1p7@ZugZwang.Nordwandschacht ()
-M  1940.03 m-ZugzwangGang-p@ZugZwang.Nordwandschacht ()
-S  1940.03 Zugzwang-1p4@ZugZwang.Nordwandschacht ()
-M  1931.81 m-KleineSchwesterHalle-p@ZugZwang.Nordwandschacht ()
-S  1944.36 Zugzwang-1p6@ZugZwang.Nordwandschacht ()
-S  1940.24 Zugzwang-1p5@ZugZwang.Nordwandschacht ()
-S  1927.46 Zugzwang-1p8@ZugZwang.Nordwandschacht ()
-S  1915.19 Zugzwang-1p3@ZugZwang.Nordwandschacht ()
+M   980.31 m-local-e@ ()
+M     0.00 m-all-e@Eingang.Nordwandschacht ()
+S     0.00 Eingang-1e@Eingang.Nordwandschacht ()
+M     0.00 m-all-e@MarieGenevieveSaal.Nordwandschacht ()
+S     0.00 MarieGenevieveSaal-1e@MarieGenevieveSaal.Nordwandschacht ()
+S     0.00 MarieGenevieveSaal-2e@MarieGenevieveSaal.Nordwandschacht ()
+M     0.00 m-all-e@Zugzwang.Nordwandschacht ()
+S     0.00 Zugzwang-3e@Zugzwang.Nordwandschacht ()
+S     0.00 Zugzwang-2e@Zugzwang.Nordwandschacht ()
+S     0.00 Zugzwang-1e@Zugzwang.Nordwandschacht ()
+S  1960.62 @ ()
 ########## end of export maps & scraps selection ###############
 copying_fonts ...
 Arimo-Regular.ttf
@@ -144,11 +136,10 @@ Arimo-Bold.ttf
 Arimo-Regular.ttf
 Arimo-Italic.ttf
 done.
-writing out/Nordwandschacht.pdf ...
-processing projection none ... done
+writing out/Nordwandschacht_EE.pdf ...
 generating TeX metrics ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  19 JAN 2024 18:12
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  21 JAN 2024 13:00
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -158,7 +149,13 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
 [15] [16]
 Warning: patterncolor not supported in Therion [17] [18]
-[Warning: undefined symbol `l_survey_surface_AUT']
+[Warning: undefined symbol `l_survey_surface_MY']
+[Warning: undefined symbol `p_station_natural_AUT']
+[Warning: undefined symbol `l_survey_surface_MY']
+[Warning: undefined symbol `p_station_natural_MY']
+[Warning: undefined symbol `p_station_painted_MY']
+[Warning: undefined symbol `p_waterflow_intermittent_MY']
+[Warning: undefined symbol `p_waterflow_paleo_MY']
 [Warning: undefined symbol `l_wall_bedrock_MY']
 [Warning: undefined symbol `l_wall_clay_MY']
 [Warning: undefined symbol `l_wall_pebbles_MY']
@@ -172,37 +169,18 @@ Warning: patterncolor not supported in Therion [17] [18]
 [Warning: undefined symbol `l_wall_flowstone_MY']
 [Warning: undefined symbol `p_airdraught_summer_MY']
 [Warning: undefined symbol `p_airdraught_winter_MY'] [1] [2] [3] [4] [5] [6]
-[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22]
-[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37]
-[38] [39] [40]
-[Warning: scrap outline intersects itself in scrap Nordwandschacht-xx3@MarieGen
-evieveSaal.Nordwandschacht]
-[Warning: scrap outline intersects itself in scrap Nordwandschacht-xx3@MarieGen
-evieveSaal.Nordwandschacht] [41] [42] [43] [44] [45]
-[Warning: scrap outline intersects itself in scrap Nordwandschacht-xx1@MarieGen
-evieveSaal.Nordwandschacht]
-[Warning: scrap outline intersects itself in scrap Nordwandschacht-xx1@MarieGen
-evieveSaal.Nordwandschacht]
-[Warning: scrap outline intersects itself in scrap Nordwandschacht-xx1@MarieGen
-evieveSaal.Nordwandschacht] [46] [47] [48] [49] [50]
-[Warning: scrap outline intersects itself in scrap Zugzwang-1p1@ZugZwang.Nordwa
-ndschacht] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
-[64] [65] [66]
-[Warning: scrap outline intersects itself in scrap Zugzwang-1p4@ZugZwang.Nordwa
-ndschacht] [67] [68] [69] [70]
-[Warning: scrap outline intersects itself in scrap Zugzwang-1p3@ZugZwang.Nordwa
-ndschacht] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83]
-[84] [85] (./mptextmp.mp) [86] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
-[99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
-[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] )
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
+[Warning: scrap outline intersects itself in scrap Zugzwang-3e@Zugzwang.Nordwan
+dschacht] [22] [23] [24] [25] [26] (./mptextmp.mp) [27] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [28] )
  
 Here is how much of MetaPost's memory you used:
- 64624 strings using 1541597 characters
- 10582504 bytes of node memory
- 1857 symbolic tokens
- 11i,82n,16p,550b,5f stack positions out of 16i,98n,17p,608b,6f
-139 output files written: data-patt.1 .. data.121
+ 53069 strings using 1515960 characters
+ 3690020 bytes of node memory
+ 1871 symbolic tokens
+ 10i,82n,16p,314b,5f stack positions out of 16i,98n,20p,390b,6f
+46 output files written: data-patt.1 .. data.28
 
 
 #################### end of metapost log file ####################
@@ -210,38 +188,36 @@ converting scraps ... done
 making map ... done
 generating TeX metrics ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  19 JAN 2024 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  21 JAN 2024 13:01
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex (./thfonts.map{
 c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex)
-(./th_formdef.tex
-Normal \count register pool exhausted, switching to extended pool.)
-(./th_pagedef.tex) (./th_pages.tex)
- 253 numeric registers used out of 32768
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 105 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 498 strings out of 94604
- 6536 string characters out of 1142524
- 1951433 words of memory out of 6683161
- 2150 multiletter control sequences out of 15000+50000
- 16903 words of font info for 57 fonts, out of 1000000 for 2000
+ 329 strings out of 94604
+ 4630 string characters out of 1142524
+ 219491 words of memory out of 5183219
+ 1981 multiletter control sequences out of 15000+50000
+ 16581 words of font info for 56 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
- 8i,5n,9p,268b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
-{a_etydii.enc}<Arimo-Italic.ttf><Arimo-Regular.ttf><Arimo-Bold.ttf>
-Output written on data.pdf (1 page, 1639617 bytes).
+ 9i,5n,6p,242b,52s stack positions out of 5000i,500n,10000p,200000b,50000s
+{a_5zjpwd.enc}<Arimo-Italic.ttf><Arimo-Bold.ttf><Arimo-Regular.ttf>
+Output written on data.pdf (1 page, 281209 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
+ 161 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1469 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 421 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-compilation time: 20 sec
+compilation time: 10 sec
 
 
 ######################### loop errors ##########################
@@ -257,26 +233,41 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.39%   84.07%  MarieGenevieveSaal-3p@MarieGenevieveSaal.Nordwandschacht
+   0.39%   84.69%  MarieGenevieveSaal-3p@MarieGenevieveSaal.Nordwandschacht
    1.29%   81.87%  MarieGenevieveSaal-2p@MarieGenevieveSaal.Nordwandschacht
    0.76%   79.14%  Eingang-4p@Eingang.Nordwandschacht
-   0.91%   60.11%  MarieGenevieveSaal-5p@MarieGenevieveSaal.Nordwandschacht
-   3.74%   55.48%  Zugzwang-1p4@ZugZwang.Nordwandschacht
-   0.74%   21.33%  Zugzwang-1p3@ZugZwang.Nordwandschacht
-   0.23%   15.39%  Zugzwang-1p8@ZugZwang.Nordwandschacht
-   0.51%   15.05%  MarieGenevieveSaal-6p@MarieGenevieveSaal.Nordwandschacht
-   0.22%   11.09%  Zugzwang-1p5@ZugZwang.Nordwandschacht
-   0.13%   10.75%  Zugzwang-1p6@ZugZwang.Nordwandschacht
-   1.81%    7.61%  Eingang-3p@Eingang.Nordwandschacht
-   0.15%    5.55%  Eingang-1p@Eingang.Nordwandschacht
-   0.07%    4.78%  MarieGenevieveSaal-4p@MarieGenevieveSaal.Nordwandschacht
+   0.90%   59.77%  MarieGenevieveSaal-5p@MarieGenevieveSaal.Nordwandschacht
+   3.74%   55.48%  Zugzwang-1p4@Zugzwang.Nordwandschacht
+   0.74%   21.33%  Zugzwang-1p3@Zugzwang.Nordwandschacht
+   0.23%   15.39%  Zugzwang-1p8@Zugzwang.Nordwandschacht
+   0.51%   14.95%  MarieGenevieveSaal-6p@MarieGenevieveSaal.Nordwandschacht
+   0.22%   11.09%  Zugzwang-1p5@Zugzwang.Nordwandschacht
+   0.13%   10.75%  Zugzwang-1p6@Zugzwang.Nordwandschacht
+   1.81%    7.60%  Eingang-3p@Eingang.Nordwandschacht
+   0.17%    5.59%  Eingang-1p@Eingang.Nordwandschacht
+   0.07%    4.79%  MarieGenevieveSaal-4p@MarieGenevieveSaal.Nordwandschacht
    0.61%    4.41%  MarieGenevieveSaal-1p@MarieGenevieveSaal.Nordwandschacht
-   0.05%    2.13%  Zugzwang-1p1@ZugZwang.Nordwandschacht
-   0.08%    1.41%  Zugzwang-1p7@ZugZwang.Nordwandschacht
-   0.07%    1.36%  Zugzwang-1p0@ZugZwang.Nordwandschacht
+   0.05%    2.13%  Zugzwang-1p1@Zugzwang.Nordwandschacht
+   0.10%    1.72%  Zugzwang-1p7@Zugzwang.Nordwandschacht
+   0.07%    1.36%  Zugzwang-1p0@Zugzwang.Nordwandschacht
    0.00%    0.84%  Nordwandschacht-1p0@MarieGenevieveSaal.Nordwandschacht
    0.00%    0.64%  Eingang-2p@Eingang.Nordwandschacht
-   0.03%    0.60%  Zugzwang-1p2@ZugZwang.Nordwandschacht
+   0.03%    0.60%  Zugzwang-1p2@Zugzwang.Nordwandschacht
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.78%  100.00%  MarieGenevieveSaal-1e@MarieGenevieveSaal.Nordwandschacht
+   0.84%   14.15%  Zugzwang-1e@Zugzwang.Nordwandschacht
+   0.08%    1.39%  Eingang-1e@Eingang.Nordwandschacht
+   0.02%    0.71%  Zugzwang-2e@Zugzwang.Nordwandschacht
+   0.02%    0.53%  MarieGenevieveSaal-2e@MarieGenevieveSaal.Nordwandschacht
+   0.00%    0.00%  Zugzwang-3e@Zugzwang.Nordwandschacht
+   0.00%    0.00%  DELETE-ME-survey-legs-Zugzwang-e@Zugzwang.Nordwandschacht
+   0.00%    0.00%  DELETE-ME-survey-legs-MarieGenevieveSaal-e@MarieGenevieveSaal.Nordwandschacht
+   0.00%    0.00%  DELETE-ME-survey-legs-Eingang-e@Eingang.Nordwandschacht
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############

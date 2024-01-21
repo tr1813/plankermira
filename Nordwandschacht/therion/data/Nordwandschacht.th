@@ -4,13 +4,21 @@ survey Nordwandschacht
     input "./Zugzwang/Zugzwang.th"
     #input "./Zwisch/Zwisch.th"
 
-    equate 0@ZugZwang 2.12@MarieGenevieveSaal
+    equate 0@Zugzwang 2.12@MarieGenevieveSaal
     equate 0@MarieGenevieveSaal 0@Eingang
 
     map m-all-p -projection plan
         m-all-p@Eingang
         m-all-p@MarieGenevieveSaal
-        m-all-p@ZugZwang
+        m-all-p@Zugzwang
+
+        #Zwisch
+    endmap
+
+    map m-all-e -projection extended
+        m-all-e@Eingang
+        m-all-e@MarieGenevieveSaal
+        m-all-e@Zugzwang
 
         #Zwisch
     endmap
@@ -21,5 +29,5 @@ survey Nordwandschacht
         station E10@Eingang entrance
     endcentreline
 
-    input "./dem.th"
+    #input "./dem.th"
 endsurvey

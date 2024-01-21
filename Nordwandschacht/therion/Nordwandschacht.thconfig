@@ -50,7 +50,7 @@ endlayout
 
 
 
-#export map -projection plan -o out/Nordwandschacht.pdf -layout local -layout-debug station-names
+export map -projection plan -o out/Nordwandschacht.pdf -layout local -layout-debug station-names
 
 export map -projection plan -o out/Nordwandschacht_summary.pdf -layout summary -layout-debug station-names
 

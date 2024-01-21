@@ -4,6 +4,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     # größte Halle Osterreich 
    
    input MarieGenevieveSaal-p.th2 
+   input MarieGenevieveSaal-e.th2 
 
    map m-all-p -projection plan
     MarieGenevieveSaal-1p
@@ -13,6 +14,11 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
      MarieGenevieveSaal-5p
      MarieGenevieveSaal-6p
   endmap 
+
+  map m-all-e -projection extended
+      MarieGenevieveSaal-1e
+      MarieGenevieveSaal-2e
+  endmap
 
   
 
@@ -398,10 +404,10 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     5.3 . 46.23 279.2 -2.4
     5.3 . 1.09 189.0 5.3
     5.3 . 22.42 334.5 63.8
-    extend right
+    extend ignore
     5.3 3 19.91 355.5 -12.0
     
-    extend vertical
+    extend ignore
     0 0.1 14.09 125.7 -5.2
     # extend auto
     0.1 . 20.57 136.8 -2.9
@@ -418,7 +424,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     0.1 . 31.60 170.9 -23.1
     0.1 . 33.52 175.5 -18.2
     0.1 . 38.72 185.1 -18.4
-    extend left
+    extend vertical
     0.1 0.2 13.29 143.3 -14.2
     # extend auto
     0.2 . 35.96 201.3 -26.2
@@ -755,7 +761,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     13 . 30.56 133.3 86.3
     13 . 10.32 355.8 51.8
     13 . 19.18 267.6 63.9
-    extend left
+    extend vertical
     13 14 16.36 126.0 15.2
     # extend auto
     14 . 19.77 311.0 -4.0
@@ -769,7 +775,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     14 . 7.40 42.5 -3.2
     14 . 14.57 356.9 -7.4
     14 . 16.17 290.8 -20.7
-    extend left
+    extend ignore
     14 15 45.64 171.9 36.9
     flags not duplicate
     # extend auto
@@ -808,7 +814,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     15.1 . 9.02 161.1 7.5
     15.1 . 14.82 158.5 48.3
     15.1 . 28.50 218.5 27.0
-    extend left
+    extend vertical
     15 16 10.42 295.3 -8.9
     # extend auto
     16 . 39.14 281.3 -3.7
@@ -821,7 +827,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     16 . 46.87 4.5 24.2
     16 . 19.36 215.5 53.9
     16 . 26.07 202.0 25.6
-    extend vertical
+    extend left
     16 17 27.56 208.6 -19.8
     extend left
     flags duplicate
@@ -877,7 +883,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     17 . 17.79 235.1 80.7
     17 . 23.47 289.3 54.2
     17 . 22.84 289.2 23.0
-    extend right
+    extend vertical
     17 18 9.72 292.0 3.2
     # extend auto
     18 . 35.58 295.6 -4.9
@@ -915,7 +921,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     20 . 16.03 296.2 -10.6
     20 . 14.42 317.4 -1.2
     20 . 15.65 333.8 -0.4
-    extend left
+    extend right
     flags duplicate
     20 20.1 14.78 333.4 1.1
     flags not duplicate
@@ -1047,7 +1053,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     25 . 13.48 305.8 -13.5
     25 . 11.03 305.9 -13.6
     25 . 13.49 305.7 -13.6
-    extend left
+    extend vertical
     flags duplicate
     25 25.1 11.03 305.8 -13.6
     flags not duplicate
@@ -1207,7 +1213,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     38 . 7.26 246.8 -13.1
     38 . 11.89 266.2 -7.1
     38 . 6.97 323.4 67.1
-    extend right
+    extend vertical
     38 39 5.17 155.0 -31.2
     # extend auto
     39 . 4.61 88.1 -23.9
@@ -1273,8 +1279,9 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     42 . 10.00 140.5 -50.4
     extend right
     42 43 9.18 147.6 -51.8
-    extend right
+    extend vertical
     42 36 5.23 350.6 52.0
+    extend right
     34 45 16.34 107.2 -2.8
     # extend auto
     45 . 1.78 42.3 5.7
@@ -1524,7 +1531,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     58 . 15.69 99.8 5.1
     58 . 18.84 99.3 5.9
     58 . 18.16 81.4 9.9
-    extend left
+    extend vertical
     58 59 8.57 328.0 13.2
     # extend auto
     59 . 38.16 306.7 6.2
@@ -1535,7 +1542,7 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     59 . 17.94 26.8 78.5
     59 . 12.00 216.3 13.1
     59 . 10.50 226.3 40.4
-    extend left
+    extend ignore
     59 17 5.45 324.4 -7.7
     flags not duplicate
     # extend auto

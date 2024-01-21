@@ -112,8 +112,17 @@ layout custom_lines
       		T:=identity;
       		cas := 0;
       		dlzka := arclength P;
+			save sc;
+			numeric sc;
+			# if scale attribute is given use that, otherwise default to 1.
+			
+
       		if dlzka > 0:
-      			mojkrok:=adjust_step(dlzka, 0.3u);
+				if known ATTR_scale:
+				sc :=scantokens(ATTR_scale);
+				else: sc:=1;
+				fi;
+      			mojkrok:=adjust_step(dlzka, 0.3u * sc);
       			pickup PenD;
       			forever:
       				t_0 := arctime(cas) of P;
