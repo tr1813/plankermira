@@ -1626,6 +1626,12 @@ endscrap
 
 scrap Zugzwang-1p3 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
+point 1066.8104 869.3232 section -scrap Zugzwang-xx0
+line section -direction both
+  436.8841 794.3925
+  449.1228 791.0789 593.6241 754.8752 605.4782 752.0058
+endline
+
 line border -close on -id Zugzwang-1p3_u_smallblocks_1 -visibility off
   212.8341 506.6679
   219.5693 506.6679 233.0398 497.2385 233.9379 501.7287
@@ -2261,7 +2267,7 @@ area u:smallblocks -attr scale 1.45
   Zugzwang-1p3_u_smallblocks_9
 endarea
 
-point 176.9127 623.1878 label -align left -text "<bf>P30"
+point 176.913 623.188 label -align l -text "<bf>P30"
 line contour 
   243.0485 654.6912
   239.2385 655.3262 228.2846 660.4062 211.457 651.9924
@@ -2471,8 +2477,8 @@ line rock-border -close on
   473.1588 868.5294 472.0476 870.3551 472.0476 870.3551
 endline
 
-point 446.473 887.1312 continuation -scale m
-point 462.4 860.7175 continuation -scale m
+point 446.473 887.131 continuation -scale m
+point 462.4 860.717 continuation -scale m
 line rock-border -close on
   679.6151 781.3749
   679.6151 781.3749 670.8838 778.5173 671.5188 776.6123
@@ -2964,9 +2970,9 @@ point 216.22 640.88 gradient -orientation 170.58507603792626 -scale m
 point 227.332 656.437 gradient -orientation 178.43971148180236 -scale m
 point 590.682 637.107 gradient -orientation 306.0624927633806 -scale m
 point 603.891 628.656 gradient -orientation 253.81897808774687 -scale m
-point 741.174 816.8437 breakdown-choke -scale m
-point 639.4002 957.2566 breakdown-choke -scale m
-point 714.5688 829.4387 breakdown-choke -scale m
+point 741.174 816.844 breakdown-choke -scale m
+point 639.4 957.257 breakdown-choke -scale m
+point 714.569 829.439 breakdown-choke -scale m
 line wall -subtype blocks
   741.23 799.34
   719.303 812.9664
@@ -6295,7 +6301,7 @@ line wall -close on -outline in
   637.7164 179.2222 638.9275 178.8401 639.152 178.1666
 endline
 
-point 631.8309 205.8213 label -align tr -scale xs -text CCC
+point 631.831 205.821 label -align tr -scale xs -text CCC
 line border -close on -id Zugzwang-1p8_pebbles_1 -visibility off
   629.5036 316.5317
   629.5036 316.5317 638.6145 324.367 638.1655 324.816
@@ -6375,8 +6381,8 @@ area u:smallblocks
   Zugzwang-1p8_u_smallblocks_1
 endarea
 
-point 429.7654 431.6834 continuation -scale m
-point 413.264 393.0105 narrow-end 
+point 429.765 431.683 continuation -scale m
+point 413.264 393.01 narrow-end 
 point 463.61 397.669 gradient -orientation 33.150751358216006 -scale m
 point 472.141 420.793 gradient -orientation 28.775955049234796 -scale m
 point 486.734 432.356 gradient -orientation 29.136126699494028 -scale m
@@ -8062,9 +8068,9 @@ line u:splay -visibility off
 endline
 
 point 584.864 163.633 station -name 37
-point 629.1322 132.0019 narrow-end -scale m
-point 611.2726 150.8933 narrow-end -scale m
-point 697.7922 168.7528 narrow-end -scale m
+point 629.132 132.002 narrow-end -scale m
+point 611.273 150.893 narrow-end -scale m
+point 697.792 168.753 narrow-end -scale m
 line border -close on -id Zugzwang-1p4_u_smallblocks_1 -visibility off
   590.3451 165.415
   590.3451 165.415 588.7736 166.313 587.5388 166.2007
@@ -8969,8 +8975,8 @@ line floor-step
   584.9569 220.7563 583.4976 226.4813 579.5687 228.5018
 endline
 
-point 570.3589 222.8892 u:gradient_rock -orientation 176.3141893130513 -scale m
-point 548.9234 216.9392 u:gradient_rock -orientation 148.80174185761533 -scale m
+point 570.359 222.889 u:gradient_rock -orientation 176.3141893130513 -scale m
+point 548.923 216.939 u:gradient_rock -orientation 148.80174185761533 -scale m
 line u:splay -visibility off
   569.72 219.27
   571.16 213.94
@@ -9466,9 +9472,9 @@ line u:texture
   508.0048 244.7948 498.4797 248.4461 498.4797 248.4461
 endline
 
-point 521.7374 244.16 u:gradient_rock -orientation 154.12654260023368 -scale m
-point 510.6238 278.5299 u:gradient_rock -orientation 164.36126700709704 -scale m
-point 547.6157 276.6041 u:gradient_rock -orientation 201.7008762493412 -scale m
+point 521.737 244.16 u:gradient_rock -orientation 154.12654260023368 -scale m
+point 510.624 278.53 u:gradient_rock -orientation 164.36126700709704 -scale m
+point 547.616 276.604 u:gradient_rock -orientation 201.7008762493412 -scale m
 line u:texture 
   545.1526 283.6889
   545.1526 282.5777 538.9613 265.4325 538.9613 265.4325

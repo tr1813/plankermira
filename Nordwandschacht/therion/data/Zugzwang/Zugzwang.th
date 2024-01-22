@@ -2,6 +2,7 @@
 
 survey Zugzwang -title "Zugzwang"
   input Zugzwang-p.th2 
+  input Zugzwang-xx0.th2
 
   map m-all-p -projection plan 
   m-p33top-p
