@@ -7,9 +7,13 @@ survey Zugzwang -title "Zugzwang"
   map m-all-p -projection plan 
   m-p33top-p
   m-p33middle-p [25 0 m] none
-  m-ZugzwangGangUp-p [25 0 m] none
-  m-ZugzwangGang-p [50 -10 m] none
-  m-KleineSchwesterHalle-p [50 0 m] none
+  m1p [50 0 m] none
+  endmap
+
+  map m1p -projection plan
+  m-ZugzwangGangUp-p [-10 0 m] none
+  m-ZugzwangGang-p [0 -10 m] none
+  m-KleineSchwesterHalle-p 
   endmap
   
   map m-p33top-p -projection plan 
@@ -626,7 +630,7 @@ survey Zugzwang -title "Zugzwang"
     nw.2.44 . 2.55 295.9 43.9
     nw.2.44 . 12.10 338.1 42.1
     extend right
-    nw.2.44 nw.2.46 4.58 306.3 45.8
+    nw.2.45 nw.2.46 4.58 306.3 45.8
     # extend auto
     nw.2.46 . 3.46 196.4 -19.6
     nw.2.46 . 1.15 207.1 -71.1

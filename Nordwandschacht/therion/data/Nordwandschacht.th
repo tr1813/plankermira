@@ -10,7 +10,7 @@ survey Nordwandschacht
     join Zugzwang-1p0@Zugzwang MarieGenevieveSaal-4p@MarieGenevieveSaal
 
     map m-all-p -projection plan
-        m-all-p@Eingang
+        m-all-p@Eingang [-20 0 m] none
         m-all-p@MarieGenevieveSaal
         m-all-p@Zugzwang
 
@@ -18,7 +18,7 @@ survey Nordwandschacht
     endmap
 
     map m-all-e -projection extended
-        m-all-e@Eingang
+        m-all-e@Eingang 
         m-all-e@MarieGenevieveSaal
         m-all-e@Zugzwang
 

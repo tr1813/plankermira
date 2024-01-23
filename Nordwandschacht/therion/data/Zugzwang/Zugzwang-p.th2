@@ -4,7 +4,7 @@ encoding  utf-8
 
 scrap Zugzwang-1p0 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
-point 273.6939 538.2574 label -align tr -scale xs -text "<bf>c4"
+point 273.694 538.257 label -align tr -scale xs -text "<bf>c4"
 point 297.762 556.443 narrow-end 
 line border -close on -id Zugzwang-1p0_u_smallblocks_1 -visibility off
   180.2974 547.6112
@@ -17,6 +17,7 @@ line border -close on -id Zugzwang-1p0_u_smallblocks_1 -visibility off
   161.3403 557.1579
   168.2958 551.1571
   176.206 548.1567
+  180.2974 547.6112
   180.2974 547.6112
 endline
 
@@ -646,13 +647,13 @@ line u:splay -visibility off
   287.01 559.24
 endline
 
-point 166.0917 536.5057 station-name -align t -scale xs -text "2/1"
+point 166.092 536.506 station-name -align t -scale xs -text "2/1"
 point 152.34 549.67 station-name -align t -scale xs -text "2/2"
-point 162.2675 572.7957 station-name -align t -scale xs -text "2/3"
-point 199.8632 560.0418 station-name -align t -scale xs -text "2/4"
-point 276.8579 565.2204 station-name -align t -scale xs -text "2/5"
-point 256.4941 533.3318 station-name -align t -scale xs -text "2/6"
-point 260.3092 574.6525 station-name -align t -scale xs -text "2/7"
+point 162.268 572.796 station-name -align t -scale xs -text "2/3"
+point 199.863 560.042 station-name -align t -scale xs -text "2/4"
+point 276.858 565.22 station-name -align t -scale xs -text "2/5"
+point 256.494 533.332 station-name -align t -scale xs -text "2/6"
+point 260.309 574.653 station-name -align t -scale xs -text "2/7"
 point 184.17 546.06 station -name nw.2.1
 point 192.11 506.11 station -name nw.2.0
 point 162.34 555.67 station -name nw.2.2
@@ -821,6 +822,8 @@ line contour
   229.582 599.426 232.192 600.092 232.812 601.572
 endline
 
+point 226.1735 625.2607 station-name -align t -scale xs -text "2/8"
+point 181.8818 629.0707 station-name -align t -scale xs -text "2/9"
 line wall 
   188.216 619.5127
   188.8646 619.5626 188.163 623.8965 190.9341 627.9753
@@ -1282,7 +1285,7 @@ endscrap
 
 scrap Zugzwang-1p2 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
-point 139.946 644.023 label -align tr -scale xs -text "<bf>P33"
+point 156.2974 644.1818 label -align tr -scale xs -text "<bf>P33"
 line u:texture 
   144.1917 604.4149
   146.7169 609.2128
@@ -1453,8 +1456,8 @@ line u:splay -visibility off
 endline
 
 line u:splay -visibility off
-  211.01 626.22
-  216.32 628.34
+  211.01 619.8699
+  216.32 621.9899
 endline
 
 line u:splay -visibility off
@@ -1607,7 +1610,8 @@ line u:splay -visibility off
   285.15 605.35
 endline
 
-point 211.01 626.22 station -name nw.2.9
+point 203.8285 621.8033 station-name -align t -scale xs -text "2/10"
+point 187.5832 606.9336 station-name -align t -scale xs -text "2/11"
 point 198.55 633.67 station -name nw.2.10
 point 184.17 620.11 station -name nw.2.11
 line border -close on -id Zugzwang-1p2_u_smallblocks_1 -visibility off
@@ -1635,6 +1639,11 @@ endscrap
 
 scrap Zugzwang-1p3 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
+point 243.5921 690.3183 continuation 
+point 177.1372 682.4603 continuation 
+point 128.0821 504.1983 continuation 
+point 68.0261 523.2816 label -align tr -text "dunkles Loch"
+point 182.3009 621.2795 map-connection 
 point 1066.81 869.323 section -scrap Zugzwang-xx0
 line section -direction both
   436.8841 794.3925
@@ -1642,22 +1651,25 @@ line section -direction both
 endline
 
 line border -close on -id Zugzwang-1p3_u_smallblocks_1 -visibility off
-  212.8341 506.6679
-  219.5693 506.6679 233.0398 497.2385 233.9379 501.7287
-  234.8359 506.2189 234.8359 514.7502 233.0398 517.4443
-  231.2438 520.1384 224.5085 526.8737 224.5085 529.1187
-  224.5085 531.3638 224.9575 535.854 228.5497 541.2422
-  232.1418 546.6304 236.632 545.2834 236.183 549.3245
-  235.7339 553.3657 233.4889 555.6108 231.6928 556.9578
-  229.8967 558.3049 224.5085 557.8558 224.5085 557.8558
-  213.2831 552.9166
-  213.2831 552.9166 210.589 551.5696 210.14 547.9775
-  209.6909 544.3853 214.1811 541.2422 212.3851 538.5481
-  210.589 535.854 205.6498 533.1599 202.0577 528.6697
-  198.4655 524.1796 191.7303 515.1992 189.9342 510.26
-  188.1381 505.3208 184.097 506.2189 189.4852 503.5248
-  194.8734 500.8307 192.6283 497.2385 198.4655 499.9326
-  204.3028 502.6268 212.8341 506.6679 212.8341 506.6679
+  212.8341 506.4995
+  219.5693 506.4995 233.0398 497.0701 233.9379 501.5603
+  234.8359 506.0505 234.8359 514.5818 233.0398 517.2759
+  231.2438 519.97 227.7078 525.0215 227.7078 527.2665
+  227.7078 527.8062 216.0494 527.4012 213.1004 527.9791
+  210.8268 528.4247 213.8544 531.4799 214.0158 532.2051
+  214.3359 533.6438 223.625 532.4084 227.7388 534.4473
+  230.0496 535.5926 227.8078 539.9609 228.5497 541.0738
+  232.1419 546.462 236.632 545.115 236.183 549.1561
+  235.7339 553.1973 233.4889 555.4424 231.6928 556.7894
+  229.8967 558.1365 224.5085 557.6874 224.5085 557.6874
+  213.2831 552.7482
+  213.2831 552.7482 210.589 551.4012 210.14 547.8091
+  209.6909 544.2169 214.1811 541.0738 212.3851 538.3797
+  210.589 535.6856 205.6498 532.9915 202.0577 528.5013
+  198.4655 524.0112 191.7303 515.0308 189.9342 510.0916
+  188.1381 505.1524 184.097 506.0505 189.4852 503.3564
+  194.8734 500.6623 192.6283 497.0701 198.4655 499.7642
+  204.3028 502.4584 212.8341 506.4995 212.8341 506.4995
 endline
 
 area u:smallblocks -attr scale 1.4
@@ -1671,6 +1683,7 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_2 -visibility off
   185.444 422.7017 180.0558 429.437 177.8107 425.8448
   175.5657 422.2527 166.1363 409.6802 161.6461 405.6391
   157.156 401.5979 156.2579 399.8019 156.2579 399.8019
+  166.1363 403.843
   166.1363 403.843
 endline
 
@@ -1708,6 +1721,7 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_4 -visibility off
   200.7106 395.3117 207.4459 391.7195 205.6498 396.6587
   203.8537 401.5979 202.5067 416.8645 203.4047 419.1096
   204.3028 421.3547 213.2831 428.5389 213.2831 428.5389
+  216.8752 429.886
   216.8752 429.886
 endline
 
@@ -2278,7 +2292,7 @@ area u:smallblocks -attr scale 1.45
   Zugzwang-1p3_u_smallblocks_9
 endarea
 
-point 176.913 623.188 label -align l -text "<bf>P30"
+point 181.8522 627.9026 label -align l -text "<bf>P33"
 line contour 
   243.0485 654.6912
   239.2385 655.3262 228.2846 660.4062 211.457 651.9924
@@ -2299,21 +2313,6 @@ line floor-step
   255.3784 627.9025
   255.3784 628.9128 258.4093 636.8828 254.7049 644.2916
 endline
-
-line border -close on -id Zugzwang-1p3_u_smallblocks_10 -visibility off
-  273.0023 631.9437
-  275.4719 629.4741 274.4617 625.4329 276.4822 626.3309
-  278.5028 627.229 283.891 630.0353 283.1052 632.1682
-  282.3195 634.301 282.544 638.2299 281.6459 639.4647
-  280.7479 640.6995 280.8601 642.271 278.3906 640.8117
-  275.921 639.3524 261.3623 642.9267 257.3212 643.8247
-  253.28 644.7228 255.8586 630.1462 256.3076 629.1359
-  256.7566 628.1256 273.0023 631.9437 273.0023 631.9437
-endline
-
-area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_10
-endarea
 
 line u:texture 
   184.3776 614.0391
@@ -2580,7 +2579,7 @@ line rock-border -close on
   669.7726 714.858
 endline
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_11 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_10 -visibility off
   616.5908 620.4008
   623.8934 631.3547
   641.1973 640.8798
@@ -2596,13 +2595,14 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_11 -visibility off
   607.2245 623.5759
   613.892 618.6546
   616.5908 620.4008
+  616.5908 620.4008
 endline
 
 area u:smallblocks -attr scale 1.5
-  Zugzwang-1p3_u_smallblocks_11
+  Zugzwang-1p3_u_smallblocks_10
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_12 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_11 -visibility off
   451.2621 474.3387
   450.3641 478.3798 462.4875 486.9111 469.6718 490.9523
   476.8561 494.9935 495.7148 491.4013 497.9599 495.4425
@@ -2641,10 +2641,11 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_12 -visibility off
   434.6485 470.7465
   442.2818 470.7465
   451.2621 474.3387
+  451.2621 474.3387
 endline
 
 area u:smallblocks -attr scale 1.5
-  Zugzwang-1p3_u_smallblocks_12
+  Zugzwang-1p3_u_smallblocks_11
 endarea
 
 line label -text Kleine-Schwester-Halle
@@ -2670,7 +2671,7 @@ line rock-edge
   607.9691 640.026
 endline
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_13 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_12 -visibility off
   493.0207 688.5198
   511.2059 690.3159
   518.1656 690.5404
@@ -2695,10 +2696,11 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_13 -visibility off
   486.5099 690.9894
   492.1227 685.8257
   493.0207 688.5198
+  493.0207 688.5198
 endline
 
 area u:smallblocks -attr scale 1.55
-  Zugzwang-1p3_u_smallblocks_13
+  Zugzwang-1p3_u_smallblocks_12
 endarea
 
 line rock-edge 
@@ -2784,7 +2786,7 @@ line rock-edge
   479.747 739.147 481.3345 736.7657 481.3345 736.7657
 endline
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_14 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_13 -visibility off
   483.2402 690.8867
   459.1094 683.9023
   454.1309 676.1231
@@ -2826,7 +2828,8 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_14 -visibility off
   445.1387 573.4106 437.5195 579.125 437.5195 579.125
   436.8847 586.7461
   443.8691 584.8398
-  454.664 570.8711
+  456.2356 581.7598
+  465.9301 581.7221
   478.1601 593.7305
   492.7636 581.0313
   492.7636 581.0313 501.0205 572.7759 503.5605 576.5859
@@ -2839,13 +2842,14 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_14 -visibility off
   493.4004 664.2168
   488.955 687.7109
   483.2402 690.8867
+  483.2402 690.8867
 endline
 
 area u:smallblocks -attr scale 1.5
-  Zugzwang-1p3_u_smallblocks_14
+  Zugzwang-1p3_u_smallblocks_13
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_15 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_14 -visibility off
   410.5898 569.0508
   411.3276 570.1414 411.9511 571.105 412.8496 572.3652
   414.4703 574.6384 416.3515 577.1633 418.4844 579.8574
@@ -2895,13 +2899,14 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_15 -visibility off
   388.6231 563.8848
   401.3243 572.1406
   410.5898 569.0508
+  410.5898 569.0508
 endline
 
 area u:smallblocks -attr scale 1.53
-  Zugzwang-1p3_u_smallblocks_15
+  Zugzwang-1p3_u_smallblocks_14
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_16 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_15 -visibility off
   380.6133 560.041
   378.4305 567.283 375.6821 576.4409 372.6836 586.5938
   369.4844 597.4263 399.2965 607.5587 396.3919 617.872
@@ -2922,15 +2927,18 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_16 -visibility off
   349.2541 602.6201 349.8886 587.3809 349.8886 587.3809
   340.3633 574.6797
   346.7129 565.1562
+  349.8794 570.3284
+  367.005 568.8828
   372.748 556.2656
+  380.6133 560.041
   380.6133 560.041
 endline
 
 area u:smallblocks -attr scale 1.5
-  Zugzwang-1p3_u_smallblocks_16
+  Zugzwang-1p3_u_smallblocks_15
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_17 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_16 -visibility off
   541.0251 744.862
   593.7306 764.5472
   598.8106 794.3925
@@ -2956,10 +2964,11 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_17 -visibility off
   511.8148 755.0221
   528.325 748.037
   541.0251 744.862
+  541.0251 744.862
 endline
 
 area u:smallblocks -attr scale 1.3
-  Zugzwang-1p3_u_smallblocks_17
+  Zugzwang-1p3_u_smallblocks_16
 endarea
 
 point 575.899 597.417 gradient -orientation 259.46722731742614 -scale m
@@ -3060,7 +3069,7 @@ line contour
   532.3097 573.1224 528.2685 596.9203 531.4117 607.6967
 endline
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_18 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_17 -visibility off
   679.8789 769.4473
   679.7945 764.2232 680.0054 758.3768 680.709 752.2793
   681.1405 748.5391 680.4628 744.1992 679.2285 739.7481
@@ -3096,10 +3105,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_18 -visibility off
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_18
+  Zugzwang-1p3_u_smallblocks_17
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_19 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_18 -visibility off
   679.2285 739.7481
   676.8314 731.1031 672.3499 722.0756 669.7324 716.1562
   669.8174 716.0407 669.8975 715.9207 669.9844 715.8066
@@ -3129,13 +3138,14 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_19 -visibility off
   679.9957 739.1112 679.6908 739.3418 679.3984 739.5878
   679.3389 739.6379 679.2869 739.6966 679.2285 739.748
   679.2285 739.7481
+  679.2285 739.7481
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_19
+  Zugzwang-1p3_u_smallblocks_18
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_20 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_19 -visibility off
   697.2969 691.1426
   697.2536 691.1794 697.2113 691.2172 697.168 691.2539
   696.1861 692.0858 695.1914 692.9032 694.1992 693.7227
@@ -3156,10 +3166,11 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_20 -visibility off
   656.8281 656.1074
   696.4258 689.418
   697.2969 691.1426
+  697.2969 691.1426
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_20
+  Zugzwang-1p3_u_smallblocks_19
 endarea
 
 line rock-border -close on
@@ -3271,6 +3282,12 @@ line floor-step
   240.1427 635.7764 240.2427 645.3044 244.7214 651.9697
 endline
 
+point 263.8292 618.8045 station-name -align t -scale xs -text "2/17"
+point 292.561 647.6288 station-name -align t -scale xs -text "2/16"
+point 172.0465 613.5992 station-name -align t -scale xs -text "2/11"
+point 234.0413 429.6729 station-name -align t -scale xs -text "2/14"
+point 219.592 528.049 station-name -align t -scale xs -text "2/13"
+point 247.7752 590.2512 station-name -align t -scale xs -text "2/12"
 point 272.585 631.826 station -name nw.2.17
 point 293.01 640.22 station -name nw.2.16
 point 184.17 620.11 station -name nw.2.11
@@ -3896,18 +3913,20 @@ line rock-border -close on
 endline
 
 line rock-edge 
-  532.28 735.26
-  532.26 735.77 532.27 736.28 532.22 736.78
-  532.18 737.26 532.14 737.75 532.01 738.22
-  531.59 739.65 530.82 741.8 530.14 743.1
-  529.47 744.37 527.72 744.75 526.52 745.18
-  526.11 745.33 525.71 745.54 525.27 745.55
-  521.64 745.58 518.35 742.84 514.79 742.51
+  532.9547 729.6243
+  532.9347 730.1343 530.9603 736.1213 530.9103 736.6213
+  530.8703 737.1013 530.8303 737.5913 530.7003 738.0613
+  530.2803 739.4913 529.5103 741.6413 528.8303 742.9413
+  528.1603 744.2113 526.4103 744.5913 525.2103 745.0213
+  524.8003 745.1713 524.4003 745.3813 523.9603 745.3913
+  521.7998 745.4092 516.1675 746.0734 514.1192 745.2209
+  512.7261 744.641 503.9766 745.8244 502.5355 745.6908
 endline
 
 line rock-edge 
-  513.86 750.44
-  517.27 749.48 520.7 748.1 524.23 747.39
+  511.5027 755.0424
+  511.9221 754.9244 514.6991 750.1975 515.1193 750.0687
+  518.1153 749.1507 521.1342 748.0127 524.23 747.39
   524.61 747.32 525.0 747.24 525.39 747.14
   525.94 747.0 526.49 746.86 527.04 746.69
   527.38 746.58 527.73 746.46 528.06 746.31
@@ -3991,35 +4010,6 @@ line rock-border -close on
   580.74 808.08
   584.5 810.55
   579.46 823.34
-endline
-
-line rock-border -close on
-  535.64 743.69
-  529.87 745.14
-  525.74 748.26
-  522.18 750.62
-  519.18 752.88
-  516.57 754.41
-  513.07 755.8
-  509.44 756.51
-  506.64 755.6
-  503.24 753.72
-  501.6 750.65
-  500.43 746.78
-  501.21 743.84
-  503.82 741.85
-  509.1 739.7
-  513.83 737.83
-  518.45 735.82
-  522.25 734.01
-  525.08 732.2
-  527.93 730.42
-  530.59 728.82
-  533.35 729.23
-  535.39 731.55
-  538.18 733.7
-  540.91 735.49
-  535.64 743.69
 endline
 
 line contour 
@@ -4326,7 +4316,7 @@ line rock-border -close on
   469.59 724.97
 endline
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_21 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_20 -visibility off
   462.9764 753.1675
   468.917 754.1112
   470.9151 761.1744
@@ -4363,10 +4353,11 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_21 -visibility off
   452.97 735.21 454.24 743.56 455.05 745.67
   455.91 747.95 457.82 749.6 459.45 750.83
   462.9764 753.1675
+  462.9764 753.1675
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_21
+  Zugzwang-1p3_u_smallblocks_20
 endarea
 
 line rock-border -close on
@@ -5115,6 +5106,14 @@ line u:splay -visibility off
   519.81 514.92
 endline
 
+point 360.018 560.9467 station-name -align t -scale xs -text "2/15"
+point 454.2314 572.8446 station-name -align t -scale xs -text "2/18"
+point 554.5126 641.6855 station-name -align t -scale xs -text "2/19"
+point 623.1486 607.9012 station-name -align t -scale xs -text "2/20"
+point 551.8311 740.8208 station-name -align t -scale xs -text "2/21"
+point 602.9495 860.9119 station-name -align t -scale xs -text "2/22"
+point 639.2363 923.6032 station-name -align t -scale xs -text "2/23"
+point 472.1323 953.1372 station-name -align t -scale xs -text "2/24"
 point 349.41 558.87 station -name nw.2.15
 point 468.6 564.65 station -name nw.2.18
 point 542.4 637.43 station -name nw.2.19
@@ -5215,7 +5214,7 @@ line rock-border -close on
   615.79 893.31
 endline
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_22 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_21 -visibility off
   610.8789 961.0938
   609.4169 961.1709 606.6935 960.4593 606.2715 958.2051
   605.5879 954.5536 607.592 948.2732 605.7559 945.3398
@@ -5243,7 +5242,7 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_22 -visibility off
   632.6001 917.6193 632.9925 917.3749 633.3906 917.1426
   633.652 916.9901 633.9189 916.8511 634.1855 916.709
   635.2314 917.2458 636.3016 917.7439 637.3203 918.3301
-  641.1403 920.5201 644.9093 923.0809 648.5293 925.6309
+  641.1403 920.5201 633.1787 926.8414 636.7987 929.3914
   648.2305 933.4219
   653.5843 944.1968 637.3097 952.3307 631.1797 953.9707
   629.6997 954.3707 613.1546 960.3304 611.7246 960.9004
@@ -5251,10 +5250,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_22 -visibility off
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_22
+  Zugzwang-1p3_u_smallblocks_21
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_23 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_22 -visibility off
   634.1856 916.709
   633.9189 916.8511 633.652 916.9901 633.3906 917.1426
   632.9925 917.3748 632.6001 917.6193 632.2148 917.8711
@@ -5337,10 +5336,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_23 -visibility off
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_23
+  Zugzwang-1p3_u_smallblocks_22
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_24 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_23 -visibility off
   521.7344 952.3731
   522.118 950.8379 522.5066 949.3031 522.8809 947.7656
   523.4812 945.2994 524.0727 942.8313 524.6816 940.3672
@@ -5418,13 +5417,14 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_24 -visibility off
   550.9327 957.6938 550.8489 957.9224 550.7734 958.1543
   540.4629 958.4062 531.8899 950.8204 521.7343 952.3731
   521.7344 952.3731
+  521.7344 952.3731
 endline
 
 area u:smallblocks -attr scale 1.1
-  Zugzwang-1p3_u_smallblocks_24
+  Zugzwang-1p3_u_smallblocks_23
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_25 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_24 -visibility off
   521.7344 952.3731
   521.0788 952.4733 520.4177 952.6081 519.7481 952.7891
   501.24 957.7911 484.6242 959.1345 483.3106 958.8906
@@ -5467,10 +5467,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_25 -visibility off
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_25
+  Zugzwang-1p3_u_smallblocks_24
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_26 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_25 -visibility off
   601.0293 905.0508
   602.2799 904.7606 603.5127 904.3872 604.75 904.041
   604.1314 904.2141 603.5136 904.3937 602.8945 904.5664
@@ -5478,22 +5478,23 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_26 -visibility off
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_26
+  Zugzwang-1p3_u_smallblocks_25
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_27 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_26 -visibility off
   608.5 903.1894
   608.858 903.1366 609.2032 903.0329 609.543 902.9062
   609.3731 902.9697 609.203 903.0276 609.0293 903.0762
   608.8556 903.1247 608.679 903.1631 608.5 903.1895
   608.5 903.1894
+  608.5 903.1894
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_27
+  Zugzwang-1p3_u_smallblocks_26
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_28 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_27 -visibility off
   610.5508 902.4883
   611.6618 902.0151 612.7491 901.4896 613.832 900.9551
   613.2906 901.2223 612.7473 901.4867 612.2012 901.7441
@@ -5501,10 +5502,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_28 -visibility off
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_28
+  Zugzwang-1p3_u_smallblocks_27
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_29 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_28 -visibility off
   613.832 900.9551
   616.7295 899.525 619.5855 898.0121 622.4492 896.5156
   621.0174 897.2638 619.5865 898.0159 618.1523 898.7598
@@ -5512,7 +5513,7 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_29 -visibility off
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_29
+  Zugzwang-1p3_u_smallblocks_28
 endarea
 
 line contour 
@@ -5520,7 +5521,7 @@ line contour
   731.8978 779.2212 692.1598 799.6515 686.7716 802.7946
 endline
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_30 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_29 -visibility off
   699.5684 815.5918
   687.8945 803.0195
   687.8945 803.0195 687.6642 802.4849 687.5996 802.3398
@@ -5533,13 +5534,14 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_30 -visibility off
   739.9805 800.3242
   715.2832 812.4492
   699.5684 815.5918
+  699.5684 815.5918
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_30
+  Zugzwang-1p3_u_smallblocks_29
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_31 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_30 -visibility off
   687.5996 802.3398
   686.795 800.5317 681.5403 788.5668 680.709 781.916
   680.28 778.4841 679.9561 774.2254 679.8789 769.4473
@@ -5565,13 +5567,14 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_31 -visibility off
   694.164 798.8063 692.2072 799.8358 690.2598 800.8789
   689.3678 801.3567 688.4821 801.8451 687.5996 802.3399
   687.5996 802.3398
+  687.5996 802.3398
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_31
+  Zugzwang-1p3_u_smallblocks_30
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_32 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_31 -visibility off
   576.8555 749.8047
   576.5165 749.7967 576.1177 749.7263 575.6406 749.5859
   571.824 748.4634 556.3321 743.0747 552.0664 739.707
@@ -5600,10 +5603,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_32 -visibility off
 endline
 
 area u:smallblocks -attr scale 1.35
-  Zugzwang-1p3_u_smallblocks_32
+  Zugzwang-1p3_u_smallblocks_31
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_33 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_32 -visibility off
   581.1387 725.9707
   580.2043 725.1802 579.2622 724.399 578.3223 723.6152
   575.4881 721.2519 572.6647 718.8744 569.8867 716.4453
@@ -5642,10 +5645,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_33 -visibility off
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_33
+  Zugzwang-1p3_u_smallblocks_32
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_34 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_33 -visibility off
   585.6074 692.3789
   585.2986 692.244 584.9864 692.1154 584.6856 691.9629
   584.2133 691.7236 583.75 691.4669 583.291 691.2031
@@ -5662,7 +5665,8 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_34 -visibility off
   548.2676 656.9819 547.6146 655.6803 547.0117 654.3535
   546.4088 653.0267 545.8546 651.6747 545.3398 650.3086
   545.0011 649.4097 544.7034 648.4976 544.3965 647.5879
-  547.2984 645.5412 561.4961 634.6387 561.4961 634.6387
+  546.0223 646.4412 558.1161 651.8601 562.3499 648.6287
+  565.6731 646.0922 561.4961 634.6387 561.4961 634.6387
   561.9629 633.5977
   562.6901 635.8429 563.4026 638.0936 564.1387 640.3359
   564.5612 641.6232 564.9922 642.9072 565.4395 644.1856
@@ -5679,13 +5683,14 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_34 -visibility off
   587.536 676.5169 588.4554 677.3571 589.3965 678.1719
   589.513 678.2728 589.6385 678.3628 589.7559 678.4629
   585.6074 692.3789
+  585.6074 692.3789
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_34
+  Zugzwang-1p3_u_smallblocks_33
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_35 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_34 -visibility off
   589.7559 678.4629
   589.6385 678.3628 589.513 678.2727 589.3965 678.1719
   588.4554 677.3571 587.536 676.5169 586.6348 675.6582
@@ -5773,13 +5778,14 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_35 -visibility off
   592.6693 665.2492 592.9494 665.576 593.2266 665.9043
   592.1363 669.9763 590.9063 674.5996 590.9063 674.5996
   589.7559 678.4629
+  589.7559 678.4629
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_35
+  Zugzwang-1p3_u_smallblocks_34
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_36 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_35 -visibility off
   593.2266 665.9043
   592.9494 665.576 592.6693 665.2493 592.4004 664.9141
   591.332 663.5822 590.303 662.221 589.2754 660.8574
@@ -5859,10 +5865,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_36 -visibility off
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_36
+  Zugzwang-1p3_u_smallblocks_35
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_37 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_36 -visibility off
   559.1406 542.5234
   559.0878 542.9851 559.0602 543.4502 558.9941 543.9102
   558.8312 545.0445 558.6304 546.1739 558.4023 547.2988
@@ -5914,10 +5920,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_37 -visibility off
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_37
+  Zugzwang-1p3_u_smallblocks_36
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_38 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_37 -visibility off
   533.5684 528.8438
   533.6015 529.33 533.657 529.8143 533.6856 530.3008
   533.8159 532.5194 533.9065 534.7395 533.9727 536.9609
@@ -5947,10 +5953,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_38 -visibility off
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_38
+  Zugzwang-1p3_u_smallblocks_37
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_39 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_38 -visibility off
   599.0957 647.8574
   599.0026 647.8146 598.9046 647.783 598.8125 647.7383
   598.3388 647.5081 597.8781 647.2514 597.4316 646.9727
@@ -5988,10 +5994,11 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_39 -visibility off
   603.2538 639.3516
   603.2538 639.3516 600.7805 644.517 599.0956 647.8574
   599.0957 647.8574
+  599.0957 647.8574
 endline
 
 area u:smallblocks 
-  Zugzwang-1p3_u_smallblocks_39
+  Zugzwang-1p3_u_smallblocks_38
 endarea
 
 line rock-border -close on
@@ -6034,7 +6041,7 @@ line rock-border -close on
   509.85 932.97
 endline
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_40 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_39 -visibility off
   231.7773 667.709
   225.7441 666.7559
   211.7754 658.8184
@@ -6064,10 +6071,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_40 -visibility off
 endline
 
 area u:smallblocks -attr scale 1.4
-  Zugzwang-1p3_u_smallblocks_40
+  Zugzwang-1p3_u_smallblocks_39
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_41 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_40 -visibility off
   230.7949 656.7832
   230.3488 656.7902 229.9026 656.7882 229.457 656.7772
   229.0114 656.7667 228.5677 656.7481 228.1231 656.7206
@@ -6124,10 +6131,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_41 -visibility off
 endline
 
 area u:smallblocks -attr scale 1.4
-  Zugzwang-1p3_u_smallblocks_41
+  Zugzwang-1p3_u_smallblocks_40
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_42 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_41 -visibility off
   224.0684 642.2266
   223.7282 642.2276 223.3884 642.2256 223.0488 642.2166
   222.3697 642.1995 221.6913 642.1619 221.0156 642.1072
@@ -6204,10 +6211,10 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_42 -visibility off
 endline
 
 area u:smallblocks -attr scale 1.4
-  Zugzwang-1p3_u_smallblocks_42
+  Zugzwang-1p3_u_smallblocks_41
 endarea
 
-line border -close on -id Zugzwang-1p3_u_smallblocks_43 -visibility off
+line border -close on -id Zugzwang-1p3_u_smallblocks_42 -visibility off
   233.5879 617.8731
   233.385 618.1408 233.1879 618.4135 232.9805 618.6777
   232.6923 619.0448 232.3965 619.4066 232.0918 619.7617
@@ -6263,6 +6270,50 @@ line border -close on -id Zugzwang-1p3_u_smallblocks_43 -visibility off
 endline
 
 area u:smallblocks -attr scale 1.4
+  Zugzwang-1p3_u_smallblocks_42
+endarea
+
+line rock-border -close on
+  535.64 743.69
+  529.87 745.14
+  525.74 748.26
+  522.18 750.62
+  519.18 752.88
+  516.57 754.41
+  513.07 755.8
+  509.44 756.51
+  506.64 755.6
+  503.24 753.72
+  501.6 750.65
+  500.43 746.78
+  501.21 743.84
+  503.82 741.85
+  509.1 739.7
+  513.83 737.83
+  518.45 735.82
+  522.25 734.01
+  525.08 732.2
+  527.93 730.42
+  530.59 728.82
+  533.35 729.23
+  535.39 731.55
+  538.18 733.7
+  540.91 735.49
+  535.64 743.69
+endline
+
+line border -close on -id Zugzwang-1p3_u_smallblocks_43 -visibility off
+  273.0023 631.9437
+  275.4719 629.4741 274.4617 625.4329 276.4822 626.3309
+  278.5028 627.229 283.891 630.0353 283.1052 632.1682
+  282.3195 634.301 282.544 638.2299 281.6459 639.4647
+  280.7479 640.6995 280.8601 642.271 278.3906 640.8117
+  275.921 639.3524 261.3623 642.9267 257.3212 643.8247
+  253.28 644.7228 255.8586 630.1462 256.3076 629.1359
+  256.7566 628.1256 273.0023 631.9437 273.0023 631.9437
+endline
+
+area u:smallblocks 
   Zugzwang-1p3_u_smallblocks_43
 endarea
 
@@ -6271,6 +6322,10 @@ endscrap
 
 scrap Zugzwang-1p8 -projection plan -scale [0 0 96 0 0 0 500 0 inch]
 
+point 586.3669 175.5079 station-name -align t -scale xs -text "2/31"
+point 673.2934 153.2132 station-name -align t -scale xs -text "2/33"
+point 620.7994 156.7804 station-name -align t -scale xs -text "2/32"
+point 656.517 157.64 station -name nw.2.33
 point 623.26 178.45 station -name nw.2.32
 line contour 
   581.0305 197.0106
@@ -6315,6 +6370,7 @@ line border -close on -id Zugzwang-1p8_pebbles_1 -visibility off
   602.3137 332.7241 604.041 332.904 606.2273 331.3751
   608.7919 329.5817 611.8984 326.064 612.5044 325.8216
   613.6269 325.3726 621.1898 320.6274 621.1898 320.6274
+  629.5036 316.5317
   629.5036 316.5317
 endline
 
@@ -6557,6 +6613,7 @@ line border -close on -id Zugzwang-1p8_water_1 -visibility on
   603.4443 307.5838 622.9384 308.4805 625.0384 309.7505
   628.1984 311.6705 627.5926 313.2045 629.3826 316.1245
   622.9894 319.7718
+  622.9894 319.7718
 endline
 
 area water 
@@ -6677,71 +6734,6 @@ endline
 
 line border -close on -id Zugzwang-1p8_clay_1 -visibility off
   545.4922 379.9062
-  545.4575 379.4318 545.4296 378.9567 545.3926 378.4824
-  545.2773 377.0062 545.1501 375.5309 545.0117 374.0566
-  544.8734 372.5824 544.7239 371.1087 544.5625 369.6367
-  544.4011 368.1648 544.2275 366.6958 544.043 365.2266
-  543.8584 363.7571 543.6706 362.2851 543.4649 360.8164
-  543.2592 359.3477 543.0361 357.8818 542.7832 356.4219
-  542.6568 355.6919 542.522 354.9626 542.3789 354.2363
-  542.2358 353.51 542.083 352.7861 541.9199 352.0645
-  541.7569 351.3428 541.5847 350.6242 541.3985 349.9082
-  541.2122 349.1922 541.0135 348.4788 540.8008 347.7695
-  540.6557 347.2867 540.4977 346.8086 540.3281 346.334
-  540.1586 345.8594 539.9763 345.3884 539.7852 344.9219
-  539.5941 344.4553 539.3934 343.9938 539.1836 343.5352
-  538.9739 343.0765 538.7548 342.6209 538.5293 342.1699
-  538.1965 341.4988 537.849 340.8369 537.4863 340.1816
-  537.1237 339.5264 536.7462 338.878 536.3594 338.2363
-  535.9725 337.5947 535.5754 336.9585 535.1699 336.3281
-  534.7645 335.6978 534.352 335.0725 533.9336 334.4512
-  533.4708 333.7639 532.9974 333.084 532.5098 332.4141
-  532.1293 331.8914 531.7298 331.3834 531.3281 330.877
-  531.9677 330.7784 532.6054 330.673 533.2383 330.5527
-  537.021 329.8337 541.3692 330.2199 544.5 327.9785
-  546.485 326.5574 547.0016 323.784 548.3457 321.7461
-  549.0102 320.7387 549.5522 319.6055 550.2461 318.6152
-  550.3383 318.6626 550.4336 318.7037 550.5254 318.752
-  551.1174 319.0626 551.7006 319.3879 552.2793 319.7227
-  552.9965 320.1375 553.7064 320.5659 554.4082 321.0059
-  555.1101 321.4458 555.8042 321.8977 556.4922 322.3594
-  557.1802 322.8211 557.8616 323.2935 558.5371 323.7734
-  559.2126 324.2534 559.8824 324.7415 560.5469 325.2363
-  561.2137 325.733 561.8756 326.2364 562.5313 326.7481
-  563.1869 327.2597 563.8352 327.7794 564.4766 328.3086
-  565.118 328.8378 565.7528 329.3767 566.377 329.9258
-  567.0011 330.4749 567.6149 331.0339 568.2188 331.6055
-  568.71 332.0704 569.1949 332.544 569.666 333.0293
-  570.1371 333.5146 570.5946 334.0125 571.0332 334.5273
-  571.3552 334.9053 571.6719 335.2908 571.9629 335.6934
-  572.1084 335.8947 572.2466 336.0998 572.377 336.3106
-  572.5073 336.5213 572.63 336.7385 572.7402 336.9609
-  572.8583 337.1969 572.9656 337.4364 573.0645 337.6797
-  573.1634 337.9229 573.2542 338.169 573.3379 338.418
-  573.5053 338.916 573.6463 339.4234 573.7774 339.9356
-  573.9084 340.4477 574.0294 340.9642 574.1563 341.4785
-  574.2831 341.9928 574.4155 342.5053 574.5703 343.0098
-  574.7217 343.5058 574.8611 344.0047 574.9922 344.5059
-  575.1233 345.0071 575.2462 345.5101 575.3594 346.0156
-  575.5858 347.0267 575.7776 348.0464 575.9473 349.0703
-  576.117 350.0942 576.2637 351.1238 576.3965 352.1543
-  576.5293 353.1848 576.6481 354.2172 576.7637 355.2481
-  576.8795 356.2807 576.9868 357.3131 577.084 358.3477
-  577.1812 359.3823 577.2699 360.4189 577.3477 361.4551
-  577.4014 362.1704 577.4442 362.8856 577.4883 363.6016
-  575.8213 364.4395 574.2366 365.3909 572.3164 366.5273
-  570.5564 367.5773 564.7738 371.3873 563.1738 372.2773
-  560.6638 373.6773 556.2563 375.0391 553.4863 375.5391
-  550.6146 377.883 547.9784 379.2148 545.4922 379.9063
-  545.4922 379.9062
-endline
-
-area clay 
-  Zugzwang-1p8_clay_1
-endarea
-
-line border -close on -id Zugzwang-1p8_clay_2 -visibility off
-  545.4922 379.9062
   540.1042 381.4047 535.4206 379.8875 530.5684 379.0898
   530.2323 377.9352 532.4098 374.3282 530.6368 371.6953
   529.2601 369.651 525.7806 370.3897 523.6485 368.4883
@@ -6777,10 +6769,10 @@ line border -close on -id Zugzwang-1p8_clay_2 -visibility off
 endline
 
 area clay 
-  Zugzwang-1p8_clay_2
+  Zugzwang-1p8_clay_1
 endarea
 
-line border -close on -id Zugzwang-1p8_clay_3 -visibility off
+line border -close on -id Zugzwang-1p8_clay_2 -visibility off
   577.4883 363.6016
   577.4442 362.8856 577.4014 362.1704 577.3477 361.4551
   577.2699 360.4189 577.1812 359.3823 577.084 358.3477
@@ -6858,13 +6850,14 @@ line border -close on -id Zugzwang-1p8_clay_3 -visibility off
   586.8348 358.3462 583.8835 361.1133 581.7832 361.8106
   580.159 362.352 578.7989 362.9428 577.4882 363.6016
   577.4883 363.6016
+  577.4883 363.6016
 endline
 
 area clay 
-  Zugzwang-1p8_clay_3
+  Zugzwang-1p8_clay_2
 endarea
 
-line border -close on -id Zugzwang-1p8_clay_4 -visibility off
+line border -close on -id Zugzwang-1p8_clay_3 -visibility off
   589.084 356.8477
   589.0289 356.5601 588.9671 356.2737 588.9219 355.9844
   588.8378 355.4469 588.7703 354.9057 588.7168 354.3633
@@ -7011,13 +7004,14 @@ line border -close on -id Zugzwang-1p8_clay_4 -visibility off
   597.7644 354.7177 590.769 355.9028 590.1171 356.2287
   589.797 356.3902 589.4476 356.6056 589.0839 356.8479
   589.084 356.8477
+  589.084 356.8477
 endline
 
 area clay 
-  Zugzwang-1p8_clay_4
+  Zugzwang-1p8_clay_3
 endarea
 
-line border -close on -id Zugzwang-1p8_clay_5 -visibility off
+line border -close on -id Zugzwang-1p8_clay_4 -visibility off
   619.6992 305.1172
   619.4727 304.3789
   620.4848 304.0687 621.4851 303.7269 622.4746 303.3516
@@ -7030,10 +7024,10 @@ line border -close on -id Zugzwang-1p8_clay_5 -visibility off
 endline
 
 area clay 
-  Zugzwang-1p8_clay_5
+  Zugzwang-1p8_clay_4
 endarea
 
-line border -close on -id Zugzwang-1p8_clay_6 -visibility off
+line border -close on -id Zugzwang-1p8_clay_5 -visibility off
   625.4277 303.0
   625.4824 302.8438
   625.5219 302.8576 625.5603 302.8741 625.5996 302.8886
@@ -7041,10 +7035,10 @@ line border -close on -id Zugzwang-1p8_clay_6 -visibility off
 endline
 
 area clay 
-  Zugzwang-1p8_clay_6
+  Zugzwang-1p8_clay_5
 endarea
 
-line border -close on -id Zugzwang-1p8_clay_7 -visibility off
+line border -close on -id Zugzwang-1p8_clay_6 -visibility off
   625.0996 296.418
   624.7201 296.7407 624.3389 297.0595 623.9414 297.3594
   623.4427 297.7356 622.9312 298.0952 622.4102 298.4414
@@ -7102,13 +7096,14 @@ line border -close on -id Zugzwang-1p8_clay_7 -visibility off
   623.3809 291.5877
   623.6365 293.0051 624.399 294.7081 625.0996 296.4178
   625.0996 296.418
+  625.0996 296.418
 endline
 
 area clay 
-  Zugzwang-1p8_clay_7
+  Zugzwang-1p8_clay_6
 endarea
 
-line border -close on -id Zugzwang-1p8_clay_8 -visibility off
+line border -close on -id Zugzwang-1p8_clay_7 -visibility off
   622.957 278.1445
   622.7991 278.071 622.6452 277.9894 622.4863 277.918
   621.8482 277.6312 621.2032 277.3618 620.5508 277.1094
@@ -7152,77 +7147,11 @@ line border -close on -id Zugzwang-1p8_clay_8 -visibility off
   624.8402 259.6906 622.8009 262.8697 622.3262 267.9768
   622.0689 270.7444 622.8201 275.3913 622.957 278.1447
   622.957 278.1445
+  622.957 278.1445
 endline
 
 area clay 
-  Zugzwang-1p8_clay_8
-endarea
-
-line border -close on -id Zugzwang-1p8_clay_9 -visibility off
-  625.1309 249.5606
-  623.967 249.3829 622.8007 249.2332 621.6328 249.1543
-  620.2935 249.0638 618.9528 249.0363 617.6113 249.0625
-  616.2699 249.0887 614.928 249.1681 613.5879 249.2969
-  612.2478 249.4257 610.9095 249.603 609.5742 249.8203
-  608.2389 250.0376 606.9071 250.2962 605.5801 250.5879
-  604.253 250.8796 602.9306 251.2046 601.6152 251.5566
-  600.6495 251.8151 599.6922 252.1004 598.7344 252.3848
-  598.7344 252.3848
-  598.3875 252.4877 598.0371 252.5797 597.6914 252.6855
-  596.3911 253.0838 595.0981 253.5013 593.8164 253.9316
-  592.1109 254.6436 590.3935 255.3451 588.6602 256.0059
-  586.9268 256.6667 585.1777 257.2873 583.4121 257.8359
-  582.5293 258.1102 581.6436 258.3667 580.7519 258.6016
-  579.8603 258.8364 578.9635 259.0486 578.0625 259.2363
-  577.4657 259.3607 576.8629 259.4558 576.2617 259.5566
-  576.2903 259.2245 576.2743 258.9033 576.1875 258.5918
-  576.5014 252.2365 572.9018 243.9704 573.4082 240.0664
-  572.8382 238.3465 571.8137 237.9513 571.0137 236.5313
-  570.2532 235.192 569.7385 230.4736 569.3496 227.4063
-  568.9106 223.9433 568.7229 218.5886 568.5977 216.9609
-  579.6543 220.5137
-  580.5041 221.433 576.6968 229.6219 577.6074 229.8359
-  578.4006 230.0224 579.261 231.6261 580.5645 231.0488
-  582.6345 230.1388 586.9117 222.2995 587.6817 220.4395
-  588.3034 220.8506 592.8626 224.0901 594.0293 225.0098
-  595.0579 225.8206 591.614 230.4104 591.8633 231.0488
-  592.0961 231.6449 590.1109 230.8217 589.8633 232.2559
-  589.7258 233.0526 590.2956 233.6379 590.8106 234.4297
-  591.7505 235.8797 593.38 237.5202 594.0 239.1602
-  594.96 241.6801 593.3897 245.6721 595.6309 247.2891
-  597.5918 248.7038 601.082 248.0709 602.8301 246.4004
-  605.4922 243.8565 604.8297 238.7998 604.6797 235.5098
-  604.6497 235.0098 604.5406 234.5191 604.3906 234.0391
-  603.4006 230.8791 598.4892 230.7598 595.6192 230.7598
-  595.0392 227.0298 597.7597 223.2597 597.6797 219.4297
-  597.6697 218.5497 597.7902 216.6598 596.7402 216.0098
-  595.5903 215.3098 594.061 215.7302 592.711 215.6602
-  589.141 215.4702 584.5605 213.2098 581.0606 214.0098
-  579.7805 214.3098 577.7299 216.1306 576.3399 214.8906
-  574.8399 213.5606 574.1391 209.7506 573.7891 207.8906
-  587.0 190.0293
-  587.57 190.1693 588.0898 190.4891 588.5898 190.7891
-  590.6198 192.0091 592.1594 194.5491 594.6094 195.0391
-  595.1094 195.1391 595.6209 195.0701 596.1309 195.0801
-  596.6209 195.0801 597.1194 195.1401 597.6094 195.0801
-  599.5794 194.8101 601.7495 193.5491 603.2695 192.3691
-  603.8095 191.9391 605.3691 190.5208 606.2891 190.5508
-  606.7791 190.5608 607.1898 190.9698 607.5898 191.2597
-  608.9098 192.1897 610.1903 193.4693 611.8203 194.0293
-  612.5203 194.2293 613.4802 194.0604 613.9102 194.6504
-  615.4002 196.6504 612.7191 199.709 611.7891 201.289
-  609.1791 205.699 612.0985 201.5281 612.7285 206.9179
-  613.0685 209.7679 612.6177 213.3252 613.8516 216.1797
-  615.0844 219.0317 618.2614 220.6512 619.8223 223.3379
-  621.1741 225.6648 621.8608 228.3265 622.6465 230.9004
-  623.2494 232.8756 623.8055 234.8802 624.0898 236.9258
-  624.2447 238.0397 624.2185 239.1769 624.2285 240.2969
-  624.2355 240.7103 624.7845 245.9577 625.1309 249.5605
-  625.1309 249.5606
-endline
-
-area clay 
-  Zugzwang-1p8_clay_9
+  Zugzwang-1p8_clay_7
 endarea
 
 line rock-border -close on
@@ -7870,6 +7799,12 @@ line u:splay -visibility off
   586.7 227.68
 endline
 
+point 529.5826 452.7874 station-name -align t -scale xs -text "2/25"
+point 450.2844 399.3028 station-name -align t -scale xs -text "2/26"
+point 536.0162 386.7232 station-name -align t -scale xs -text "2/27"
+point 568.041 379.2086 station-name -align t -scale xs -text "2/28"
+point 639.0162 298.6581 station-name -align t -scale xs -text "2/29"
+point 612.5208 233.5381 station-name -align t -scale xs -text "2/30"
 point 514.66 458.82 station -name nw.2.25
 point 467.74 405.14 station -name nw.2.26
 point 525.73 375.61 station -name nw.2.27
@@ -7924,6 +7859,7 @@ line border -close on -id Zugzwang-1p8_u_smallblocks_2 -visibility off
   483.9645 434.0503 483.6884 434.2289 483.416 434.4122
   483.2798 434.5038 483.144 434.5968 483.0098 434.6915
   482.8755 434.7862 482.7436 434.8809 482.6113 434.9786
+  481.7305 435.8672
   481.7305 435.8672
 endline
 
@@ -7981,6 +7917,7 @@ line border -close on -id Zugzwang-1p8_u_smallblocks_3 -visibility off
   471.7332 420.9294 471.6219 420.9782 471.5137 421.0332
   470.8031 421.3942 470.0999 421.7694 469.4023 422.1543
   464.9902 425.0059
+  464.9902 425.0059
 endline
 
 area u:smallblocks 
@@ -8019,7 +7956,9 @@ line border -close on -id Zugzwang-1p8_u_smallblocks_4 -visibility off
   454.6175 410.4135 454.2396 411.2247 453.873 412.041
   453.5533 412.7531 453.2477 413.4716 452.9453 414.1914
   452.2965 413.413 451.9355 412.7316 451.9355 412.0371
-  451.9355 410.1288 453.5074 398.5679 454.7422 395.3125
+  451.9355 411.4353 457.031 407.404 457.2838 405.4456
+  457.6643 402.4974 453.3242 401.1197 453.9377 398.2946
+  454.2089 397.0453 454.483 395.9959 454.7422 395.3125
   455.977 392.0571 456.2014 390.7084 456.6504 387.2285
   457.0994 383.7486 458.7828 382.6279 460.0176 384.6484
   461.2524 386.669 458.8948 388.4651 461.7012 386.7813
@@ -8037,11 +7976,148 @@ area u:smallblocks
   Zugzwang-1p8_u_smallblocks_4
 endarea
 
+line border -close on -id Zugzwang-1p8_clay_8 -visibility off
+  545.4922 379.9062
+  545.4575 379.4318 545.4296 378.9567 545.3926 378.4824
+  545.2773 377.0062 545.1501 375.5309 545.0117 374.0566
+  544.8734 372.5824 544.7239 371.1087 544.5625 369.6367
+  544.4011 368.1648 544.2275 366.6958 544.043 365.2266
+  543.8584 363.7571 543.6706 362.2851 543.4649 360.8164
+  543.2592 359.3477 543.0361 357.8818 542.7832 356.4219
+  542.6568 355.6919 542.522 354.9626 542.3789 354.2363
+  542.2358 353.51 542.083 352.7861 541.9199 352.0645
+  541.7569 351.3428 541.5847 350.6242 541.3985 349.9082
+  541.2122 349.1922 541.0135 348.4788 540.8008 347.7695
+  540.6557 347.2867 540.4977 346.8086 540.3281 346.334
+  540.1586 345.8594 539.9763 345.3884 539.7852 344.9219
+  539.5941 344.4553 539.3934 343.9938 539.1836 343.5352
+  538.9739 343.0765 538.7548 342.6209 538.5293 342.1699
+  538.1965 341.4988 537.849 340.8369 537.4863 340.1816
+  537.1237 339.5264 536.7462 338.878 536.3594 338.2363
+  535.9725 337.5947 535.5754 336.9585 535.1699 336.3281
+  534.7645 335.6978 534.352 335.0725 533.9336 334.4512
+  533.4708 333.7639 532.9974 333.084 532.5098 332.4141
+  532.1293 331.8914 531.7298 331.3834 531.3281 330.877
+  531.9677 330.7784 532.6054 330.673 533.2383 330.5527
+  537.021 329.8337 541.3692 330.2199 544.5 327.9785
+  546.485 326.5574 547.0016 323.784 548.3457 321.7461
+  549.0102 320.7387 549.5522 319.6055 550.2461 318.6152
+  550.3383 318.6626 550.4336 318.7037 550.5254 318.752
+  551.1174 319.0626 551.7006 319.3879 552.2793 319.7227
+  552.9965 320.1375 553.7064 320.5659 554.4082 321.0059
+  555.1101 321.4458 555.8042 321.8977 556.4922 322.3594
+  557.1802 322.8211 557.8616 323.2935 558.5371 323.7734
+  559.2126 324.2534 559.8824 324.7415 560.5469 325.2363
+  561.2137 325.733 561.8756 326.2364 562.5313 326.7481
+  563.1869 327.2597 563.8352 327.7794 564.4766 328.3086
+  565.118 328.8378 565.7528 329.3767 566.377 329.9258
+  567.0011 330.4749 567.6149 331.0339 568.2188 331.6055
+  568.71 332.0704 569.1949 332.544 569.666 333.0293
+  570.1371 333.5146 570.5946 334.0125 571.0332 334.5273
+  571.3552 334.9053 571.6719 335.2908 571.9629 335.6934
+  572.1084 335.8947 572.2466 336.0998 572.377 336.3106
+  572.5073 336.5213 572.63 336.7385 572.7402 336.9609
+  572.8583 337.1969 572.9656 337.4364 573.0645 337.6797
+  573.1634 337.9229 573.2542 338.169 573.3379 338.418
+  573.5053 338.916 573.6463 339.4234 573.7774 339.9356
+  573.9084 340.4477 574.0294 340.9642 574.1563 341.4785
+  574.2831 341.9928 574.4155 342.5053 574.5703 343.0098
+  574.7217 343.5058 574.8611 344.0047 574.9922 344.5059
+  575.1233 345.0071 575.2462 345.5101 575.3594 346.0156
+  575.5858 347.0267 575.7776 348.0464 575.9473 349.0703
+  576.117 350.0942 576.2637 351.1238 576.3965 352.1543
+  576.5293 353.1848 576.6481 354.2172 576.7637 355.2481
+  576.8795 356.2807 576.9868 357.3131 577.084 358.3477
+  577.1812 359.3823 577.2699 360.4189 577.3477 361.4551
+  577.4014 362.1704 577.4442 362.8856 577.4883 363.6016
+  575.8213 364.4395 574.2366 365.3909 572.3164 366.5273
+  570.5564 367.5773 564.7738 371.3873 563.1738 372.2773
+  560.6638 373.6773 556.2563 375.0391 553.4863 375.5391
+  550.6146 377.883 547.9784 379.2148 545.4922 379.9063
+  545.4922 379.9062
+  545.4922 379.9062
+endline
+
+area clay 
+  Zugzwang-1p8_clay_8
+endarea
+
+line border -close on -id Zugzwang-1p8_clay_9 -visibility off
+  625.1309 249.5606
+  623.967 249.3829 622.8007 249.2332 621.6328 249.1543
+  620.2935 249.0638 618.9528 249.0363 617.6113 249.0625
+  616.2699 249.0887 614.928 249.1681 613.5879 249.2969
+  612.2478 249.4257 610.9095 249.603 609.5742 249.8203
+  608.2389 250.0376 606.9071 250.2962 605.5801 250.5879
+  604.253 250.8796 602.9306 251.2046 601.6152 251.5566
+  600.6495 251.8151 599.6922 252.1004 598.7344 252.3848
+  598.7344 252.3848
+  598.3875 252.4877 598.0371 252.5797 597.6914 252.6855
+  596.3911 253.0838 595.0981 253.5013 593.8164 253.9316
+  592.1109 254.6436 590.3935 255.3451 588.6602 256.0059
+  586.9268 256.6667 585.1777 257.2873 583.4121 257.8359
+  582.5293 258.1102 581.6436 258.3667 580.7519 258.6016
+  579.8603 258.8364 578.9635 259.0486 578.0625 259.2363
+  577.4657 259.3607 576.8629 259.4558 576.2617 259.5566
+  576.2903 259.2245 576.2743 258.9033 576.1875 258.5918
+  576.5014 252.2365 572.9018 243.9704 573.4082 240.0664
+  572.8382 238.3465 571.8137 237.9513 571.0137 236.5313
+  570.2532 235.192 569.7385 230.4736 569.3496 227.4063
+  568.9106 223.9433 568.7229 218.5886 568.5977 216.9609
+  579.6543 220.5137
+  580.5041 221.433 576.6968 229.6219 577.6074 229.8359
+  578.4006 230.0224 579.261 231.6261 580.5645 231.0488
+  582.6345 230.1388 586.9117 222.2995 587.6817 220.4395
+  588.3034 220.8506 592.8626 224.0901 594.0293 225.0098
+  595.0579 225.8206 591.614 230.4104 591.8633 231.0488
+  592.0961 231.6449 590.1109 230.8217 589.8633 232.2559
+  589.7258 233.0526 590.2956 233.6379 590.8106 234.4297
+  591.7505 235.8797 593.38 237.5202 594.0 239.1602
+  594.96 241.6801 593.3897 245.6721 595.6309 247.2891
+  597.5918 248.7038 601.082 248.0709 602.8301 246.4004
+  604.0078 245.2749 599.735 242.2436 604.7064 240.1937
+  606.787 239.3359 618.8346 239.632 620.2018 238.738
+  622.952 236.9396 620.5313 234.9889 620.4755 233.7635
+  620.4455 233.2635 604.5406 234.5191 604.3906 234.0391
+  603.4006 230.8791 598.4892 230.7598 595.6192 230.7598
+  595.0392 227.0298 597.7597 223.2597 597.6797 219.4297
+  597.6697 218.5497 597.7902 216.6598 596.7402 216.0098
+  595.5903 215.3098 594.061 215.7302 592.711 215.6602
+  589.141 215.4702 584.5605 213.2098 581.0606 214.0098
+  579.7805 214.3098 577.7299 216.1306 576.3399 214.8906
+  574.8399 213.5606 574.1391 209.7506 573.7891 207.8906
+  587.0 190.0293
+  587.57 190.1693 588.0898 190.4891 588.5898 190.7891
+  590.6198 192.0091 592.1594 194.5491 594.6094 195.0391
+  595.1094 195.1391 595.6209 195.0701 596.1309 195.0801
+  596.6209 195.0801 597.1194 195.1401 597.6094 195.0801
+  599.5794 194.8101 601.7495 193.5491 603.2695 192.3691
+  603.8095 191.9391 605.3691 190.5208 606.2891 190.5508
+  606.7791 190.5608 607.1898 190.9698 607.5898 191.2597
+  608.9098 192.1897 610.1903 193.4693 611.8203 194.0293
+  612.5203 194.2293 613.4802 194.0604 613.9102 194.6504
+  615.4002 196.6504 612.7191 199.709 611.7891 201.289
+  609.1791 205.699 612.0985 201.5281 612.7285 206.9179
+  613.0685 209.7679 612.6177 213.3252 613.8516 216.1797
+  615.0844 219.0317 618.2614 220.6512 619.8223 223.3379
+  621.1741 225.6648 621.8608 228.3265 622.6465 230.9004
+  623.2494 232.8756 623.8055 234.8802 624.0898 236.9258
+  624.2447 238.0397 624.2185 239.1769 624.2285 240.2969
+  624.2355 240.7103 624.7845 245.9577 625.1309 249.5605
+  625.1309 249.5606
+  625.1309 249.5606
+endline
+
+area clay 
+  Zugzwang-1p8_clay_9
+endarea
+
 endscrap
 
 
 scrap Zugzwang-1p4 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
+point 647.9839 170.4991 map-connection 
 line u:splay -visibility off
   584.8643 163.6329
   584.8743 161.6929
@@ -8057,6 +8133,7 @@ line u:splay -visibility off
   586.51 162.95
 endline
 
+point 569.7658 174.4655 station-name -align t -scale xs -text "2/37"
 point 584.864 163.633 station -name nw.2.37
 point 629.132 132.002 narrow-end -scale m
 point 611.273 150.893 narrow-end -scale m
@@ -8074,6 +8151,7 @@ line border -close on -id Zugzwang-1p4_u_smallblocks_1 -visibility off
   572.609 156.5469 580.8035 158.9042 580.8035 158.9042
   588.4368 163.0576
   590.3451 165.415
+  590.3451 165.415
 endline
 
 area u:smallblocks 
@@ -8088,6 +8166,7 @@ line border -close on -id Zugzwang-1p4_u_smallblocks_2 -visibility off
   657.8662 116.3648 658.2631 114.1423 659.6918 114.4598
   661.1206 114.7773 663.0256 117.4761 663.0256 117.4761
   666.6769 130.8906
+  666.28 130.8906
   666.28 130.8906
 endline
 
@@ -8185,6 +8264,7 @@ line border -close on -id Zugzwang-1p4_u_smallblocks_3 -visibility off
   681.6079 122.6461
   683.5162 119.1662
   686.4348 119.8397
+  687.1083 121.8603
   687.1083 121.8603
 endline
 
@@ -8372,8 +8452,11 @@ line u:splay -visibility off
   650.45 171.86
 endline
 
-point 648.0 169.9 station -name nw.2.33
+point 704.9416 122.5072 station-name -align t -scale xs -text "2/38"
+point 621.421 141.2748 station-name -align t -scale xs -text "2/35"
+point 631.845 195.694 station-name -align t -scale xs -text "2/36"
 point 656.84 153.94 station -name nw.2.34
+point 675.995 138.249 station -name nw.2.38
 point 643.17 159.69 station -name nw.2.35
 point 626.13 174.58 station -name nw.2.36
 line wall -outline in
@@ -8443,6 +8526,7 @@ line border -close on -id Zugzwang-1p4_clay_1 -visibility off
   605.69 175.4 604.33 174.94 603.26 175.5
   602.62 175.84 601.66 178.21 600.82 178.04
   597.97 177.47 598.17 172.83 598.34 170.93
+  598.7949 167.234
   598.7949 167.234
 endline
 
@@ -8851,6 +8935,7 @@ line border -close on -id Zugzwang-1p4_clay_2 -visibility off
   685.0513 153.0238 687.3798 155.984 687.6998 156.104
   691.5798 157.624 693.76 162.63 696.23 165.92
   694.52 166.3
+  694.52 166.3
 endline
 
 area clay 
@@ -9052,6 +9137,7 @@ line u:splay -visibility off
   545.83 203.82
 endline
 
+point 578.3719 209.9037 station-name -align t -scale xs -text "2/40"
 point 569.72 219.27 station -name nw.2.40
 point 554.71 231.3 station -name nw.2.41
 line wall -close on -outline in
@@ -9142,6 +9228,7 @@ endscrap
 
 scrap Zugzwang-1p6 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
+point 556.2294 234.2434 station-name -align t -scale xs -text "2/42"
 point 546.8 230.09 station -name nw.2.42
 line u:splay -visibility off
   546.8 230.09
@@ -9198,6 +9285,8 @@ line u:splay -visibility off
   522.71 199.18
 endline
 
+point 520.1735 203.4303 station-name -align t -scale xs -text "2/44"
+point 578.1484 186.2329 station-name -align t -scale xs -text "2/43"
 point 560.3 195.55 station -name nw.2.43
 line wall 
   544.8888 231.1408
@@ -9345,6 +9434,7 @@ line border -close on -id Zugzwang-1p6_u_smallblocks_2 -visibility off
   560.65 206.31 560.92 204.39 561.43 202.8
   561.94 201.25 563.58 200.22 564.4 198.85
   565.45 201.44
+  565.45 201.44
 endline
 
 area u:smallblocks 
@@ -9368,6 +9458,7 @@ line border -close on -id Zugzwang-1p6_u_smallblocks_3 -visibility off
   531.1 221.91 531.6212 219.2093 531.6212 218.9893
   531.6212 218.0493 534.4042 219.1381 535.1742 218.948
   537.1374 217.7572
+  537.1374 217.7572
 endline
 
 area u:smallblocks 
@@ -9379,6 +9470,7 @@ endscrap
 
 scrap Zugzwang-1p7 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
+point 541.2058 204.1146 map-connection 
 line u:texture 
   516.7064 236.2474
   516.9309 237.0332 518.8392 240.6253 520.6353 241.8601
@@ -9854,13 +9946,13 @@ line u:splay -visibility off
   511.46 224.32
 endline
 
-point 540.8 207.35 station-name -align t -scale xs -text "2/44"
-point 547.75 211.16 station-name -align t -scale xs -text "2/45"
-point 520.56 222.24 station-name -align t -scale xs -text "2/46"
-point 527.11 255.11 station-name -align t -scale xs -text "2/47"
+point 552.1954 198.7642 station-name -align t -scale xs -text "2/44"
+point 562.1152 211.4038 station-name -align t -scale xs -text "2/45"
+point 498.8949 217.3778 station-name -align t -scale xs -text "2/46"
+point 550.4941 253.8015 station-name -align t -scale xs -text "2/47"
 point 540.8 207.35 station -name nw.2.44
 point 547.75 211.16 station -name nw.2.45
-point 520.56 222.24 station -name nw.2.46
+point 521.774 224.893 station -name nw.2.46
 point 527.11 255.11 station -name nw.2.47
 line rock-border -close on
   538.54 205.9
