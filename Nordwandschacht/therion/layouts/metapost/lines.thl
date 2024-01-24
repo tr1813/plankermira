@@ -15,7 +15,7 @@ layout custom_lines
     	# grey centreline
 		def l_survey_cave_MY (expr P) =
 		  T:=identity;
-		  draw P withpen PenD withcolor (0.7,0.7,0.7);
+		  draw P withpen PenD;
 		enddef;
 
 		# grey centreline

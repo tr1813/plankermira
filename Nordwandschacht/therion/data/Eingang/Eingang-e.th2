@@ -1213,6 +1213,18 @@ line wall
   100.8734 987.7002
 endline
 
+point 347.0085 291.46 station-name -scale xs -text 3/1
+point 374.349 -63.82 station-name -scale xs -text 3/0
+point 333.2985 317.83 station-name -scale xs -text 3/2
+point 284.8285 363.98 station-name -scale xs -text 3/3
+point 278.5485 438.86 station-name -scale xs -text 3/4
+point 230.5685 521.61 station-name -scale xs -text 3/5
+point 164.0385 616.57 station-name -scale xs -text 3/6
+point 148.689 745.39 station-name -scale xs -text 3/7
+point 176.9785 857.2 station-name -scale xs -text 3/8
+point 191.2585 984.45 station-name -scale xs -text 3/9
+point 237.9878 1057.13 station-name -scale xs -text 3/10
+
 point 347.0085 291.46 station -name nw.3.1
 point 374.349 -63.82 station -name nw.3.0
 point 333.2985 317.83 station -name nw.3.2
