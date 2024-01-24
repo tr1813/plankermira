@@ -6630,240 +6630,125 @@ line survey
   833.5 505.39
 endline
 
-point 1039.57 748.86 station-name -align tr -scale xs -text 0
-point 1184.41 745.47 station-name -align tr -scale xs -text 1
-point 1266.03 788.86 station-name -align tr -scale xs -text 2
-point 1389.37 794.29 station-name -align tr -scale xs -text 2.1
-point 1419.09 803.5 station-name -align tr -scale xs -text 2.2
-point 1460.11 833.27 station-name -align tr -scale xs -text 2.3
-point 1375.93 805.87 station-name -align tr -scale xs -text 2.4
-point 1410.79 796.65 station-name -align tr -scale xs -text 2.5
-point 1452.61 802.95 station-name -align tr -scale xs -text 2.6
-point 1434.2 805.47 station-name -align tr -scale xs -text 2.7
-point 1488.44 803.27 station-name -align tr -scale xs -text 2.8
-point 1553.78 786.73 station-name -align tr -scale xs -text 2.9
-point 1633.23 786.42 station-name -align tr -scale xs -text 2.10
-point 1684.69 781.22 station-name -align tr -scale xs -text 2.11
-point 1726.78 772.8 station-name -align tr -scale xs -text 2.12
-point 1375.1 780.67 station-name -align tr -scale xs -text 2.13
-point 1335.66 796.73 station-name -align tr -scale xs -text 2.14
-point 1390.91 859.8 station-name -align tr -scale xs -text 3
-point 1472.52 916.65 station-name -align tr -scale xs -text 4
-point 1524.55 917.36 station-name -align tr -scale xs -text 5
-point 1666.94 835.47 station-name -align tr -scale xs -text 6
-point 1702.17 828.46 station-name -align tr -scale xs -text 6.1
-point 1019.1 748.54 station-name -align tr -scale xs -text 7
-point 1722.58 805.71 station-name -align tr -scale xs -text 6.2
-point 1463.01 936.57 station-name -align tr -scale xs -text 5.1
-point 1390.91 926.97 station-name -align tr -scale xs -text 5.2
-point 1390.91 893.82 station-name -align tr -scale xs -text 5.3
-point 1113.62 738.31 station-name -align tr -scale xs -text 0.1
-point 1113.62 711.85 station-name -align tr -scale xs -text 0.2
-point 1038.72 674.61 station-name -align tr -scale xs -text 0.3
-point 1079.94 658.86 station-name -align tr -scale xs -text 0.4
-point 1079.94 613.66 station-name -align tr -scale xs -text 0.5
-point 1128.8 588.62 station-name -align tr -scale xs -text 0.6
-point 1167.19 584.84 station-name -align tr -scale xs -text 0.7
-point 1046.17 598.23 station-name -align tr -scale xs -text 0.8
-point 1115.43 555.31 station-name -align tr -scale xs -text 0.9
-point 1183.64 581.06 station-name -align tr -scale xs -text 0.10
-point 1021.95 533.9 station-name -align tr -scale xs -text 0.11
-point 1064.62 495.71 station-name -align tr -scale xs -text 0.12
-point 981.58 590.67 station-name -align tr -scale xs -text 0.13
-point 913.29 562.64 station-name -align tr -scale xs -text 0.14
-point 833.5 505.39 station-name -align tr -scale xs -text 0.15
-point 762.49 473.03 station-name -align tr -scale xs -text 0.16
-point 715.99 529.65 station-name -align tr -scale xs -text 10
-point 876.5 607.2 station-name -align tr -scale xs -text 9
-point 977.27 683.27 station-name -align tr -scale xs -text 8
-point 596.33 479.8 station-name -align tr -scale xs -text 11
-point 446.05 350.67 station-name -align tr -scale xs -text 12
-point 528.88 338.54 station-name -align tr -scale xs -text 12.1
-point 323.37 283.35 station-name -align tr -scale xs -text 13
-point 323.37 316.81 station-name -align tr -scale xs -text 14
-point 323.37 529.49 station-name -align tr -scale xs -text 15
-point 516.51 547.68 station-name -align tr -scale xs -text 15.1
-point 323.37 516.73 station-name -align tr -scale xs -text 16
-point 119.19 443.27 station-name -align tr -scale xs -text 17
-point 149.95 496.1 station-name -align tr -scale xs -text 16.1
-point 149.95 514.06 station-name -align tr -scale xs -text 16.2
-point 137.88 443.27 station-name -align tr -scale xs -text 17
-point 137.88 447.2 station-name -align tr -scale xs -text 18
-point 47.31 416.73 station-name -align tr -scale xs -text 19
-point -97.68 398.86 station-name -align tr -scale xs -text 20
-point 18.67 401.06 station-name -align tr -scale xs -text 20.1
-point -227.3 344.06 station-name -align tr -scale xs -text 21
-point -346.2 274.61 station-name -align tr -scale xs -text 22
-point -510.54 220.43 station-name -align tr -scale xs -text 23
-point -578.46 199.25 station-name -align tr -scale xs -text 23.1
-point -609.19 184.37 station-name -align tr -scale xs -text 23.2
-point -574.06 167.83 station-name -align tr -scale xs -text 23.3
-point -595.75 152.56 station-name -align tr -scale xs -text 23.4
-point -680.71 166.73 station-name -align tr -scale xs -text 23.5
-point -756.97 125.47 station-name -align tr -scale xs -text 24
-point -826.37 90.98 station-name -align tr -scale xs -text 25
-point -826.37 70.59 station-name -align tr -scale xs -text 25.1
-point -997.94 87.76 station-name -align tr -scale xs -text 26
-point -1058.78 73.03 station-name -align tr -scale xs -text 27
-point -1194.34 -4.61 station-name -align tr -scale xs -text 28
-point -1259.83 -39.33 station-name -align tr -scale xs -text 29
-point -1276.64 -83.11 station-name -align tr -scale xs -text 30
-point -866.9 49.96 station-name -align tr -scale xs -text 31
-point -779.35 9.49 station-name -align tr -scale xs -text 32
-point -722.9 -25.0 station-name -align tr -scale xs -text 33
-point -682.13 -62.17 station-name -align tr -scale xs -text 34
-point -704.53 -71.93 station-name -align tr -scale xs -text 35
-point -735.47 -109.96 station-name -align tr -scale xs -text 36
-point -725.52 -109.96 station-name -align tr -scale xs -text 36
-point -753.91 -107.44 station-name -align tr -scale xs -text 37
-point -789.48 -117.2 station-name -align tr -scale xs -text 38
-point -789.48 -138.46 station-name -align tr -scale xs -text 39
-point -775.15 -130.67 station-name -align tr -scale xs -text 40
-point -767.52 -148.86 station-name -align tr -scale xs -text 41
-point -735.47 -142.24 station-name -align tr -scale xs -text 42
-point -690.77 -199.02 station-name -align tr -scale xs -text 43
-point -553.62 -69.41 station-name -align tr -scale xs -text 45
-point -527.2 -63.27 station-name -align tr -scale xs -text 46
-point -467.87 -50.2 station-name -align tr -scale xs -text 47
-point -378.06 -78.7 station-name -align tr -scale xs -text 48
-point -378.06 -41.3 station-name -align tr -scale xs -text 49
-point -464.29 -27.05 station-name -align tr -scale xs -text 50
-point -587.98 -2.95 station-name -align tr -scale xs -text 51
-point -676.93 44.13 station-name -align tr -scale xs -text 52
-point -568.94 86.18 station-name -align tr -scale xs -text 53
-point -488.69 94.45 station-name -align tr -scale xs -text 54
-point -369.21 167.2 station-name -align tr -scale xs -text 55
-point -173.18 299.25 station-name -align tr -scale xs -text 56
-point -109.06 317.05 station-name -align tr -scale xs -text 56.1
-point -7.18 338.62 station-name -align tr -scale xs -text 57
-point 119.19 433.98 station-name -align tr -scale xs -text 58
-point 119.19 449.09 station-name -align tr -scale xs -text 59
-point 406.14 532.8 station-name -align tr -scale xs -text 15.4
-point 406.14 531.38 station-name -align tr -scale xs -text 15.5
-point 568.71 518.07 station-name -align tr -scale xs -text 15.2
-point 736.16 463.74 station-name -align tr -scale xs -text 15.3
+
 endscrap
 
 
 scrap MarieGenevieveSaal-1e -projection extended -scale [0.0 0.0 500 1000.0 -250 -500 250 500]
 
-line wall -clip off -outline none -subtype blocks
-  421.1088 510.5268
-  422.7269 510.5268 461.5071 519.5244 464.7433 517.9063
-  467.9795 516.2882 505.2125 512.8067 508.8532 508.7614
-  512.4939 504.7162 529.1165 505.6725 531.1391 504.0544
-  533.1617 502.4363 562.2874 511.3358 575.2322 508.0996
-  588.1769 504.8634 646.4283 505.6725 646.4283 505.6725
-endline
+point 1039.57 748.86 station-name -align tr -scale xs -text 1/0
+point 1184.41 745.47 station-name -align tr -scale xs -text 1/1
+point 1266.03 788.86 station-name -align tr -scale xs -text 1/2
+point 1389.37 794.29 station-name -align tr -scale xs -text 1/2.1
+point 1419.09 803.5 station-name -align tr -scale xs -text 1/2.2
+point 1460.11 833.27 station-name -align tr -scale xs -text 1/2.3
+point 1375.93 805.87 station-name -align tr -scale xs -text 1/2.4
+point 1410.79 796.65 station-name -align tr -scale xs -text 1/2.5
+point 1452.61 802.95 station-name -align tr -scale xs -text 1/2.6
+point 1434.2 805.47 station-name -align tr -scale xs -text 1/2.7
+point 1488.44 803.27 station-name -align tr -scale xs -text 1/2.8
+point 1553.78 786.73 station-name -align tr -scale xs -text 1/2.9
+point 1633.23 786.42 station-name -align tr -scale xs -text 1/2.10
+point 1684.69 781.22 station-name -align tr -scale xs -text 1/2.11
+point 1726.78 772.8 station-name -align tr -scale xs -text 1/2.12
+point 1375.1 780.67 station-name -align tr -scale xs -text 1/2.13
+point 1335.66 796.73 station-name -align tr -scale xs -text 1/2.14
+point 1390.91 859.8 station-name -align tr -scale xs -text 1/3
+point 1472.52 916.65 station-name -align tr -scale xs -text 1/4
+point 1524.55 917.36 station-name -align tr -scale xs -text 1/5
+point 1666.94 835.47 station-name -align tr -scale xs -text 1/6
+point 1702.17 828.46 station-name -align tr -scale xs -text 1/6.1
+point 1019.1 748.54 station-name -align tr -scale xs -text 1/7
+point 1722.58 805.71 station-name -align tr -scale xs -text 1/6.2
+point 1463.01 936.57 station-name -align tr -scale xs -text 1/5.1
+point 1390.91 926.97 station-name -align tr -scale xs -text 1/5.2
+point 1390.91 893.82 station-name -align tr -scale xs -text 1/5.3
+point 1113.62 738.31 station-name -align tr -scale xs -text 1/0.1
+point 1113.62 711.85 station-name -align tr -scale xs -text 1/0.2
+point 1038.72 674.61 station-name -align tr -scale xs -text 1/0.3
+point 1079.94 658.86 station-name -align tr -scale xs -text 1/0.4
+point 1079.94 613.66 station-name -align tr -scale xs -text 1/0.5
+point 1128.8 588.62 station-name -align tr -scale xs -text 1/0.6
+point 1167.19 584.84 station-name -align tr -scale xs -text 1/0.7
+point 1046.17 598.23 station-name -align tr -scale xs -text 1/0.8
+point 1115.43 555.31 station-name -align tr -scale xs -text 1/0.9
+point 1183.64 581.06 station-name -align tr -scale xs -text 1/0.10
+point 1021.95 533.9 station-name -align tr -scale xs -text 1/0.11
+point 1064.62 495.71 station-name -align tr -scale xs -text 1/0.12
+point 981.58 590.67 station-name -align tr -scale xs -text 1/0.13
+point 913.29 562.64 station-name -align tr -scale xs -text 1/0.14
+point 833.5 505.39 station-name -align tr -scale xs -text 1/0.15
+point 762.49 473.03 station-name -align tr -scale xs -text 1/0.16
+point 715.99 529.65 station-name -align tr -scale xs -text 1/10
+point 876.5 607.2 station-name -align tr -scale xs -text 1/9
+point 977.27 683.27 station-name -align tr -scale xs -text 1/8
+point 596.33 479.8 station-name -align tr -scale xs -text 1/11
+point 446.05 350.67 station-name -align tr -scale xs -text 1/12
+point 528.88 338.54 station-name -align tr -scale xs -text 1/12.1
+point 323.37 283.35 station-name -align tr -scale xs -text 1/13
+point 323.37 316.81 station-name -align tr -scale xs -text 1/14
+point 323.37 529.49 station-name -align tr -scale xs -text 1/15
+point 516.51 547.68 station-name -align tr -scale xs -text 1/15.1
+point 323.37 516.73 station-name -align tr -scale xs -text 1/16
+point 119.19 443.27 station-name -align tr -scale xs -text 1/17
+point 149.95 496.1 station-name -align tr -scale xs -text 1/16.1
+point 149.95 514.06 station-name -align tr -scale xs -text 1/16.2
+point 137.88 443.27 station-name -align tr -scale xs -text 1/17
+point 137.88 447.2 station-name -align tr -scale xs -text 1/18
+point 47.31 416.73 station-name -align tr -scale xs -text 1/19
+point -97.68 398.86 station-name -align tr -scale xs -text 1/20
+point 18.67 401.06 station-name -align tr -scale xs -text 1/20.1
+point -227.3 344.06 station-name -align tr -scale xs -text 1/21
+point -346.2 274.61 station-name -align tr -scale xs -text 1/22
+point -510.54 220.43 station-name -align tr -scale xs -text 1/23
+point -578.46 199.25 station-name -align tr -scale xs -text 1/23.1
+point -609.19 184.37 station-name -align tr -scale xs -text 1/23.2
+point -574.06 167.83 station-name -align tr -scale xs -text 1/23.3
+point -595.75 152.56 station-name -align tr -scale xs -text 1/23.4
+point -680.71 166.73 station-name -align tr -scale xs -text 1/23.5
+point -756.97 125.47 station-name -align tr -scale xs -text 1/24
+point -826.37 90.98 station-name -align tr -scale xs -text 1/25
+point -826.37 70.59 station-name -align tr -scale xs -text 1/25.1
+point -997.94 87.76 station-name -align tr -scale xs -text 1/26
+point -1058.78 73.03 station-name -align tr -scale xs -text 1/27
+point -1194.34 -4.61 station-name -align tr -scale xs -text 1/28
+point -1259.83 -39.33 station-name -align tr -scale xs -text 1/29
+point -1276.64 -83.11 station-name -align tr -scale xs -text 1/30
+point -866.9 49.96 station-name -align tr -scale xs -text 1/31
+point -779.35 9.49 station-name -align tr -scale xs -text 1/32
+point -722.9 -25.0 station-name -align tr -scale xs -text 1/33
+point -682.13 -62.17 station-name -align tr -scale xs -text 1/34
+point -704.53 -71.93 station-name -align tr -scale xs -text 1/35
+point -735.47 -109.96 station-name -align tr -scale xs -text 1/36
+point -725.52 -109.96 station-name -align tr -scale xs -text 1/36
+point -753.91 -107.44 station-name -align tr -scale xs -text 1/37
+point -789.48 -117.2 station-name -align tr -scale xs -text 1/38
+point -789.48 -138.46 station-name -align tr -scale xs -text 1/39
+point -775.15 -130.67 station-name -align tr -scale xs -text 1/40
+point -767.52 -148.86 station-name -align tr -scale xs -text 1/41
+point -735.47 -142.24 station-name -align tr -scale xs -text 1/42
+point -690.77 -199.02 station-name -align tr -scale xs -text 1/43
+point -553.62 -69.41 station-name -align tr -scale xs -text 1/45
+point -527.2 -63.27 station-name -align tr -scale xs -text 1/46
+point -467.87 -50.2 station-name -align tr -scale xs -text 1/47
+point -378.06 -78.7 station-name -align tr -scale xs -text 1/48
+point -378.06 -41.3 station-name -align tr -scale xs -text 1/49
+point -464.29 -27.05 station-name -align tr -scale xs -text 1/50
+point -587.98 -2.95 station-name -align tr -scale xs -text 1/51
+point -676.93 44.13 station-name -align tr -scale xs -text 1/52
+point -568.94 86.18 station-name -align tr -scale xs -text 1/53
+point -488.69 94.45 station-name -align tr -scale xs -text 1/54
+point -369.21 167.2 station-name -align tr -scale xs -text 1/55
+point -173.18 299.25 station-name -align tr -scale xs -text 1/56
+point -109.06 317.05 station-name -align tr -scale xs -text 1/56.1
+point -7.18 338.62 station-name -align tr -scale xs -text 1/57
+point 119.19 433.98 station-name -align tr -scale xs -text 1/58
+point 119.19 449.09 station-name -align tr -scale xs -text 1/59
+point 406.14 532.8 station-name -align tr -scale xs -text 1/15.4
+point 406.14 531.38 station-name -align tr -scale xs -text 1/15.5
+point 568.71 518.07 station-name -align tr -scale xs -text 1/15.2
+point 736.16 463.74 station-name -align tr -scale xs -text 1/15.3
 
-line rock-border -close on
-  414.6364 507.2906
-  414.6364 507.2906 420.2997 509.3132 418.6816 512.5494
-  417.0635 515.7856 416.2545 517.8082 416.2545 517.8082
-  416.2545 517.8082 404.9278 519.0218 402.5007 519.8308
-  400.0736 520.6398 381.061 521.0444 374.9931 522.2579
-  368.9253 523.4715 357.1941 526.3032 357.1941 526.3032
-  357.1941 526.3032 349.9127 527.1122 348.2946 527.1122
-  346.6765 527.1122 338.586 529.5394 338.586 529.5394
-  325.6413 523.4715
-  324.4277 511.3358
-  324.4277 511.3358 355.576 504.0544 357.5986 503.6499
-  359.6212 503.2453 388.7469 502.4363 390.7695 502.8408
-  392.7921 503.2453 407.7595 495.9639 407.7595 495.9639
-  414.6364 507.2906
-endline
-
-line rock-border -close on
-  1504.8268 906.1506
-  1504.8268 906.1506 1515.7489 915.4546 1516.9625 916.2637
-  1518.1761 917.0727 1523.4349 913.8365 1523.4349 913.8365
-  1523.4349 913.8365 1529.3005 911.8139 1529.705 911.0049
-  1530.1095 910.1958 1530.514 909.1845 1530.1095 905.5438
-  1529.705 901.9031 1528.2891 897.4533 1527.4801 896.2398
-  1526.6711 895.0262 1517.5693 897.0488 1516.3557 897.2511
-  1515.1421 897.4533 1509.8833 898.6669 1509.2765 899.4759
-  1508.6698 900.285 1504.8268 906.1506 1504.8268 906.1506
-endline
-
-line rock-border -close on
-  1462.7564 904.937
-  1470.6446 906.3528
-  1470.6446 906.3528 1474.2853 908.9823 1474.2853 909.9936
-  1474.2853 911.0049 1476.7124 918.2863 1476.7124 920.7134
-  1476.7124 923.1406 1476.1056 924.7587 1475.0943 926.7813
-  1474.083 928.8039 1465.9926 937.5011 1465.9926 937.5011
-  1459.5202 935.6808
-  1459.5202 935.6808 1454.0591 932.4446 1454.0591 929.6129
-  1454.0591 926.7813 1449.8116 920.9157 1449.4071 919.9044
-  1449.0026 918.8931 1446.7777 911.2071 1446.7777 911.2071
-  1451.0252 903.5212
-  1462.7564 904.937
-endline
-
-line u:texture 
-  1461.5428 1009.7086
-  1461.5428 1009.7086 1467.6106 992.7186 1469.2287 989.4824
-  1470.8468 986.2462 1473.274 984.6281 1474.083 978.9648
-  1474.8921 973.3015 1472.4649 972.0879 1474.083 967.2336
-  1475.7011 962.3793 1478.9373 950.2436 1478.9373 947.8165
-endline
-
-line u:texture 
-  1508.4675 1015.7764
-  1508.4675 1013.3493 1507.2539 1006.8769 1507.2539 1001.6181
-  1507.2539 996.3593 1506.0404 985.0326 1505.2313 978.5603
-  1504.4223 972.0879 1501.5906 968.0427 1503.2087 962.7838
-  1504.8268 957.525 1508.063 947.412 1508.063 945.7939
-endline
-
-line u:texture 
-  1639.1138 846.283
-  1639.1138 846.283 1642.8074 855.2632 1643.8787 860.984
-  1644.95 866.7048 1641.8764 878.4325 1641.3043 882.151
-  1640.7323 885.8696 1635.2975 901.3158 1635.2975 901.3158
-endline
-
-line wall -subtype clay
-  1717.5784 805.5969
-  1736.8538 806.278
-endline
-
-point 1713.0241 930.8046 continuation 
-point 1656.0227 878.0183 label -align tr -scale l -text C6
-line wall -subtype presumed
-  1705.3538 939.011
-  1672.8239 938.6106
-endline
-
-line wall -subtype presumed
-  1673.3553 921.8169
-  1705.5868 921.8159
-endline
-
-line wall -close on -outline in -subtype blocks
-  1019.6011 664.4479
-  1017.5784 663.4366 1006.454 659.5936 1001.1952 656.1552
-  995.9364 652.7167 989.8686 649.076 985.2166 650.4918
-  980.5646 651.9077 981.7781 652.7167 981.7781 653.9303
-  981.7781 655.1439 981.3736 663.6389 981.5759 667.6841
-  981.7781 671.7293 987.6437 673.7519 992.9025 677.5949
-  998.1613 681.4379 1002.0043 682.2469 1005.0382 684.0673
-  1008.0721 685.8876 1012.7242 687.9103 1012.7242 687.9103
-  1012.7242 687.9103 1029.7141 693.169 1031.3322 693.9781
-  1032.9503 694.7871 1049.5358 706.5183 1054.1878 708.3387
-  1058.8398 710.159 1077.2456 719.0586 1082.3022 721.688
-  1087.3587 724.3174 1092.4153 724.5196 1094.0333 724.5196
-  1095.6514 724.5196 1093.8311 721.4857 1093.8311 719.8676
-  1093.8311 718.2495 1082.5044 706.5183 1081.4931 704.9002
-  1080.4818 703.2821 1072.9981 700.6527 1071.7846 699.8437
-  1070.571 699.0346 1051.3561 686.0899 1049.738 684.6741
-  1048.1199 683.2582 1039.2205 681.8424 1036.1866 680.022
-  1033.1526 678.2017 1029.3096 671.3248 1029.3096 671.3248
-  1029.3096 671.3248 1021.6237 665.4592 1019.6011 664.4479
-endline
-
-point 1166.1898 522.0252 label -align tr -scale xl -text Seitenkammer
-point 1207.6033 584.8579 breakdown-choke 
 line wall 
   1246.7409 1182.0355
   1246.7409 1170.7088 1238.6504 1125.4022 1238.6504 1115.6937
@@ -7216,107 +7101,107 @@ line wall
   326.087 748.2838 326.087 771.1671 326.087 771.1671
 endline
 
-point 1039.57 748.86 station -name 0
-point 1184.41 745.47 station -name 1
-point 1266.03 788.86 station -name 2
-point 1389.37 794.29 station -name 2.1
-point 1419.09 803.5 station -name 2.2
-point 1335.66 796.73 station -name 2.14
-point 1390.91 859.8 station -name 3
-point 1472.52 916.65 station -name 4
-point 1524.55 917.36 station -name 5
-point 1666.94 835.47 station -name 6
-point 1702.17 828.46 station -name 6.1
-point 1019.1 748.54 station -name 7
-point 1722.58 805.71 station -name 6.2
-point 1463.01 936.57 station -name 5.1
-point 1390.91 926.97 station -name 5.2
-point 1390.91 893.82 station -name 5.3
-point 1113.62 738.31 station -name 0.1
-point 1113.62 711.85 station -name 0.2
-point 1038.72 674.61 station -name 0.3
-point 1079.94 658.86 station -name 0.4
-point 1079.94 613.66 station -name 0.5
-point 1128.8 588.62 station -name 0.6
-point 1167.19 584.84 station -name 0.7
-point 1046.17 598.23 station -name 0.8
-point 1115.43 555.31 station -name 0.9
-point 1183.64 581.06 station -name 0.10
-point 1021.95 533.9 station -name 0.11
-point 1064.62 495.71 station -name 0.12
-point 981.58 590.67 station -name 0.13
-point 913.29 562.64 station -name 0.14
-point 833.5 505.39 station -name 0.15
-point 762.49 473.03 station -name 0.16
-point 715.99 529.65 station -name 10
-point 876.5 607.2 station -name 9
-point 977.27 683.27 station -name 8
-point 596.33 479.8 station -name 11
-point 446.05 350.67 station -name 12
-point 528.88 338.54 station -name 12.1
-point 323.37 283.35 station -name 13
-point 323.37 316.81 station -name 14
-point 323.37 529.49 station -name 15
-point 516.51 547.68 station -name 15.1
-point 323.37 516.73 station -name 16
-point 119.19 443.27 station -name 17
-point 149.95 496.1 station -name 16.1
-point 149.95 514.06 station -name 16.2
-point 137.88 443.27 station -name 17
-point 137.88 447.2 station -name 18
-point 47.31 416.73 station -name 19
-point -97.68 398.86 station -name 20
-point 18.67 401.06 station -name 20.1
-point -227.3 344.06 station -name 21
-point -346.2 274.61 station -name 22
-point -510.54 220.43 station -name 23
-point -578.46 199.25 station -name 23.1
-point -609.19 184.37 station -name 23.2
-point -574.06 167.83 station -name 23.3
-point -595.75 152.56 station -name 23.4
-point -680.71 166.73 station -name 23.5
-point -756.97 125.47 station -name 24
-point -826.37 90.98 station -name 25
-point -826.37 70.59 station -name 25.1
-point -997.94 87.76 station -name 26
-point -1058.78 73.03 station -name 27
-point -1194.34 -4.61 station -name 28
-point -1259.83 -39.33 station -name 29
-point -1276.64 -83.11 station -name 30
-point -866.9 49.96 station -name 31
-point -779.35 9.49 station -name 32
-point -722.9 -25.0 station -name 33
-point -682.13 -62.17 station -name 34
-point -704.53 -71.93 station -name 35
-point -735.47 -109.96 station -name 36
-point -725.52 -109.96 station -name 36
-point -753.91 -107.44 station -name 37
-point -789.48 -117.2 station -name 38
-point -789.48 -138.46 station -name 39
-point -775.15 -130.67 station -name 40
-point -767.52 -148.86 station -name 41
-point -735.47 -142.24 station -name 42
-point -690.77 -199.02 station -name 43
-point -553.62 -69.41 station -name 45
-point -527.2 -63.27 station -name 46
-point -467.87 -50.2 station -name 47
-point -378.06 -78.7 station -name 48
-point -378.06 -41.3 station -name 49
-point -464.29 -27.05 station -name 50
-point -587.98 -2.95 station -name 51
-point -676.93 44.13 station -name 52
-point -568.94 86.18 station -name 53
-point -488.69 94.45 station -name 54
-point -369.21 167.2 station -name 55
-point -173.18 299.25 station -name 56
-point -109.06 317.05 station -name 56.1
-point -7.18 338.62 station -name 57
-point 119.19 433.98 station -name 58
-point 119.19 449.09 station -name 59
-point 406.14 532.8 station -name 15.4
-point 406.14 531.38 station -name 15.5
-point 568.71 518.07 station -name 15.2
-point 736.16 463.74 station -name 15.3
+point 1039.57 748.86 station -name  nw.1.0
+point 1184.41 745.47 station -name  nw.1.1
+point 1266.03 788.86 station -name  nw.1.2
+point 1389.37 794.29 station -name  nw.1.2.1
+point 1419.09 803.5 station -name  nw.1.2.2
+point 1335.66 796.73 station -name  nw.1.2.14
+point 1390.91 859.8 station -name  nw.1.3
+point 1472.52 916.65 station -name  nw.1.4
+point 1524.55 917.36 station -name  nw.1.5
+point 1666.94 835.47 station -name  nw.1.6
+point 1702.17 828.46 station -name  nw.1.6.1
+point 1019.1 748.54 station -name  nw.1.7
+point 1722.58 805.71 station -name  nw.1.6.2
+point 1463.01 936.57 station -name  nw.1.5.1
+point 1390.91 926.97 station -name  nw.1.5.2
+point 1390.91 893.82 station -name  nw.1.5.3
+point 1113.62 738.31 station -name  nw.1.0.1
+point 1113.62 711.85 station -name  nw.1.0.2
+point 1038.72 674.61 station -name  nw.1.0.3
+point 1079.94 658.86 station -name  nw.1.0.4
+point 1079.94 613.66 station -name  nw.1.0.5
+point 1128.8 588.62 station -name  nw.1.0.6
+point 1167.19 584.84 station -name  nw.1.0.7
+point 1046.17 598.23 station -name  nw.1.0.8
+point 1115.43 555.31 station -name  nw.1.0.9
+point 1183.64 581.06 station -name  nw.1.0.10
+point 1021.95 533.9 station -name  nw.1.0.11
+point 1064.62 495.71 station -name  nw.1.0.12
+point 981.58 590.67 station -name  nw.1.0.13
+point 913.29 562.64 station -name  nw.1.0.14
+point 833.5 505.39 station -name  nw.1.0.15
+point 762.49 473.03 station -name  nw.1.0.16
+point 715.99 529.65 station -name  nw.1.10
+point 876.5 607.2 station -name  nw.1.9
+point 977.27 683.27 station -name  nw.1.8
+point 596.33 479.8 station -name  nw.1.11
+point 446.05 350.67 station -name  nw.1.12
+point 528.88 338.54 station -name  nw.1.12.1
+point 323.37 283.35 station -name  nw.1.13
+point 323.37 316.81 station -name  nw.1.14
+point 323.37 529.49 station -name  nw.1.15
+point 516.51 547.68 station -name  nw.1.15.1
+point 323.37 516.73 station -name  nw.1.16
+point 119.19 443.27 station -name  nw.1.17
+point 149.95 496.1 station -name  nw.1.16.1
+point 149.95 514.06 station -name  nw.1.16.2
+point 137.88 443.27 station -name  nw.1.17
+point 137.88 447.2 station -name  nw.1.18
+point 47.31 416.73 station -name  nw.1.19
+point -97.68 398.86 station -name  nw.1.20
+point 18.67 401.06 station -name  nw.1.20.1
+point -227.3 344.06 station -name  nw.1.21
+point -346.2 274.61 station -name  nw.1.22
+point -510.54 220.43 station -name  nw.1.23
+point -578.46 199.25 station -name  nw.1.23.1
+point -609.19 184.37 station -name  nw.1.23.2
+point -574.06 167.83 station -name  nw.1.23.3
+point -595.75 152.56 station -name  nw.1.23.4
+point -680.71 166.73 station -name  nw.1.23.5
+point -756.97 125.47 station -name  nw.1.24
+point -826.37 90.98 station -name  nw.1.25
+point -826.37 70.59 station -name  nw.1.25.1
+point -997.94 87.76 station -name  nw.1.26
+point -1058.78 73.03 station -name  nw.1.27
+point -1194.34 -4.61 station -name  nw.1.28
+point -1259.83 -39.33 station -name  nw.1.29
+point -1276.64 -83.11 station -name  nw.1.30
+point -866.9 49.96 station -name  nw.1.31
+point -779.35 9.49 station -name  nw.1.32
+point -722.9 -25.0 station -name  nw.1.33
+point -682.13 -62.17 station -name  nw.1.34
+point -704.53 -71.93 station -name  nw.1.35
+point -735.47 -109.96 station -name  nw.1.36
+point -725.52 -109.96 station -name  nw.1.36
+point -753.91 -107.44 station -name  nw.1.37
+point -789.48 -117.2 station -name  nw.1.38
+point -789.48 -138.46 station -name  nw.1.39
+point -775.15 -130.67 station -name  nw.1.40
+point -767.52 -148.86 station -name  nw.1.41
+point -735.47 -142.24 station -name  nw.1.42
+point -690.77 -199.02 station -name  nw.1.43
+point -553.62 -69.41 station -name  nw.1.45
+point -527.2 -63.27 station -name  nw.1.46
+point -467.87 -50.2 station -name  nw.1.47
+point -378.06 -78.7 station -name  nw.1.48
+point -378.06 -41.3 station -name  nw.1.49
+point -464.29 -27.05 station -name  nw.1.50
+point -587.98 -2.95 station -name  nw.1.51
+point -676.93 44.13 station -name  nw.1.52
+point -568.94 86.18 station -name  nw.1.53
+point -488.69 94.45 station -name  nw.1.54
+point -369.21 167.2 station -name  nw.1.55
+point -173.18 299.25 station -name  nw.1.56
+point -109.06 317.05 station -name  nw.1.56.1
+point -7.18 338.62 station -name  nw.1.57
+point 119.19 433.98 station -name  nw.1.58
+point 119.19 449.09 station -name  nw.1.59
+point 406.14 532.8 station -name  nw.1.15.4
+point 406.14 531.38 station -name  nw.1.15.5
+point 568.71 518.07 station -name  nw.1.15.2
+point 736.16 463.74 station -name  nw.1.15.3
 endscrap
 
 
@@ -7474,16 +7359,16 @@ line wall -subtype clay
   1585.3833 784.3249 1600.4005 784.468 1600.4005 784.468
 endline
 
-point 1460.11 833.27 station -name 2.3
-point 1375.93 805.87 station -name 2.4
-point 1410.79 796.65 station -name 2.5
-point 1452.61 802.95 station -name 2.6
-point 1434.2 805.47 station -name 2.7
-point 1488.44 803.27 station -name 2.8
-point 1553.78 786.73 station -name 2.9
-point 1633.23 786.42 station -name 2.10
-point 1684.69 781.22 station -name 2.11
-point 1726.78 772.8 station -name 2.12
-point 1375.1 780.67 station -name 2.13
+point 1460.11 833.27 station -name  nw.1.2.3
+point 1375.93 805.87 station -name  nw.1.2.4
+point 1410.79 796.65 station -name  nw.1.2.5
+point 1452.61 802.95 station -name  nw.1.2.6
+point 1434.2 805.47 station -name  nw.1.2.7
+point 1488.44 803.27 station -name  nw.1.2.8
+point 1553.78 786.73 station -name  nw.1.2.9
+point 1633.23 786.42 station -name  nw.1.2.10
+point 1684.69 781.22 station -name  nw.1.2.11
+point 1726.78 772.8 station -name  nw.1.2.12
+point 1375.1 780.67 station -name  nw.1.2.13
 endscrap
 

@@ -4,11 +4,13 @@ survey Nordwandschacht
     input "./Zugzwang/Zugzwang.th"
     #input "./Zwisch/Zwisch.th"
 
-    equate 0@Zugzwang 2.12@MarieGenevieveSaal
-    equate 0@MarieGenevieveSaal 0@Eingang
+    equate nw.2.0@Zugzwang nw.1.2.12@MarieGenevieveSaal
+    equate nw.1.0@MarieGenevieveSaal nw.3.0@Eingang
+
+    join Zugzwang-1p0@Zugzwang MarieGenevieveSaal-4p@MarieGenevieveSaal
 
     map m-all-p -projection plan
-        m-all-p@Eingang
+        m-all-p@Eingang [-20 0 m] none
         m-all-p@MarieGenevieveSaal
         m-all-p@Zugzwang
 
@@ -16,7 +18,7 @@ survey Nordwandschacht
     endmap
 
     map m-all-e -projection extended
-        m-all-e@Eingang
+        m-all-e@Eingang 
         m-all-e@MarieGenevieveSaal
         m-all-e@Zugzwang
 
@@ -25,9 +27,9 @@ survey Nordwandschacht
 
     centreline 
         cs UTM33N
-        fix E10@Eingang 425221 5276230 2092
-        station E10@Eingang entrance
+        fix nw.3.10@Eingang 425221 5276230 2092
+        station nw.3.10@Eingang entrance
     endcentreline
 
-    #input "./dem.th"
+    input "./dem.th"
 endsurvey
