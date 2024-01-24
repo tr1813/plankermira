@@ -18,7 +18,7 @@ source
     endmap
 endsource
 
-#export model -o out/Nordwandschacht.lox
+export model -o out/Nordwandschacht.3d
 export model -o out/Nordwandschacht.kml
 select m-local-e
 

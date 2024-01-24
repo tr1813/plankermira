@@ -822,8 +822,8 @@ line contour
   229.582 599.426 232.192 600.092 232.812 601.572
 endline
 
-point 226.1735 625.2607 station-name -align t -scale xs -text "2/8"
-point 181.8818 629.0707 station-name -align t -scale xs -text "2/9"
+point 226.173 625.261 station-name -align t -scale xs -text "2/8"
+point 181.882 629.071 station-name -align t -scale xs -text "2/9"
 line wall 
   188.216 619.5127
   188.8646 619.5626 188.163 623.8965 190.9341 627.9753
@@ -1285,7 +1285,7 @@ endscrap
 
 scrap Zugzwang-1p2 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
-point 156.2974 644.1818 label -align tr -scale xs -text "<bf>P33"
+point 156.297 644.182 label -align tr -scale xs -text "<bf>P33"
 line u:texture 
   144.1917 604.4149
   146.7169 609.2128
@@ -1610,8 +1610,8 @@ line u:splay -visibility off
   285.15 605.35
 endline
 
-point 203.8285 621.8033 station-name -align t -scale xs -text "2/10"
-point 187.5832 606.9336 station-name -align t -scale xs -text "2/11"
+point 203.828 621.803 station-name -align t -scale xs -text "2/10"
+point 187.583 606.934 station-name -align t -scale xs -text "2/11"
 point 198.55 633.67 station -name nw.2.10
 point 184.17 620.11 station -name nw.2.11
 line border -close on -id Zugzwang-1p2_u_smallblocks_1 -visibility off
@@ -1639,11 +1639,11 @@ endscrap
 
 scrap Zugzwang-1p3 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
-point 243.5921 690.3183 continuation 
-point 177.1372 682.4603 continuation 
-point 128.0821 504.1983 continuation 
-point 68.0261 523.2816 label -align tr -text "dunkles Loch"
-point 182.3009 621.2795 map-connection 
+point 243.592 690.318 continuation 
+point 177.137 682.46 continuation 
+point 128.082 504.198 continuation 
+point 68.0261 523.282 label -align tr -text "dunkles Loch"
+point 182.301 621.279 map-connection 
 point 1066.81 869.323 section -scrap Zugzwang-xx0
 line section -direction both
   436.8841 794.3925
@@ -2292,7 +2292,7 @@ area u:smallblocks -attr scale 1.45
   Zugzwang-1p3_u_smallblocks_9
 endarea
 
-point 181.8522 627.9026 label -align l -text "<bf>P33"
+point 181.852 627.903 label -align l -text "<bf>P33"
 line contour 
   243.0485 654.6912
   239.2385 655.3262 228.2846 660.4062 211.457 651.9924
@@ -3282,12 +3282,12 @@ line floor-step
   240.1427 635.7764 240.2427 645.3044 244.7214 651.9697
 endline
 
-point 263.8292 618.8045 station-name -align t -scale xs -text "2/17"
-point 292.561 647.6288 station-name -align t -scale xs -text "2/16"
-point 172.0465 613.5992 station-name -align t -scale xs -text "2/11"
-point 234.0413 429.6729 station-name -align t -scale xs -text "2/14"
+point 263.829 618.804 station-name -align t -scale xs -text "2/17"
+point 292.561 647.629 station-name -align t -scale xs -text "2/16"
+point 172.047 613.599 station-name -align t -scale xs -text "2/11"
+point 234.041 429.673 station-name -align t -scale xs -text "2/14"
 point 219.592 528.049 station-name -align t -scale xs -text "2/13"
-point 247.7752 590.2512 station-name -align t -scale xs -text "2/12"
+point 247.775 590.251 station-name -align t -scale xs -text "2/12"
 point 272.585 631.826 station -name nw.2.17
 point 293.01 640.22 station -name nw.2.16
 point 184.17 620.11 station -name nw.2.11
@@ -5106,14 +5106,14 @@ line u:splay -visibility off
   519.81 514.92
 endline
 
-point 360.018 560.9467 station-name -align t -scale xs -text "2/15"
-point 454.2314 572.8446 station-name -align t -scale xs -text "2/18"
-point 554.5126 641.6855 station-name -align t -scale xs -text "2/19"
-point 623.1486 607.9012 station-name -align t -scale xs -text "2/20"
-point 551.8311 740.8208 station-name -align t -scale xs -text "2/21"
-point 602.9495 860.9119 station-name -align t -scale xs -text "2/22"
-point 639.2363 923.6032 station-name -align t -scale xs -text "2/23"
-point 472.1323 953.1372 station-name -align t -scale xs -text "2/24"
+point 360.018 560.947 station-name -align t -scale xs -text "2/15"
+point 454.231 572.845 station-name -align t -scale xs -text "2/18"
+point 554.513 641.686 station-name -align t -scale xs -text "2/19"
+point 623.149 607.901 station-name -align t -scale xs -text "2/20"
+point 551.831 740.821 station-name -align t -scale xs -text "2/21"
+point 602.949 860.912 station-name -align t -scale xs -text "2/22"
+point 639.236 923.603 station-name -align t -scale xs -text "2/23"
+point 472.132 953.137 station-name -align t -scale xs -text "2/24"
 point 349.41 558.87 station -name nw.2.15
 point 468.6 564.65 station -name nw.2.18
 point 542.4 637.43 station -name nw.2.19
@@ -6322,9 +6322,9 @@ endscrap
 
 scrap Zugzwang-1p8 -projection plan -scale [0 0 96 0 0 0 500 0 inch]
 
-point 586.3669 175.5079 station-name -align t -scale xs -text "2/31"
-point 673.2934 153.2132 station-name -align t -scale xs -text "2/33"
-point 620.7994 156.7804 station-name -align t -scale xs -text "2/32"
+point 586.367 175.508 station-name -align t -scale xs -text "2/31"
+point 673.293 153.213 station-name -align t -scale xs -text "2/33"
+point 620.799 156.78 station-name -align t -scale xs -text "2/32"
 point 656.517 157.64 station -name nw.2.33
 point 623.26 178.45 station -name nw.2.32
 line contour 
@@ -7799,12 +7799,12 @@ line u:splay -visibility off
   586.7 227.68
 endline
 
-point 529.5826 452.7874 station-name -align t -scale xs -text "2/25"
-point 450.2844 399.3028 station-name -align t -scale xs -text "2/26"
-point 536.0162 386.7232 station-name -align t -scale xs -text "2/27"
-point 568.041 379.2086 station-name -align t -scale xs -text "2/28"
-point 639.0162 298.6581 station-name -align t -scale xs -text "2/29"
-point 612.5208 233.5381 station-name -align t -scale xs -text "2/30"
+point 529.583 452.787 station-name -align t -scale xs -text "2/25"
+point 450.284 399.303 station-name -align t -scale xs -text "2/26"
+point 536.016 386.723 station-name -align t -scale xs -text "2/27"
+point 568.041 379.209 station-name -align t -scale xs -text "2/28"
+point 639.016 298.658 station-name -align t -scale xs -text "2/29"
+point 612.521 233.538 station-name -align t -scale xs -text "2/30"
 point 514.66 458.82 station -name nw.2.25
 point 467.74 405.14 station -name nw.2.26
 point 525.73 375.61 station -name nw.2.27
@@ -8117,7 +8117,7 @@ endscrap
 
 scrap Zugzwang-1p4 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
-point 647.9839 170.4991 map-connection 
+point 647.984 170.499 map-connection 
 line u:splay -visibility off
   584.8643 163.6329
   584.8743 161.6929
@@ -8133,7 +8133,7 @@ line u:splay -visibility off
   586.51 162.95
 endline
 
-point 569.7658 174.4655 station-name -align t -scale xs -text "2/37"
+point 569.766 174.465 station-name -align t -scale xs -text "2/37"
 point 584.864 163.633 station -name nw.2.37
 point 629.132 132.002 narrow-end -scale m
 point 611.273 150.893 narrow-end -scale m
@@ -8452,10 +8452,11 @@ line u:splay -visibility off
   650.45 171.86
 endline
 
-point 704.9416 122.5072 station-name -align t -scale xs -text "2/38"
-point 621.421 141.2748 station-name -align t -scale xs -text "2/35"
+point 704.942 122.507 station-name -align t -scale xs -text "2/39"
+point 621.421 141.275 station-name -align t -scale xs -text "2/35"
 point 631.845 195.694 station-name -align t -scale xs -text "2/36"
 point 656.84 153.94 station -name nw.2.34
+point 690.886 134.224 station -name nw.2.39
 point 675.995 138.249 station -name nw.2.38
 point 643.17 159.69 station -name nw.2.35
 point 626.13 174.58 station -name nw.2.36
@@ -9137,7 +9138,7 @@ line u:splay -visibility off
   545.83 203.82
 endline
 
-point 578.3719 209.9037 station-name -align t -scale xs -text "2/40"
+point 578.372 209.904 station-name -align t -scale xs -text "2/40"
 point 569.72 219.27 station -name nw.2.40
 point 554.71 231.3 station -name nw.2.41
 line wall -close on -outline in
@@ -9228,7 +9229,7 @@ endscrap
 
 scrap Zugzwang-1p6 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
-point 556.2294 234.2434 station-name -align t -scale xs -text "2/42"
+point 556.229 234.243 station-name -align t -scale xs -text "2/42"
 point 546.8 230.09 station -name nw.2.42
 line u:splay -visibility off
   546.8 230.09
@@ -9285,8 +9286,8 @@ line u:splay -visibility off
   522.71 199.18
 endline
 
-point 520.1735 203.4303 station-name -align t -scale xs -text "2/44"
-point 578.1484 186.2329 station-name -align t -scale xs -text "2/43"
+point 520.173 203.43 station-name -align t -scale xs -text "2/44"
+point 578.148 186.233 station-name -align t -scale xs -text "2/43"
 point 560.3 195.55 station -name nw.2.43
 line wall 
   544.8888 231.1408
@@ -9470,7 +9471,7 @@ endscrap
 
 scrap Zugzwang-1p7 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
-point 541.2058 204.1146 map-connection 
+point 541.206 204.115 map-connection 
 line u:texture 
   516.7064 236.2474
   516.9309 237.0332 518.8392 240.6253 520.6353 241.8601
@@ -9946,10 +9947,10 @@ line u:splay -visibility off
   511.46 224.32
 endline
 
-point 552.1954 198.7642 station-name -align t -scale xs -text "2/44"
-point 562.1152 211.4038 station-name -align t -scale xs -text "2/45"
-point 498.8949 217.3778 station-name -align t -scale xs -text "2/46"
-point 550.4941 253.8015 station-name -align t -scale xs -text "2/47"
+point 552.195 198.764 station-name -align t -scale xs -text "2/44"
+point 562.115 211.404 station-name -align t -scale xs -text "2/45"
+point 498.895 217.378 station-name -align t -scale xs -text "2/46"
+point 550.494 253.802 station-name -align t -scale xs -text "2/47"
 point 540.8 207.35 station -name nw.2.44
 point 547.75 211.16 station -name nw.2.45
 point 521.774 224.893 station -name nw.2.46
