@@ -101,33 +101,24 @@ processing references ...
 therion: warning -- Nordwandschacht_EE.thconfig [6] -- source layout not found -- custom_arrow_VHO
 done
 selecting export objects ... done
-writing out/Nordwandschacht.lox ...
-processing projection plan ... done
-average distortion: 0.52%
-...
-therion: warning -- Eingang-3p@Eingang.Nordwandschacht -- multiple scrap outer outlines not supported yet
-therion: warning -- Eingang-3p@Eingang.Nordwandschacht -- invalid scrap outline
-..
-therion: warning -- Nordwandschacht-1p0@MarieGenevieveSaal.Nordwandschacht -- multiple scrap outer outlines not supported yet
-........
-therion: warning -- Zugzwang-1p1@Zugzwang.Nordwandschacht -- multiple scrap outer outlines not supported yet
-....... done
+writing out/Nordwandschacht.kml ... done
 processing projection extended ... done
-average distortion: 0.13%
+average distortion: 0.07%
 
 
 ############### export maps & scraps selection #################
-M   980.31 m-local-e@ ()
+M     0.00 m-local-e@ ()
 M     0.00 m-all-e@Eingang.Nordwandschacht ()
 S     0.00 Eingang-1e@Eingang.Nordwandschacht ()
 M     0.00 m-all-e@MarieGenevieveSaal.Nordwandschacht ()
 S     0.00 MarieGenevieveSaal-1e@MarieGenevieveSaal.Nordwandschacht ()
 S     0.00 MarieGenevieveSaal-2e@MarieGenevieveSaal.Nordwandschacht ()
-M     0.00 m-all-e@Zugzwang.Nordwandschacht ()
+M     0.00 m-Geburtstaggang-e@Zugzwang.Nordwandschacht ()
+S     0.00 Zugzwang-1e@Zugzwang.Nordwandschacht ()
+M     0.00 m-KleineSchwesterHalle-e@Zugzwang.Nordwandschacht ()
+S     0.00 Zugzwang-4e@Zugzwang.Nordwandschacht ()
 S     0.00 Zugzwang-3e@Zugzwang.Nordwandschacht ()
 S     0.00 Zugzwang-2e@Zugzwang.Nordwandschacht ()
-S     0.00 Zugzwang-1e@Zugzwang.Nordwandschacht ()
-S  1960.62 @ ()
 ########## end of export maps & scraps selection ###############
 copying_fonts ...
 Arimo-Regular.ttf
@@ -139,7 +130,7 @@ done.
 writing out/Nordwandschacht_EE.pdf ...
 generating TeX metrics ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  21 JAN 2024 13:00
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  21 JAN 2024 17:14
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -171,16 +162,16 @@ Warning: patterncolor not supported in Therion [17] [18]
 [Warning: undefined symbol `p_airdraught_winter_MY'] [1] [2] [3] [4] [5] [6]
 [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
 [Warning: scrap outline intersects itself in scrap Zugzwang-3e@Zugzwang.Nordwan
-dschacht] [22] [23] [24] [25] [26] (./mptextmp.mp) [27] (./mptextmp.mp)
+dschacht] [22] [23] [24] [25] [26] [27] [28] (./mptextmp.mp) [29]
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [28] )
+(./mptextmp.mp) (./mptextmp.mp) [30] )
  
 Here is how much of MetaPost's memory you used:
- 53069 strings using 1515960 characters
- 3690020 bytes of node memory
- 1871 symbolic tokens
+ 44493 strings using 1154707 characters
+ 3418672 bytes of node memory
+ 1873 symbolic tokens
  10i,82n,16p,314b,5f stack positions out of 16i,98n,20p,390b,6f
-46 output files written: data-patt.1 .. data.28
+48 output files written: data-patt.1 .. data.30
 
 
 #################### end of metapost log file ####################
@@ -188,7 +179,7 @@ converting scraps ... done
 making map ... done
 generating TeX metrics ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  21 JAN 2024 13:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  21 JAN 2024 17:14
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex (./thfonts.map{
@@ -196,28 +187,28 @@ c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex)
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 105 numeric registers used out of 32768
+ 113 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 329 strings out of 94604
- 4630 string characters out of 1142524
- 219491 words of memory out of 5183219
- 1981 multiletter control sequences out of 15000+50000
+ 337 strings out of 94604
+ 4724 string characters out of 1142524
+ 166654 words of memory out of 5136382
+ 1989 multiletter control sequences out of 15000+50000
  16581 words of font info for 56 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
- 9i,5n,6p,242b,52s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 9i,5n,6p,270b,52s stack positions out of 5000i,500n,10000p,200000b,50000s
 {a_5zjpwd.enc}<Arimo-Italic.ttf><Arimo-Bold.ttf><Arimo-Regular.ttf>
-Output written on data.pdf (1 page, 281209 bytes).
+Output written on data.pdf (1 page, 316129 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 176 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 421 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 467 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-compilation time: 10 sec
+compilation time: 4 sec
 
 
 ######################### loop errors ##########################
@@ -231,37 +222,12 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
 
 
 ###################### scrap distortions #######################
- PROJECTION: plan
- AVERAGE  MAXIMAL  SCRAP
-   0.39%   84.69%  MarieGenevieveSaal-3p@MarieGenevieveSaal.Nordwandschacht
-   1.29%   81.87%  MarieGenevieveSaal-2p@MarieGenevieveSaal.Nordwandschacht
-   0.76%   79.14%  Eingang-4p@Eingang.Nordwandschacht
-   0.90%   59.77%  MarieGenevieveSaal-5p@MarieGenevieveSaal.Nordwandschacht
-   3.74%   55.48%  Zugzwang-1p4@Zugzwang.Nordwandschacht
-   0.74%   21.33%  Zugzwang-1p3@Zugzwang.Nordwandschacht
-   0.23%   15.39%  Zugzwang-1p8@Zugzwang.Nordwandschacht
-   0.51%   14.95%  MarieGenevieveSaal-6p@MarieGenevieveSaal.Nordwandschacht
-   0.22%   11.09%  Zugzwang-1p5@Zugzwang.Nordwandschacht
-   0.13%   10.75%  Zugzwang-1p6@Zugzwang.Nordwandschacht
-   1.81%    7.60%  Eingang-3p@Eingang.Nordwandschacht
-   0.17%    5.59%  Eingang-1p@Eingang.Nordwandschacht
-   0.07%    4.79%  MarieGenevieveSaal-4p@MarieGenevieveSaal.Nordwandschacht
-   0.61%    4.41%  MarieGenevieveSaal-1p@MarieGenevieveSaal.Nordwandschacht
-   0.05%    2.13%  Zugzwang-1p1@Zugzwang.Nordwandschacht
-   0.10%    1.72%  Zugzwang-1p7@Zugzwang.Nordwandschacht
-   0.07%    1.36%  Zugzwang-1p0@Zugzwang.Nordwandschacht
-   0.00%    0.84%  Nordwandschacht-1p0@MarieGenevieveSaal.Nordwandschacht
-   0.00%    0.64%  Eingang-2p@Eingang.Nordwandschacht
-   0.03%    0.60%  Zugzwang-1p2@Zugzwang.Nordwandschacht
-################### end of scrap distortions ###################
-
-
-###################### scrap distortions #######################
  PROJECTION: extended
  AVERAGE  MAXIMAL  SCRAP
-   0.78%  100.00%  MarieGenevieveSaal-1e@MarieGenevieveSaal.Nordwandschacht
-   0.84%   14.15%  Zugzwang-1e@Zugzwang.Nordwandschacht
+   0.19%  100.00%  MarieGenevieveSaal-1e@MarieGenevieveSaal.Nordwandschacht
+   0.45%    8.04%  Zugzwang-1e@Zugzwang.Nordwandschacht
    0.08%    1.39%  Eingang-1e@Eingang.Nordwandschacht
+   0.02%    0.94%  Zugzwang-4e@Zugzwang.Nordwandschacht
    0.02%    0.71%  Zugzwang-2e@Zugzwang.Nordwandschacht
    0.02%    0.53%  MarieGenevieveSaal-2e@MarieGenevieveSaal.Nordwandschacht
    0.00%    0.00%  Zugzwang-3e@Zugzwang.Nordwandschacht

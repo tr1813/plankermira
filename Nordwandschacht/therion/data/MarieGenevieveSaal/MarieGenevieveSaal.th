@@ -613,8 +613,8 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     0.16 . 5.59 172.9 59.6
     0.16 . 9.28 184.6 86.9
     0.16 . 12.74 64.3 -8.1
-    extend right
     flags not duplicate
+    extend left
     0.15 10 21.60 341.6 9.0
     # extend auto
     10 . 28.25 147.0 -1.9

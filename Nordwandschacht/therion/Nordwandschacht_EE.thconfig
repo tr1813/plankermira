@@ -13,11 +13,11 @@ endlayout
 source
     map m-local-e -projection extended
         m-all-e@Nordwandschacht
-        Nordwandschacht 
     endmap
 endsource
 
-export model -o out/Nordwandschacht.lox
+#export model -o out/Nordwandschacht.lox
+export model -o out/Nordwandschacht.kml
 select m-local-e
 
 export map -projection extended -o out/Nordwandschacht_EE.pdf -layout summary -layout-debug station-names
