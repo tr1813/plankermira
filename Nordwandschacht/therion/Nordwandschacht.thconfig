@@ -22,7 +22,8 @@ layout local
      \def\customheader{
     \size[13]\bf \the\cavename 1625/141 \ss
     \si \par \size[10]Plankermira Nordwand, Totes Gebirge, Steirmark \ss
-    \par Length mapped: \the\cavelength, depth: \the\cavedepth
+    \par Länge: \the\cavelength, Tiefe: \the\cavedepth
+    \par Eingangskoordinaten (MGI GK 31): X : 500499 / Y : 277600
     \par Vermessung 08.2023 --- \the\topoteam
     \par Verein für Höhlenkunde in Obersteier
     \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
@@ -53,4 +54,4 @@ endlayout
 export map -projection plan -o out/Nordwandschacht.pdf -layout local
 
 #export map -projection plan -o out/Nordwandschacht_summary.pdf -layout summary -layout-debug station-names
-#export map -fmt esri -projection plan -o out/Nordwardschacht-plan
+export map -fmt esri -projection plan -o out/Nordwardschacht-plan
