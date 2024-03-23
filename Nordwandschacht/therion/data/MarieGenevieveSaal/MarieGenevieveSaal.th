@@ -539,7 +539,9 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
     nw.1.0.9 . 1.67 96.1 36.2
     nw.1.0.9 . 9.55 1.4 17.8
     extend right
+    flags duplicate
     nw.1.0.9  nw.1.0.10 9.26 356.1 20.7
+    flags not duplicate
     extend left
     nw.1.0.9  nw.1.0.11 12.18 191.8 -12.9
     # extend auto

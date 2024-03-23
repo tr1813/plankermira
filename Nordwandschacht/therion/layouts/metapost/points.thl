@@ -60,12 +60,12 @@ layout custom_points
 	    enddef;
 
 	    def p_gradient_MY (expr P,R,S,A)=
-	      U:=(.2u,.2u);
+	      U:=(.5u,.5u);
 	      T:=identity aligned A rotated R scaled S shifted P;
-	      pickup PenD;
-	      thfill (-.12u,.08u)--(0,.12u)--(.12u,.08u)--(0,.3u)--cycle;
-	      thfill (-.12u,.08u)--(0,.12u)--(.12u,.08u)--(.12u,-.28u)--(-.12u,-.28u)--cycle withcolor(1,1,1);
-	      thdraw (0,-.28u)--(0,0.15u);
+	      pickup PenC;
+	      thfill (-.12u,.12u)..(0,.18u)..(.12u,.12u)--(0,.45u)--cycle;
+	      thfill (-.12u,.12u)..(0,.18u)..(.12u,.12u)--(.12u,-.48u)--(-.12u,-.48u)--cycle withcolor(1,1,1);
+	      thdraw (0,-.48u)--(0,0.225u);
 	    enddef;
 
 	    def p_pillar_MY (expr P,R,S,A)=
