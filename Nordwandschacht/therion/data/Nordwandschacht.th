@@ -26,8 +26,8 @@ survey Nordwandschacht
     endmap
 
     centreline 
-        cs UTM33N
-        fix nw.3.10@Eingang 425221 5276230 2092
+        cs epsg:31258
+        fix nw.3.10@Eingang 500499 277600 2092
         station nw.3.10@Eingang entrance
     endcentreline
 

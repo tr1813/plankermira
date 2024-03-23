@@ -16,6 +16,8 @@ survey MarieGenevieveSaal -title "Marie-Genevieve-Saal"
   endmap 
 
   map m-all-e -projection extended
+      MarieGenevieveSaal-3e
+      break
       MarieGenevieveSaal-1e
       MarieGenevieveSaal-2e
   endmap
