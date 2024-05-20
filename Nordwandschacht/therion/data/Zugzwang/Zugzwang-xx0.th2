@@ -4,6 +4,8 @@ encoding  utf-8
 
 scrap Zugzwang-xx0 -projection none -scale [0 0 39.3701 0 0 0 1 0 m]
 
+point 1175.5668 268.3986 label -align tr -scale xl -text "A'"
+point -159.519 268.7963 label -align tr -scale xl -text A
 line wall 
   1103.2288 214.2498
   1091.6255 286.1833 1063.1511 374.8592 1044.0611 418.6892

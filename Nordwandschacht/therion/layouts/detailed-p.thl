@@ -30,8 +30,7 @@ layout detailed-p
   ## survey lines and stations
   symbol-hide point passage-height
   symbol-assign line survey AUT
-  symbol-colour point station-name [70 0 0]
-  symbol-colour point station [70 0 0]
+  symbol-colour point station:fixed [70 0 0]
 
   ## water and ice
   symbol-assign area ice MY
@@ -43,8 +42,8 @@ layout detailed-p
 
   symbol-assign area water MY
   symbol-assign area sump MY
-  symbol-colour point water-flow [0 10 70]
-  symbol-colour line water-flow [0 10 70]
+  symbol-colour point water-flow [40 72.1 90.9]
+  symbol-colour line water-flow [40 72.1 90.9]
   symbol-assign point anchor MY
   ## formations
   symbol-assign point stalagmite MY
@@ -73,7 +72,6 @@ layout detailed-p
   symbol-colour area clay [65 55 10]
   symbol-colour line wall:clay [65 55 10]
   #symbol-colour area sand [85 75 10]
-  symbol-colour line water-flow [0 10 70]
 
   ## misc
   symbol-assign point gradient MY

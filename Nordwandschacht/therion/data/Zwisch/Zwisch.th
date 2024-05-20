@@ -1,6 +1,14 @@
 encoding UTF-8
 # Exported by SPXExpTherion 1.0 on Sat, 26 Aug 23 10:48:06 +0200; using File_Therion 0.4.0
   survey Zwisch -title "Zwisch Entrance"
+  input Zwisch-p.th2
+
+  map Zwisch-original -projection plan 
+    Zwisch-2p
+    Zwisch-3p
+  endmap
+
+
     centreline -id zug_1
       copyright 2023 "Verein für Höhlenkunde in Obersteier"
       
@@ -34,5 +42,26 @@ encoding UTF-8
       1.ZH21  1.ZH22  10.40892     242   -15.4    5.58      21    16.4    4.59
       station 1.ZH0 "Eingang a (Haupteingang):  ()" entrance
       fix 1.ZH0 47.635655518030084 14.006454793588832 1995 5 5 5
+
+
     endcentreline
+  centreline 
+  cs UTM33N
+        # fixes for the other deeper stations. 
+fix pc_1 425363.90 5276249.12 1967.000
+fix pc_2  425353.10 5276248.90 1953.000
+fix pc_3  425356.34 5276278.88 1932.000
+fix pc_4  425343.90 5276285.95 1930.000
+fix pc_5  425357.21 5276305.19 1929.000
+fix pc_6  425374.07 5276282.86 1956.000
+fix pc_7  425379.96 276267.953 1932.000
+fix pc_8  425403.28 5276256.36 1924.000
+fix pc_9  425295.50 5276293.52 1865.000
+fix pc_10  425276.26 5276271.70 1890.000
+fix pc_11  425282.45 5276264.80 1880.000
+fix pc_12  425345.16 5276317.80 1835.000
+fix pc_13  425387.55 5276280.09 1916.000
+fix pc_14  425360.31 5276425.83 1745.000
+fix pc_15  425311.66 5276349.52 1818.000
+  endcentreline
   endsurvey

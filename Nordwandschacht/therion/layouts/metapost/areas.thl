@@ -7,7 +7,7 @@ layout custom_areas
 		# blueish water area
 		def a_water_MY (expr p) =
 			T:=identity;
-			thfill p withcolor (66/255,135/255,245/255);
+			thfill p withcolor (102/255,184/255,232/255);
 		enddef;
 
 		# darker blue sump area
