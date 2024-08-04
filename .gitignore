@@ -5,6 +5,11 @@
 
 *.log
 *.pdf
+*.jpg
+*.jpg.points
+*.jpg.aux.xml
+
+*.3d
 
 *therion.log
 *.pdf
