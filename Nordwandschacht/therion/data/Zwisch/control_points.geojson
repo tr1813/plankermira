@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "control_points",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "nom": "pc_A", "z": -28.0, "altitude": 1967.0 }, "geometry": { "type": "Point", "coordinates": [ 14.006432926216178, 47.635338935650452 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_B", "z": -42.0, "altitude": 1953.0 }, "geometry": { "type": "Point", "coordinates": [ 14.006289244419898, 47.635335718380396 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_3", "z": -63.0, "altitude": 1932.0 }, "geometry": { "type": "Point", "coordinates": [ 14.006327173113228, 47.635605817984228 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_4", "z": -65.0, "altitude": 1930.0 }, "geometry": { "type": "Point", "coordinates": [ 14.00616036062786, 47.635667993518979 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_5", "z": -66.0, "altitude": 1929.0 }, "geometry": { "type": "Point", "coordinates": [ 14.006334358088468, 47.635842608011622 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_6", "z": -39.0, "altitude": 1956.0 }, "geometry": { "type": "Point", "coordinates": [ 14.006562502540358, 47.63564361193982 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_7", "z": -63.0, "altitude": 1932.0 }, "geometry": { "type": "Point", "coordinates": [ 14.006643470692651, 47.635510167345238 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_8", "z": -71.0, "altitude": 1924.0 }, "geometry": { "type": "Point", "coordinates": [ 14.006955866778691, 47.635408563865575 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_9", "z": -130.0, "altitude": 1865.0 }, "geometry": { "type": "Point", "coordinates": [ 14.005514882439799, 47.6357304588388 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_10", "z": -105.0, "altitude": 1890.0 }, "geometry": { "type": "Point", "coordinates": [ 14.005262537469747, 47.635531984146496 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_11", "z": -115.0, "altitude": 1880.0 }, "geometry": { "type": "Point", "coordinates": [ 14.005346154851724, 47.635470568141606 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_12", "z": -160.0, "altitude": 1835.0 }, "geometry": { "type": "Point", "coordinates": [ 14.006171707229766, 47.635954631080523 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_13", "z": -79.0, "altitude": 1916.0 }, "geometry": { "type": "Point", "coordinates": [ 14.006742442163564, 47.635620264339821 ] } },
+{ "type": "Feature", "properties": { "nom": "pc_14", "z": -250.0, "altitude": 1745.0 }, "geometry": { "type": "Point", "coordinates": [ 14.006354999543138, 47.636928282241449 ] } }
+]
+}
