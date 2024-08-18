@@ -13,8 +13,7 @@ layout detailed-p
   copy custom_points
   copy custom_lines
   copy custom_areas
-  copy custom_arrow
-  copy custom_scalebar
+  copy custom_arrow_VHO
   copy custom_grid
 
 
