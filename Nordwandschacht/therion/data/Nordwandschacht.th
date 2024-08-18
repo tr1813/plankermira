@@ -25,6 +25,11 @@ survey Nordwandschacht
         #Zwisch
     endmap
 
+    ## joins between scraps- 
+
+    ### 2023 ###
+    join Eingang-1e@Eingang MarieGenevieveSaal-1e@MarieGenevieveSaal
+
     centreline 
         cs epsg:31258
         fix nw.3.10@Eingang 500499 277600 2092
