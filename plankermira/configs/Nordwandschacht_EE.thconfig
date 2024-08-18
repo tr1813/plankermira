@@ -1,0 +1,27 @@
+encoding  utf-8
+source data/Nordwandschacht.th
+input layouts/detailed-e.thl
+input layouts/metapost/scalebar_arrow.thl
+
+layout summary
+    copy detailed-e 
+    
+    scale 1 500
+    symbol-show point station-name
+    symbol-colour line survey [70 10 0]
+    symbol-colour point station [70 10 0]
+    symbol-colour line rock-edge [0 0 0]
+    colour map-fg [100 92 60]
+endlayout
+
+source
+    map m-local-e -projection extended
+        m-all-e@Nordwandschacht
+    endmap
+endsource
+
+export model -o out/Nordwandschacht.3d
+export model -o out/Nordwandschacht.kml
+select m-local-e
+
+export map -projection extended -o out/Nordwandschacht_EE.pdf -layout summary

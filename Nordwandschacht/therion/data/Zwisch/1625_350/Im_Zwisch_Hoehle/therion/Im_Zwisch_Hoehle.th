@@ -1,5 +1,0 @@
-encoding UTF-8
-# Exported by SPXExpTherion 1.0 on Sat, 26 Aug 23 10:48:06 +0200; using File_Therion 0.4.0
-survey Im_Zwisch_Hoehle -title "Im Zwisch Höhle"
-input ../Zwisch1/therion/Zwisch1.th
-endsurvey Im_Zwisch_Hoehle

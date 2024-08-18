@@ -1,0 +1,62 @@
+encoding  utf-8
+source data/Nordwandschacht.th
+
+select m-all-p@Nordwandschacht
+
+
+export model -fmt survex -o out/Nordwandschacht.3d
+#export model  -o _out/Nordwandschacht.lox
+#export model -o _out/Nordwandschacht.kml
+
+
+input layouts/detailed-p.thl 
+
+layout local
+    copy detailed-p 
+    copy custom_arrow_VHO
+    scale 1 500
+    symbol-colour line border [0 0 0]
+    symbol-colour line survey:cave [70 10 0]
+    symbol-colour point station-name [0 0 0]
+    symbol-assign line wall:blocks MYEE
+    #color map-fg altitude
+    symbol-show point label
+        code tex-map
+     \def\customheader{
+    \size[26]\bf \the\cavename{} 1625/141 \ss
+    \si \par \size[20]Plankermira Nordwand, Totes Gebirge, Steirmark - Auseerland \ss
+    \par Katastergebiet: 1625 
+    \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth
+    \par Eingangskoordinaten (MGI GK 31): X : 500499 / Y : 277600
+    \par Vermessung 08.2023 --- \the\topoteam
+    \par Verein für Höhlenkunde in Obersteier
+    \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
+      \def\maplayout{
+          \legendbox{\the\numexpr 1\relax}{\the\numexpr 99\relax}{NW}{\customheader}
+          \legendbox{\the\numexpr14\relax}{\the\numexpr83\relax}{S}{\northarrow}
+          \legendbox{\the\numexpr14\relax}{\the\numexpr82\relax}{N}{\scalebar}
+
+          %\legendbox{\the\numexpr0\relax}{\the\numexpr0\relax}{NW}{\hbox{\loadpicture{"omuhako_cave-L.pdf"}}}
+     }
+    endcode 
+
+endlayout
+
+layout summary
+    copy detailed-p 
+    copy custom_arrow_VHO
+    symbol-hide group all
+    symbol-show line survey
+    symbol-assign line survey MY
+    symbol-show point station
+    symbol-show line wall
+    scale 1 500
+endlayout
+
+
+maps-offset on
+
+export map -projection plan -o out/Nordwandschacht.pdf -layout local
+export model -o out/Nordwandschacht.lox
+#export map -projection plan -o out/Nordwandschacht_summary.pdf -layout summary -layout-debug station-names
+export map -fmt esri -projection plan -o out/Nordwardschacht-plan

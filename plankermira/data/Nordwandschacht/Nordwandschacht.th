@@ -1,0 +1,40 @@
+survey Nordwandschacht
+    input "./Eingang/Eingang.th"
+    input "./MarieGenevieveSaal/MarieGenevieveSaal.th"
+    input "./Zugzwang/Zugzwang.th"
+    input "./Zwisch/Zwisch.th"
+
+    equate nw.2.0@Zugzwang nw.1.2.12@MarieGenevieveSaal
+    equate nw.1.0@MarieGenevieveSaal nw.3.0@Eingang
+
+    join Zugzwang-1p0@Zugzwang MarieGenevieveSaal-4p@MarieGenevieveSaal
+
+    map m-all-p -projection plan
+        m-all-p@Eingang [-20 0 m] none
+        m-all-p@MarieGenevieveSaal
+        m-all-p@Zugzwang
+
+        Zwisch-original@Zwisch
+    endmap
+
+    map m-all-e -projection extended
+        m-all-e@Eingang 
+        m-all-e@MarieGenevieveSaal
+        m-all-e@Zugzwang
+
+        #Zwisch
+    endmap
+
+    ## joins between scraps- 
+
+    ### 2023 ###
+    join Eingang-1e@Eingang MarieGenevieveSaal-1e@MarieGenevieveSaal
+
+    centreline 
+        cs epsg:31258
+        fix nw.3.10@Eingang 500499 277600 2092
+        station nw.3.10@Eingang entrance
+    endcentreline
+
+    input "./dem.th"
+endsurvey
