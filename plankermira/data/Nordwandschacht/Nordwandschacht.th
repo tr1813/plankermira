@@ -1,40 +1,48 @@
-survey Nordwandschacht
-    input "./Eingang/Eingang.th"
-    input "./MarieGenevieveSaal/MarieGenevieveSaal.th"
-    input "./Zugzwang/Zugzwang.th"
-    input "./Zwisch/Zwisch.th"
+survey nw -title "Nordwandschacht"
 
-    equate nw.2.0@Zugzwang nw.1.2.12@MarieGenevieveSaal
-    equate nw.1.0@MarieGenevieveSaal nw.3.0@Eingang
+    ### 2023 ###
+    input "./1-MarieGenevieveSaal/MarieGenevieveSaal.th"
+    input "./2-Zugzwang/Zugzwang.th"
+    input "./3-Eingang/Eingang.th"
 
-    join Zugzwang-1p0@Zugzwang MarieGenevieveSaal-4p@MarieGenevieveSaal
+    equate 0@2 2.12@1
+    equate 0@1 0@3
+
+    join Zugzwang-1p0@2 MarieGenevieveSaal-4p@1
+
+    ### 2024 ###
+    input "./4-AglarondVesuvDom/AglarondVesuvDom.th"
+    input "./5-ShawshankRedemption/ShawshankRedemption.th"
+
+    equate 0@4 40@1
+    equate 0@5 12@2
 
     map m-all-p -projection plan
-        m-all-p@Eingang [-20 0 m] none
-        m-all-p@MarieGenevieveSaal
-        m-all-p@Zugzwang
+        m-all-p@3 [-20 0 m] none
+        m-all-p@1
+        m-all-p@2
+        #m-all-p@4
+        m-all-p@5 [50 0 m] none
 
-        Zwisch-original@Zwisch
+        4
     endmap
 
     map m-all-e -projection extended
-        m-all-e@Eingang 
-        m-all-e@MarieGenevieveSaal
-        m-all-e@Zugzwang
-
-        #Zwisch
+        m-all-e@3
+        m-all-e@1
+        m-all-e@2
     endmap
 
     ## joins between scraps- 
 
     ### 2023 ###
-    join Eingang-1e@Eingang MarieGenevieveSaal-1e@MarieGenevieveSaal
+    join Eingang-1e@3 MarieGenevieveSaal-1e@1
 
     centreline 
         cs epsg:31258
-        fix nw.3.10@Eingang 500499 277600 2092
-        station nw.3.10@Eingang entrance
+        fix 10@3 500499 277600 2092
+        station 10@3 entrance
     endcentreline
 
-    input "./dem.th"
+    input "../DEM/dem.th"
 endsurvey

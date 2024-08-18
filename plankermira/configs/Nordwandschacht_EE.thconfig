@@ -1,7 +1,7 @@
 encoding  utf-8
-source data/Nordwandschacht.th
-input layouts/detailed-e.thl
-input layouts/metapost/scalebar_arrow.thl
+source ../data/Nordwandschacht/Nordwandschacht.th
+input ../layouts/detailed-e.thl
+input ../layouts/metapost/scalebar_arrow.thl
 
 layout summary
     copy detailed-e 
@@ -16,12 +16,12 @@ endlayout
 
 source
     map m-local-e -projection extended
-        m-all-e@Nordwandschacht
+        m-all-e@nw
     endmap
 endsource
 
-export model -o out/Nordwandschacht.3d
-export model -o out/Nordwandschacht.kml
+export model -o ../out/Nordwandschacht.3d
+export model -o ../out/Nordwandschacht.kml
 select m-local-e
 
-export map -projection extended -o out/Nordwandschacht_EE.pdf -layout summary
+export map -projection extended -o ../out/Nordwandschacht_EE.pdf -layout summary

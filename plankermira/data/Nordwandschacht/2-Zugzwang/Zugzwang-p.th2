@@ -654,14 +654,14 @@ point 199.863 560.042 station-name -align t -scale xs -text "2/4"
 point 276.858 565.22 station-name -align t -scale xs -text "2/5"
 point 256.494 533.332 station-name -align t -scale xs -text "2/6"
 point 260.309 574.653 station-name -align t -scale xs -text "2/7"
-point 184.17 546.06 station -name nw.2.1
-point 192.11 506.11 station -name nw.2.0
-point 162.34 555.67 station -name nw.2.2
-point 161.95 567.16 station -name nw.2.3
-point 208.17 559.72 station -name nw.2.4
-point 267.69 558.91 station -name nw.2.5
-point 258.28 549.73 station -name nw.2.6
-point 246.22 569.89 station -name nw.2.7
+point 184.17 546.06 station -name 1
+point 192.11 506.11 station -name 0
+point 162.34 555.67 station -name 2
+point 161.95 567.16 station -name 3
+point 208.17 559.72 station -name 4
+point 267.69 558.91 station -name 5
+point 258.28 549.73 station -name 6
+point 246.22 569.89 station -name 7
 endscrap
 
 
@@ -1245,12 +1245,12 @@ line u:splay -visibility off
   287.01 559.24
 endline
 
-point 258.28 549.73 station -name nw.2.6
-point 246.22 569.89 station -name nw.2.7
-point 231.83 588.14 station -name nw.2.8
-point 211.01 626.22 station -name nw.2.9
-point 198.55 633.67 station -name nw.2.10
-point 222.63 594.43 station -name nw.2.12
+point 258.28 549.73 station -name 6
+point 246.22 569.89 station -name 7
+point 231.83 588.14 station -name 8
+point 211.01 626.22 station -name 9
+point 198.55 633.67 station -name 10
+point 222.63 594.43 station -name 12
 line border -close on -id Zugzwang-1p1_u_smallblocks_2 -visibility off
   212.3828 606.9146
   220.1738 611.4334
@@ -1612,8 +1612,8 @@ endline
 
 point 203.828 621.803 station-name -align t -scale xs -text "2/10"
 point 187.583 606.934 station-name -align t -scale xs -text "2/11"
-point 198.55 633.67 station -name nw.2.10
-point 184.17 620.11 station -name nw.2.11
+point 198.55 633.67 station -name 10
+point 184.17 620.11 station -name 11
 line border -close on -id Zugzwang-1p2_u_smallblocks_1 -visibility off
   166.8454 604.8736
   173.1942 612.4921
@@ -3205,12 +3205,12 @@ point 172.047 613.599 station-name -align t -scale xs -text "2/11"
 point 234.041 429.673 station-name -align t -scale xs -text "2/14"
 point 219.592 528.049 station-name -align t -scale xs -text "2/13"
 point 247.775 590.251 station-name -align t -scale xs -text "2/12"
-point 272.585 631.826 station -name nw.2.17
-point 293.01 640.22 station -name nw.2.16
-point 184.17 620.11 station -name nw.2.11
-point 219.785 434.107 station -name nw.2.14
-point 237.592 532.049 station -name nw.2.13
-point 223.01 594.22 station -name nw.2.12
+point 272.585 631.826 station -name 17
+point 293.01 640.22 station -name 16
+point 184.17 620.11 station -name 11
+point 219.785 434.107 station -name 14
+point 237.592 532.049 station -name 13
+point 223.01 594.22 station -name 12
 line wall 
   256.0527 657.0347
   254.3268 656.1254 252.5619 655.289 250.94 654.4
@@ -5031,14 +5031,14 @@ point 551.831 740.821 station-name -align t -scale xs -text "2/21"
 point 602.949 860.912 station-name -align t -scale xs -text "2/22"
 point 639.236 923.603 station-name -align t -scale xs -text "2/23"
 point 472.132 953.137 station-name -align t -scale xs -text "2/24"
-point 349.41 558.87 station -name nw.2.15
-point 468.6 564.65 station -name nw.2.18
-point 542.4 637.43 station -name nw.2.19
-point 612.79 615.68 station -name nw.2.20
-point 529.57 745.46 station -name nw.2.21
-point 588.9 862.42 station -name nw.2.22
-point 628.98 931.91 station -name nw.2.23
-point 493.79 931.24 station -name nw.2.24
+point 349.41 558.87 station -name 15
+point 468.6 564.65 station -name 18
+point 542.4 637.43 station -name 19
+point 612.79 615.68 station -name 20
+point 529.57 745.46 station -name 21
+point 588.9 862.42 station -name 22
+point 628.98 931.91 station -name 23
+point 493.79 931.24 station -name 24
 line rock-border -close on
   494.99 623.45
   490.57 616.16
@@ -6416,8 +6416,8 @@ point 540.122 345.198 gradient -orientation 114.52101907131576 -scale m
 point 586.367 175.508 station-name -align t -scale xs -text "2/31"
 point 673.293 153.213 station-name -align t -scale xs -text "2/33"
 point 620.799 156.78 station-name -align t -scale xs -text "2/32"
-point 656.517 157.64 station -name nw.2.33
-point 623.26 178.45 station -name nw.2.32
+point 656.517 157.64 station -name 33
+point 623.26 178.45 station -name 32
 line contour 
   581.0305 197.0106
   583.7292 194.9468 579.4429 190.0255 591.6668 191.2955
@@ -7898,13 +7898,13 @@ point 536.016 386.723 station-name -align t -scale xs -text "2/27"
 point 568.041 379.209 station-name -align t -scale xs -text "2/28"
 point 639.016 298.658 station-name -align t -scale xs -text "2/29"
 point 612.521 233.538 station-name -align t -scale xs -text "2/30"
-point 514.66 458.82 station -name nw.2.25
-point 467.74 405.14 station -name nw.2.26
-point 525.73 375.61 station -name nw.2.27
-point 560.52 356.87 station -name nw.2.28
-point 621.28 301.24 station -name nw.2.29
-point 599.9 237.11 station -name nw.2.30
-point 600.09 188.81 station -name nw.2.31
+point 514.66 458.82 station -name 25
+point 467.74 405.14 station -name 26
+point 525.73 375.61 station -name 27
+point 560.52 356.87 station -name 28
+point 621.28 301.24 station -name 29
+point 599.9 237.11 station -name 30
+point 600.09 188.81 station -name 31
 line chimney 
   465.89 382.35
   465.0275 383.694 464.7046 385.725 463.1336 386.4082
@@ -8227,7 +8227,7 @@ line u:splay -visibility off
 endline
 
 point 569.766 174.465 station-name -align t -scale xs -text "2/37"
-point 584.864 163.633 station -name nw.2.37
+point 584.864 163.633 station -name 37
 point 629.132 132.002 narrow-end -scale m
 point 611.273 150.893 narrow-end -scale m
 point 697.792 168.753 narrow-end -scale m
@@ -8548,11 +8548,11 @@ endline
 point 704.942 122.507 station-name -align t -scale xs -text "2/39"
 point 621.421 141.275 station-name -align t -scale xs -text "2/35"
 point 631.845 195.694 station-name -align t -scale xs -text "2/36"
-point 656.84 153.94 station -name nw.2.34
-point 690.886 134.224 station -name nw.2.39
-point 675.995 138.249 station -name nw.2.38
-point 643.17 159.69 station -name nw.2.35
-point 626.13 174.58 station -name nw.2.36
+point 656.84 153.94 station -name 34
+point 690.886 134.224 station -name 39
+point 675.995 138.249 station -name 38
+point 643.17 159.69 station -name 35
+point 626.13 174.58 station -name 36
 line wall -outline in
   603.7309 179.4153
   602.3609 178.8153 599.2224 178.3525 598.2009 179.8953
@@ -9232,8 +9232,8 @@ line u:splay -visibility off
 endline
 
 point 578.372 209.904 station-name -align t -scale xs -text "2/40"
-point 569.72 219.27 station -name nw.2.40
-point 554.71 231.3 station -name nw.2.41
+point 569.72 219.27 station -name 40
+point 554.71 231.3 station -name 41
 line wall -close on -outline in
   562.4347 223.7388
   562.65 222.38 562.81 220.21 561.64 219.72
@@ -9323,7 +9323,7 @@ endscrap
 scrap Zugzwang-1p6 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
 point 556.229 234.243 station-name -align t -scale xs -text "2/42"
-point 546.8 230.09 station -name nw.2.42
+point 546.8 230.09 station -name 42
 line u:splay -visibility off
   546.8 230.09
   559.89 195.51
@@ -9381,7 +9381,7 @@ endline
 
 point 520.173 203.43 station-name -align t -scale xs -text "2/44"
 point 578.148 186.233 station-name -align t -scale xs -text "2/43"
-point 560.3 195.55 station -name nw.2.43
+point 560.3 195.55 station -name 43
 line wall 
   544.8888 231.1408
   544.8888 231.1408 543.2636 232.2549 542.3314 232.5143
@@ -10044,10 +10044,10 @@ point 552.195 198.764 station-name -align t -scale xs -text "2/44"
 point 562.115 211.404 station-name -align t -scale xs -text "2/45"
 point 498.895 217.378 station-name -align t -scale xs -text "2/46"
 point 550.494 253.802 station-name -align t -scale xs -text "2/47"
-point 540.8 207.35 station -name nw.2.44
-point 547.75 211.16 station -name nw.2.45
-point 521.774 224.893 station -name nw.2.46
-point 527.11 255.11 station -name nw.2.47
+point 540.8 207.35 station -name 44
+point 547.75 211.16 station -name 45
+point 521.774 224.893 station -name 46
+point 527.11 255.11 station -name 47
 line rock-border -close on
   538.54 205.9
   537.35 209.11

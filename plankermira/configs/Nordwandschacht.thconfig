@@ -1,19 +1,18 @@
 encoding  utf-8
-source data/Nordwandschacht.th
+source ../data/Nordwandschacht/Nordwandschacht.th
 
-select m-all-p@Nordwandschacht
+select m-all-p@nw
 
 
-export model -fmt survex -o out/Nordwandschacht.3d
+export model -fmt survex -o ../out/Nordwandschacht.3d
 #export model  -o _out/Nordwandschacht.lox
 #export model -o _out/Nordwandschacht.kml
 
 
-input layouts/detailed-p.thl 
+input ../layouts/detailed-p.thl 
 
 layout local
     copy detailed-p 
-    copy custom_arrow_VHO
     scale 1 500
     symbol-colour line border [0 0 0]
     symbol-colour line survey:cave [70 10 0]
@@ -56,7 +55,7 @@ endlayout
 
 maps-offset on
 
-export map -projection plan -o out/Nordwandschacht.pdf -layout local
-export model -o out/Nordwandschacht.lox
-#export map -projection plan -o out/Nordwandschacht_summary.pdf -layout summary -layout-debug station-names
-export map -fmt esri -projection plan -o out/Nordwardschacht-plan
+export map -projection plan -o ../out/Nordwandschacht.pdf -layout local
+export model -o ../out/Nordwandschacht.lox
+export map -projection plan -o ../out/Nordwandschacht_summary.pdf -layout summary -layout-debug station-names
+export map -fmt esri -projection plan -o ../out/Nordwardschacht-plan

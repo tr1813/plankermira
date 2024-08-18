@@ -3,7 +3,7 @@ encoding  utf-8
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {978.173030 1 1.0} {3662.896200 {}} "//home/racinet$/GitHub/plankermira/Nordwandschacht/therion/data/Zwisch/img/ImZwischHoehle.jpg" 0 {}
 
-scrap Zwisch-1p -projection plan -scale [0.0 0.0 500 1000.0 -250 -500 250 500]
+scrap ImZwisch-1p -projection plan -scale [0.0 0.0 500 1000.0 -250 -500 250 500]
 
 point 351.319 927.989 station -name 1.ZH0
 point 361.079 900.589 station -name 1.ZH1
@@ -164,7 +164,7 @@ point 304.4695 560.349 station-name -align tr -scale xs -text 1.ZH22
 endscrap
 
 
-scrap Zwisch-2p -projection plan -scale [0 0 96 0 0 0 500 0 inch]
+scrap ImZwisch-2p -projection plan -scale [0 0 96 0 0 0 500 0 inch]
 
 line wall 
   2658.8198 140.0828
@@ -462,7 +462,7 @@ point 2215.5273 444.9594 station -name pc_5
 endscrap
 
 
-scrap Zwisch-3p -projection plan -scale [0 0 96 0 0 0 500 0 inch]
+scrap ImZwisch-3p -projection plan -scale [0 0 96 0 0 0 500 0 inch]
 
 line wall 
   1749.7411 890.6156

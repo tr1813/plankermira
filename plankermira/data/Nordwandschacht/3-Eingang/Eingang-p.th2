@@ -43,12 +43,12 @@ point 1348.386 1825.9314 station-name -align t -scale xs -text "3/2"
 point 1285.1547 1843.2068 station-name -align t -scale xs -text "3/3"
 point 1301.0513 1879.2365 station-name -align t -scale xs -text "3/4"
 point 1235.4736 1886.3865 station-name -align t -scale xs -text "3/5"
-point 1325.52 1819.37 station -name nw.3.1
-point 1331.29 1831.82 station -name nw.3.2
-point 1290.6 1858.15 station -name nw.3.3
-point 1292.06 1864.23 station -name nw.3.4
-point 1246.04 1877.79 station -name nw.3.5
-point 1185.56 1850.19 station -name nw.3.6
+point 1325.52 1819.37 station -name 1
+point 1331.29 1831.82 station -name 2
+point 1290.6 1858.15 station -name 3
+point 1292.06 1864.23 station -name 4
+point 1246.04 1877.79 station -name 5
+point 1185.56 1850.19 station -name 6
 line u:splay -visibility off
   1304.12 1802.09
   1370.12 1938.83
@@ -1213,9 +1213,9 @@ scrap Eingang-2p -projection plan -scale [0 0 96 0 0 0 500 0 inch]
 
 point 1185.298 1860.8873 station-name -align t -scale xs -text "3/7"
 point 1172.584 1832.7402 station-name -align t -scale xs -text "3/6"
-point 1185.56 1850.19 station -name nw.3.6
-point 1174.06 1860.35 station -name nw.3.7
-point 1185.56 1850.19 station -name nw.3.6
+point 1185.56 1850.19 station -name 6
+point 1174.06 1860.35 station -name 7
+point 1185.56 1850.19 station -name 6
 point 1118.42 1834.6 continuation -scale s
 line wall:invisible 
   1179.5897 1860.4403
@@ -1300,7 +1300,7 @@ line wall -subtype invisible
   1149.8517 1900.7623
 endline
 
-point 1174.06 1860.35 station -name nw.3.7
+point 1174.06 1860.35 station -name 7
 line u:splay -visibility off
   1185.56 1850.19
   1156.0 1855.18
@@ -1832,9 +1832,9 @@ endline
 point 1186.6342 1881.6891 station-name -align t -scale xs -text "3/8"
 point 1181.5941 1899.8455 station-name -align t -scale xs -text "3/9"
 point 1156.0522 1946.3177 station-name -align t -scale xs -text "3/10"
-point 1165.68 1887.42 station -name nw.3.8
-point 1170.58 1900.92 station -name nw.3.9
-point 1164.32 1945.93 station -name nw.3.10
+point 1165.68 1887.42 station -name 8
+point 1170.58 1900.92 station -name 9
+point 1164.32 1945.93 station -name 10
 line u:splay -visibility off
   1165.68 1887.42
   1157.65 1887.69

@@ -3067,18 +3067,18 @@ line wall -subtype blocks
   904.2753 301.9124 921.4468 275.1645 921.4468 275.1645
 endline
 
-point 136.67 292.76 station -name nw.2.12
-point 197.14 292.28 station -name nw.2.13
-point 96.83 292.13 station -name nw.2.14
-point 313.26 297.17 station -name nw.2.15
-point 313.45 309.21 station -name nw.2.16
-point 432.497 323.21 station -name nw.2.18
-point 288.05 320.16 station -name nw.2.17
-point 536.703 340.836 station -name nw.2.19
-point 645.71 325.91 station -name nw.2.21
-point 776.81 333.7 station -name nw.2.22
-point 857.05 342.44 station -name nw.2.23
-point 894.21 320.71 station -name nw.2.24
+point 136.67 292.76 station -name 12
+point 197.14 292.28 station -name 13
+point 96.83 292.13 station -name 14
+point 313.26 297.17 station -name 15
+point 313.45 309.21 station -name 16
+point 432.497 323.21 station -name 18
+point 288.05 320.16 station -name 17
+point 536.703 340.836 station -name 19
+point 645.71 325.91 station -name 21
+point 776.81 333.7 station -name 22
+point 857.05 342.44 station -name 23
+point 894.21 320.71 station -name 24
 point 132.339 301.721 station-name -align tr -scale xs -text "2/12"
 point 191.913 304.526 station-name -align tr -scale xs -text "2/13"
 point 95.6353 300.792 station-name -align tr -scale xs -text "2/14"
@@ -3506,7 +3506,7 @@ line u:texture
 endline
 
 point -138.4643 584.6292 station-name -align tr -scale xs -text "2/2"
-point -120.35 587.64 station -name nw.2.2
+point -120.35 587.64 station -name 2
 point 9.1598 582.148 station-name -align tr -scale xs -text "2/6"
 point 29.6359 575.072 station-name -align tr -scale xs -text "2/7"
 point 53.7608 569.981 station-name -align tr -scale xs -text "2/8"
@@ -3838,18 +3838,18 @@ line wall -subtype blocks
   -2.8401 557.2052
 endline
 
-point -137.18 625.83 station -name nw.2.0
-point -96.48 623.07 station -name nw.2.1
-point -127.08 650.0 station -name nw.2.3
-point -68.85 627.8 station -name nw.2.4
-point -9.28 584.65 station -name nw.2.5
-point 5.54 576.06 station -name nw.2.6
-point 29.06 567.01 station -name nw.2.7
-point 52.28 563.07 station -name nw.2.8
-point 95.7 553.39 station -name nw.2.9
-point 110.2 539.61 station -name nw.2.10
-point 136.859 292.365 station -name nw.2.12
-point 90.45 449.76 station -name nw.2.11
+point -137.18 625.83 station -name 0
+point -96.48 623.07 station -name 1
+point -127.08 650.0 station -name 3
+point -68.85 627.8 station -name 4
+point -9.28 584.65 station -name 5
+point 5.54 576.06 station -name 6
+point 29.06 567.01 station -name 7
+point 52.28 563.07 station -name 8
+point 95.7 553.39 station -name 9
+point 110.2 539.61 station -name 10
+point 136.859 292.365 station -name 12
+point 90.45 449.76 station -name 11
 endscrap
 
 
@@ -3943,8 +3943,8 @@ line wall -subtype blocks
   822.9669 596.9479
 endline
 
-point 536.91 341.02 station -name nw.2.19
-point 609.2 389.45 station -name nw.2.20
+point 536.91 341.02 station -name 19
+point 609.2 389.45 station -name 20
 point 524.8132 346.8444 station-name -align tr -scale xs -text "2/19"
 point 591.6361 394.5276 station-name -align tr -scale xs -text "2/20"
 endscrap
@@ -4202,38 +4202,38 @@ point 192.135 389.1491 station-name -align tr -scale xs -text "2/25"
 point 111.6057 418.4937 station-name -align tr -scale xs -text "2/26"
 point -101.785 583.7392 station-name -align tr -scale xs -text "2/45"
 point -167.7122 578.4178 station-name -align tr -scale xs -text "2/43"
-point -143.22 571.1 station -name nw.2.43
-point -120.42 580.0 station -name nw.2.44
-point -106.34 596.06 station -name nw.2.45
-point -63.28 617.91 station -name nw.2.46
-point -29.74 634.2 station -name nw.2.47
+point -143.22 571.1 station -name 43
+point -120.42 580.0 station -name 44
+point -106.34 596.06 station -name 45
+point -63.28 617.91 station -name 46
+point -29.74 634.2 station -name 47
 point -107.0538 569.0233 station-name -align tr -scale xs -text "2/44"
 point -96.3595 622.017 station-name -align tr -scale xs -text "2/46"
 point -42.1355 635.6188 station-name -align tr -scale xs -text "2/47"
-point 61.44 421.1 station -name nw.2.27
-point 21.9 416.85 station -name nw.2.28
+point 61.44 421.1 station -name 27
+point 21.9 416.85 station -name 28
 point 49.2312 429.4259 station-name -align tr -scale xs -text "2/27"
 point 14.8062 424.4291 station-name -align tr -scale xs -text "2/28"
-point -60.48 408.19 station -name nw.2.29
-point -128.09 436.38 station -name nw.2.30
-point -133.35 516.93 station -name nw.2.40
-point -114.12 538.82 station -name nw.2.41
-point -106.13 549.69 station -name nw.2.42
+point -60.48 408.19 station -name 29
+point -128.09 436.38 station -name 30
+point -133.35 516.93 station -name 40
+point -114.12 538.82 station -name 41
+point -106.13 549.69 station -name 42
 point -61.2192 421.707 station-name -align tr -scale xs -text "2/29"
 point -119.3251 445.0393 station-name -align tr -scale xs -text "2/30"
 point -166.774 545.949 station-name -align tr -scale xs -text "2/37"
 point -121.1183 509.2066 station-name -align tr -scale xs -text "2/40"
 point -103.0455 532.1188 station-name -align tr -scale xs -text "2/41"
 point -94.597 546.8823 station-name -align tr -scale xs -text "2/42"
-point -176.39 464.33 station -name nw.2.31
-point -201.81 476.54 station -name nw.2.32
-point -227.96 504.65 station -name nw.2.33
-point -246.19 521.26 station -name nw.2.34
-point -231.515 530.16 station -name nw.2.35
-point -208.72 540.55 station -name nw.2.36
-point -166.14 534.65 station -name nw.2.37
-point -270.8 563.499 station -name nw.2.38
-point -290.512 576.54 station -name nw.2.39
+point -176.39 464.33 station -name 31
+point -201.81 476.54 station -name 32
+point -227.96 504.65 station -name 33
+point -246.19 521.26 station -name 34
+point -231.515 530.16 station -name 35
+point -208.72 540.55 station -name 36
+point -166.14 534.65 station -name 37
+point -270.8 563.499 station -name 38
+point -290.512 576.54 station -name 39
 point -209.1078 452.1708 station-name -align tr -scale xs -text "2/31"
 point -224.9367 466.5079 station-name -align tr -scale xs -text "2/32"
 point -218.1178 507.4287 station-name -align tr -scale xs -text "2/33"
@@ -4616,21 +4616,21 @@ area water
   Zugzwang-4e_water_1
 endarea
 
-point 313.26 322.52 station -name nw.2.18
-point 197.81 382.13 station -name nw.2.25
-point 126.54 412.52 station -name nw.2.26
-point 61.44 421.1 station -name nw.2.27
-point 21.9 416.85 station -name nw.2.28
-point -60.48 408.19 station -name nw.2.29
-point -128.09 436.38 station -name nw.2.30
-point -176.39 464.33 station -name nw.2.31
-point -201.81 476.54 station -name nw.2.32
-point -227.96 504.65 station -name nw.2.33
-point -246.19 521.26 station -name nw.2.34
-point -133.35 516.93 station -name nw.2.40
-point -114.12 538.82 station -name nw.2.41
-point -106.13 549.69 station -name nw.2.42
-point -143.22 571.1 station -name nw.2.43
-point -120.42 580.0 station -name nw.2.44
+point 313.26 322.52 station -name 18
+point 197.81 382.13 station -name 25
+point 126.54 412.52 station -name 26
+point 61.44 421.1 station -name 27
+point 21.9 416.85 station -name 28
+point -60.48 408.19 station -name 29
+point -128.09 436.38 station -name 30
+point -176.39 464.33 station -name 31
+point -201.81 476.54 station -name 32
+point -227.96 504.65 station -name 33
+point -246.19 521.26 station -name 34
+point -133.35 516.93 station -name 40
+point -114.12 538.82 station -name 41
+point -106.13 549.69 station -name 42
+point -143.22 571.1 station -name 43
+point -120.42 580.0 station -name 44
 endscrap
 

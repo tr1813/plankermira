@@ -979,7 +979,7 @@ line survey
   238.0463 1057.13
 endline
 
-point 374.349 -63.82 station-name -align tr -scale xs -text nw.3.0
+point 374.349 -63.82 station-name -align tr -scale xs -text 0
 endscrap
 
 
@@ -1842,16 +1842,16 @@ point 171.829 740.942 station-name -align t -scale xs -text "3/7"
 point 189.439 852.765 station-name -align t -scale xs -text "3/8"
 point 224.84 971.989 station-name -align t -scale xs -text "3/9"
 point 246.334 1072.84 station-name -align t -scale xs -text "3/10"
-point 347.009 291.46 station -name nw.3.1
-point 374.349 -63.82 station -name nw.3.0
-point 333.298 317.83 station -name nw.3.2
-point 284.829 363.98 station -name nw.3.3
-point 278.548 438.86 station -name nw.3.4
-point 230.569 521.61 station -name nw.3.5
-point 164.038 616.57 station -name nw.3.6
-point 148.689 745.39 station -name nw.3.7
-point 176.978 857.2 station -name nw.3.8
-point 191.258 984.45 station -name nw.3.9
-point 237.988 1057.13 station -name nw.3.10
+point 347.009 291.46 station -name 1
+point 374.349 -63.82 station -name 0
+point 333.298 317.83 station -name 2
+point 284.829 363.98 station -name 3
+point 278.548 438.86 station -name 4
+point 230.569 521.61 station -name 5
+point 164.038 616.57 station -name 6
+point 148.689 745.39 station -name 7
+point 176.978 857.2 station -name 8
+point 191.258 984.45 station -name 9
+point 237.988 1057.13 station -name 10
 endscrap
 
