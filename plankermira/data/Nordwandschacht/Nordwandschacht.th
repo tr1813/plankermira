@@ -38,6 +38,9 @@ survey nw -title "Nordwandschacht"
     ### 2023 ###
     join Eingang-1e@3 MarieGenevieveSaal-1e@1
 
+    ### 2024 ###
+    join Zugzwang-1p3@2 ShawshankRedemption-1p@5
+
     centreline 
         cs epsg:31258
         fix 10@3 500499 277600 2092
