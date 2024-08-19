@@ -5,6 +5,9 @@ select m-all-p@nw
 
 
 export model -fmt survex -o ../out/Nordwandschacht.3d
+export database -o ../out/Nordwandschacht.csv
+export database -o ../out/Nordwandschacht.sql
+
 #export model  -o _out/Nordwandschacht.lox
 #export model -o _out/Nordwandschacht.kml
 
@@ -56,6 +59,6 @@ endlayout
 maps-offset on
 
 export map -projection plan -o ../out/Nordwandschacht.pdf -layout local
-export model -o ../out/Nordwandschacht.lox
-export map -projection plan -o ../out/Nordwandschacht_summary.pdf -layout summary -layout-debug station-names
-export map -fmt esri -projection plan -o ../out/Nordwardschacht-plan
+#export model -o ../out/Nordwandschacht.lox
+#export map -projection plan -o ../out/Nordwandschacht_summary.pdf -layout summary -layout-debug station-names
+#export map -fmt esri -projection plan -o ../out/Nordwardschacht-plan

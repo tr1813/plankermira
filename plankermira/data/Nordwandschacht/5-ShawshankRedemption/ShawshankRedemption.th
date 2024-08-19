@@ -404,7 +404,7 @@ survey 5 -title "5 Shawshank Redemption"
     27 . 7.92 63.4 6.7
     27 . 5.46 71.7 -11.8
     27 . 3.04 110.2 -28.3
-    extend vertical
+    extend left
     0 28 7.69 303.8 21.1
     # extend auto
     28 . 3.81 223.3 17.8

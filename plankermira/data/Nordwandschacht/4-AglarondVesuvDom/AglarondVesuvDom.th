@@ -2,6 +2,35 @@
 
 survey 4 -title "4 Aglarond Vesuv Dom Tor der Ewigkeit"
     # continuation of chamber near the end 
+  input AglarondVesuvDom-p.th2 
+
+  map m-all-p -projection plan 
+  m4p
+  m1p
+  m2p [-30 0 m] none
+  m3p
+  endmap
+
+  map m1p -projection plan 
+  AglarondVesuvDom-1p
+  endmap
+
+  map m2p -projection plan 
+  AglarondVesuvDom-2p
+  endmap
+
+  map m3p -projection plan 
+  AglarondVesuvDom-3p
+  endmap
+
+  map m4p -projection plan 
+  AglarondVesuvDom-4p
+  endmap
+
+
+
+  join AglarondVesuvDom-1p AglarondVesuvDom-3p
+
 
   centerline
     date 2024.08.12 

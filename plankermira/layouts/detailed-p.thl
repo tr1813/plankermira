@@ -61,6 +61,9 @@ layout detailed-p
   symbol-colour point soda-straw [85 45 10]
   symbol-colour point crystal [85 45 10]
   symbol-colour point popcorn [85 45 10]
+  symbol-colour point stalactites [85 45 10]
+  symbol-colour point stalagmites [85 45 10]
+  symbol-colour point gypsum [85 45 10]
 
   ## sedimentary fills
   symbol-assign line rock-border MY

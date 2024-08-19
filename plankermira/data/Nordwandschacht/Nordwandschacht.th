@@ -21,16 +21,18 @@ survey nw -title "Nordwandschacht"
         m-all-p@3 [-20 0 m] none
         m-all-p@1
         m-all-p@2
-        #m-all-p@4
-        m-all-p@5 [50 0 m] none
+        m-all-p@4
+        m-all-p@5 [60 0 m] none
 
-        4
     endmap
 
     map m-all-e -projection extended
         m-all-e@3
         m-all-e@1
         m-all-e@2
+
+        4
+        5
     endmap
 
     ## joins between scraps- 
