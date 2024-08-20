@@ -17,7 +17,7 @@ survey 3 -title "3 Eingangschächte"
     Eingang-1e
   endmap
 
-    centerline
+    centerline -title "Eingangschächte der Nordwandschacht"
     date 2023.08.15 
     explo-date 1977.07.01
     explo-team "Limberger"

@@ -8,10 +8,6 @@ export model -fmt survex -o ../out/Nordwandschacht.3d
 export database -o ../out/Nordwandschacht.csv
 export database -o ../out/Nordwandschacht.sql
 
-#export model  -o _out/Nordwandschacht.lox
-#export model -o _out/Nordwandschacht.kml
-
-
 input ../layouts/detailed-p.thl 
 
 layout local
@@ -30,7 +26,7 @@ layout local
     \par Katastergebiet: 1625 
     \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth
     \par Eingangskoordinaten (MGI GK 31): X : 500499 / Y : 277600
-    \par Vermessung 08.2023 --- \the\topoteam
+    \par Vermessung 2023 -- 2024 --- \the\topoteam
     \par Verein für Höhlenkunde in Obersteier
     \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
       \def\maplayout{
@@ -61,4 +57,4 @@ maps-offset on
 export map -projection plan -o ../out/Nordwandschacht.pdf -layout local
 #export model -o ../out/Nordwandschacht.lox
 #export map -projection plan -o ../out/Nordwandschacht_summary.pdf -layout summary -layout-debug station-names
-#export map -fmt esri -projection plan -o ../out/Nordwardschacht-plan
+#export map -fmt esri -projection plan -o ../out/Nordwandschacht-plan

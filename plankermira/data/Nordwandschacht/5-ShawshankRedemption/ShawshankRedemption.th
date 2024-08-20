@@ -11,7 +11,7 @@ survey 5 -title "5 Shawshank Redemption"
   ShawshankRedemption-2p
   endmap
 
-  centerline
+  centerline -title "Shawshank-Redemption-Schluf"
     date 2024.08.14 
     team "Tanguy Racine" notes
     team "Robin Jeutter" insts

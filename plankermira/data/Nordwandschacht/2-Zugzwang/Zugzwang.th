@@ -7,7 +7,7 @@ survey 2 -title "2 Zugzwang Kleine-Schwester-Halle"
   map m-all-p -projection plan 
   m-p33top-p
   m-p33middle-p [30 0 m] none
-  m1p [60 0 m] none
+  m1p [80 0 m] none
   endmap
 
   map m1p -projection plan
@@ -67,7 +67,7 @@ survey 2 -title "2 Zugzwang Kleine-Schwester-Halle"
     Zugzwang-2e
   endmap
 
-  centerline
+  centerline -title "Zugzwang Gang"
     date 2023.08.18 
     explo-date 2023.08.18
     explo-team "Tanguy Racine"

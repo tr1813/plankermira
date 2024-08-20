@@ -1638,6 +1638,11 @@ endscrap
 
 scrap Zugzwang-1p3 -projection plan -scale [0 0 7.8740 0 0 0 1 0 m]
 
+line label -scale xl -text "Kleine-              -Schwester-Halle"
+  197.5703 318.4018
+  513.8462 381.1429 742.5516 560.91 862.7554 848.5239
+endline
+
 line pit 
   128.8428 581.6881
   130.509 581.2611 148.3985 581.782 155.2924 583.5667
@@ -1791,7 +1796,7 @@ endline
 
 point 121.354 539.322 continuation 
 point 89.0351 588.551 continuation 
-point 3.7143 581.0537 label -align tr -text "dunkles Loch"
+point 3.7143 581.054 label -align tr -text "dunkles Loch"
 point 182.301 621.279 map-connection 
 point 846.267 995.511 section -scrap Zugzwang-xx0
 line section -direction both
@@ -2570,11 +2575,6 @@ endline
 area u:smallblocks -attr scale 1.5
   Zugzwang-1p3_u_smallblocks_10
 endarea
-
-line label -text Kleine-Schwester-Halle
-  320.9115 695.1418
-  320.9115 695.1418 426.1844 852.0407 456.046 1003.6954
-endline
 
 line rock-edge 
   605.724 668.9876
@@ -6273,7 +6273,7 @@ endscrap
 
 scrap Zugzwang-1p8 -projection plan -scale [0 0 96 0 0 0 500 0 inch]
 
-point 597.399 277.452 gradient -orientation 10.354504749377272 -scale m
+point 597.399 277.452 gradient -orientation 10.354494451148105 -scale m
 point 572.456 336.576 gradient -orientation 130.25282764555925 -scale m
 point 540.122 345.198 gradient -orientation 114.52101907131576 -scale m
 point 586.367 175.508 station-name -align t -scale xs -text "2/31"

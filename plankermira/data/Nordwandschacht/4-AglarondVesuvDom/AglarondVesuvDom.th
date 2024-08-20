@@ -32,7 +32,7 @@ survey 4 -title "4 Aglarond Vesuv Dom Tor der Ewigkeit"
   join AglarondVesuvDom-1p AglarondVesuvDom-3p
 
 
-  centerline
+  centerline -title "Aglarond"
     date 2024.08.12 
     team "Tanguy Racine" notes
     team "Robin Jeutter" insts
@@ -369,7 +369,7 @@ survey 4 -title "4 Aglarond Vesuv Dom Tor der Ewigkeit"
     endcenterline
 
 
-    centerline
+    centerline -title "Vesuv-Dom"
     date 2024.08.13
     team "Tanguy Racine" notes
     team "Robin Jeutter" insts

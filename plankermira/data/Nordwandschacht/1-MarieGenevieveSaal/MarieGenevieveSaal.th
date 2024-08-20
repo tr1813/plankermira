@@ -24,7 +24,7 @@ survey 1 -title "Marie-Genevieve-Saal"
 
   
 
-  centerline
+  centerline -title "Oberer Teil der Tiefenbronner Halle"
     date 2023.08.13 
     explo-date 1977.08.03
 
@@ -675,7 +675,7 @@ survey 1 -title "Marie-Genevieve-Saal"
 
     endcenterline
 
-    centerline
+    centerline -title "Unterer Teil der Tiefenbronner Halle"
     date 2023.08.14 
 
         explo-date 1977.08.03
