@@ -8,9 +8,10 @@
 *.jpg
 *.jpg.points
 *.jpg.aux.xml
-
+*.lox
+*.kml
 *.3d
 
 *.log
 *.pdf
-out/*
+plankermira/out/*
