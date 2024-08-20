@@ -1,0 +1,61 @@
+encoding  utf-8
+source ../data/IceAgeHoehle/IceAgeHoehle.th
+
+select m-all-p@iah
+
+
+export model -fmt survex -o ../out/IceAgeHoehle.3d
+export database -o ../out/IceAgeHoehle.csv
+export database -o ../out/IceAgeHoehle.sql
+
+
+input ../layouts/detailed-p.thl 
+
+layout local
+    copy detailed-p 
+    scale 1 500
+    symbol-colour line border [0 0 0]
+    symbol-colour line survey:cave [70 10 0]
+    symbol-colour point station-name [0 0 0]
+    symbol-assign line wall:blocks MYEE
+    #color map-fg altitude
+    symbol-show point label
+        code tex-map
+     \def\customheader{
+    \size[12]\bf \the\cavename{} 1625/597 \ss
+    \si \par \size[10]Westl. Schneiderkare, Totes Gebirge, Steirmark - Auseerland \ss
+    \par Katastergebiet: 1625 
+    \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth
+    \par Eingangskoordinaten (MGI GK 31): X :  / Y : 
+    \par Vermessung 2024 --- \the\topoteam
+    \par Verein für Höhlenkunde in Obersteier
+    \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
+      \def\maplayout{
+          \legendbox{\the\numexpr 1\relax}{\the\numexpr 99\relax}{NE}{\customheader}
+          \legendbox{\the\numexpr-24\relax}{\the\numexpr63\relax}{S}{\northarrow}
+          \legendbox{\the\numexpr-24\relax}{\the\numexpr62\relax}{N}{\scalebar}
+
+          %\legendbox{\the\numexpr0\relax}{\the\numexpr0\relax}{NW}{\hbox{\loadpicture{"omuhako_cave-L.pdf"}}}
+     }
+    endcode 
+
+endlayout
+
+layout summary
+    copy detailed-p 
+    copy custom_arrow_VHO
+    symbol-hide group all
+    symbol-show line survey
+    symbol-assign line survey MY
+    symbol-show point station
+    symbol-show line wall
+    scale 1 500
+endlayout
+
+
+maps-offset on
+
+export map -projection plan -o ../out/IceAgeHoehle.pdf -layout local
+#export model -o ../out/IceAgeHoehle.lox
+#export map -projection plan -o ../out/IceAgeHoehle_summary.pdf -layout summary -layout-debug station-names
+export map -fmt esri -projection plan -o ../out/IceAgeHoehle-plan

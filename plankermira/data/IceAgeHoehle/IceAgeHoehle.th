@@ -1,0 +1,14 @@
+survey iah -title "Ice-Age-Höhle"
+
+input "./1-Eingang/Eingang.th"
+
+map m-all-p -projection plan 
+    m-all-p@1
+endmap
+
+centreline 
+cs lat-long
+fix 0@1 14.02736177 47.63171365 2030
+endcentreline
+
+endsurvey

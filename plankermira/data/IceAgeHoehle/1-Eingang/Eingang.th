@@ -1,11 +1,35 @@
 # 2024.08.18 created by TopoDroid v 6.2.44
 
-survey ice_age_cave -title "ice age cave"
+survey 1 -title "1 Ice-Age-Höhle Eingang"
     # phreatic tunnels in Kraxentrager area 
 
-  centerline
+  input "./Eingang-p.th2"
+
+  map m-all-p -projection plan
+    Eingang-1p
+    break 
+    Eingang-2p
+    break
+    Eingang-3p
+    break
+    Eingang-4p
+
+  endmap
+
+
+  centerline -title "Eingang"
     date 2024.08.16 
-    # team Tanguy Robin Marcel Peter 
+    team "Tanguy Racine" 
+    team "Robin Jeutter"
+    team "Marcel Jeutter"
+    team "Peter Jeutter" 
+    
+    explo-date 2019.08 
+    explo-team "Peter Jeutter" 
+    explo-team "Anna Brandmeier"
+
+    station 0 entrance
+
     units length meters
     units compass clino degrees
     data normal from to length compass clino
@@ -227,6 +251,25 @@ survey ice_age_cave -title "ice age cave"
     14 . 12.52 97.6 -15.1
     14 . 8.68 93.3 -15.0
     14 . 7.74 104.1 -16.2
+    endcenterline
+
+    centerline -title "Hauptgang"
+    date 2024.08.16 
+    team "Tanguy Racine" 
+    team "Robin Jeutter"
+    team "Marcel Jeutter"
+    team "Peter Jeutter" 
+    
+    explo-date 2024.08.16 
+    explo-team "Tanguy Racine" 
+    explo-team "Robin Jeutter"
+    explo-team "Marcel Jeutter"
+    explo-team "Peter Jeutter" 
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
     extend right
     14 15 6.61 96.5 -16.9
     # extend auto
@@ -749,6 +792,7 @@ survey ice_age_cave -title "ice age cave"
     50 . 1.20 315.7 32.9
     50 . 2.84 45.1 54.0
     50 . 2.84 42.5 54.8
+    50 41 2.84 43.8 54.4
     extend ignore
     50 51 4.14 332.8 18.8
     # extend auto
