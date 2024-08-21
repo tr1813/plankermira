@@ -1,0 +1,7 @@
+survey pm -title "Plankermira"
+
+input "./Nordwandschacht/Nordwandschacht.th"
+input "./IceAgeHoehle/IceAgeHoehle.th"
+input "./BouffeCombine/BouffeCombine.th"
+input "./WildbaderHoehle/WildbaderHoehle.th"
+endsurvey

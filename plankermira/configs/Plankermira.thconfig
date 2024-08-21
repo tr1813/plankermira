@@ -1,0 +1,3 @@
+source "../data/Plankermira.th"
+
+export model -o "../out/Plankermira.3d" -fmt survex
