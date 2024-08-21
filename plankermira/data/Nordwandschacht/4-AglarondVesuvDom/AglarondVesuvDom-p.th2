@@ -228,28 +228,28 @@ line floor-step
   1202.1842 7331.926 1220.6538 7326.0106 1228.875 7326.0106
 endline
 
-point 1230.498 8888.0811 station-name -align t -scale xs -text "4/3"
-point 1132.8684 8650.9775 station-name -align t -scale xs -text "4/4"
-point 1339.9979 8245.3701 station-name -align t -scale xs -text "4/5"
-point 1066.8165 8005.2119 station-name -align t -scale xs -text "4/6"
-point 1191.9871 7876.6338 station-name -align t -scale xs -text "4/7"
-point 1051.7406 7894.6719 station-name -align t -scale xs -text "4/8"
-point 1028.0723 7561.9214 station-name -align t -scale xs -text "4/24"
-point 1036.2516 7470.4082 station-name -align t -scale xs -text "4/25"
-point 960.8192 7299.0015 station-name -align t -scale xs -text "4/26"
-point 1226.4109 7431.8984 station-name -align t -scale xs -text "4/27"
-point 1356.6598 7405.4409 station-name -align t -scale xs -text "4/28"
-point 1607.8 7175.0723 station-name -align t -scale xs -text "4/31"
-point 1522.901 7376.9541 station-name -align t -scale xs -text "4/29"
-point 1581.6426 7654.8237 station-name -align t -scale xs -text "4/30"
-point 1775.8976 7007.6235 station-name -align t -scale xs -text "4/32"
-point 1513.2003 6663.3291 station-name -align t -scale xs -text "4/33"
-point 1660.0835 6616.2339 station-name -align t -scale xs -text "4/34"
-point 1650.6171 6465.5879 station-name -align t -scale xs -text "4/35"
-point 1210.8391 6186.7212 station-name -align t -scale xs -text "4/36"
-point 1481.2582 5862.1421 station-name -align t -scale xs -text "4/37"
-point 1265.0984 5639.5249 station-name -align t -scale xs -text "4/38"
-point 1287.6461 5452.1611 station-name -align t -scale xs -text "4/39"
+point 1230.5 8888.08 station-name -align t -scale xs -text "4/3"
+point 1132.87 8650.98 station-name -align t -scale xs -text "4/4"
+point 1340.0 8245.37 station-name -align t -scale xs -text "4/5"
+point 1066.82 8005.21 station-name -align t -scale xs -text "4/6"
+point 1191.99 7876.63 station-name -align t -scale xs -text "4/7"
+point 1051.74 7894.67 station-name -align t -scale xs -text "4/8"
+point 1028.07 7561.92 station-name -align t -scale xs -text "4/24"
+point 1036.25 7470.41 station-name -align t -scale xs -text "4/25"
+point 960.819 7299.0 station-name -align t -scale xs -text "4/26"
+point 1226.41 7431.9 station-name -align t -scale xs -text "4/27"
+point 1356.66 7405.44 station-name -align t -scale xs -text "4/28"
+point 1607.8 7175.07 station-name -align t -scale xs -text "4/31"
+point 1522.9 7376.95 station-name -align t -scale xs -text "4/29"
+point 1581.64 7654.82 station-name -align t -scale xs -text "4/30"
+point 1775.9 7007.62 station-name -align t -scale xs -text "4/32"
+point 1513.2 6663.33 station-name -align t -scale xs -text "4/33"
+point 1660.08 6616.23 station-name -align t -scale xs -text "4/34"
+point 1650.62 6465.59 station-name -align t -scale xs -text "4/35"
+point 1210.84 6186.72 station-name -align t -scale xs -text "4/36"
+point 1481.26 5862.14 station-name -align t -scale xs -text "4/37"
+point 1265.1 5639.52 station-name -align t -scale xs -text "4/38"
+point 1287.65 5452.16 station-name -align t -scale xs -text "4/39"
 point 1216.38 7666.12 traverse 
 point 1556.96 6921.12 traverse 
 line water-flow 
@@ -498,11 +498,11 @@ line u:texture
   1308.5912 8650.3482 1305.6387 8734.3289 1306.2948 8750.0753
 endline
 
-point 1237.5631 5260.2319 label -align tr -text "<bf>C5"
-point 1671.67 6510.2 label -align tr -text "<bf>C3"
-point 984.1876 7179.7241 label -align tl -text "<bf>P10"
-point 1024.444 7928.8262 label -align tl -text "<bf>P16"
-point 1198.69 8932.8 label -align tl -text "<bf>P15"
+point 1237.56 5260.23 label -align tr -scale xs -text "<bf>C5"
+point 1671.67 6510.2 label -align tr -scale xs -text "<bf>C3"
+point 984.188 7179.72 label -align tl -scale xs -text "<bf>P10"
+point 1024.44 7928.83 label -align tl -scale xs -text "<bf>P16"
+point 1198.69 8932.8 label -align tl -scale xs -text "<bf>P15"
 point 1365.42 7821.88 popcorn -align tr -scale s
 point 1541.19 5342.85 label -align r -scale l -text "Schwere Geburt"
 line wall -clip off -outline none
@@ -878,7 +878,7 @@ line wall
 endline
 
 point 1265.71 8847.32 stalactite 
-point 1564.2426 7615.8691 stalactites -align tr -scale s
+point 1564.24 7615.87 stalactites -align tr -scale s
 point 1317.45 7863.73 stalactites -align tr -scale s
 point 1210.84 8667.14 stalactite 
 line wall 
@@ -9453,26 +9453,26 @@ line contour
   774.1978 2083.7727 876.5494 2060.8092 926.413 2061.4653
 endline
 
-point 1300.1067 5203.7729 station-name -align t -scale xs -text "4/40"
-point 1404.2126 5025.3433 station-name -align t -scale xs -text "4/41"
-point 961.6476 4912.6611 station-name -align t -scale xs -text "4/42"
-point 680.5392 5261.5327 station-name -align t -scale xs -text "4/43"
-point 1035.9218 4399.4053 station-name -align t -scale xs -text "4/44"
-point 1121.6215 4184.3042 station-name -align t -scale xs -text "4/45"
-point 1375.3303 4039.8125 station-name -align t -scale xs -text "4/46"
-point 1057.8978 3522.3789 station-name -align t -scale xs -text "4/47"
-point 954.3076 3406.8027 station-name -align t -scale xs -text "4/48"
-point 1095.937 3176.5898 station-name -align t -scale xs -text "4/49"
-point 1086.4014 3098.4695 station-name -align t -scale xs -text "4/50"
-point 1068.9873 2944.7192 station-name -align t -scale xs -text "4/51"
-point 828.4765 2654.2808 station-name -align t -scale xs -text "4/52"
-point 1113.9292 2436.9541 station-name -align t -scale xs -text "4/53"
-point 1076.312 2143.7966 station-name -align t -scale xs -text "4/54"
-point 760.9116 1671.0292 station-name -align t -scale xs -text "4/55"
-point 786.059 1426.407 station-name -align t -scale xs -text "4/56"
-point 707.8994 1138.9171 station-name -align t -scale xs -text "4/57"
-point 572.543 1105.7075 station-name -align t -scale xs -text "4/58"
-point 697.3587 888.9672 station-name -align t -scale xs -text "4/59"
+point 1300.11 5203.77 station-name -align t -scale xs -text "4/40"
+point 1404.21 5025.34 station-name -align t -scale xs -text "4/41"
+point 961.648 4912.66 station-name -align t -scale xs -text "4/42"
+point 680.539 5261.53 station-name -align t -scale xs -text "4/43"
+point 1035.92 4399.41 station-name -align t -scale xs -text "4/44"
+point 1121.62 4184.3 station-name -align t -scale xs -text "4/45"
+point 1375.33 4039.81 station-name -align t -scale xs -text "4/46"
+point 1057.9 3522.38 station-name -align t -scale xs -text "4/47"
+point 954.308 3406.8 station-name -align t -scale xs -text "4/48"
+point 1095.94 3176.59 station-name -align t -scale xs -text "4/49"
+point 1086.4 3098.47 station-name -align t -scale xs -text "4/50"
+point 1068.99 2944.72 station-name -align t -scale xs -text "4/51"
+point 828.476 2654.28 station-name -align t -scale xs -text "4/52"
+point 1113.93 2436.95 station-name -align t -scale xs -text "4/53"
+point 1076.31 2143.8 station-name -align t -scale xs -text "4/54"
+point 760.912 1671.03 station-name -align t -scale xs -text "4/55"
+point 786.059 1426.41 station-name -align t -scale xs -text "4/56"
+point 707.899 1138.92 station-name -align t -scale xs -text "4/57"
+point 572.543 1105.71 station-name -align t -scale xs -text "4/58"
+point 697.359 888.967 station-name -align t -scale xs -text "4/59"
 line wall -clip off -outline none -subtype presumed
   1169.1699 324.1129
   1173.063 323.0748 1302.1257 450.1289 1385.2099 448.5192
@@ -9565,7 +9565,7 @@ line pit -close on
   245.3814 814.8756 254.5667 825.3732 254.5667 825.3732
 endline
 
-point 1178.7941 810.8966 label -align tr -scale l -text "Tor der Ewigkeit"
+point 1178.79 810.897 label -align tr -scale l -text "Tor der Ewigkeit"
 line pit 
   886.5753 983.705
   886.5753 983.705 868.018 949.8379 863.3787 937.3118
@@ -9997,7 +9997,7 @@ line rock-border -close on
   788.632 5091.3345
 endline
 
-point 483.709 5301.28 label -align tr -text "<bf>C10"
+point 485.0212 5289.4702 label -align tr -scale xs -text "<bf>C10"
 line u:texture 
   549.7602 5085.7975
   545.1209 5085.7975 490.8408 5081.1582 490.8408 5081.1582
@@ -13181,8 +13181,8 @@ endline
 
 point 1566.93 9330.97 station -name 0
 point 1454.77 8942.93 station -name 2
-point 1463.5146 8882.1865 station-name -align t -scale xs -text "4/2"
-point 1622.557 8936.9619 station-name -align t -scale xs -text "4/1"
+point 1463.51 8882.19 station-name -align t -scale xs -text "4/2"
+point 1622.56 8936.96 station-name -align t -scale xs -text "4/1"
 point 1542.6 8959.73 station -name 1
 line border -close on -id AglarondVesuvDom-4p_clay_1 -visibility off
   1535.6171 8974.4811
