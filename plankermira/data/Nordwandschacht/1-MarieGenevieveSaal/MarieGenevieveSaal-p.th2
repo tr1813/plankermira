@@ -20593,8 +20593,8 @@ line pit
   2186.5172 1738.3671 2174.1068 1744.699 2174.1068 1744.699
 endline
 
-point 2217.99 1741.3 label -align tr -text "<bf>C6"
-point 2274.4 1708.45 label -align tr -text "phreatische Morphologie"
+point 2217.99 1741.3 label -align tr -text "<bf>C6" -scale xs
+
 line u:texture 
   2244.3271 1706.5179
   2250.7856 1705.7581
@@ -22497,7 +22497,7 @@ line wall
   1827.6146 1987.063 1821.6353 1990.9805 1821.6353 1990.9805
 endline
 
-point 2008.17 1562.06 label -align tr -text Balkon
+point 2008.17 1542.06 label -align tr -text Balkon
 line wall 
   1887.6529 1595.0552
   1894.0312 1597.2876
@@ -24887,8 +24887,8 @@ line floor-step
   1713.81 2158.43 1719.7623 2159.9105 1719.8723 2161.1505
 endline
 
-point 1622.04 2247.98 label -align t -scale xs -text "unerforschter Schacht"
-point 1768.71 2168.69 label -align t -scale xs -text "Drei-Brücken-Schacht"
+point 1622.04 2247.98 label -align tl -scale xs -text "unerforschter Schacht"
+point 1748.71 2168.69 label -align tr -scale xs -text "Drei-Brücken<br>-Schacht"
 line wall -close on -outline in
   1646.9 2184.805
   1648.08 2185.61 1647.89 2188.06 1648.75 2189.12

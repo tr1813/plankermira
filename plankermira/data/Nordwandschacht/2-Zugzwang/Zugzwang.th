@@ -7,7 +7,7 @@ survey 2 -title "2 Zugzwang Kleine-Schwester-Halle"
   map m-all-p -projection plan 
   m-p33top-p
   m-p33middle-p [30 0 m] none
-  m1p [80 0 m] none
+  m1p [60 0 m] none
   endmap
 
   map m1p -projection plan
@@ -103,7 +103,7 @@ survey 2 -title "2 Zugzwang Kleine-Schwester-Halle"
     1 . 5.41 293.2 -56.0
     extend left
     1 2 5.42 293.8 -56.0
-    extend right
+    extend vertical
     3 1 5.18 133.5 -41.4
     # extend auto
     3 . 9.36 101.0 -0.6
