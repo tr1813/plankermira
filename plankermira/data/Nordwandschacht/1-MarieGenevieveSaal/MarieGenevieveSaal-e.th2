@@ -6695,6 +6695,15 @@ endscrap
 
 scrap MarieGenevieveSaal-1e -projection extended -scale [0.0 0.0 500 1000.0 -250 -500 250 500]
 
+point 1587.8672 805.3922 label -align tr -scale xs -text "Drei-Brücken-Schacht"
+point 1631.9815 723.4108 continuation 
+point 1734.1246 732.8375 continuation 
+point 1623.5662 724.043 water-flow -orientation 169.055732438643
+line wall -subtype clay
+  1695.7618 804.0085
+  1697.481 804.0085 1721.3479 804.3118 1721.3479 804.3118
+endline
+
 line rock-border -close on
   -655.7068 37.0799
   -655.7068 37.0799 -654.1743 38.8342 -653.8413 40.3428
@@ -6776,7 +6785,7 @@ line rock-edge
   903.679 678.5921
 endline
 
-point 306.0306 772.8327 continuation 
+point 306.031 772.833 continuation 
 line arrow 
   311.3564 491.5878
   331.021 328.5353
@@ -8743,23 +8752,23 @@ point 1375.93 805.87 station-name -align tr -scale xs -text "1/2.4"
 point 1410.79 796.65 station-name -align tr -scale xs -text "1/2.5"
 point 1452.61 802.95 station-name -align tr -scale xs -text "1/2.6"
 point 1434.2 805.47 station-name -align tr -scale xs -text "1/2.7"
-point 1488.44 803.27 station-name -align tr -scale xs -text "1/2.8"
-point 1553.78 786.73 station-name -align tr -scale xs -text "1/2.9"
-point 1633.23 786.42 station-name -align tr -scale xs -text "1/2.10"
-point 1684.69 781.22 station-name -align tr -scale xs -text "1/2.11"
-point 1726.78 772.8 station-name -align tr -scale xs -text "1/2.12"
+point 1480.8599 780.8158 station-name -align tr -scale xs -text "1/2.8"
+point 1543.9116 770.8547 station-name -align tr -scale xs -text "1/2.9"
+point 1645.2438 759.3891 station-name -align tr -scale xs -text "1/2.10"
+point 1683.5458 755.9053 station-name -align tr -scale xs -text "1/2.11"
+point 1703.0386 783.3835 station-name -align tr -scale xs -text "1/2.12"
 point 1375.1 780.67 station-name -align tr -scale xs -text "1/2.13"
 point 1335.66 796.73 station-name -align tr -scale xs -text "1/2.14"
-point 1390.91 859.8 station-name -align tr -scale xs -text "1/3"
-point 1472.52 916.65 station-name -align tr -scale xs -text "1/4"
-point 1524.55 917.36 station-name -align tr -scale xs -text "1/5"
-point 1666.94 835.47 station-name -align tr -scale xs -text "1/6"
-point 1702.17 828.46 station-name -align tr -scale xs -text "1/6.1"
+point 1373.9706 864.6037 station-name -align tr -scale xs -text "1/3"
+point 1477.8799 920.8975 station-name -align tr -scale xs -text "1/4"
+point 1533.9552 925.4504 station-name -align tr -scale xs -text "1/5"
+point 1674.234 852.4894 station-name -align tr -scale xs -text "1/6"
+point 1721.7638 837.7563 station-name -align tr -scale xs -text "1/6.1"
 point 1019.1 748.54 station-name -align tr -scale xs -text "1/7"
-point 1722.58 805.71 station-name -align tr -scale xs -text "1/6.2"
-point 1463.01 936.57 station-name -align tr -scale xs -text "1/5.1"
-point 1390.91 926.97 station-name -align tr -scale xs -text "1/5.2"
-point 1390.91 893.82 station-name -align tr -scale xs -text "1/5.3"
+point 1729.9315 808.7846 station-name -align tr -scale xs -text "1/6.2"
+point 1467.0552 946.2786 station-name -align tr -scale xs -text "1/5.1"
+point 1392.0225 934.7571 station-name -align tr -scale xs -text "1/5.2"
+point 1364.3126 897.7641 station-name -align tr -scale xs -text "1/5.3"
 point 1113.62 738.31 station-name -align tr -scale xs -text "1/0.1"
 point 1113.62 711.85 station-name -align tr -scale xs -text "1/0.2"
 point 1038.72 674.61 station-name -align tr -scale xs -text "1/0.3"
@@ -8889,10 +8898,10 @@ line wall -attr scale 2.2 -subtype blocks
 endline
 
 line wall 
-  1736.8538 806.278
-  1736.8538 806.278 1739.1584 809.487 1734.3134 815.6492
-  1732.9037 817.4421 1723.3021 815.3659 1721.4552 817.3798
-  1719.2611 819.7723 1718.1897 823.0126 1716.1353 825.376
+  1721.4819 804.1543
+  1721.4819 804.1543 1723.7865 807.3632 1718.9415 813.5255
+  1717.5318 815.3184 1707.9302 813.2422 1706.0833 815.2561
+  1703.8892 817.6486 1718.1897 823.0126 1716.1353 825.376
   1709.8447 832.6128 1721.5287 831.6341 1720.38 834.06
   1717.5408 840.0561 1711.5687 840.0947 1711.62 841.0047
   1711.714 842.6718 1713.6949 843.9247 1712.5445 845.1463
@@ -9251,7 +9260,7 @@ point 1524.55 917.36 station -name 5
 point 1666.94 835.47 station -name 6
 point 1702.17 828.46 station -name 6.1
 point 1019.1 748.54 station -name 7
-point 1722.58 805.71 station -name 6.2
+point 1702.35 805.71 station -name 6.2
 point 1463.01 936.57 station -name 5.1
 point 1390.91 926.97 station -name 5.2
 point 1390.91 893.82 station -name 5.3
@@ -9706,9 +9715,9 @@ line wall -subtype blocks
   1400.4893 777.9537 1415.8523 785.5328 1415.8523 785.5328
 endline
 
-line label -text Geburtstag-Gang
-  1493.135 837.5286
-  1493.135 837.5286 1679.0618 810.0687 1719.1076 794.0503
+line label -text Geburtstagsgang
+  1350.3383 735.5887
+  1466.1699 707.1153 1630.5582 691.6503 1744.4994 690.1691
 endline
 
 line wall -subtype blocks

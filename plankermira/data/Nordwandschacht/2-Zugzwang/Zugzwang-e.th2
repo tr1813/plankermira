@@ -875,8 +875,8 @@ line survey
 endline
 
 line survey 
-  -96.48 623.07
-  -139.96 660.63
+  -66.3027 623.07
+  -109.7827 660.63
 endline
 
 line survey 
@@ -955,8 +955,8 @@ line survey
 endline
 
 line survey 
-  -127.08 650.0
-  -115.31 653.23
+  -96.9027 650.0
+  -85.1327 653.23
 endline
 
 line survey 
@@ -965,28 +965,28 @@ line survey
 endline
 
 line survey 
-  -127.08 650.0
-  -141.67 655.67
+  -96.9027 650.0
+  -111.4926 655.67
 endline
 
 line survey 
-  -127.08 650.0
-  -140.58 651.57
+  -96.9027 650.0
+  -110.4026 651.57
 endline
 
 line survey 
-  -127.08 650.0
-  -145.04 672.2
+  -96.9027 650.0
+  -114.8627 672.2
 endline
 
 line survey 
-  -127.08 650.0
-  -127.94 671.34
+  -96.9027 650.0
+  -97.7627 671.34
 endline
 
 line survey 
-  -127.08 650.0
-  -120.99 640.47
+  -96.9027 650.0
+  -90.8127 640.47
 endline
 
 line survey 
@@ -2459,7 +2459,7 @@ endscrap
 
 scrap Zugzwang-2e -projection extended -scale [0 0 96 0 0 0 500 0 inch]
 
-point 872.9839 353.98 breakdown-choke 
+point 872.984 353.98 breakdown-choke 
 line wall -outline none -subtype blocks
   839.083 332.1386
   841.6219 332.512 850.8064 334.8268 852.3745 335.4241
@@ -3086,14 +3086,47 @@ point 313.26 297.17 station-name -align tr -scale xs -text "2/15"
 point 313.45 309.21 station-name -align tr -scale xs -text "2/16"
 point 421.526 331.348 station-name -align tr -scale xs -text "2/18"
 point 288.05 320.16 station-name -align tr -scale xs -text "2/17"
-point 650.3396 331.4357 station-name -align tr -scale xs -text "2/21"
-point 769.9402 338.927 station-name -align tr -scale xs -text "2/22"
-point 847.5667 355.3582 station-name -align tr -scale xs -text "2/23"
-point 875.0941 309.4346 station-name -align tr -scale xs -text "2/24"
+point 650.34 331.436 station-name -align tr -scale xs -text "2/21"
+point 769.94 338.927 station-name -align tr -scale xs -text "2/22"
+point 847.567 355.358 station-name -align tr -scale xs -text "2/23"
+point 875.094 309.435 station-name -align tr -scale xs -text "2/24"
 endscrap
 
 
 scrap Zugzwang-1e -projection extended -scale [0.0 0.0 500 1000.0 -250 -500 250 500]
+
+line wall -id zugzwang-l2
+  195.3536 441.1832
+  194.9803 485.0418
+endline
+
+line wall -subtype invisible
+  144.9738 295.7666
+  145.3089 343.607
+endline
+
+line wall -subtype invisible
+  149.099 409.2534
+  195.3012 440.556
+endline
+
+line wall -id zugzwang-l1
+  145.5235 343.75
+  145.5235 343.75 143.3066 342.1053 140.4462 342.6773
+  137.5858 343.2494 140.1602 347.254 139.8741 348.9703
+  139.5881 350.6865 139.016 353.5469 139.3021 356.1213
+  139.5881 358.6957 145.0229 359.8398 147.0252 362.4142
+  149.0275 364.9886 147.5973 371.2815 147.5973 372.4256
+  147.5973 373.5698 146.7391 381.2929 147.5973 384.1533
+  148.4554 387.0137 147.3112 388.4439 147.0252 391.0183
+  146.7391 393.5927 148.1693 403.3181 148.1693 405.0343
+  148.1693 406.7506 148.7414 408.1808 149.0275 409.3249
+endline
+
+line wall -subtype invisible
+  74.3707 417.048
+  110.4119 283.1808
+endline
 
 line wall -subtype presumed
   107.4522 656.138
@@ -3106,8 +3139,8 @@ line wall -subtype presumed
 endline
 
 line wall -subtype presumed
-  -94.9821 728.5693
-  -95.5048 709.4534
+  -90.5485 725.5659
+  -91.0712 706.45
 endline
 
 line wall -subtype presumed
@@ -3115,7 +3148,7 @@ line wall -subtype presumed
   -72.73 726.9265
 endline
 
-line wall -subtype invisible
+line wall -id zugzwang-l4 -subtype invisible
   111.1982 282.5443
   127.3552 285.3955
   141.189 290.3588
@@ -3152,40 +3185,6 @@ line rock-border -clip off -close on
   128.5169 289.6196 127.6721 285.1843 128.4113 284.6563
   129.1505 284.1283 139.9218 284.0227 140.5554 284.1283
   141.189 284.2339 142.8787 285.1843 142.8787 285.1843
-endline
-
-point -68.8605 379.6661 label -align t -text "Dunkles Loch"
-line wall -subtype invisible
-  11.8467 343.4948
-  29.6168 343.4948
-endline
-
-line wall -subtype invisible
-  -10.7203 412.1158
-  -7.1102 368.3476
-endline
-
-line wall -subtype presumed
-  46.3508 401.9626
-  46.0217 399.33 21.3899 403.0574 19.0864 402.7283
-  18.3624 402.6249 8.4014 401.9611 4.3354 403.2287
-  -4.5361 405.9944 -10.7203 412.1158 -10.7203 412.1158
-endline
-
-line wall -subtype presumed
-  -7.1102 368.3476
-  3.2908 379.364
-  3.2908 379.364 6.9106 377.7186 12.8339 374.4279
-  18.7573 371.1371 12.5049 372.1243 12.1758 361.2648
-  11.8467 350.4054 12.1758 346.4565 11.8467 343.4948
-endline
-
-line wall -subtype presumed
-  29.6168 343.4948
-  29.6168 343.4948 33.5657 353.038 34.2238 354.6833
-  34.882 356.3287 35.8692 361.5939 35.8692 363.2393
-  35.8692 364.8847 39.489 373.7697 39.8181 376.4023
-  40.1472 379.0349 49.8634 379.5144 49.8634 379.5144
 endline
 
 point 100.406 453.058 anchor 
@@ -3402,29 +3401,6 @@ line u:texture
 endline
 
 line u:texture 
-  217.1897 363.8974
-  217.2994 363.349 217.4091 362.8005 217.5188 362.2521
-  217.6285 362.1424 217.8102 362.0735 217.8478 361.923
-  218.0453 361.1331 217.8478 359.7636 217.8478 358.9613
-  217.8478 356.6578 217.8478 354.3543 217.8478 352.0507
-  217.8478 351.5036 217.6705 350.6084 217.8478 350.0763
-  218.3645 348.5262 218.506 349.5041 218.506 347.4437
-endline
-
-line u:texture 
-  238.2505 362.5811
-  235.7695 361.2517 232.8931 361.5709 230.3527 360.9358
-  228.7209 360.5278 227.0797 359.7062 225.4166 359.2904
-  224.874 359.1547 224.3262 359.0307 223.7712 358.9613
-  223.4447 358.9205 223.0662 359.1306 222.784 358.9613
-  222.1841 358.6014 220.6633 355.7438 220.4804 355.0124
-  220.4538 354.906 220.5845 354.718 220.4804 354.6833
-  219.5911 354.3869 218.1365 355.2042 217.5188 355.3415
-  216.1964 355.6353 214.52 354.9151 213.2408 355.3415
-  212.7527 355.5042 212.8552 355.9996 212.2536 355.9996
-endline
-
-line u:texture 
   200.7359 362.5811
   201.0597 358.5291 201.065 354.4749 201.065 350.4053
   201.065 349.8648 201.3209 348.2846 201.065 347.7727
@@ -3505,17 +3481,17 @@ line u:texture
   126.1343 446.1991 127.8423 445.8372 128.9975 445.8372
 endline
 
-point -138.4643 584.6292 station-name -align tr -scale xs -text "2/2"
+point -138.464 584.629 station-name -align tr -scale xs -text "2/2"
 point -120.35 587.64 station -name 2
 point 9.1598 582.148 station-name -align tr -scale xs -text "2/6"
 point 29.6359 575.072 station-name -align tr -scale xs -text "2/7"
 point 53.7608 569.981 station-name -align tr -scale xs -text "2/8"
 point 89.5298 565.401 station-name -align tr -scale xs -text "2/9"
 point 122.335 539.692 station-name -align tr -scale xs -text "2/10"
-point 151.734 286.545 station-name -align tr -scale xs -text "2/12"
-point 64.6339 441.2286 station-name -align tr -scale xs -text "2/11"
+point 143.1528 278.2498 station-name -align tr -scale xs -text "2/12"
+point 64.6339 441.229 station-name -align tr -scale xs -text "2/11"
 point -100.843 628.48 station-name -align tr -scale xs -text "2/1"
-point -123.124 655.468 station-name -align tr -scale xs -text "2/3"
+point -93.1612 655.468 station-name -align tr -scale xs -text "2/3"
 point -76.6452 633.734 station-name -align tr -scale xs -text "2/4"
 point 1.1681 590.985 station-name -align tr -scale xs -text "2/5"
 point 50.9786 453.723 label -align t -text "<bf>P33"
@@ -3577,31 +3553,31 @@ line rock-border -close on
 endline
 
 line wall 
-  -95.5769 708.8189
-  -95.5769 707.6514 -95.9692 701.1179 -95.9692 699.7169
-  -95.9692 698.3159 -102.0402 693.6459 -102.5072 692.7119
-  -102.9742 691.7778 -102.7407 689.6763 -103.4412 687.3413
-  -104.1417 685.0063 -107.4108 680.3363 -108.8118 679.6358
-  -110.2128 678.9353 -116.0503 680.1028 -118.8523 677.7677
-  -121.6544 675.4327 -123.2889 670.5292 -127.2584 673.3312
-  -131.2279 676.1332 -141.2685 678.9353 -141.502 680.3363
-  -141.7355 681.7373 -146.4055 683.1383 -146.4055 683.1383
+  -91.1227 705.9585
+  -91.1227 704.791 -91.515 698.2575 -91.515 696.8565
+  -91.515 695.4555 -96.6305 692.7113 -98.053 689.8515
+  -98.8622 688.2246 -99.1418 686.2913 -98.987 684.4809
+  -98.802 682.3184 -97.2914 680.4622 -96.7981 678.3486
+  -96.5356 677.224 -95.8599 675.9291 -96.3981 674.9073
+  -97.8744 672.104 -101.7539 669.6138 -104.8042 670.4708
+  -107.3676 671.191 -108.6598 675.9319 -108.8933 677.3329
+  -109.1268 678.7339 -119.7791 678.9991 -119.7791 678.9991
 endline
 
 line wall 
-  -145.9578 672.9159
-  -145.6275 672.0904 -142.8207 668.4579 -141.9951 666.4766
-  -141.1695 664.4953 -141.9951 663.6697 -141.9951 661.028
-  -141.9951 658.3862 -142.4904 656.7351 -141.1695 652.4422
-  -139.8487 648.1493 -133.9047 647.3238 -130.9327 646.0029
-  -127.9607 644.682 -123.8329 641.8751 -123.3376 640.7194
-  -122.8423 639.5636 -122.3469 639.5636 -120.5307 638.738
-  -118.7145 637.9125 -118.8796 628.3361 -118.8796 628.3361
-  -118.8796 628.3361 -119.8703 622.0619 -119.0447 621.4014
-  -118.2192 620.741 -119.375 617.769 -119.2098 616.283
-  -119.0447 614.797 -118.2192 603.7346 -119.5401 601.9184
-  -120.861 600.1022 -122.8423 595.6442 -122.8423 595.6442
-  -122.8423 582.6004
+  -123.3606 669.4834
+  -123.0303 668.6579 -114.9317 666.3126 -114.1061 664.3313
+  -113.2805 662.35 -113.1049 662.6686 -113.1049 660.0269
+  -113.1049 657.3851 -113.6002 655.734 -112.2793 651.4411
+  -110.9585 647.1482 -118.924 647.7244 -103.8303 644.7872
+  -100.6379 644.166 -103.0949 638.2996 -102.5996 637.1439
+  -102.1043 635.9881 -102.9381 633.9322 -103.8828 632.7231
+  -105.4399 630.7301 -110.4414 628.9082 -110.4414 628.9082
+  -110.4414 628.9082 -111.4321 622.634 -110.6065 621.9735
+  -109.781 621.3131 -110.9368 618.3411 -110.7716 616.8551
+  -110.6065 615.3691 -109.781 604.3067 -111.1019 602.4905
+  -112.4228 600.6743 -114.4041 596.2163 -114.4041 596.2163
+  -114.4041 583.1725
 endline
 
 line wall -subtype blocks
@@ -3622,31 +3598,7 @@ line wall -subtype presumed
   155.9791 485.5959 152.4341 482.1334 152.4341 482.1334
 endline
 
-point 253.634 366.384 continuation 
 point 117.276 663.065 continuation 
-point -22.5607 393.371 continuation 
-line wall 
-  248.2122 374.9161
-  248.2122 374.9161 213.187 365.3426 210.852 364.4086
-  208.517 363.4746 199.8774 364.6421 199.8774 364.6421
-  199.4104 382.1547
-  197.5424 402.2358
-  197.5424 402.2358 197.5424 404.5709 195.2074 406.4389
-  192.8724 408.3069 182.1313 420.449 182.1313 420.449
-  175.7276 437.9782
-endline
-
-line wall -subtype blocks
-  145.0045 295.9926
-  147.4973 297.1257 156.6051 303.7199 170.2619 316.004
-  174.9182 320.1923 189.1206 326.8501 193.6313 329.8776
-  203.1547 336.2693 207.8421 335.1058 208.984 335.9214
-  212.253 338.2564 218.791 342.4594 221.593 344.7944
-  224.3951 347.1295 226.2631 347.5965 229.0651 348.0634
-  231.8671 348.5305 236.0701 351.3325 238.8722 351.7995
-  241.6742 352.2665 251.0143 357.4035 251.0143 357.4035
-endline
-
 line wall 
   152.5622 482.2132
   151.5715 480.8923 137.7022 467.6835 137.7022 467.6835
@@ -3660,11 +3612,9 @@ line wall
 endline
 
 line wall -subtype presumed
-  175.7813 437.9207
-  175.7813 439.5718 178.423 453.7713 177.1021 460.0455
-  175.7813 466.3197 177.7626 469.6219 177.7626 472.2637
-  177.7626 474.0107 175.1875 494.9787 174.0025 510.2673
-  173.3956 518.097 173.7623 525.8379 173.7623 525.8379
+  195.1571 484.8039
+  195.1571 486.5509 191.3684 495.7877 190.1834 511.0763
+  189.5765 518.906 189.9432 526.6469 189.9432 526.6469
 endline
 
 line u:texture 
@@ -3685,28 +3635,16 @@ line u:texture
   92.4619 466.3626 90.1504 449.5213 90.1504 449.5213
 endline
 
-line wall -close on
-  130.4374 446.8795
-  130.4374 446.8795 126.4747 459.4279 129.7769 459.4279
+line wall -close on -outline in
+  134.442 432.0054
+  134.442 432.0054 126.4747 459.4279 129.7769 459.4279
   133.0791 459.4279 134.4 459.7582 137.7022 459.0977
   141.0044 458.4373 143.9764 461.4093 147.6089 460.4186
   151.2413 459.4279 151.9017 461.079 153.2226 458.1071
-  154.5435 455.1351 154.2133 450.512 153.5528 448.2004
-  152.8924 445.8889 154.5435 444.568 149.26 443.9076
-  143.9764 443.2471 135.7209 442.9169 135.7209 442.9169
-  130.4374 446.8795
-endline
-
-line wall 
-  49.8634 379.5144
-  51.1843 378.854 62.0816 375.882 62.0816 375.882
-  62.0816 375.882 65.714 367.9567 69.6767 365.9753
-  73.6393 363.994 72.3184 353.7572 72.6487 351.4456
-  72.9789 349.1341 83.8762 344.1807 84.5366 342.5297
-  85.1971 340.8785 85.8575 336.2554 85.8575 336.2554
-  85.8575 336.2554 94.113 328.9906 93.4526 327.6697
-  92.7921 326.3488 91.4713 321.0653 93.1224 316.112
-  94.7735 311.1586 94.5063 284.008 94.5063 284.008
+  154.5435 455.1351 158.2179 435.6379 157.5574 433.3263
+  156.897 431.0148 158.5481 429.6939 153.2646 429.0335
+  147.981 428.373 139.7255 428.0428 139.7255 428.0428
+  134.442 432.0054
 endline
 
 line wall 
@@ -3716,7 +3654,7 @@ line wall
   61.7707 545.1046 52.6936 545.0 46.301 547.1579
 endline
 
-line wall 
+line wall -id zugzwang-l3
   36.5126 533.374
   36.5126 532.5709 37.7064 515.074 40.1823 507.7088
   42.9916 499.3521 43.6877 485.7803 47.681 481.6377
@@ -3727,8 +3665,6 @@ line wall
   87.5086 423.1036
   87.5086 423.1036 86.4118 421.8982 83.77 419.5867
   81.1282 417.2752 74.6448 417.5961 74.975 415.945
-  75.1137 415.2517 61.383 405.6098 54.5423 404.073
-  49.3634 402.9096 46.3508 401.9626 46.3508 401.9626
 endline
 
 line wall 
@@ -3840,7 +3776,7 @@ endline
 
 point -137.18 625.83 station -name 0
 point -96.48 623.07 station -name 1
-point -127.08 650.0 station -name 3
+point -97.1172 650.0 station -name 3
 point -68.85 627.8 station -name 4
 point -9.28 584.65 station -name 5
 point 5.54 576.06 station -name 6
@@ -3945,8 +3881,8 @@ endline
 
 point 536.91 341.02 station -name 19
 point 609.2 389.45 station -name 20
-point 524.8132 346.8444 station-name -align tr -scale xs -text "2/19"
-point 591.6361 394.5276 station-name -align tr -scale xs -text "2/20"
+point 524.813 346.844 station-name -align tr -scale xs -text "2/19"
+point 591.636 394.528 station-name -align tr -scale xs -text "2/20"
 endscrap
 
 
@@ -4062,8 +3998,8 @@ line wall -subtype invisible
   -248.0585 533.8262 -255.003 526.135 -255.003 526.135
 endline
 
-point -3.4205 421.6313 stalactite -align b -clip on -scale s
-point 11.6422 421.5587 stalactite -align b -clip on -scale s
+point -3.4205 421.631 stalactite -align b -clip on -scale s
+point 11.6422 421.559 stalactite -align b -clip on -scale s
 line wall -subtype invisible
   -296.371 573.2527
   -277.0311 556.0036
@@ -4198,33 +4134,33 @@ line rock-border -clip off -close on
   -51.4954 606.3963
 endline
 
-point 192.135 389.1491 station-name -align tr -scale xs -text "2/25"
-point 111.6057 418.4937 station-name -align tr -scale xs -text "2/26"
-point -101.785 583.7392 station-name -align tr -scale xs -text "2/45"
-point -167.7122 578.4178 station-name -align tr -scale xs -text "2/43"
+point 192.135 389.149 station-name -align tr -scale xs -text "2/25"
+point 111.606 418.494 station-name -align tr -scale xs -text "2/26"
+point -101.785 583.739 station-name -align tr -scale xs -text "2/45"
+point -167.712 578.418 station-name -align tr -scale xs -text "2/43"
 point -143.22 571.1 station -name 43
 point -120.42 580.0 station -name 44
 point -106.34 596.06 station -name 45
 point -63.28 617.91 station -name 46
 point -29.74 634.2 station -name 47
-point -107.0538 569.0233 station-name -align tr -scale xs -text "2/44"
+point -107.054 569.023 station-name -align tr -scale xs -text "2/44"
 point -96.3595 622.017 station-name -align tr -scale xs -text "2/46"
-point -42.1355 635.6188 station-name -align tr -scale xs -text "2/47"
+point -42.1355 635.619 station-name -align tr -scale xs -text "2/47"
 point 61.44 421.1 station -name 27
 point 21.9 416.85 station -name 28
-point 49.2312 429.4259 station-name -align tr -scale xs -text "2/27"
-point 14.8062 424.4291 station-name -align tr -scale xs -text "2/28"
+point 49.2312 429.426 station-name -align tr -scale xs -text "2/27"
+point 14.8062 424.429 station-name -align tr -scale xs -text "2/28"
 point -60.48 408.19 station -name 29
 point -128.09 436.38 station -name 30
 point -133.35 516.93 station -name 40
 point -114.12 538.82 station -name 41
 point -106.13 549.69 station -name 42
 point -61.2192 421.707 station-name -align tr -scale xs -text "2/29"
-point -119.3251 445.0393 station-name -align tr -scale xs -text "2/30"
+point -119.325 445.039 station-name -align tr -scale xs -text "2/30"
 point -166.774 545.949 station-name -align tr -scale xs -text "2/37"
-point -121.1183 509.2066 station-name -align tr -scale xs -text "2/40"
-point -103.0455 532.1188 station-name -align tr -scale xs -text "2/41"
-point -94.597 546.8823 station-name -align tr -scale xs -text "2/42"
+point -121.118 509.207 station-name -align tr -scale xs -text "2/40"
+point -103.046 532.119 station-name -align tr -scale xs -text "2/41"
+point -94.597 546.882 station-name -align tr -scale xs -text "2/42"
 point -176.39 464.33 station -name 31
 point -201.81 476.54 station -name 32
 point -227.96 504.65 station -name 33
@@ -4234,14 +4170,14 @@ point -208.72 540.55 station -name 36
 point -166.14 534.65 station -name 37
 point -270.8 563.499 station -name 38
 point -290.512 576.54 station -name 39
-point -209.1078 452.1708 station-name -align tr -scale xs -text "2/31"
-point -224.9367 466.5079 station-name -align tr -scale xs -text "2/32"
-point -218.1178 507.4287 station-name -align tr -scale xs -text "2/33"
-point -271.3625 511.6865 station-name -align tr -scale xs -text "2/34"
-point -235.7315 536.906 station-name -align tr -scale xs -text "2/35"
-point -211.5493 543.3239 station-name -align tr -scale xs -text "2/36"
+point -209.108 452.171 station-name -align tr -scale xs -text "2/31"
+point -224.937 466.508 station-name -align tr -scale xs -text "2/32"
+point -218.118 507.429 station-name -align tr -scale xs -text "2/33"
+point -271.363 511.687 station-name -align tr -scale xs -text "2/34"
+point -235.732 536.906 station-name -align tr -scale xs -text "2/35"
+point -211.549 543.324 station-name -align tr -scale xs -text "2/36"
 point -262.39 568.689 station-name -align tr -scale xs -text "2/38"
-point -320.0048 567.1179 station-name -align tr -scale xs -text "2/39"
+point -320.005 567.118 station-name -align tr -scale xs -text "2/39"
 line u:texture 
   122.1818 402.9601
   123.5027 406.9228 123.8329 410.5552 127.1352 414.8481
@@ -4466,7 +4402,7 @@ line wall
   -307.9886 588.1031 -316.3947 592.0726 -316.3947 592.0726
 endline
 
-point -313.5118 402.5057 label -align tr -scale xl -text Zugzwang-Gang
+point -313.512 402.506 label -align tr -scale xl -text Zugzwang-Gang
 line wall -subtype blocks
   -254.5168 526.3419
   -254.5168 526.3419 -248.0955 520.8546 -246.3442 518.5196
@@ -4608,7 +4544,6 @@ line border -close on -id Zugzwang-4e_water_1 -visibility on
   -38.5278 393.3628
   -57.5582 394.647
   -59.3094 397.5658
-  -60.2434 400.9516
   -60.2434 400.9516
 endline
 
