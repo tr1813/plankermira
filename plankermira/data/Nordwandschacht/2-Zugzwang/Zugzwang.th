@@ -52,7 +52,7 @@ survey 2 -title "2 Zugzwang Kleine-Schwester-Halle"
 
   map m-all-e -projection extended 
     m-Geburtstaggang-e
-    m-KleineSchwesterHalle-e [80 0 m] none
+    m-KleineSchwesterHalle-e [120 0 m] none
   endmap
 
   map m-Geburtstaggang-e -projection extended
