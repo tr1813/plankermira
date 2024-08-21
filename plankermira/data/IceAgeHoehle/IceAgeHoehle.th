@@ -8,7 +8,8 @@ endmap
 
 centreline 
 cs lat-long
-fix 0@1 14.02736177 47.63171365 2030
+fix 0@1 47.6317137 14.0273618 2030
+	
 endcentreline
 
 endsurvey
