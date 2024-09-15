@@ -27,11 +27,11 @@ survey nw -title "Nordwandschacht"
     endmap
 
     map m-all-e -projection extended
+        m-all-e@4 # aglarond
         m-all-e@3
         m-all-e@1
         m-all-e@2
         m-all-e@5
-        4
     endmap
 
     ## joins between scraps- 

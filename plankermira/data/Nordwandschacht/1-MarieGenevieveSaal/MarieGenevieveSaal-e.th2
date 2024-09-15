@@ -6695,10 +6695,10 @@ endscrap
 
 scrap MarieGenevieveSaal-1e -projection extended -scale [0.0 0.0 500 1000.0 -250 -500 250 500]
 
-point 1587.8672 805.3922 label -align tr -scale xs -text "Drei-Brücken-Schacht"
-point 1631.9815 723.4108 continuation 
-point 1734.1246 732.8375 continuation 
-point 1623.5662 724.043 water-flow -orientation 169.055732438643
+point 1587.87 805.392 label -align tr -scale xs -text "Drei-Brücken-Schacht"
+point 1631.98 723.411 continuation 
+point 1734.12 732.837 continuation 
+point 1623.57 724.043 water-flow -orientation 169.055732438643
 line wall -subtype clay
   1695.7618 804.0085
   1697.481 804.0085 1721.3479 804.3118 1721.3479 804.3118
@@ -8752,23 +8752,23 @@ point 1375.93 805.87 station-name -align tr -scale xs -text "1/2.4"
 point 1410.79 796.65 station-name -align tr -scale xs -text "1/2.5"
 point 1452.61 802.95 station-name -align tr -scale xs -text "1/2.6"
 point 1434.2 805.47 station-name -align tr -scale xs -text "1/2.7"
-point 1480.8599 780.8158 station-name -align tr -scale xs -text "1/2.8"
-point 1543.9116 770.8547 station-name -align tr -scale xs -text "1/2.9"
-point 1645.2438 759.3891 station-name -align tr -scale xs -text "1/2.10"
-point 1683.5458 755.9053 station-name -align tr -scale xs -text "1/2.11"
-point 1703.0386 783.3835 station-name -align tr -scale xs -text "1/2.12"
+point 1480.86 780.816 station-name -align tr -scale xs -text "1/2.8"
+point 1543.91 770.855 station-name -align tr -scale xs -text "1/2.9"
+point 1645.24 759.389 station-name -align tr -scale xs -text "1/2.10"
+point 1683.55 755.905 station-name -align tr -scale xs -text "1/2.11"
+point 1703.04 783.384 station-name -align tr -scale xs -text "1/2.12"
 point 1375.1 780.67 station-name -align tr -scale xs -text "1/2.13"
 point 1335.66 796.73 station-name -align tr -scale xs -text "1/2.14"
-point 1373.9706 864.6037 station-name -align tr -scale xs -text "1/3"
-point 1477.8799 920.8975 station-name -align tr -scale xs -text "1/4"
-point 1533.9552 925.4504 station-name -align tr -scale xs -text "1/5"
-point 1674.234 852.4894 station-name -align tr -scale xs -text "1/6"
-point 1721.7638 837.7563 station-name -align tr -scale xs -text "1/6.1"
+point 1373.97 864.604 station-name -align tr -scale xs -text "1/3"
+point 1477.88 920.898 station-name -align tr -scale xs -text "1/4"
+point 1533.96 925.45 station-name -align tr -scale xs -text "1/5"
+point 1674.23 852.489 station-name -align tr -scale xs -text "1/6"
+point 1721.76 837.756 station-name -align tr -scale xs -text "1/6.1"
 point 1019.1 748.54 station-name -align tr -scale xs -text "1/7"
-point 1729.9315 808.7846 station-name -align tr -scale xs -text "1/6.2"
-point 1467.0552 946.2786 station-name -align tr -scale xs -text "1/5.1"
-point 1392.0225 934.7571 station-name -align tr -scale xs -text "1/5.2"
-point 1364.3126 897.7641 station-name -align tr -scale xs -text "1/5.3"
+point 1729.93 808.785 station-name -align tr -scale xs -text "1/6.2"
+point 1467.06 946.279 station-name -align tr -scale xs -text "1/5.1"
+point 1392.02 934.757 station-name -align tr -scale xs -text "1/5.2"
+point 1364.31 897.764 station-name -align tr -scale xs -text "1/5.3"
 point 1113.62 738.31 station-name -align tr -scale xs -text "1/0.1"
 point 1113.62 711.85 station-name -align tr -scale xs -text "1/0.2"
 point 1038.72 674.61 station-name -align tr -scale xs -text "1/0.3"
