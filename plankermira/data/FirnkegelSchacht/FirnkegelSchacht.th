@@ -1,0 +1,10 @@
+survey fks -title "Firnkegel-Schacht"
+
+input "./1-Eingang/Eingang.th"
+
+centreline 
+cs lat-long
+fix 0@1 47.628904 14.0102964 2011
+endcentreline
+
+endsurvey

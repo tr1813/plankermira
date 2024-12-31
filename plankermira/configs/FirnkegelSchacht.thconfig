@@ -1,0 +1,59 @@
+encoding  utf-8
+source ../data/FirnkegelSchacht/FirnkegelSchacht.th
+
+
+
+export model -fmt survex -o ../out/FirnkegelSchacht.3d
+export database -o ../out/FirnkegelSchacht.csv
+export database -o ../out/FirnkegelSchacht.sql
+
+input ../layouts/detailed-p.thl 
+
+layout local
+    copy detailed-p 
+    scale 1 500
+    symbol-colour line border [0 0 0]
+    symbol-colour line survey:cave [70 10 0]
+    symbol-colour point station-name [0 0 0]
+    symbol-assign line wall:blocks MYEE
+    #color map-fg altitude
+    symbol-show point label
+        code tex-map
+     \def\customheader{
+    \size[26]\bf \the\cavename{} 1625/128 \ss
+    \si \par \size[20]Plankermira, Totes Gebirge, Steirmark - Auseerland \ss
+    \par Katastergebiet: 1625 
+    \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth
+    \par Eingangskoordinaten (MGI GK 31): X :  / Y : ,  Sh :  m 
+    \par Vermessung 2024 --- \the\topoteam
+    \par Verein für Höhlenkunde in Obersteier
+    \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
+      \def\maplayout{
+          \legendbox{\the\numexpr 1\relax}{\the\numexpr 99\relax}{NW}{\customheader}
+          \legendbox{\the\numexpr14\relax}{\the\numexpr83\relax}{S}{\northarrow}
+          \legendbox{\the\numexpr14\relax}{\the\numexpr82\relax}{N}{\scalebar}
+
+          %\legendbox{\the\numexpr0\relax}{\the\numexpr0\relax}{NW}{\hbox{\loadpicture{"omuhako_cave-L.pdf"}}}
+     }
+    endcode 
+
+endlayout
+
+layout summary
+    copy detailed-p 
+    copy custom_arrow_VHO
+    symbol-hide group all
+    symbol-show line survey
+    symbol-assign line survey MY
+    symbol-show point station
+    symbol-show line wall
+    scale 1 500
+endlayout
+
+
+maps-offset on
+
+export map -projection plan -o ../out/FirnkegelSchacht.pdf -layout local
+#export model -o ../out/FirnkegelSchacht.lox
+#export map -projection plan -o ../out/FirnkegelSchacht_summary.pdf -layout summary -layout-debug station-names
+#export map -fmt esri -projection plan -o ../out/FirnkegelSchacht-plan
