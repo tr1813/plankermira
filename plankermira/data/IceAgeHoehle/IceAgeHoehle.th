@@ -6,6 +6,10 @@ map m-all-p -projection plan
     m-all-p@1
 endmap
 
+map m-all-e -projection extended 
+    m-all-e@1
+endmap
+
 centreline 
 cs lat-long
 fix 0@1 47.6317137 14.0273618 2030

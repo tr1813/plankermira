@@ -1,11 +1,14 @@
 # 2024.08.21 created by TopoDroid v 6.2.44
 
-survey firnkegel-schacht -title "firnkegel-schacht"
+survey 1 -title "1: Eingangschacht"
     # shaft next plankermira biwak 
 
-  centerline
-    date 2024.08.11 
-    # team Tanguy Robin Marcel 
+  centerline -title "Eingangschacht"
+    date 2024.08.11
+    team "Tanguy Racine"
+    team "Robin Jeutter" 
+    team "Marcel Jeutter"
+     
     units length meters
     units compass clino degrees
     data normal from to length compass clino

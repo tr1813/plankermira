@@ -44,7 +44,7 @@ line floor-step
   1165.8919 998.6349 1183.2659 1026.0677 1183.2659 1026.0677
 endline
 
-point 442.1245 1374.4636 breakdown-choke -align bl
+point 442.125 1374.46 breakdown-choke -align bl
 line rock-border -close on
   1043.1 722.51
   1025.42 734.34
@@ -1136,7 +1136,7 @@ line wall
   916.7875 1519.058 921.3257 1523.0086 930.8494 1524.4371
 endline
 
-point 362.0321 1296.2103 label -align tl -scale xs -text megalodontenkammer
+point 362.032 1296.21 label -align tl -scale xs -text megalodontenkammer
 line u:splay -visibility off
   1080.85 737.67
   1150.75 772.89
@@ -1792,15 +1792,15 @@ line u:splay -visibility off
   1406.93 1712.41
 endline
 
-point 877.4027 791.3234 station-name -align t -scale xs -text "1/1"
-point 1087.953 659.332 station-name -align t -scale xs -text "1/0"
-point 833.2376 1094.7792 station-name -align t -scale xs -text "1/2"
-point 1075.7439 1387.6877 station-name -align t -scale xs -text "1/3"
-point 1058.2036 1507.5824 station-name -align t -scale xs -text "1/4"
-point 662.3306 1577.0637 station-name -align t -scale xs -text "1/8"
-point 748.8995 1353.083 station-name -align t -scale xs -text "1/9"
-point 916.8131 1424.4279 station-name -align t -scale xs -text "1/10"
-point 568.9732 1310.142 station-name -align t -scale xs -text "1/11"
+point 877.403 791.323 station-name -align t -scale xs -text "1/1"
+point 1087.95 659.332 station-name -align t -scale xs -text "1/0"
+point 833.238 1094.78 station-name -align t -scale xs -text "1/2"
+point 1075.74 1387.69 station-name -align t -scale xs -text "1/3"
+point 1058.2 1507.58 station-name -align t -scale xs -text "1/4"
+point 662.331 1577.06 station-name -align t -scale xs -text "1/8"
+point 748.899 1353.08 station-name -align t -scale xs -text "1/9"
+point 916.813 1424.43 station-name -align t -scale xs -text "1/10"
+point 568.973 1310.14 station-name -align t -scale xs -text "1/11"
 point 1016.55 821.48 station -name 1
 point 1080.85 737.67 station -name 0
 point 953.85 1107.54 station -name 2
@@ -2036,7 +2036,42 @@ endscrap
 
 scrap Eingang-2p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
-point 1949.7827 2457.8287 continuation 
+line wall 
+  2056.343 3333.2959
+  1981.4604 3405.8995
+  1952.484 3436.1782
+endline
+
+line border -close on -id Eingang-2p_ice_1 -visibility on
+  1992.7836 3413.5236
+  1933.8457 3353.2051
+  1962.5762 3322.877
+  1979.0957 3300.207
+  2045.8363 3361.9826
+  1994.1586 3412.0861
+  1992.7836 3413.5236
+  1992.7836 3413.5236
+endline
+
+area ice 
+  Eingang-2p_ice_1
+endarea
+
+line wall 
+  1909.8334 3378.551
+  1962.5769 3322.8774
+  1993.1811 3280.878
+endline
+
+line wall 
+  2056.343 3333.2959
+  1981.4604 3405.8995
+  1952.484 3436.1782
+endline
+
+point 1885.3245 3283.8108 air-draught -orientation 90.0
+point 1871.3245 3306.8108 air-draught -orientation 90.0
+point 1949.78 2457.83 continuation 
 line u:texture 
   1309.3571 3631.6071
   1307.4173 3632.5769 1293.5155 3638.7196 1290.2825 3638.7196
@@ -2177,14 +2212,14 @@ line u:wall_flowstone
   183.6333 3286.648 179.1071 3275.0093 180.4003 3272.4229
 endline
 
-point 904.8107 3667.0751 u:gradient_rock -orientation 89.55349020699308
-point 996.7473 3590.0904 u:gradient_rock -orientation 77.93946156743911
-point 1127.892 3535.2553 u:gradient_rock -orientation 65.56628758263365
-point 1300.3201 3356.5834 u:gradient_rock -orientation 23.397943410574957
-point 1274.6062 3455.1647 u:gradient_rock -orientation 84.85497509246548
-point 1571.6311 2667.4107 u:gradient_rock -orientation 69.0750905795963
-point 1380.4659 2894.7056 u:gradient_rock -orientation 85.5077245186475
-point 1333.4807 3182.6651 u:gradient_rock -orientation 89.55349020699308
+point 904.811 3667.08 u:gradient_rock -orientation 89.55349020699308
+point 996.747 3590.09 u:gradient_rock -orientation 77.93946156743911
+point 1127.89 3535.26 u:gradient_rock -orientation 65.56628758263365
+point 1300.32 3356.58 u:gradient_rock -orientation 23.397943410574957
+point 1274.61 3455.16 u:gradient_rock -orientation 84.85497509246548
+point 1571.63 2667.41 u:gradient_rock -orientation 69.0750905795963
+point 1380.47 2894.71 u:gradient_rock -orientation 85.5077245186475
+point 1333.48 3182.67 u:gradient_rock -orientation 89.55349020699308
 line u:texture 
   1528.5532 3214.8759
   1529.8464 3225.2214 1532.4328 3272.4229 1533.0794 3280.8287
@@ -2576,7 +2611,7 @@ line pit
   1582.0089 2473.0684 1540.8385 2464.8244 1540.8385 2464.8244
 endline
 
-point 1676.9902 2952.5562 station-name -align t -scale xs -text "1/32"
+point 1676.99 2952.56 station-name -align t -scale xs -text "1/32"
 line u:texture 
   1369.58 1780.4683
   1354.9492 1772.2385
@@ -2662,7 +2697,7 @@ line rock-edge
   1607.7877 3203.9994 1612.8171 3206.7427 1612.8171 3206.7427
 endline
 
-point 767.6598 4119.1101 continuation 
+point 767.66 4119.11 continuation 
 line wall:invisible -outline in
   1104.854 3439.2352
   1134.1156 3442.2071
@@ -3005,7 +3040,7 @@ area u:smallblocks
 endarea
 
 point 727.355 1970.53 popcorn -align l
-point 701.989 1853.43 popcorn -align l
+point 711.735 1857.37 popcorn -align l -orientation 268.36274550778717
 line rock-border -close on
   850.74 2017.28
   827.23 2029.95
@@ -4264,8 +4299,8 @@ line rock-border -close on
   1991.93 430.4
 endline
 
-point 1759.4796 521.1625 label -align tl -scale xs -text paragenesis
-point 2364.5906 1140.3223 label -align t -scale xs -text paragenesis
+point 1759.48 521.163 label -align tl -scale xs -text paragenesis
+point 2364.59 1140.32 label -align t -scale xs -text paragenesis
 line rock-border -close on
   2033.42 441.28
   2021.35 440.0
@@ -8918,45 +8953,45 @@ endline
 
 point 1080.79 1563.31 station-name -align t -scale xs -text "1/4"
 point 1090.05 1738.84 station-name -align t -scale xs -text "1/5"
-point 1030.306 1812.0348 station-name -align t -scale xs -text "1/6"
+point 1030.31 1812.03 station-name -align t -scale xs -text "1/6"
 point 746.39 1638.47 station-name -align t -scale xs -text "1/7"
-point 909.447 1887.2351 station-name -align t -scale xs -text "1/12"
-point 994.1176 1993.9385 station-name -align t -scale xs -text "1/13"
-point 872.6046 2214.0818 station-name -align t -scale xs -text "1/14"
-point 1133.3749 2267.0713 station-name -align t -scale xs -text "1/15"
-point 1265.2727 1966.2417 station-name -align t -scale xs -text "1/16"
-point 1544.9977 2088.0828 station-name -align t -scale xs -text "1/17"
-point 1302.6516 1730.7991 station-name -align t -scale xs -text "1/18"
-point 1577.9346 1426.3242 station-name -align t -scale xs -text "1/19"
-point 1753.3164 1231.9397 station-name -align t -scale xs -text "1/20"
-point 2015.106 1077.9297 station-name -align t -scale xs -text "1/21"
-point 2074.3704 707.0311 station-name -align t -scale xs -text "1/22"
-point 1953.5648 582.6428 station-name -align t -scale xs -text "1/23"
-point 2083.0601 479.3565 station-name -align t -scale xs -text "1/24"
-point 1946.2604 453.9742 station-name -align t -scale xs -text "1/25"
-point 1827.5199 371.3357 station-name -align t -scale xs -text "1/26"
-point 1724.6028 283.4815 station-name -align t -scale xs -text "1/27"
-point 1733.96 2243.4861 station-name -align t -scale xs -text "1/30"
-point 1616.719 2505.5581 station-name -align t -scale xs -text "1/31"
-point 1770.2126 154.7228 station-name -align t -scale xs -text "1/28"
-point 1910.345 82.6083 station-name -align t -scale xs -text "1/29"
-point 1664.1669 3162.4688 station-name -align t -scale xs -text "1/33"
-point 1502.3265 3240.7471 station-name -align t -scale xs -text "1/34"
-point 1191.5593 3272.7534 station-name -align t -scale xs -text "1/35"
-point 947.5076 3168.5193 station-name -align t -scale xs -text "1/36"
-point 1721.4512 3382.6667 station-name -align t -scale xs -text "1/37"
-point 1351.5219 3540.4177 station-name -align t -scale xs -text "1/38"
-point 1165.39 3706.5801 station-name -align t -scale xs -text "1/39"
-point 875.6602 3602.5029 station-name -align t -scale xs -text "1/40"
-point 833.2993 3709.4497 station-name -align t -scale xs -text "1/41"
-point 668.902 2651.8494 station-name -align t -scale xs -text "1/42"
-point 329.1051 2665.9722 station-name -align t -scale xs -text "1/43"
-point 555.0479 2978.3477 station-name -align t -scale xs -text "1/44"
-point 555.8329 3226.2527 station-name -align t -scale xs -text "1/45"
-point 100.0713 2921.1868 station-name -align t -scale xs -text "1/46"
-point 59.8029 3046.7593 station-name -align t -scale xs -text "1/47"
-point 248.0661 3356.2351 station-name -align t -scale xs -text "1/48"
-point 393.4915 3561.3867 station-name -align t -scale xs -text "1/49"
+point 909.447 1887.24 station-name -align t -scale xs -text "1/12"
+point 994.118 1993.94 station-name -align t -scale xs -text "1/13"
+point 872.605 2214.08 station-name -align t -scale xs -text "1/14"
+point 1133.37 2267.07 station-name -align t -scale xs -text "1/15"
+point 1265.27 1966.24 station-name -align t -scale xs -text "1/16"
+point 1545.0 2088.08 station-name -align t -scale xs -text "1/17"
+point 1302.65 1730.8 station-name -align t -scale xs -text "1/18"
+point 1577.93 1426.32 station-name -align t -scale xs -text "1/19"
+point 1753.32 1231.94 station-name -align t -scale xs -text "1/20"
+point 2015.11 1077.93 station-name -align t -scale xs -text "1/21"
+point 2074.37 707.031 station-name -align t -scale xs -text "1/22"
+point 1953.56 582.643 station-name -align t -scale xs -text "1/23"
+point 2083.06 479.356 station-name -align t -scale xs -text "1/24"
+point 1946.26 453.974 station-name -align t -scale xs -text "1/25"
+point 1827.52 371.336 station-name -align t -scale xs -text "1/26"
+point 1724.6 283.481 station-name -align t -scale xs -text "1/27"
+point 1733.96 2243.49 station-name -align t -scale xs -text "1/30"
+point 1616.72 2505.56 station-name -align t -scale xs -text "1/31"
+point 1770.21 154.723 station-name -align t -scale xs -text "1/28"
+point 1910.35 82.6083 station-name -align t -scale xs -text "1/29"
+point 1664.17 3162.47 station-name -align t -scale xs -text "1/33"
+point 1502.33 3240.75 station-name -align t -scale xs -text "1/34"
+point 1191.56 3272.75 station-name -align t -scale xs -text "1/35"
+point 947.508 3168.52 station-name -align t -scale xs -text "1/36"
+point 1721.45 3382.67 station-name -align t -scale xs -text "1/37"
+point 1351.52 3540.42 station-name -align t -scale xs -text "1/38"
+point 1165.39 3706.58 station-name -align t -scale xs -text "1/39"
+point 875.66 3602.5 station-name -align t -scale xs -text "1/40"
+point 833.299 3709.45 station-name -align t -scale xs -text "1/41"
+point 668.902 2651.85 station-name -align t -scale xs -text "1/42"
+point 329.105 2665.97 station-name -align t -scale xs -text "1/43"
+point 555.048 2978.35 station-name -align t -scale xs -text "1/44"
+point 555.833 3226.25 station-name -align t -scale xs -text "1/45"
+point 100.071 2921.19 station-name -align t -scale xs -text "1/46"
+point 59.8029 3046.76 station-name -align t -scale xs -text "1/47"
+point 248.066 3356.24 station-name -align t -scale xs -text "1/48"
+point 393.491 3561.39 station-name -align t -scale xs -text "1/49"
 point 1016.55 821.48 station -name 1
 point 1080.85 737.67 station -name 0
 point 953.85 1107.54 station -name 2
@@ -9680,13 +9715,13 @@ endscrap
 
 scrap Eingang-3p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
-point 582.2657 4173.7456 water-flow -orientation 230.8768005336928
+point 582.266 4173.75 water-flow -orientation 230.8768005336928
 point 755.045 3874.34 air-draught -orientation 145.9887897172376
-point 600.3541 3846.4259 gradient -orientation 86.93535228564178
-point 715.2156 3787.4256 gradient -orientation 126.40798547934213
-point 550.5124 3962.3097 gradient -orientation 63.056718094875926
-point 384.4508 3849.3111 gradient -orientation 74.84963612619852
-point 271.4508 3908.3111 gradient -orientation 74.84963612619852
+point 600.354 3846.43 gradient -orientation 86.93535228564178
+point 715.216 3787.43 gradient -orientation 126.40798547934213
+point 550.512 3962.31 gradient -orientation 63.05674405605801
+point 384.451 3849.31 gradient -orientation 74.84963612619852
+point 271.451 3908.31 gradient -orientation 74.84963612619852
 line contour 
   727.8823 3831.5236
   727.8823 3827.8659 713.2515 3777.5725 706.8505 3760.1984
@@ -10483,12 +10518,12 @@ endline
 
 point 828.27 3748.77 station-name -align t -scale xs -text "1/41"
 point 762.95 3698.59 station-name -align t -scale xs -text "1/50"
-point 623.0506 3764.3359 station-name -align t -scale xs -text "1/51"
-point 437.8261 3752.4329 station-name -align t -scale xs -text "1/52"
-point 157.009 3919.7656 station-name -align t -scale xs -text "1/53"
-point 757.1011 4020.3384 station-name -align t -scale xs -text "1/54"
-point 561.004 4083.5889 station-name -align t -scale xs -text "1/55"
-point 294.3123 4102.2642 station-name -align t -scale xs -text "1/56"
+point 623.051 3764.34 station-name -align t -scale xs -text "1/51"
+point 437.826 3752.43 station-name -align t -scale xs -text "1/52"
+point 157.009 3919.77 station-name -align t -scale xs -text "1/53"
+point 757.101 4020.34 station-name -align t -scale xs -text "1/54"
+point 561.004 4083.59 station-name -align t -scale xs -text "1/55"
+point 294.312 4102.26 station-name -align t -scale xs -text "1/56"
 point 828.27 3748.77 station -name 41
 point 762.95 3698.59 station -name 50
 point 689.65 3834.33 station -name 51

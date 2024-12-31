@@ -18,15 +18,27 @@ survey 1 -title "1 Ice-Age-Höhle Eingang"
 
     input "./Eingang-e.th2"
 
-  map m-all-p -projection extended
-    Eingang-1e
-    break 
-    Eingang-2e
-    break
-    Eingang-3e
-    break
-    Eingang-4e
+  map m-all-e -projection extended
+    m1e [0 20 m] none
+    m2e [0 10 m] none
+    m3e
+    m4e
+  endmap
 
+  map m1e -projection extended
+     Eingang-1e
+  endmap
+
+  map m2e -projection extended
+     Eingang-2e
+  endmap
+
+  map m3e -projection extended
+     Eingang-3e
+  endmap
+
+  map m4e -projection extended
+     Eingang-4e
   endmap
 
 
