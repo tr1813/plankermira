@@ -25,7 +25,7 @@ layout local
     \si \par \size[20]Plankermira Nordwand, Totes Gebirge, Steirmark - Auseerland \ss
     \par Katastergebiet: 1625 
     \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth
-    \par Eingangskoordinaten (MGI GK 31): X : 500499 / Y : 277600
+    \par Eingangskoordinaten (MGI GK 31): X : 500499 / Y : 277600,  Sh : 2092 m 
     \par Vermessung 2023 -- 2024 --- \the\topoteam
     \par Verein für Höhlenkunde in Obersteier
     \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
@@ -54,7 +54,7 @@ endlayout
 
 maps-offset on
 
-export map -projection plan -o ../out/Nordwandschacht.pdf -layout local
-#export model -o ../out/Nordwandschacht.lox
+#export map -projection plan -o ../out/Nordwandschacht.pdf -layout local
+export model -o ../out/Nordwandschacht.lox
 #export map -projection plan -o ../out/Nordwandschacht_summary.pdf -layout summary -layout-debug station-names
 #export map -fmt esri -projection plan -o ../out/Nordwandschacht-plan

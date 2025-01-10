@@ -11,7 +11,7 @@ layout summary
     symbol-colour line survey [70 10 0]
     symbol-colour point station [70 10 0]
     symbol-colour line rock-edge [0 0 0]
-    colour map-fg [100 92 60]
+    #colour map-fg [100 92 60]
 endlayout
 
 source

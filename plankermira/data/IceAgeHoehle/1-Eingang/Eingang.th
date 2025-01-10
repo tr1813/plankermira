@@ -19,10 +19,14 @@ survey 1 -title "1 Ice-Age-Höhle Eingang"
     input "./Eingang-e.th2"
 
   map m-all-e -projection extended
-    m1e [0 20 m] none
-    m2e [0 10 m] none
+    m12e [0 15 m] none
     m3e
-    m4e
+    m4e [0 -15 m] none
+  endmap
+
+  map m12e -projection extended
+    m1e [0 10 m] none
+    m2e 
   endmap
 
   map m1e -projection extended
@@ -609,7 +613,7 @@ survey 1 -title "1 Ice-Age-Höhle Eingang"
     34 . 0.96 336.8 61.7
     34 . 12.13 268.1 26.6
     34 . 10.38 263.4 26.5
-    extend right
+    extend vertical
     34 35 8.79 264.4 25.6
     # extend auto
     35 . 8.79 265.8 26.2
@@ -845,7 +849,7 @@ survey 1 -title "1 Ice-Age-Höhle Eingang"
     52 . 4.86 261.4 32.1
     52 . 4.44 273.1 30.8
     52 . 4.24 290.6 30.4
-    extend vertical
+    extend left
     52 53 4.08 271.7 32.9
     # extend auto
     52 . 4.09 269.7 32.2
