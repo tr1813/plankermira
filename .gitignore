@@ -18,3 +18,4 @@ plankermira/out/*
 
 !plankermira/data/BouffeCombine/*
 !plankermira/data/WildbaderHoehle/*
+!plankermira/data/DEM/510287_terrain.jpeg

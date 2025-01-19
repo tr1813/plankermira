@@ -1,4 +1,5 @@
 source "../data/Plankermira.th"
 
 export model -o "../out/Plankermira.3d" -fmt survex
+export model -o "../out/Plankermira.lox"
 export model -o "../out/Plankermira.kml"
