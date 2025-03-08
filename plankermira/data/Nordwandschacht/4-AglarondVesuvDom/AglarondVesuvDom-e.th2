@@ -3877,7 +3877,7 @@ endline
 point 4454.81 1167.66 station -name 23
 point 4645.5 1506.21 station -name 32
 point 4264.29 1637.94 station -name 33
-point 4208.22 1716.62 station-name -scale xs -text "4/34"
+point 4208.22 1716.62 station-name -align t -scale xs -text "4/34"
 point 4187.43 1667.47 station -name 34
 point 4060.05 1747.44 station -name 35
 point 3620.05 1618.72 station -name 36
@@ -3893,7 +3893,10 @@ line wall
   2604.26 2440.8845 2595.9198 2429.2849 2594.0668 2415.8822
   2592.6939 2401.1687 2595.2077 2386.3742 2594.5077 2371.6289
   2593.8055 2367.6401 2594.3362 2363.0293 2592.913 2359.4043
-  2581.3934 2349.0975 2569.8737 2338.7907 2558.3541 2328.4839
+  2583.8748 2351.3177 2574.8366 2343.231 2565.7984 2335.1444
+  2564.7986 2334.2499 2564.0124 2324.5075 2562.8498 2316.4025
+  2561.7746 2308.9067 2548.1599 2262.2121 2545.974 2265.8115
+  2544.6569 2267.9801 2530.2723 2287.2011 2537.8665 2306.4926
 endline
 
 line u:splay -visibility off
@@ -3901,12 +3904,12 @@ line u:splay -visibility off
   2877.46 2027.0
 endline
 
-point 4099.57 1796.98 station-name -scale xs -text "4/35"
-point 3621.24 1642.67 station-name -scale xs -text "4/36"
-point 3297.1 1755.13 station-name -scale xs -text "4/37"
-point 3057.4 1856.37 station-name -scale xs -text "4/38"
-point 2605.0 2218.68 station-name -scale xs -text "4/40"
-point 2851.12 2035.88 station-name -scale xs -text "4/39"
+point 4099.57 1796.98 station-name -align t -scale xs -text "4/35"
+point 3621.24 1642.67 station-name -align t -scale xs -text "4/36"
+point 3297.1 1755.13 station-name -align t -scale xs -text "4/37"
+point 3057.4 1856.37 station-name -align t -scale xs -text "4/38"
+point 2605.0 2218.68 station-name -align t -scale xs -text "4/40"
+point 2851.12 2035.88 station-name -align t -scale xs -text "4/39"
 point 2838.94 2024.23 station -name 39
 point 2603.98 2204.56 station -name 40
 endscrap
@@ -3923,7 +3926,8 @@ line wall -outline none -subtype flowstone
   2378.6121 2526.1038 2393.1095 2561.3118 2416.9267 2558.2052
   2440.7439 2555.0987 2458.3478 2550.9565 2459.3834 2520.9262
   2459.7957 2508.9698 2480.8663 2459.9771 2498.601 2424.0319
-  2525.4101 2369.6946 2552.5811 2325.211 2552.5811 2325.211
+  2516.326 2388.1064 2528.7865 2360.7608 2535.1957 2346.3537
+  2538.4804 2338.9701 2538.6721 2307.7307 2538.6721 2307.7307
 endline
 
 point 1634.15 2716.99 label -align tr -scale l -text Vesum-Dom
@@ -5088,8 +5092,8 @@ line u:splay -visibility off
   141.78 1604.67
 endline
 
-point 2518.09 2283.47 station-name -scale xs -text "4/42"
-point 2430.98 2248.6 station-name -scale xs -text "4/41"
+point 2518.09 2283.47 station-name -align t -scale xs -text "4/42"
+point 2430.98 2248.6 station-name -align t -scale xs -text "4/41"
 point 2432.45 2228.69 station -name 41
 point 2070.1 2225.88 station -name 42
 point 2514.98 2255.99 station -name 43
@@ -5097,12 +5101,12 @@ point 1562.64 2120.57 station -name 44
 point 1344.67 1978.98 station -name 45
 point 1112.38 1846.98 station -name 46
 point 544.73 1726.29 station -name 47
-point 2067.19 2247.61 station-name -scale xs -text "4/43"
-point 1558.95 2140.36 station-name -scale xs -text "4/44"
-point 1335.41 2001.35 station-name -scale xs -text "4/45"
-point 1103.84 1866.36 station-name -scale xs -text "4/46"
-point 546.976 1740.05 station-name -scale xs -text "4/47"
-point 455.089 1706.48 station-name -scale xs -text "4/48"
+point 2067.19 2247.61 station-name -align t -scale xs -text "4/43"
+point 1558.95 2140.36 station-name -align t -scale xs -text "4/44"
+point 1335.41 2001.35 station-name -align t -scale xs -text "4/45"
+point 1103.84 1866.36 station-name -align t -scale xs -text "4/46"
+point 546.976 1740.05 station-name -align t -scale xs -text "4/47"
+point 455.089 1706.48 station-name -align t -scale xs -text "4/48"
 point 454.66 1696.58 station -name 48
 point 217.52 1614.06 station -name 49
 point 129.21 1608.82 station -name 50

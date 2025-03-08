@@ -6,6 +6,32 @@ encoding utf-8
 
 scrap firnkegel-schacht-1p0 -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
 
+
+point 98.43 -118.11 station-name -scale xs -text "1"
+point 79.50 -87.16 station-name -scale xs -text "0"
+point 71.65 -102.99 station-name -scale xs -text "2"
+point 142.05 -227.48 station-name -scale xs -text "3"
+point 153.09 -225.93 station-name -scale xs -text "4"
+point 144.49 -247.28 station-name -scale xs -text "5"
+point 139.83 -260.54 station-name -scale xs -text "6"
+point 165.10 -254.76 station-name -scale xs -text "7"
+point 214.64 -276.00 station-name -scale xs -text "8"
+point 302.37 -224.79 station-name -scale xs -text "9"
+point 345.15 -198.84 station-name -scale xs -text "10"
+point -6.20 -118.53 station-name -scale xs -text "11"
+point -107.56 -102.62 station-name -scale xs -text "12"
+point -180.88 -70.04 station-name -scale xs -text "13"
+point -234.08 -78.29 station-name -scale xs -text "14"
+point -296.93 -44.63 station-name -scale xs -text "15"
+point -407.49 -60.71 station-name -scale xs -text "16"
+point -354.93 61.17 station-name -scale xs -text "17"
+point -337.73 114.21 station-name -scale xs -text "18"
+point -327.49 157.14 station-name -scale xs -text "19"
+point -298.68 96.39 station name  -scale xs -text "20"
+point -248.89 92.82 station-name -scale xs -text "21"
+point -209.58 105.82 station-name -scale xs -text "22"
+point -200.05 -152.57 station-name -scale xs -text "23"
+
 line pit
   88.06 -121.81
   83.54 -119.48
