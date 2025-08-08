@@ -12,4 +12,9 @@ map m-all-e -title "Firnkegelschacht"
     m-all-e@1
 endmap
 
+map m-all-p -title "Firnkegelschacht"
+    m-all-p@1
+endmap
+
+
 endsurvey

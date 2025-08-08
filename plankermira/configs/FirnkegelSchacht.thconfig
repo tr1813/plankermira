@@ -20,8 +20,8 @@ layout local
     symbol-show point label
         code tex-map
      \def\customheader{
-    \size[26]\bf \the\cavename{} 1625/128 \ss
-    \si \par \size[20]Plankermira, Totes Gebirge, Steirmark - Auseerland \ss
+    \size[12]\bf \the\cavename{} 1625/128 \ss
+    \si \par \size[10]Plankermira, Totes Gebirge, Steirmark - Auseerland \ss
     \par Katastergebiet: 1625 
     \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth
     \par Eingangskoordinaten (MGI GK 31): X :  / Y : ,  Sh :  m 
@@ -29,9 +29,9 @@ layout local
     \par Verein für Höhlenkunde in Obersteier
     \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
       \def\maplayout{
-          \legendbox{\the\numexpr 1\relax}{\the\numexpr 99\relax}{NW}{\customheader}
-          \legendbox{\the\numexpr14\relax}{\the\numexpr83\relax}{S}{\northarrow}
-          \legendbox{\the\numexpr14\relax}{\the\numexpr82\relax}{N}{\scalebar}
+          \legendbox{\the\numexpr 1\relax}{\the\numexpr 1\relax}{NW}{\customheader}
+          \legendbox{\the\numexpr94\relax}{\the\numexpr103\relax}{S}{\northarrow}
+          \legendbox{\the\numexpr94\relax}{\the\numexpr93\relax}{N}{\scalebar}
 
           %\legendbox{\the\numexpr0\relax}{\the\numexpr0\relax}{NW}{\hbox{\loadpicture{"omuhako_cave-L.pdf"}}}
      }
@@ -50,6 +50,7 @@ layout summary
     scale 1 500
 endlayout
 
+select m-all-p@fks
 
 maps-offset on
 
