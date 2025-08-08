@@ -13,6 +13,23 @@ layout summary
     symbol-colour point station [70 10 0]
     symbol-colour line rock-edge [0 0 0]
     #colour map-fg [100 92 60]
+    code tex-map
+     \def\customheader{
+    \size[26]\bf \the\cavename{} 1625/141 \ss
+    \si \par \size[20]Plankermira Nordwand, Totes Gebirge, Steirmark - Auseerland \ss
+    \par Katastergebiet: 1625 
+    \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth
+    \par Eingangskoordinaten (MGI GK 31): X : 500499 / Y : 277600,  Sh : 2092 m 
+    \par Vermessung 2023 -- 2024 --- \the\topoteam
+    \par Verein für Höhlenkunde in Obersteier
+    \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
+      \def\maplayout{
+          \legendbox{\the\numexpr 1\relax}{\the\numexpr 99\relax}{NW}{\customheader}
+          \legendbox{\the\numexpr14\relax}{\the\numexpr82\relax}{N}{\scalebar}
+
+          %\legendbox{\the\numexpr0\relax}{\the\numexpr0\relax}{NW}{\hbox{\loadpicture{"omuhako_cave-L.pdf"}}}
+     }
+    endcode 
 endlayout
 
 source
