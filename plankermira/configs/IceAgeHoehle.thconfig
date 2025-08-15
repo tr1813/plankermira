@@ -56,6 +56,6 @@ endlayout
 maps-offset on
 
 export map -projection plan -o ../out/IceAgeHoehle.pdf -layout local
-#export model -o ../out/IceAgeHoehle.lox
+export model -o ../out/IceAgeHoehle.lox
 #export map -projection plan -o ../out/IceAgeHoehle_summary.pdf -layout summary -layout-debug station-names
 export map -fmt esri -projection plan -o ../out/IceAgeHoehle-plan

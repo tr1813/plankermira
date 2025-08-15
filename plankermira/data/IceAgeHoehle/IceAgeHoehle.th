@@ -2,6 +2,7 @@ survey iah -title "Ice-Age-Höhle"
 
 input "./1-Eingang/Eingang.th"
 
+
 map m-all-p -projection plan 
     m-all-p@1
 endmap
@@ -11,9 +12,12 @@ map m-all-e -projection extended
 endmap
 
 centreline 
-cs lat-long
-fix 0@1 47.6317137 14.0273618 2030
+cs epsg:31258
+fix 0@1 502216 277232 2030
+#fix 0@1 47.6317137 14.0273618 2030
 	
 endcentreline
+
+input "../DEM/512287_clipped.th"
 
 endsurvey

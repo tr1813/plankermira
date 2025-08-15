@@ -43,12 +43,12 @@ survey nw -title "Nordwandschacht"
     join Zugzwang-1p3@2 ShawshankRedemption-1p@5
 
     centreline 
-        cs lat-long
-        fix 10@3 47.6351529807063 14.0045340477299 2092
+        cs epsg:31258
+        fix 10@3 500497.8 277599.1 2092
 
         #fix 10@3 500499 277600 2092
         station 10@3 entrance
     endcentreline
 
-    input "../DEM/dem.th"
+    input "../DEM/510287_clipped.th"
 endsurvey
