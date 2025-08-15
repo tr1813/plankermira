@@ -605,6 +605,12 @@ layout custom_lines
     	    thdraw P withcolor (0, 0.7,0.9);
     	  enddef;
 
+		  def l_u_iceborder (expr P) =
+    	    T:=identity;
+    	    pickup PenC;
+    	    thdraw P withcolor (0, 0.7,0.9);
+    	  enddef;
+
 		# initialise new line symbols
 	    initsymbol("l_u_overlay_MY");
 	    initsymbol("l_u_mine_MY");
@@ -617,8 +623,9 @@ layout custom_lines
 	    initsymbol("l_u_wallbigpit");
 	    initsymbol("l_u_wallpit");
 		initsymbol("l_u_icewallbigpit");
+		initsymbol("l_u_iceborder");
 	    initsymbol("l_u_dripline");
-			initsymbol("l_u_oldsnow_MY");
+		initsymbol("l_u_oldsnow_MY");
 	    initsymbol("l_u_texture");
 	    initsymbol("l_u_wall_flowstone");
 		initsymbol("l_u_icepresumed");
@@ -635,3 +642,4 @@ text en "line u:mine_MY" "mine addit"
 text en "line u:dripline" "dripline"
 text en "line u:oldsnow_MY" "old snow level"
 text en "line u:icepit_MY" "ice pit"
+text en "line u:iceborder" "ice border"

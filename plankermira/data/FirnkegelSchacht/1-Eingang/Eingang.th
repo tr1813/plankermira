@@ -3,6 +3,48 @@
 survey 1 -title "1: Eingangschacht"
     # shaft next plankermira biwak 
 
+    input Eingang-e.th2 
+    map m1e -projection extended
+      Eingang-1e 
+    endmap 
+
+    map m2e -projection extended
+      Eingang-2e 
+    endmap 
+
+    map m-all-e
+      m1e
+      m2e [0 10 m] none 
+    endmap
+
+    input Eingang-p.th2
+
+     map m1p -projection plan
+      Eingang-1p 
+    endmap 
+
+    map m2p -projection plan
+      Eingang-2p 
+    endmap 
+
+    map m3p -projection plan
+      Eingang-3p 
+    endmap 
+
+    map m4p -projection plan
+      Eingang-4p 
+    endmap 
+    
+    map m-all-p
+      m2p
+      m1p
+      m3p
+      m4p 
+    endmap
+
+
+
+
   centerline -title "Eingangschacht"
     date 2024.08.11
     team "Tanguy Racine"

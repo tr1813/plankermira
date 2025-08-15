@@ -7,4 +7,14 @@ cs lat-long
 fix 0@1 47.628904 14.0102964 2011
 endcentreline
 
+
+map m-all-e -title "Firnkegelschacht"
+    m-all-e@1
+endmap
+
+map m-all-p -title "Firnkegelschacht"
+    m-all-p@1
+endmap
+
+
 endsurvey
