@@ -17,13 +17,22 @@ survey nw -title "Nordwandschacht"
     equate 0@4 40@1
     equate 0@5 12@2
 
+    ### 2025 ###
+    input "./6-Weisserschacht/Weisserschacht.th"
+    input "./7-Ewigkeit/Ewigkeit.th" 
+
+    equate 5@6  57@4
+    equate 18@7  58@4
+
     map m-all-p -projection plan
         m-all-p@3 [-40 0 m] none
         m-all-p@1
         m-all-p@2
         m-all-p@4
         m-all-p@5 [60 0 m] none
-
+        
+        6
+        7
     endmap
 
     map m-all-e -projection extended
@@ -32,6 +41,9 @@ survey nw -title "Nordwandschacht"
         m-all-e@1
         m-all-e@2
         m-all-e@5
+
+        6
+        7
     endmap
 
     ## joins between scraps- 
