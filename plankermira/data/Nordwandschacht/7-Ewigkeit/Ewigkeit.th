@@ -247,7 +247,7 @@ survey 7 -title "Schacht der Ewigkeit"
     15 16 3.18 74.4 -60.3
     # extend auto
     16 . 3.17 74.6 -61.6
-    16 . 38.21 68.1 -74.0
+    16 16a 38.21 68.1 -74.0
     16 . 25.15 305.8 -74.8
     16 . 18.55 92.5 12.5
     16 . 2.97 26.8 -2.3
@@ -264,17 +264,18 @@ survey 7 -title "Schacht der Ewigkeit"
     17 . 3.49 164.9 -22.3
     17 . 2.40 47.6 -58.5
     17 . 3.41 95.3 -61.7
-    extend left
+    extend right
     17 18 5.25 328.4 21.1
   endcenterline
 
   input "7-ewigkeit-p.th2"
-  input "7-ewigkeit-e.th2"
 
   map m-all-p -projection plan
      7-ewigkeit-1p
  #    7-ewigkeit-1p1
    endmap
+
+  input "7-ewigkeit-e.th2"
 
    map m-all-e -projection extended
      7-ewigkeit-1e

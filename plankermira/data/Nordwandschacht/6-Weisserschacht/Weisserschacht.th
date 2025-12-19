@@ -90,14 +90,14 @@ survey 6 -title "Weisserschacht"
   endcenterline
 
   # input "6-weisserschacht-1p.th2"
-  # input "6-weisserschacht-1s.th2"
+  input "6-weisserschacht-e.th2"
 
   # map m1p -projection plan
   #   6-weisserschacht-1p
   #   6-weisserschacht-1p1
   # endmap
-  # map m1s -projection extended
-  #   6-weisserschacht-1s
-  # endmap
+  map m-all-e -projection extended
+     6-weisserschacht-1e
+   endmap
 
 endsurvey
