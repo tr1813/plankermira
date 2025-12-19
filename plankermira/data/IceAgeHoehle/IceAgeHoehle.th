@@ -1,10 +1,11 @@
 survey iah -title "Ice-Age-Höhle"
 
 input "./1-Eingang/Eingang.th"
-
+input "./2-EukalyptusLabyrinth/EukalyptusLabyrinth.th"
 
 map m-all-p -projection plan 
     m-all-p@1
+    m-all-p@2
 endmap
 
 map m-all-e -projection extended 
@@ -15,9 +16,11 @@ centreline
 cs epsg:31258
 fix 0@1 502216 277232 2030
 #fix 0@1 47.6317137 14.0273618 2030
+
+equate 56@1 0@2
 	
 endcentreline
 
-input "../DEM/512287_clipped.th"
+#input "../DEM/512287_clipped.th"
 
 endsurvey

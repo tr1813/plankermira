@@ -30,6 +30,7 @@ survey nw -title "Nordwandschacht"
         m-all-p@2
         m-all-p@4
         m-all-p@5 [60 0 m] none
+        m-all-p@7
         
         6
         7
@@ -41,6 +42,7 @@ survey nw -title "Nordwandschacht"
         m-all-e@1
         m-all-e@2
         m-all-e@5
+        m-all-e@7
 
         6
         7

@@ -1,8 +1,9 @@
 encoding  utf-8
 source ../data/IceAgeHoehle/IceAgeHoehle.th
 
-select m-all-p@iah
+#select m-all-p@iah
 
+select m-all-p@iah
 
 export model -fmt survex -o ../out/IceAgeHoehle.3d
 export database -o ../out/IceAgeHoehle.csv

@@ -2,7 +2,7 @@
 
 survey 6 -title "Weisserschacht"
 
-  centerline
+  centerline -title "Weisser Schacht"
     date 2025.08.11 
     team "Tanguy Racine"
     team  "Robin Jeutter"
