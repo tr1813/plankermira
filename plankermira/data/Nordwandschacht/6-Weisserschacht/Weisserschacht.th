@@ -97,7 +97,7 @@ survey 6 -title "Weisserschacht"
   #   6-weisserschacht-1p1
   # endmap
   map m-all-e -projection extended
-     6-weisserschacht-1e
+     Weisserschacht-1e
    endmap
 
 endsurvey

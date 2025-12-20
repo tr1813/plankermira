@@ -20,7 +20,7 @@ layout summary
     \par Katastergebiet: 1625 
     \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth
     \par Eingangskoordinaten (MGI GK 31): X : 500499 / Y : 277600,  Sh : 2092 m 
-    \par Vermessung 2023 -- 2024 --- \the\topoteam
+    \par Vermessung 2023 -- 2025 --- \the\topoteam
     \par Verein für Höhlenkunde in Obersteier
     \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
       \def\maplayout{

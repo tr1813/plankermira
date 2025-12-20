@@ -272,14 +272,17 @@ survey 7 -title "Schacht der Ewigkeit"
 
   map m-all-p -projection plan
      7-ewigkeit-1p
- #    7-ewigkeit-1p1
+     break
+     7-ewigkeit-1p1
    endmap
 
   input "7-ewigkeit-e.th2"
 
    map m-all-e -projection extended
-     7-ewigkeit-1e
-     7-ewigkeit-2e
+     Ewigkeit-1e
+     Ewigkeit-2e
    endmap
+
+   join Ewigkeit-1e Ewigkeit-2e
 
 endsurvey

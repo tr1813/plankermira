@@ -30,10 +30,8 @@ survey nw -title "Nordwandschacht"
         m-all-p@2
         m-all-p@4
         m-all-p@5 [60 0 m] none
-        m-all-p@7
-        
+        m-all-p@7     
         6
-        7
     endmap
 
     map m-all-e -projection extended
@@ -54,6 +52,9 @@ survey nw -title "Nordwandschacht"
     ### 2024 ###
     join Zugzwang-1p3@2 ShawshankRedemption-1p@5
 
+    ### 2025 ###
+    join Weisserschacht-1e@6 AglarondVesuvDom-4e@4
+    join Ewigkeit-1e@7 AglarondVesuvDom-4e@4
     centreline 
         cs epsg:31258
         fix 10@3 500497.8 277599.1 2092
