@@ -1297,19 +1297,19 @@ endline
 
 point 14.6699 -318.6014 station -name 16a
 
-point 13.8773 -318.7294 station-name -align tl -scale 0.375 -text "7/16a"
+point 13.8773 -318.7294 station-name -align tl -scale xs -text "7/16a"
 
 point 110.6038 -313.6924 label -align tl -scale xs -text West
 
 point -69.9585 -317.8267 label -align tl -scale xs -text Ost
 
-point -69.6051 -301.6594 continuation -scale xl
+point -69.6051 -301.621 continuation -scale xl
 
-point 97.6038 -81.624 continuation -scale m
+point 97.6038 -81.5856 continuation -scale m
 
-point 102.8955 -129.9105 continuation -scale m
+point 102.8955 -129.8721 continuation -scale m
 
-point 108.1872 -304.9324 continuation -scale xl
+point 108.1872 -304.894 continuation -scale xl
 
 line wall -subtype blocks
   81.2135 -95.6871
@@ -1435,6 +1435,8 @@ endline
 
 point 16.8839 -33.3761 label -align tl -text "Harnischfläche"
 
+point -30.7509 -143.0939 label -align tl -scale m -text "<bf>P115"
+
 point -31.0298 -131.835 label -align tl -scale xl -text "Schacht der Ewigkeit"
 
 line wall
@@ -1503,7 +1505,7 @@ line wall
   113.4109 64.082
 endline
 
-line wall
+line wall -subtype blocks
   82.9896 -33.8844
   82.9896 -33.8844 85.7972 -32.2925 87.884 -29.9424
   89.7902 -27.7957 90.974 -24.8833 91.323 -24.6739
@@ -1534,7 +1536,7 @@ point 104.8089 172.6571 anchor
 
 point 72.1329 162.8676 anchor
 
-point 48.3204 154.6655 anchor
+point 49.1142 154.1363 anchor
 
 point 72.6621 143.6853 anchor
 
@@ -1552,17 +1554,17 @@ point 77.2923 -14.0064 anchor
 
 point 94.2256 35.3384 anchor
 
-point 94.8143 38.123 station-name -align tl -scale 0.375 -text "7/11"
+point 94.8143 38.123 station-name -align tl -scale xs -text "7/11"
 
-point 81.4828 -17.3422 station-name -align tr -scale 0.375 -text "7/12"
+point 81.4828 -17.3422 station-name -align tr -scale xs -text "7/12"
 
-point 73.025 -30.239 station-name -align tl -scale 0.375 -text "7/13"
+point 73.025 -30.239 station-name -align tl -scale xs -text "7/13"
 
-point 69.6671 -98.097 station-name -align tl -scale 0.375 -text "7/14"
+point 69.6671 -98.097 station-name -align tl -scale xs -text "7/14"
 
-point 60.8124 -163.4119 station-name -align tl -scale 0.375 -text "7/15"
+point 60.8124 -163.4119 station-name -align tl -scale xs -text "7/15"
 
-point 53.1582 -176.0555 station-name -align tl -scale 0.375 -text "7/16"
+point 53.1582 -176.0555 station-name -align tl -scale xs -text "7/16"
 
 endscrap
 
@@ -1842,7 +1844,7 @@ line u:texture
   101.462 69.1521 101.3158 65.0585 101.3158 65.0585
 endline
 
-point 150.8586 135.2994 label -align t -scale xl -text "Tor der <br>Ewigkeit"
+point 148.2128 139.0477 label -align t -scale xl -text "Tor der <br>Ewigkeit"
 
 line wall
   113.6128 64.4664
@@ -2360,29 +2362,29 @@ point 134.975 183.19 station -name 17
 
 point 154.5838 190.63 station -name 18
 
-point -137.4382 161.125 label -align tr -scale 0.375 -text "7/0"
+point -141.1424 161.3896 label -align tr -scale xs -text "7/0"
 
-point -95.5575 138.916 station-name -align tr -scale 0.375 -text "7/1"
+point -95.5575 138.916 station-name -align tr -scale xs -text "7/1"
 
-point -64.6644 138.402 station-name -align tr -scale 0.375 -text "7/2"
+point -64.6644 138.402 station-name -align tr -scale xs -text "7/2"
 
-point -35.5635 145.4256 station-name -align tr -scale 0.375 -text "7/3"
+point -38.7385 145.4256 station-name -align tr -scale xs -text "7/3"
 
-point -18.5289 136.3228 station-name -align tr -scale 0.375 -text "7/4"
+point -18.7935 137.6457 station-name -align tr -scale xs -text "7/4"
 
-point 8.5474 149.8396 station-name -align tr -scale 0.375 -text "7/5"
+point 8.5474 149.8396 station-name -align tr -scale xs -text "7/5"
 
-point 38.4469 156.1819 station-name -align tr -scale 0.375 -text "7/6"
+point 37.3886 159.8861 station-name -align tr -scale xs -text "7/6"
 
-point 74.5529 144.0676 station-name -align tr -scale 0.375 -text "7/7"
+point 74.5529 145.1259 station-name -align tr -scale xs -text "7/7"
 
-point 89.6965 130.2337 station-name -align tr -scale 0.375 -text "7/8"
+point 88.9028 131.292 station-name -align tr -scale xs -text "7/8"
 
-point 92.1762 125.5135 station-name -align tr -scale 0.375 -text "7/9"
+point 92.7054 124.9843 station-name -align tr -scale xs -text "7/9"
 
-point 95.726 104.3848 station-name -align tr -scale 0.375 -text "7/10"
+point 95.726 104.3848 station-name -align tr -scale xs -text "7/10"
 
-point 132.5627 180.8143 station-name -align tr -scale 0.375 -text "7/17"
+point 128.8585 171.2893 station-name -align tr -scale xs -text "7/17"
 
 endscrap
 

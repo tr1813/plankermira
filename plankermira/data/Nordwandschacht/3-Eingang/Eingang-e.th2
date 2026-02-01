@@ -1585,7 +1585,7 @@ line u:texture -clip off
   238.7644 1060.3122 241.8439 1059.3009 244.773 1058.0325
 endline
 
-point 370.661 207.502 label -align tr -scale l -text "<bf>P55"
+point 370.661 207.502 label -align tr -text "<bf>P55"
 point 235.355 1116.83 entrance -orientation 212.20186825571716 -scale xl
 line wall -subtype blocks
   205.3806 987.4598
@@ -1833,7 +1833,7 @@ endline
 
 point 328.789 284.142 station-name -align t -scale xs -text "3/1"
 point 374.349 -63.82 station-name -align t -scale xs -text "3/0"
-point 315.082 312.972 station-name -align t -scale xs -text "3/2"
+point 310.082 311.972 station-name -align t -scale xs -text "3/2"
 point 260.56 361.665 station-name -align t -scale xs -text "3/3"
 point 252.043 435.903 station-name -align t -scale xs -text "3/4"
 point 198.534 510.409 station-name -align t -scale xs -text "3/5"

@@ -1,6 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 0 0 2053.600000 9174.900000
+##XTHERION## xth_me_area_adjust 0.0 0.0 2053.6 9174.9
 ##XTHERION## xth_me_area_zoom_to 100
+
+
 
 scrap AglarondVesuvDom-1p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
@@ -187,14 +189,14 @@ line u:underlay -clip off
   1422.4153 6696.3293 1424.2376 6699.0249 1426.06 6701.7204
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1116.0259 7855.4832
   1116.0259 7855.4832 1124.5552 7845.6417 1119.9625 7837.1124
   1115.3698 7828.5831 1108.1527 7818.0855 1100.2795 7818.0855
   1092.4063 7818.0855 1082.5648 7821.366 1082.5648 7821.366
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1141.6138 7762.317
   1137.6772 7779.3756 1120.6186 7780.6878 1116.682 7793.8098
   1112.7454 7806.9318 1119.9625 7819.3977 1127.1796 7823.3343
@@ -202,14 +204,14 @@ line u:wall_flowstone
   1144.2382 7841.049 1146.8626 7848.9222 1146.8626 7848.9222
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1144.8943 7728.1998
   1149.487 7739.3535 1160.6406 7747.2267 1161.9528 7780.6878
   1163.265 7814.1489 1159.3284 7820.0538 1159.9845 7833.8319
   1160.6406 7847.61 1159.9845 7855.4832 1165.2333 7860.732
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1132.9236 8170.9497
   1132.9236 8170.9497 1142.6661 8160.2793 1141.7383 8139.4023
   1140.8104 8118.5253 1133.3875 8080.4829 1134.3154 8069.3485
@@ -217,50 +219,77 @@ line u:wall_flowstone
   1118.5417 7999.7586 1099.0565 7957.5407 1096.7368 7951.5096
 endline
 
-line contour 
+line contour
   1283.0033 7412.9438
   1283.0033 7412.9438 1245.6056 7406.3828 1261.68 7377.1864
 endline
 
-line floor-step 
+line floor-step
   1186.8846 7389.3242
   1186.8846 7389.3242 1184.7776 7362.9987 1194.6631 7345.352
   1202.1842 7331.926 1220.6538 7326.0106 1228.875 7326.0106
 endline
 
 point 1230.5 8888.08 station-name -align t -scale xs -text "4/3"
+
 point 1132.87 8650.98 station-name -align t -scale xs -text "4/4"
+
 point 1340.0 8245.37 station-name -align t -scale xs -text "4/5"
+
 point 1066.82 8005.21 station-name -align t -scale xs -text "4/6"
+
 point 1191.99 7876.63 station-name -align t -scale xs -text "4/7"
+
 point 1051.74 7894.67 station-name -align t -scale xs -text "4/8"
+
 point 1028.07 7561.92 station-name -align t -scale xs -text "4/24"
+
 point 1036.25 7470.41 station-name -align t -scale xs -text "4/25"
+
 point 960.819 7299.0 station-name -align t -scale xs -text "4/26"
+
 point 1226.41 7431.9 station-name -align t -scale xs -text "4/27"
+
 point 1356.66 7405.44 station-name -align t -scale xs -text "4/28"
+
 point 1607.8 7175.07 station-name -align t -scale xs -text "4/31"
+
 point 1522.9 7376.95 station-name -align t -scale xs -text "4/29"
+
 point 1581.64 7654.82 station-name -align t -scale xs -text "4/30"
+
 point 1775.9 7007.62 station-name -align t -scale xs -text "4/32"
+
 point 1513.2 6663.33 station-name -align t -scale xs -text "4/33"
+
 point 1660.08 6616.23 station-name -align t -scale xs -text "4/34"
+
 point 1650.62 6465.59 station-name -align t -scale xs -text "4/35"
+
 point 1210.84 6186.72 station-name -align t -scale xs -text "4/36"
+
 point 1481.26 5862.14 station-name -align t -scale xs -text "4/37"
+
 point 1265.1 5639.52 station-name -align t -scale xs -text "4/38"
+
 point 1287.65 5452.16 station-name -align t -scale xs -text "4/39"
-point 1216.38 7666.12 traverse 
-point 1556.96 6921.12 traverse 
-line water-flow 
+
+point 1216.38 7666.12 traverse
+
+point 1556.96 6921.12 traverse
+
+line water-flow
   1463.7075 5247.2461
   1458.1403 5246.3182 1399.6848 5251.4215 1399.6848 5251.4215
 endline
 
-point 1543.01 6226.18 continuation -orientation 0.5201896876678862
-point 1460.01 5995.18 continuation -orientation 0.5201896876678862
-point 1505.01 5220.18 continuation -orientation 0.5201896876678862
-line border -close on -id AglarondVesuvDom-1p_clay_1 -visibility off
+point 1543.0237 6227.6912 continuation -orientation 0.52
+
+point 1460.0237 5996.6912 continuation -orientation 0.52
+
+point 1505.0237 5221.6912 continuation -orientation 0.52
+
+line border -id AglarondVesuvDom-1p_clay_1 -close on -visibility off
   1277.6705 5819.739
   1286.9492 5824.3783 1310.1458 5818.8111 1310.1458 5842.9356
   1310.1458 5867.0601 1298.0836 5928.2993 1299.9393 5944.073
@@ -274,11 +303,11 @@ line border -close on -id AglarondVesuvDom-1p_clay_1 -visibility off
   1279.5263 5831.8013 1277.6705 5819.739 1277.6705 5819.739
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-1p_clay_1
 endarea
 
-line border -close on -id AglarondVesuvDom-1p_clay_2 -visibility off
+line border -id AglarondVesuvDom-1p_clay_2 -close on -visibility off
   1315.713 5614.6808
   1315.713 5614.6808 1350.044 5612.825 1358.3948 5632.3102
   1366.7456 5651.7954 1376.9521 5738.0869 1376.0243 5752.0048
@@ -293,11 +322,11 @@ line border -close on -id AglarondVesuvDom-1p_clay_2 -visibility off
   1310.1458 5662.0019 1315.713 5614.6808 1315.713 5614.6808
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-1p_clay_2
 endarea
 
-line border -close on -id AglarondVesuvDom-1p_clay_3 -visibility off
+line border -id AglarondVesuvDom-1p_clay_3 -close on -visibility off
   1342.1771 5529.3249
   1342.1771 5529.3249 1371.2378 5521.1515 1384.8601 5537.4982
   1398.4823 5553.8449 1412.1046 5540.2227 1403.9312 5572.0078
@@ -307,11 +336,11 @@ line border -close on -id AglarondVesuvDom-1p_clay_3 -visibility off
   1338.5446 5547.4878 1342.1771 5529.3249 1342.1771 5529.3249
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-1p_clay_3
 endarea
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1288.8049 5809.5325
   1295.3 5811.3882 1314.7852 5812.3161 1320.3523 5826.2341
   1325.9195 5840.1521 1321.2802 5870.7716 1317.5687 5892.1125
@@ -320,7 +349,7 @@ line u:wall_flowstone
   1375.0964 6048.9217 1399.2209 6056.3447 1399.2209 6056.3447
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1322.2081 5606.33
   1331.4867 5605.4021 1362.1063 5612.825 1370.4571 5630.4545
   1378.8079 5648.0839 1380.6636 5769.6343 1379.7357 5779.8408
@@ -329,22 +358,22 @@ line u:wall_flowstone
   1355.6112 5988.6105 1388.0865 6049.8496 1388.0865 6049.8496
 endline
 
-line contour 
+line contour
   1416.6075 6330.2612
   1401.6202 6364.65 1376.9521 6396.8712 1332.4146 6404.2942
 endline
 
-line contour 
+line contour
   1400.1488 6585.2279
   1408.4996 6581.5164 1492.9353 6570.846 1501.2861 6571.7739
 endline
 
-line contour 
+line contour
   1415.9225 6626.054
   1442.3666 6623.2704 1483.6566 6601.9295 1493.8632 6601.4655
 endline
 
-line contour 
+line contour
   1558.3415 6580.4234
   1569.4752 6584.4464 1581.4069 6586.113 1592.0331 6591.5937
   1599.3332 6595.1127 1606.7637 6599.2654 1612.0223 6605.4816
@@ -352,27 +381,27 @@ line contour
   1620.18 6625.6945 1620.5108 6627.174 1620.8415 6628.6534
 endline
 
-line contour 
+line contour
   1569.4047 6563.6978
   1587.0689 6567.6729 1605.4189 6570.7217 1621.1447 6580.2449
   1629.1533 6583.942 1637.6112 6587.1593 1646.4265 6588.0727
   1661.7535 6587.3578
 endline
 
-line contour 
+line contour
   1620.45 6497.07
   1611.0088 6503.4976 1601.2901 6504.8941 1591.3573 6510.6259
   1576.9358 6520.8955 1565.555 6515.6813 1551.3463 6526.2263
 endline
 
-line contour 
+line contour
   1614.7112 6474.8154
   1604.5508 6478.3421 1594.4111 6482.1551 1583.6637 6483.4511
   1564.0928 6486.8151 1544.2612 6493.7777 1530.2023 6508.4049
   1527.7193 6510.7589 1525.5876 6513.4255 1523.42 6516.06
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1405.1531 6260.4967
   1408.8646 6274.4147 1414.0667 6330.5289 1430.7683 6352.3337
   1447.4699 6374.1385 1471.1305 6403.3663 1481.8009 6412.645
@@ -381,7 +410,7 @@ line u:wall_flowstone
   1562.0613 6437.2334 1585.2579 6451.6153 1585.2579 6451.6153
 endline
 
-line border -close on -id AglarondVesuvDom-1p_u_smallblocks_1 -visibility off
+line border -id AglarondVesuvDom-1p_u_smallblocks_1 -close on -visibility off
   1264.6804 6001.6006
   1259.5772 6007.6317 1229.8855 6028.5087 1227.1019 6028.0448
   1224.3183 6027.5808 1216.4314 6027.1169 1214.1118 6021.0858
@@ -391,11 +420,11 @@ line border -close on -id AglarondVesuvDom-1p_u_smallblocks_1 -visibility off
   1255.8657 5995.5695 1264.6804 6001.6006 1264.6804 6001.6006
 endline
 
-area u:smallblocks 
+area u:smallblocks
   AglarondVesuvDom-1p_u_smallblocks_1
 endarea
 
-line border -close on -id AglarondVesuvDom-1p_u_smallblocks_2 -visibility off
+line border -id AglarondVesuvDom-1p_u_smallblocks_2 -close on -visibility off
   1274.423 6095.315
   1274.423 6095.315 1313.8573 6137.9968 1320.3523 6140.3165
   1326.8474 6142.6361 1349.5801 6144.4919 1354.2194 6146.3476
@@ -427,84 +456,94 @@ line border -close on -id AglarondVesuvDom-1p_u_smallblocks_2 -visibility off
   1274.423 6095.315
 endline
 
-area u:smallblocks 
+area u:smallblocks
   AglarondVesuvDom-1p_u_smallblocks_2
 endarea
 
-point 1168.57 8098.53 gradient -orientation 12.538347119256883
-point 1243.06 8354.33 gradient -orientation 12.538347119256883
-line contour 
+point 1168.57 8098.53 gradient -orientation 12.538
+
+point 1243.06 8354.33 gradient -orientation 12.538
+
+line contour
   1167.2016 8364.6167
   1167.2016 8364.6167 1291.2045 8344.2776 1318.1046 8344.2776
 endline
 
-line contour 
+line contour
   1122.5869 8112.0182
   1122.5869 8112.0182 1190.8212 8087.7425 1214.4408 8085.7742
 endline
 
-line u:texture 
+line u:texture
   1222.9265 7985.3767
   1221.0708 7990.9439 1214.1118 8000.6864 1208.5446 8006.7176
   1202.9774 8012.7487 1198.3381 8009.0372 1201.5856 8022.4913
   1204.8331 8035.9453 1211.7921 8048.4715 1211.7921 8048.4715
 endline
 
-line u:texture 
+line u:texture
   1217.8232 8021.0995
   1178.8529 8005.7897
 endline
 
-line u:texture 
+line u:texture
   1209.9364 7971.9226
   1210.4003 7982.5931 1197.4102 7994.6553 1193.6987 7996.0471
   1189.9873 7997.4389 1171.8939 8000.2225 1177.925 8009.0372
   1183.9561 8017.8519 1213.6478 8081.4107 1218.7511 8090.2254
 endline
 
-point 1346.18 8714.8 u:gradient_rock -orientation 255.18048264564604
-line u:texture 
+point 1346.18 8714.8 u:gradient_rock -orientation 255.18
+
+line u:texture
   1310.2314 8683.4812
   1352.5499 8693.6507
 endline
 
-line u:texture 
+line u:texture
   1354.8462 8728.7521
   1312.5278 8722.8472
 endline
 
-line u:texture 
+line u:texture
   1347.6291 8735.3131
   1347.6291 8735.3131 1351.5657 8716.6142 1352.2218 8708.413
 endline
 
-line u:texture 
+line u:texture
   1342.0523 8740.5619
   1342.0523 8740.5619 1348.2852 8701.1959 1349.2694 8689.3861
 endline
 
-line u:texture 
+line u:texture
   1333.851 8674.6239
   1333.1949 8678.2324 1333.523 8692.6666 1333.1949 8703.8203
 endline
 
-line u:texture 
+line u:texture
   1325.6498 8669.047
   1325.6498 8672.3275 1327.29 8717.2703 1321.7132 8740.5619
 endline
 
-line u:texture 
+line u:texture
   1308.5912 8646.7396
   1308.5912 8650.3482 1305.6387 8734.3289 1306.2948 8750.0753
 endline
 
 point 1237.56 5260.23 label -align tr -scale xs -text "<bf>C5"
+
 point 1671.67 6510.2 label -align tr -scale xs -text "<bf>C3"
+
 point 984.188 7179.72 label -align tl -scale xs -text "<bf>P10"
+
 point 1024.44 7928.83 label -align tl -scale xs -text "<bf>P16"
+
 point 1198.69 8932.8 label -align tl -scale xs -text "<bf>P15"
-point 1365.42 7821.88 popcorn -align tr -scale s
+
+point 1365.42 7822.9698 popcorn -align tr -scale s
+
 point 1541.19 5342.85 label -align r -scale l -text "Schwere Geburt"
+
 line wall -clip off -outline none
   1218.7721 6026.3829
   1218.7721 6026.3829 1208.5445 6013.3766 1212.256 6004.8579
@@ -529,7 +568,7 @@ line wall -subtype invisible
   1392.4685 9068.2759
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1336.59 8810.7129
   1339.3736 8817.6719 1350.044 8839.0128 1352.3637 8842.2603
   1354.6834 8845.5078 1352.3637 8874.7356 1356.0752 8877.0552
@@ -540,7 +579,7 @@ line u:wall_flowstone
   1416.3864 8960.5631 1429.3765 8960.0992 1429.3765 8960.0992
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1353.2916 8828.8062
   1360.7145 8840.4045 1370.921 8856.6422 1373.7046 8870.0962
   1376.4882 8883.5503 1395.5094 8891.9011 1393.1898 8900.7158
@@ -548,14 +587,14 @@ line u:wall_flowstone
   1392.2619 8924.8403 1413.6028 8939.6861 1413.6028 8939.6861
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1357.003 8819.5276
   1371.3849 8825.5587 1395.8647 8874.5667 1396.7926 8881.0618
   1397.7206 8887.5568 1419.4747 8910.0138 1420.4026 8914.1892
   1421.3305 8918.3646 1424.2733 8930.4075 1424.2733 8930.4075
 endline
 
-line rock-border -clip off -close on
+line rock-border -close on -clip off
   1417.1757 9083.046
   1411.9269 9082.0619 1398.1488 9068.2838 1398.1488 9068.2838
   1411.9269 9057.7862
@@ -574,7 +613,7 @@ line rock-border -clip off
   1442.4355 9093.5436
 endline
 
-line rock-border -clip off -close on
+line rock-border -close on -clip off
   1470.9759 9083.046
   1469.0076 9083.046 1457.5258 9086.6546 1455.8856 9084.6863
   1454.2453 9082.718 1450.6368 9075.1728 1450.3087 9070.9082
@@ -585,7 +624,7 @@ line rock-border -clip off -close on
   1470.9759 9083.046
 endline
 
-line floor-step 
+line floor-step
   1419.144 6746.0183
   1419.144 6746.0183 1441.4514 6780.1355 1448.0124 6797.1941
   1454.5734 6814.2527 1436.2026 6863.4602 1433.5782 6879.8627
@@ -596,7 +635,7 @@ line floor-step
   1442.7636 7043.2316 1434.2343 7060.9463 1434.2343 7060.9463
 endline
 
-line floor-step 
+line floor-step
   1616.3414 6733.6864
   1621.9086 6742.0371 1646.9609 6807.9156 1647.8888 6823.6893
   1648.8167 6839.463 1648.8167 6893.2792 1647.8888 6906.2693
@@ -605,7 +644,7 @@ line floor-step
   1655.3117 7020.3967 1649.7445 7053.7999 1649.7445 7053.7999
 endline
 
-line pit 
+line pit
   1434.9437 6692.8603
   1443.7585 6676.1587 1436.7995 6663.6325 1456.7486 6658.9932
   1476.6977 6654.3538 1528.6581 6633.9408 1530.5138 6630.6933
@@ -624,7 +663,7 @@ line wall -clip off -outline none
   1434.2343 6688.9376 1430.9538 6678.44 1430.9538 6678.44
 endline
 
-line chimney 
+line chimney
   1520.1834 5291.4449
   1516.9029 5291.4449 1509.0297 5294.7254 1501.8126 5282.9156
   1494.5955 5271.1058 1474.2564 5227.1472 1470.9759 5208.7764
@@ -638,7 +677,7 @@ line chimney -outline out
   1535.2737 5287.5083 1523.4639 5288.8205 1523.4639 5288.8205
 endline
 
-line border -close on -id AglarondVesuvDom-1p_clay_4 -visibility off
+line border -id AglarondVesuvDom-1p_clay_4 -close on -visibility off
   1290.5484 7285.9885
   1301.046 7299.1105 1318.7607 7335.196 1321.3851 7340.4448
   1324.0095 7345.6936 1328.6022 7350.9424 1324.0095 7358.8156
@@ -656,11 +695,11 @@ line border -close on -id AglarondVesuvDom-1p_clay_4 -visibility off
   1291.8606 7280.7397 1284.6435 7289.9251 1290.5484 7285.9885
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-1p_clay_4
 endarea
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1543.9679 7308.9628
   1542.1122 7321.0251 1531.9056 7331.2316 1539.7925 7342.366
   1547.6793 7353.5004 1569.9481 7351.6447 1576.9071 7361.8512
@@ -668,7 +707,7 @@ line u:wall_flowstone
   1599.6398 7409.1723 1603.8152 7414.2756 1603.8152 7414.2756
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1551.8547 7233.8058
   1550.4629 7241.6926 1551.8547 7269.5286 1555.1023 7280.199
   1558.3498 7290.8695 1558.3498 7287.158 1558.3498 7304.3235
@@ -677,7 +716,7 @@ line u:wall_flowstone
   1589.4333 7343.2939 1618.661 7342.8299 1618.661 7342.8299
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1563.917 7243.0844
   1563.917 7243.0844 1568.0924 7260.2499 1566.7006 7277.4154
   1565.3088 7294.5809 1575.5153 7297.8285 1581.0825 7299.6842
@@ -685,7 +724,7 @@ line u:wall_flowstone
   1608.4545 7274.6318 1622.8364 7249.5795 1634.8987 7237.5172
 endline
 
-line floor-step 
+line floor-step
   1365.3538 7392.0068
   1367.2096 7371.1298 1363.962 7370.2019 1371.385 7356.7479
   1378.8079 7343.2938 1376.4882 7337.7266 1392.7259 7323.8087
@@ -693,26 +732,26 @@ line floor-step
   1432.6241 7281.1269 1434.4798 7256.0745 1434.4798 7256.0745
 endline
 
-line wall -outline in -subtype presumed
+line wall -subtype presumed -outline in
   1530.681 7577.9529
   1530.681 7577.9529 1542.4908 7476.9136 1543.1469 7469.6965
   1543.803 7462.4794 1566.7665 7377.8425 1566.7665 7377.8425
 endline
 
-line wall -outline in -subtype presumed
+line wall -subtype presumed -outline in
   1306.4344 7717.2236
   1306.4344 7717.2236 1387.1586 7691.2434 1401.0766 7669.9025
   1411.4384 7654.0144 1430.3014 7629.1098 1436.4983 7611.4691
   1438.625 7605.4148 1436.4623 7601.9076 1434.54 7588.65
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1488.7599 6190.8851
   1488.7599 6190.8851 1506.3893 6245.1653 1516.1319 6255.3718
   1525.8745 6265.5783 1556.958 6288.311 1560.2055 6290.6307
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1469.7387 6195.9884
   1465.0993 6208.9785 1471.5944 6237.7423 1477.6255 6246.5571
   1483.6566 6255.3718 1492.0074 6263.7226 1501.75 6272.5373
@@ -720,7 +759,7 @@ line u:wall_flowstone
   1553.7105 6315.683 1557.8859 6323.5699 1557.8859 6323.5699
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1431.6962 6178.8229
   1434.9437 6189.9573 1451.6453 6238.2063 1455.8207 6248.8767
   1459.9961 6259.5472 1470.2026 6284.5995 1480.4091 6293.4143
@@ -729,7 +768,7 @@ line u:wall_flowstone
   1558.8137 6358.3648 1579.2268 6388.9844 1579.2268 6388.9844
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1414.0667 6151.4509
   1410.8192 6170.0082 1408.0356 6205.731 1412.6749 6219.185
   1417.3143 6232.6391 1420.5618 6256.2996 1431.2323 6272.5373
@@ -741,61 +780,62 @@ line u:wall_flowstone
   1582.4743 6433.058 1596.3923 6451.1514 1596.3923 6451.1514
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1416.8503 5813.244
   1416.8503 5813.244 1404.7881 5842.9356 1393.6537 5863.3487
   1382.5193 5883.7617 1377.88 5914.3813 1377.88 5946.8566
   1377.88 5979.3318 1381.5915 5997.8892 1380.6636 6014.5907
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1427.0569 5857.7815
   1427.0569 5857.7815 1408.4996 5906.0305 1396.4373 5948.7123
   1384.3751 5991.3941 1393.6537 6035.0038 1393.6537 6035.0038
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1435.4076 5932.9386
   1408.4996 5958.9188 1426.129 6020.1579 1424.2733 6031.2923
 endline
 
-line u:texture 
+line u:texture
   1447.9338 5744.5819
   1414.5307 5745.0459
 endline
 
-line u:texture 
+line u:texture
   1465.5633 5705.6116
   1395.0455 5689.3739
 endline
 
-line u:texture 
+line u:texture
   1474.378 5671.7445
   1424.2733 5634.6299
 endline
 
-line u:texture 
+line u:texture
   1486.4402 5601.2267
   1438.1912 5581.2776
 endline
 
-line u:texture 
+line u:texture
   1504.9975 5524.6778
   1438.6552 5509.832
 endline
 
-line u:texture 
+line u:texture
   1487.832 5419.3651
   1435.8716 5414.2619
 endline
 
-line u:texture 
+line u:texture
   1492.0074 5334.4655
   1487.832 5335.3933 1411.5299 5314.4641 1411.5299 5314.4641
 endline
 
 point 1377.36 5226.32 station -name 40
-line u:texture 
+
+line u:texture
   1480.8803 5153.5655
   1480.8803 5153.5655 1431.7915 5181.2283 1426.768 5205.5798
   1425.3747 5212.3337 1414.8294 5204.9033 1414.4668 5211.7763
@@ -813,22 +853,22 @@ line u:texture
   1425.2011 5814.1718 1422.4175 5853.1422 1422.4175 5853.1422
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1366.2817 5207.5799
   1366.2817 5207.5799 1392.2619 5203.4045 1401.7725 5206.652
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1360.2506 5141.7014
   1360.2506 5141.7014 1384.839 5140.0777 1392.7258 5142.8613
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1350.9719 5110.154
   1350.9719 5110.154 1371.6169 5088.3492 1381.3595 5088.8131
 endline
 
-line wall 
+line wall
   1430.1081 8934.2724
   1415.6228 8940.7582
   1427.64 8951.13
@@ -847,7 +887,7 @@ line wall
   1467.33 9064.34
 endline
 
-line wall 
+line wall
   1392.4685 9068.2759
   1373.9433 9048.8823 1357.5868 9028.0843 1333.9312 9013.8703
   1317.2369 8998.3098 1302.0773 8986.6042 1294.0757 8964.5155
@@ -877,11 +917,15 @@ line wall
   1106.1861 7135.0923 1125.8101 7100.3008 1137.0136 7062.389
 endline
 
-point 1265.71 8847.32 stalactite 
+point 1265.71 8847.32 stalactite
+
 point 1564.24 7615.87 stalactites -align tr -scale s
+
 point 1317.45 7863.73 stalactites -align tr -scale s
-point 1210.84 8667.14 stalactite 
-line wall 
+
+point 1210.84 8667.14 stalactite
+
+line wall
   1334.9 8744.28
   1330.7788 8743.6015 1326.7094 8742.5246 1322.5522 8742.1234
   1320.1648 8741.9522 1317.7774 8741.7811 1315.39 8741.61
@@ -895,19 +939,19 @@ line wall
   1343.8845 8810.8222 1349.1222 8812.7111 1354.36 8814.6
 endline
 
-line floor-step 
+line floor-step
   1187.02 8510.39
   1193.555 8465.06 1225.6585 8455.7015 1241.9254 8452.8127
   1271.3981 8459.6207 1300.711 8475.3631 1331.7344 8476.875
 endline
 
-line floor-step 
+line floor-step
   1336.34 8606.68
   1331.1367 8592.6812 1339.7715 8575.5254 1356.03 8576.97
   1362.2852 8576.0917 1368.5404 8575.2133 1374.7957 8574.335
 endline
 
-line floor-step 
+line floor-step
   1340.73 8502.69
   1341.2256 8531.2879 1343.8795 8553.6158 1318.0278 8568.995
 endline
@@ -1015,9 +1059,11 @@ line rock-border -close on
   1279.69 8638.6
 endline
 
-point 1250.42 8170.69 stalactite 
-point 1140.42 8175.69 stalactite 
-line pit 
+point 1250.42 8170.69 stalactite
+
+point 1140.42 8175.69 stalactite
+
+line pit
   1111.05 7868.42
   1119.8456 7863.7595 1126.4581 7838.3645 1136.2512 7852.5906
   1140.2463 7865.4997 1152.106 7871.0141 1160.1247 7879.6275
@@ -1028,7 +1074,7 @@ line pit
   1108.6422 7926.9823 1104.0054 7910.3612 1102.82 7893.3
 endline
 
-line pit 
+line pit
   1060.71 7789.36
   1055.66 7780.2
   1051.45 7767.54
@@ -1054,7 +1100,7 @@ line pit
   1085.2145 7794.5585 1062.1798 7789.4261 1062.1798 7789.4261
 endline
 
-line floor-step 
+line floor-step
   1156.2 7571.37
   1154.3227 7589.1721 1152.7523 7606.7471 1146.7358 7623.5365
   1142.72 7637.3881 1128.1995 7647.4644 1130.5188 7663.6763
@@ -1063,31 +1109,37 @@ line floor-step
   1117.0082 7765.6504 1113.4513 7774.2127 1092.343 7785.7913
 endline
 
-line floor-step 
+line floor-step
   1047.2 7638.24
   1069.2104 7635.2169 1095.3664 7631.0912 1105.5448 7608.416
   1114.3043 7595.7293 1122.6088 7582.976 1129.97 7569.45
 endline
 
-line floor-step 
+line floor-step
   1135.19 7562.51
   1143.0873 7553.9765 1151.1706 7562.8582 1156.15 7569.81
 endline
 
-line floor-step 
+line floor-step
   1131.0 7554.3
   1129.7399 7542.8153 1122.9731 7522.9218 1136.3693 7517.7623
   1151.7753 7511.8395 1150.5657 7533.9099 1156.181 7543.3529
   1156.8834 7550.9273 1155.5762 7558.782 1154.51 7566.34
 endline
 
-point 1224.09 7838.98 popcorn -align b -scale s
-point 1033.74 7529.75 popcorn 
-point 1055.67 7439.02 popcorn 
-point 1139.35 7607.74 air-draught -orientation 182.80000211292105
-point 1215.53 7544.56 air-draught -align t -orientation 185.52324179295883
-point 1280.45 7906.98 air-draught -align tr -orientation 141.6499763710342
-line pit 
+point 1224.09 7840.0698 popcorn -align b -scale s
+
+point 1033.74 7530.8398 popcorn
+
+point 1055.67 7440.1098 popcorn
+
+point 1139.4081 7607.7372 air-draught -orientation 182.8
+
+point 1215.5879 7544.5544 air-draught -orientation 185.523 -align t
+
+point 1280.4956 7907.0161 air-draught -orientation 141.65 -align tr
+
+line pit
   1103.2003 7344.0367
   1103.2853 7333.3223 1105.135 7313.4975 1104.9296 7302.8334
   1103.3324 7299.459 1102.8932 7295.2693 1100.5864 7292.3945
@@ -1105,7 +1157,7 @@ line pit
   1125.077 7114.5152 1126.5111 7108.1644 1127.7 7101.74
 endline
 
-line pit 
+line pit
   1150.999 7147.6253
   1150.3761 7158.4572 1149.6622 7169.2879 1149.0228 7180.1129
   1147.7176 7189.6436 1147.5196 7199.3495 1149.4419 7208.8107
@@ -1123,7 +1175,7 @@ line pit
   1114.0267 7377.8981 1108.9015 7374.5185 1107.7129 7374.4195
 endline
 
-line wall 
+line wall
   1160.5407 7073.8548
   1158.266 7080.5918 1157.2111 7087.4472 1158.3766 7094.5181
   1158.849 7105.7534 1160.8607 7117.0744 1157.6956 7128.0949
@@ -1202,7 +1254,7 @@ line wall -outline in
   1301.6268 7736.8946 1295.1854 7721.8142 1306.4344 7717.2236
 endline
 
-line contour 
+line contour
   1302.8785 7306.5877
   1308.151 7304.0594 1313.7712 7302.18 1318.7875 7299.1673
   1324.6942 7295.6199 1330.5582 7291.7333 1335.3018 7286.7362
@@ -1210,14 +1262,14 @@ line contour
   1347.8919 7267.2807 1349.8914 7261.9797 1352.2793 7256.8795
 endline
 
-line contour 
+line contour
   1316.6792 7329.6793
   1329.2568 7322.6682 1341.9508 7315.7234 1353.5652 7307.2184
   1361.924 7301.0973 1371.0392 7295.2709 1376.99 7286.79
   1383.9792 7276.8291 1385.8461 7264.121 1390.1931 7252.7563
 endline
 
-line contour 
+line contour
   1324.5547 7393.5096
   1328.5002 7382.404 1330.467 7370.391 1336.2845 7360.1334
   1344.1756 7346.2197 1356.1657 7335.0347 1366.9726 7323.2419
@@ -1227,27 +1279,47 @@ line contour
   1421.317 7271.6422 1424.9814 7262.319 1428.32 7253.04
 endline
 
-point 1516.99 7428.96 popcorn -align r -scale s
-point 1641.91 6445.24 popcorn -align l -scale s
-point 1337.45 6469.6 popcorn -align l -scale s
-point 1399.45 7562.6 popcorn -align l -scale s
-point 1472.99 7375.9 stalactite 
-point 1519.14 7468.26 stalactite 
-point 1551.92 7353.36 stalactite 
-point 1632.92 7254.36 stalactite 
-point 1108.92 7442.36 stalactite 
-point 1147.92 7486.36 stalactite 
-point 1173.42 7778.69 stalagmite 
-point 1160.42 7723.69 stalagmite 
-point 1173.42 7741.04 stalactite 
-point 1143.42 7674.69 stalagmite 
-point 1163.42 7600.69 stalactite 
-point 1320.42 7798.69 stalactite 
-point 1428.92 7675.36 stalactite 
-point 1418.92 7491.36 stalactite 
-point 1588.92 7325.36 stalactite 
-point 1523.5 7535.53 stalactite 
-line wall 
+point 1516.99 7430.0498 popcorn -align r -scale s
+
+point 1641.91 6446.3298 popcorn -align l -scale s
+
+point 1337.45 6470.6898 popcorn -align l -scale s
+
+point 1399.45 7563.6898 popcorn -align l -scale s
+
+point 1472.99 7375.9 stalactite
+
+point 1519.14 7468.26 stalactite
+
+point 1551.92 7353.36 stalactite
+
+point 1632.92 7254.36 stalactite
+
+point 1108.92 7442.36 stalactite
+
+point 1147.92 7486.36 stalactite
+
+point 1173.42 7778.69 stalagmite
+
+point 1160.42 7723.69 stalagmite
+
+point 1173.42 7741.04 stalactite
+
+point 1143.42 7674.69 stalagmite
+
+point 1163.42 7600.69 stalactite
+
+point 1320.42 7798.69 stalactite
+
+point 1428.92 7675.36 stalactite
+
+point 1418.92 7491.36 stalactite
+
+point 1588.92 7325.36 stalactite
+
+point 1523.5 7535.53 stalactite
+
+line wall
   1560.6653 7606.4941
   1554.89 7626.41
   1546.28 7631.78
@@ -1262,7 +1334,7 @@ line wall
   1467.7648 7689.8244
 endline
 
-line wall 
+line wall
   1333.7866 7812.3276
   1323.14 7822.57
   1315.77 7828.88
@@ -1297,7 +1369,7 @@ line wall
   1374.8085 8707.858 1373.1537 8717.0839 1377.04 8724.24
 endline
 
-line wall:presumed 
+line wall:presumed
   1466.4892 7691.3367
   1407.7 7749.09
   1399.48 7754.97
@@ -1310,7 +1382,7 @@ line wall:presumed
   1333.7866 7812.3276
 endline
 
-line contour 
+line contour
   1393.8171 7405.1288
   1400.4989 7406.0473 1407.0036 7404.3738 1413.2933 7402.5504
   1420.5225 7400.4546 1427.2749 7396.8459 1433.7927 7393.0813
@@ -1319,7 +1391,7 @@ line contour
   1482.4612 7365.933 1493.202 7372.4431 1504.0277 7374.76
 endline
 
-line contour 
+line contour
   1399.1287 7460.422
   1411.4671 7460.6459 1424.1731 7460.9548 1436.0805 7457.6732
   1445.9823 7454.9443 1455.2151 7449.7679 1463.6412 7443.8948
@@ -1327,9 +1399,11 @@ line contour
   1480.3201 7428.7339 1484.7614 7426.0505 1488.9837 7423.078
 endline
 
-point 1260.36 7398.26 gradient -orientation 105.32785809188677
-point 1451.35 7534.79 gradient -orientation 21.76742673961966
-line contour 
+point 1260.36 7398.26 gradient -orientation 105.328
+
+point 1451.35 7534.79 gradient -orientation 21.767
+
+line contour
   1411.2065 7536.9573
   1419.5844 7537.7015 1428.0001 7540.2797 1436.34 7539.19
   1444.0013 7538.189 1451.2074 7534.7146 1458.1263 7531.2757
@@ -1338,7 +1412,7 @@ line contour
   1508.7541 7493.6063 1512.8565 7493.0117 1516.5334 7491.6044
 endline
 
-line contour 
+line contour
   1433.0337 7584.1625
   1438.694 7587.5666 1449.4616 7591.7663 1458.0874 7594.4158
   1465.0277 7596.5476 1472.1599 7599.4339 1479.4009 7598.9045
@@ -1384,7 +1458,7 @@ line rock-border -close on
   1645.3458 7229.9332
 endline
 
-line wall:presumed 
+line wall:presumed
   1698.219 7189.5153
   1648.55 7253.38
   1646.45 7268.06
@@ -1403,7 +1477,7 @@ line wall:presumed
   1567.4226 7596.3237 1558.2372 7606.1652 1558.2372 7606.1652
 endline
 
-line wall 
+line wall
   1748.6809 6849.7471
   1727.62 6865.07
   1725.71 6873.24
@@ -1438,7 +1512,7 @@ line wall
   1701.55 7187.45
 endline
 
-line floor-step 
+line floor-step
   1605.93 7021.74
   1603.53 7031.84
   1601.69 7039.66
@@ -1470,7 +1544,7 @@ line floor-step
   1460.32 7159.34
 endline
 
-line pit 
+line pit
   1402.6293 7091.5149
   1416.8515 7079.9599
   1428.1332 7070.794
@@ -1489,7 +1563,7 @@ line pit
   1402.9325 7107.5969
 endline
 
-line floor-step 
+line floor-step
   1538.3933 6635.0011
   1557.77 6659.5
   1567.3 6663.3
@@ -1512,7 +1586,7 @@ line floor-step
   1611.7021 6971.6839 1604.9352 7017.9879 1604.9352 7017.9879
 endline
 
-line wall:presumed 
+line wall:presumed
   1633.9346 6682.1421
   1645.7 6665.59
   1654.61 6647.37
@@ -1572,14 +1646,14 @@ line wall -close on -outline in
   1502.8904 6607.4051 1510.2636 6611.0961 1517.2533 6615.499
 endline
 
-line contour 
+line contour
   1545.1795 6606.9171
   1554.0186 6610.2353 1563.7957 6611.1852 1572.1961 6615.4384
   1584.3262 6621.2178 1591.2997 6633.4171 1597.3792 6644.7975
   1599.1596 6648.5312 1600.6601 6652.3922 1602.0195 6656.2971
 endline
 
-line contour 
+line contour
   1565.14 6549.7897
   1570.0737 6551.8426 1577.3995 6549.2898 1582.8499 6549.0994
   1592.7962 6549.52 1606.4694 6548.4019 1615.0184 6543.4638
@@ -1587,7 +1661,7 @@ line contour
   1636.1893 6537.7714 1637.5443 6537.3817 1638.8993 6536.992
 endline
 
-line wall 
+line wall
   1431.5 6677.69
   1431.52 6669.45
   1428.31 6659.62
@@ -1649,7 +1723,7 @@ line wall
   1219.7 6033.5
 endline
 
-line border -close on -id AglarondVesuvDom-1p_clay_5 -visibility off
+line border -id AglarondVesuvDom-1p_clay_5 -close on -visibility off
   1529.1524 6629.3382
   1512.138 6640.2825 1467.6564 6663.5935 1448.8891 6662.7379
   1444.6944 6659.0301 1438.023 6681.0464 1434.4212 6676.8658
@@ -1666,7 +1740,7 @@ line border -close on -id AglarondVesuvDom-1p_clay_5 -visibility off
   1501.0619 6610.7877 1521.7641 6628.4392 1529.1524 6629.3382
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-1p_clay_5
 endarea
 
@@ -1697,7 +1771,7 @@ line rock-border -close on
   1291.1 6093.8
 endline
 
-line floor-step 
+line floor-step
   1242.7572 6117.3507
   1254.84 6104.16
   1259.08 6096.68
@@ -1715,7 +1789,7 @@ line floor-step
   1362.45 6140.79
 endline
 
-line floor-step 
+line floor-step
   1366.2268 6141.7134
   1372.6668 6150.9934
   1379.3668 6159.0634
@@ -1751,7 +1825,7 @@ line wall:presumed -clip off -outline none
   1401.37 6173.83
 endline
 
-line wall 
+line wall
   1429.9902 6032.3452
   1422.7187 6031.4274 1413.6561 6024.7232 1407.5536 6027.582
   1404.3656 6033.0978 1396.3744 6037.2191 1398.8355 6044.3539
@@ -1765,7 +1839,7 @@ line wall
   1478.9149 6191.5017 1485.427 6186.7847 1493.36 6185.32
 endline
 
-line wall 
+line wall
   1567.83 6291.38
   1562.07 6301.57
   1557.84 6311.51
@@ -1794,7 +1868,7 @@ line wall
   1621.8365 6712.2889 1627.3539 6699.1494 1632.8713 6686.01
 endline
 
-line wall 
+line wall
   1219.7 6033.5
   1238.4221 6025.7879 1263.9355 6012.2324 1275.49 5994.96
   1267.0768 5963.1394 1272.2426 5928.299 1255.7765 5898.6461
@@ -1815,7 +1889,7 @@ line wall
   1336.564 5097.9224
 endline
 
-line pit 
+line pit
   1342.3208 5518.108
   1347.2703 5517.4782 1356.0592 5516.0888 1362.9645 5516.2842
   1369.6555 5516.4735 1376.3982 5517.3453 1382.8356 5519.1797
@@ -1827,7 +1901,7 @@ line pit
   1389.1156 5632.5784 1393.3593 5646.049 1393.8497 5659.1151
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1346.53 5473.91
   1346.53 5473.91 1346.856 5474.5149 1347.0451 5474.8012
   1350.1863 5479.5576 1353.0598 5484.6764 1357.3015 5488.4841
@@ -1838,7 +1912,7 @@ line u:wall_flowstone
   1424.4984 5494.237 1427.7862 5491.1451 1431.12 5488.19
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1357.9145 5432.6027
   1359.8321 5437.7924 1360.2981 5443.7833 1363.6673 5448.1717
   1366.8116 5452.2673 1371.4191 5455.4782 1376.3173 5457.1117
@@ -1846,7 +1920,7 @@ line u:wall_flowstone
   1417.6344 5455.9877 1423.2093 5449.6491 1429.7397 5445.4348
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1360.8005 5402.8734
   1372.3017 5408.8496
   1380.6814 5412.1507
@@ -1856,7 +1930,7 @@ line u:wall_flowstone
   1418.954 5405.0256
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1371.5832 5365.8289
   1373.0839 5368.0387 1374.2921 5370.4785 1376.0853 5372.4584
   1379.3927 5376.1102 1382.8426 5380.1399 1387.4332 5381.9289
@@ -1864,7 +1938,7 @@ line u:wall_flowstone
   1407.2409 5381.3698 1410.0409 5376.7965 1412.2409 5374.7732
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1370.8704 5344.1709
   1379.8558 5353.568
   1392.5147 5356.2228
@@ -1872,7 +1946,7 @@ line u:wall_flowstone
   1412.2962 5347.2547
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1366.0057 5309.5391
   1368.6457 5312.3224 1371.6233 5315.2741 1375.0855 5317.1932
   1377.6102 5318.5926 1380.4797 5319.3797 1383.3277 5319.8503
@@ -1881,7 +1955,7 @@ line u:wall_flowstone
   1405.6146 5312.5934 1407.9771 5309.465 1411.0481 5307.1692
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1362.8629 5281.5318
   1364.2051 5284.3105 1364.9487 5287.4687 1366.8895 5289.8678
   1370.0723 5293.8022 1374.0345 5297.7186 1378.8792 5299.1811
@@ -1890,7 +1964,7 @@ line u:wall_flowstone
   1399.7317 5292.396 1405.0237 5289.2941 1410.4739 5286.4784
 endline
 
-line wall 
+line wall
   1524.23 5286.39
   1512.7282 5303.7005 1502.3304 5321.653 1495.0305 5341.1685
   1491.3494 5350.5441 1482.2983 5359.468 1487.6415 5369.952
@@ -1908,7 +1982,7 @@ line wall
   1431.3453 5924.2719 1439.1805 5929.4838 1447.246 5936.1787
 endline
 
-line wall 
+line wall
   1362.5604 5064.2815
   1368.0449 5070.1966 1373.6897 5075.9936 1379.0745 5081.9822
   1382.9569 5088.8451 1386.6949 5095.798 1391.382 5102.1596
@@ -2146,8 +2220,10 @@ line u:splay -visibility off
   1193.56 7619.07
 endline
 
-point 1179.42 7801.69 stalactite 
-point 1181.42 7840.69 stalactite 
+point 1179.42 7801.69 stalactite
+
+point 1181.42 7840.69 stalactite
+
 line u:splay -visibility off
   1141.33 8011.3888
   1195.19 7774.5388
@@ -2438,9 +2514,12 @@ line u:splay -visibility off
   1125.94 7882.45
 endline
 
-point 1137.42 8229.69 stalagmite 
-point 1231.42 8143.69 stalagmite 
-point 1079.42 7815.69 stalagmite 
+point 1137.42 8229.69 stalagmite
+
+point 1231.42 8143.69 stalagmite
+
+point 1079.42 7815.69 stalagmite
+
 line u:splay -visibility off
   1061.72 8028.583
   1086.38 7717.403
@@ -5022,28 +5101,50 @@ line u:splay -visibility off
 endline
 
 point 1353.95 8883.28 station -name 3
+
 point 1221.77 8654.75 station -name 4
+
 point 1263.01 8271.39 station -name 5
+
 point 1141.33 8006.14 station -name 6
+
 point 1145.24 7904.19 station -name 7
+
 point 1114.07 7908.45 station -name 8
+
 point 1146.49 7589.44 station -name 24
+
 point 1114.44 7487.26 station -name 25
+
 point 1156.86 7316.97 station -name 26
+
 point 1234.12 7416.48 station -name 27
+
 point 1364.23 7370.24 station -name 28
+
 point 1525.22 7218.45 station -name 31
+
 point 1450.73 7402.87 station -name 29
+
 point 1486.18 7633.5 station -name 30
+
 point 1648.78 7006.0 station -name 32
+
 point 1537.64 6641.35 station -name 33
+
 point 1611.04 6618.53 station -name 34
+
 point 1603.87 6491.34 station -name 35
+
 point 1282.19 6191.15 station -name 36
+
 point 1388.42 5875.92 station -name 37
+
 point 1315.29 5647.07 station -name 38
+
 point 1404.76 5459.05 station -name 39
-line border -close on -id AglarondVesuvDom-1p_clay_6 -visibility off
+
+line border -id AglarondVesuvDom-1p_clay_6 -close on -visibility off
   1307.3622 8485.4961
   1322.2081 8492.919 1333.3425 8473.4338 1332.4146 8501.2698
   1331.4867 8529.1057 1325.9195 8541.168 1319.4245 8544.8795
@@ -5079,11 +5180,11 @@ line border -close on -id AglarondVesuvDom-1p_clay_6 -visibility off
   1307.3622 8485.4961
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-1p_clay_6
 endarea
 
-line border -close on -id AglarondVesuvDom-1p_clay_7 -visibility off
+line border -id AglarondVesuvDom-1p_clay_7 -close on -visibility off
   1547.0835 7187.5735
   1547.0835 7187.5735 1546.4274 7202.0077 1546.4274 7205.9443
   1546.4274 7209.8809 1528.0566 7230.8761 1528.0566 7230.8761
@@ -5118,11 +5219,11 @@ line border -close on -id AglarondVesuvDom-1p_clay_7 -visibility off
   1542.4908 7185.6052 1547.0835 7187.5735 1547.0835 7187.5735
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-1p_clay_7
 endarea
 
-line border -close on -id AglarondVesuvDom-1p_clay_8 -visibility on
+line border -id AglarondVesuvDom-1p_clay_8 -close on -visibility on
   1307.4251 7758.0817
   1307.6156 7761.7959 1308.3444 7765.6024 1308.2103 7769.261
   1305.4271 7774.7032 1303.4445 7780.4465 1301.8617 7786.3401
@@ -5156,7 +5257,7 @@ area clay -visibility off
   AglarondVesuvDom-1p_clay_8
 endarea
 
-line border -close on -id AglarondVesuvDom-1p_clay_9 -visibility off
+line border -id AglarondVesuvDom-1p_clay_9 -close on -visibility off
   1144.7447 7624.6849
   1135.8847 7630.9649
   1129.2647 7639.9849
@@ -5190,11 +5291,11 @@ line border -close on -id AglarondVesuvDom-1p_clay_9 -visibility off
   1144.7447 7624.6849
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-1p_clay_9
 endarea
 
-line border -close on -id AglarondVesuvDom-1p_clay_10 -visibility off
+line border -id AglarondVesuvDom-1p_clay_10 -close on -visibility off
   1542.2796 6638.4369
   1549.8567 6621.4293
   1548.4857 6609.9375
@@ -5233,11 +5334,11 @@ line border -close on -id AglarondVesuvDom-1p_clay_10 -visibility off
   1542.2796 6638.4369
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-1p_clay_10
 endarea
 
-line border -close on -id AglarondVesuvDom-1p_clay_11 -visibility off
+line border -id AglarondVesuvDom-1p_clay_11 -close on -visibility off
   1167.2546 7899.0852
   1168.6464 7903.2606 1205.297 7944.0867 1205.297 7954.7571
   1205.297 7965.4276 1210.8642 7960.3243 1204.8331 7978.8816
@@ -5308,62 +5409,66 @@ line border -close on -id AglarondVesuvDom-1p_clay_11 -visibility off
   1166.3267 7951.5096 1167.2546 7899.0852 1167.2546 7899.0852
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-1p_clay_11
 endarea
 
 endscrap
 
 
+
 scrap AglarondVesuvDom-2p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
-line contour 
+line contour
   1191.3791 6678.4784
   1191.3791 6680.798 1204.3692 6717.9126 1208.5446 6725.3356
   1212.72 6732.7585 1214.5757 6741.1093 1221.9986 6747.1404
   1229.4215 6753.1715 1245.6592 6775.4403 1245.6592 6775.4403
 endline
 
-point 1207.92 6733.09 gradient -orientation 294.8737347609345
-point 1327.41 6600.74 gradient -orientation 164.71746898599568
-point 1241.18 6405.18 gradient -orientation 186.7214752123382
+point 1207.92 6733.09 gradient -orientation 294.874
+
+point 1327.41 6600.74 gradient -orientation 164.717
+
+point 1241.18 6405.18 gradient -orientation 186.721
+
 line wall -id alt002
   1066.3263 8591.9553
   altitude .
   1062.7177 8573.5845
 endline
 
-line contour 
+line contour
   1481.8009 7123.1578
   1469.7387 7129.4209 1458.3723 7141.9471 1443.7584 7144.7307
 endline
 
-line contour 
+line contour
   1472.2903 7094.394
   1465.0993 7098.5694 1434.4798 7106.4562 1423.3454 7108.312
 endline
 
-line rock-edge 
+line rock-edge
   1115.758 7221.7435
   1108.7991 7221.7435 1102.7679 7218.496 1102.7679 7218.496
 endline
 
-line rock-edge 
+line rock-edge
   1131.9957 7291.7973
   1120.3974 7291.7973 1107.8712 7295.9727 1107.8712 7295.9727
 endline
 
-line rock-edge 
+line rock-edge
   1138.9547 7385.9757
   1111.1187 7379.0167
 endline
 
-line rock-edge 
+line rock-edge
   1163.0792 7430.5132
   1145.4497 7446.7508
 endline
 
-line rock-edge 
+line rock-edge
   1139.4186 7171.6388
   1139.4186 7171.6388 1119.4695 7217.1042 1119.9334 7219.8878
   1120.3974 7222.6714 1123.181 7245.4041 1124.1088 7250.0434
@@ -5376,7 +5481,7 @@ line rock-edge
   1168.6464 7428.1935 1258.6493 7417.5231 1258.6493 7417.5231
 endline
 
-line border -close on -id AglarondVesuvDom-2p_u_smallblocks_1 -visibility off
+line border -id AglarondVesuvDom-2p_u_smallblocks_1 -close on -visibility off
   1237.7723 8314.7689
   1237.7723 8326.8311 1253.546 8353.7392 1253.546 8353.7392
   1253.546 8353.7392 1243.3395 8369.5129 1236.8445 8369.5129
@@ -5397,21 +5502,21 @@ line border -close on -id AglarondVesuvDom-2p_u_smallblocks_1 -visibility off
   1213.6478 8310.1295 1237.7723 8314.7689 1237.7723 8314.7689
 endline
 
-area u:smallblocks 
+area u:smallblocks
   AglarondVesuvDom-2p_u_smallblocks_1
 endarea
 
-line contour 
+line contour
   1355.5524 6607.1059
   1344.5691 6604.6606 1310.6282 6594.713 1296.0534 6599.091
 endline
 
-line contour 
+line contour
   1267.2321 6402.4384
   1256.0977 6404.0622 1220.8388 6406.8458 1208.7765 6416.1244
 endline
 
-line border -close on -id AglarondVesuvDom-2p_clay_1 -visibility off
+line border -id AglarondVesuvDom-2p_clay_1 -close on -visibility off
   1228.9576 6315.2191
   1251.2264 6325.8895
   1273.9591 6354.1894
@@ -5442,105 +5547,114 @@ line border -close on -id AglarondVesuvDom-2p_clay_1 -visibility off
   1222.9265 6316.147 1228.9576 6315.2191 1228.9576 6315.2191
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-2p_clay_1
 endarea
 
-line u:texture 
+line u:texture
   1301.795 6429.8105
   1302.7229 6426.099 1314.3212 6408.0056 1324.0638 6401.0466
   1333.8064 6394.0876 1401.0766 6404.7581 1411.7471 6413.1089
   1422.4175 6421.4597 1448.8617 6430.2744 1448.8617 6430.2744
 endline
 
-line u:texture 
+line u:texture
   1311.0737 6435.8416
   1311.0737 6435.8416 1352.3637 6400.1188 1376.9521 6425.6351
   1401.5406 6451.1514 1427.0569 6461.8218 1427.5208 6469.7087
   1427.9847 6477.5955 1434.4798 6492.4414 1434.4798 6492.4414
 endline
 
-line u:texture 
+line u:texture
   1312.9294 6455.7907
   1312.9294 6455.7907 1372.7767 6444.6563 1387.6226 6475.7398
   1402.4684 6506.8233 1406.1799 6537.4428 1406.1799 6537.4428
 endline
 
-point 1218.66 7895.58 gradient -orientation 348.2368784914722
-point 1230.4 7764.13 gradient -orientation 347.77055719421276
-point 1251.71 7166.1 gradient -orientation 45.196372913327004
-point 1302.46 7385.24 gradient -orientation 346.3468932392983
-point 1246.47 7474.25 gradient -orientation 333.94083915883925
-point 1244.4 7585.13 gradient -orientation 347.77055719421276
-point 1217.41 8092.05 gradient -orientation 356.33884640181907
-point 1233.99 8266.18 gradient -orientation 357.2359776513821
-point 1317.98 8454.9 gradient -orientation 204.53027513288475
-line contour 
+point 1218.66 7895.58 gradient -orientation 348.237
+
+point 1230.4 7764.13 gradient -orientation 347.771
+
+point 1251.71 7166.1 gradient -orientation 45.196
+
+point 1302.46 7385.24 gradient -orientation 346.347
+
+point 1246.47 7474.25 gradient -orientation 333.941
+
+point 1244.4 7585.13 gradient -orientation 347.771
+
+point 1217.41 8092.05 gradient -orientation 356.339
+
+point 1233.99 8266.18 gradient -orientation 357.236
+
+point 1317.98 8454.9 gradient -orientation 204.53
+
+line contour
   1187.5407 7572.048
   1187.5407 7572.048 1272.8337 7589.7627 1290.5484 7596.3237
 endline
 
-line contour 
+line contour
   1173.1065 7755.0999
   1173.1065 7755.0999 1242.6531 7760.3487 1285.9557 7781.3439
 endline
 
-line contour 
+line contour
   977.97 7905.5802
   1015.0847 7897.2295
 endline
 
-line contour 
+line contour
   1196.7494 7891.9419
   1210.9598 7893.1113 1224.8088 7894.8239 1237.7723 7897.2295
 endline
 
-line contour 
+line contour
   997.2718 8104.8011
   997.2718 8104.8011 1038.9854 8099.5869 1090.279 8095.5591
 endline
 
-line contour 
+line contour
   1177.6792 8091.0637
   1209.5779 8090.5614 1238.4955 8091.8098 1257.0873 8096.2718
 endline
 
-line contour 
+line contour
   1363.3755 8442.0365
   1276.1142 8468.9366
 endline
 
-line contour 
+line contour
   1223.2569 8482.5063
   1171.722 8495.023 1095.4701 8511.5019 1055.6647 8510.2708
 endline
 
-line contour 
+line contour
   1013.6743 8317.3775
   1013.6743 8317.3775 1021.7952 8314.0033 1034.3393 8309.011
 endline
 
-line contour 
+line contour
   1078.7093 8290.9762
   1094.6103 8285.091 1114.6541 8277.7864 1129.5791 8273.1597
 endline
 
-line contour 
+line contour
   1177.0121 8266.2755
   1225.1584 8263.7058 1293.8289 8270.7944 1293.8289 8270.7944
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   903.844 7618.5852
   903.844 7618.5852 928.4999 7592.8348 964.9425 7594.8365
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   887.7738 7591.5367
   887.7738 7591.5367 896.6849 7578.098 919.9142 7575.8965
 endline
 
-line floor-step 
+line floor-step
   1020.893 7715.9172
   1017.6114 7710.4314
   1010.1743 7699.8204
@@ -5548,7 +5662,7 @@ line floor-step
   977.8673 7658.3253
 endline
 
-line floor-step 
+line floor-step
   947.4805 7703.6704
   969.4241 7716.9444
   977.6752 7722.3344
@@ -5556,7 +5670,7 @@ line floor-step
   1003.9329 7750.3857
 endline
 
-line floor-step 
+line floor-step
   1171.33 7992.85
   1189.97 7946.78
   1197.93 7913.68
@@ -5566,7 +5680,7 @@ line floor-step
   1168.89 7742.47
 endline
 
-line floor-step 
+line floor-step
   1053.0402 7936.1835
   1053.0402 7936.1835 1022.2035 7932.5749 1022.2035 7928.3103
   1022.2035 7924.0456 1019.5791 7911.5797 1019.5791 7911.5797
@@ -5579,14 +5693,14 @@ line floor-step
   1020.5633 7767.2378
 endline
 
-line rock-edge 
+line rock-edge
   1158.9038 7959.8604
   1156.5841 7962.644 1139.8825 7977.4898 1139.4186 7980.2734
   1138.9547 7983.057 1137.5629 7990.4799 1137.5629 7990.4799
   1128.7482 7995.5832
 endline
 
-line rock-edge 
+line rock-edge
   1131.0678 7775.2152
   1131.0678 7775.2152 1143.594 7770.1119 1144.0579 7776.607
   1144.5219 7783.102 1149.6251 7799.8036 1151.4809 7803.0511
@@ -5599,7 +5713,7 @@ line rock-edge
   1162.6152 7958.4686
 endline
 
-line rock-edge 
+line rock-edge
   1065.1894 7798.8757
   1105.5515 7791.9167
   1105.5515 7791.9167 1106.4794 7782.1742 1111.1187 7780.3184
@@ -5608,20 +5722,20 @@ line rock-edge
   1144.0579 7746.4513 1154.2645 7722.3268 1154.2645 7722.3268
 endline
 
-line rock-edge 
+line rock-edge
   1110.6548 7997.9028
   1112.0466 7995.1192 1125.5006 7995.5832 1125.5006 7995.5832
   1137.0989 7997.9028
 endline
 
-line rock-edge 
+line rock-edge
   1073.0762 8030.8421
   1073.0762 8030.8421 1077.2516 8040.1207 1080.0352 8042.4404
   1082.8188 8044.76 1084.2106 8045.6879 1086.5303 8046.6158
   1088.8499 8047.5436 1091.1696 8047.5436 1091.1696 8047.5436
 endline
 
-line rock-edge 
+line rock-edge
   1069.8287 8062.8534
   1069.8287 8062.8534 1074.932 8060.0698 1074.468 8054.0387
   1074.0041 8048.0076 1072.1484 8035.0175 1070.2926 8029.4503
@@ -5632,7 +5746,7 @@ line rock-edge
   1039.6731 7972.3865 1037.8174 7965.4276 1037.8174 7965.4276
 endline
 
-line rock-edge 
+line rock-edge
   1024.3633 7758.5136
   1024.3633 7758.5136 1050.8075 7770.5758 1051.2714 7776.607
   1051.7353 7782.6381 1062.4058 7792.8446 1063.7976 7802.1233
@@ -5677,16 +5791,18 @@ line rock-border -close on
   1363.0342 8502.1977
 endline
 
-point 1446.52 7101.58 gradient -orientation 201.49254149870583
-point 1503.45 7175.77 gradient -orientation 240.82845165900642
-line contour 
+point 1446.52 7101.58 gradient -orientation 201.493
+
+point 1503.45 7175.77 gradient -orientation 240.828
+
+line contour
   1512.9663 7150.5039
   1509.6858 7163.2978 1505.4211 7175.7637 1504.765 7179.0442
   1504.1089 7182.3247 1501.4845 7191.1821 1500.8284 7192.4943
   1500.1723 7193.8065 1493.9394 7198.0711 1493.9394 7198.0711
 endline
 
-line contour 
+line contour
   1507.3894 7143.2868
   1506.7333 7145.9112 1507.3894 7154.1124 1502.4687 7161.6576
   1497.5479 7169.2027 1496.5638 7174.1235 1491.9711 7178.0601
@@ -5694,7 +5810,7 @@ line contour
   1468.0234 7187.2455
 endline
 
-line floor-step 
+line floor-step
   1483.1927 7122.9258
   1483.1927 7122.9258 1498.5025 7142.1791 1497.3427 7148.4421
   1496.1828 7154.7052 1495.9509 7157.4888 1493.1673 7160.9683
@@ -5703,7 +5819,7 @@ line floor-step
   1472.5223 7174.1904 1463.0117 7169.4351 1463.0117 7169.4351
 endline
 
-line wall 
+line wall
   1503.7809 7098.672
   1503.7809 7098.672 1498.5321 7098.672 1486.7223 7094.7354
   1474.9125 7090.7988 1465.071 7077.3488 1463.7588 7077.6768
@@ -5747,7 +5863,7 @@ line rock-border -close on
   1323.5999 6705.3865 1321.2802 6710.0258 1321.2802 6710.0258
 endline
 
-line wall -clip off -outline none -subtype presumed
+line wall -subtype presumed -clip off -outline none
   1292.0525 6367.6435
   1294.8361 6367.6435 1309.6819 6371.8189 1313.3934 6372.2828
   1317.1048 6372.7467 1321.2802 6368.5713 1324.0638 6375.0664
@@ -5764,8 +5880,9 @@ line wall -clip off -outline none -subtype presumed
   1436.7994 6471.1005 1441.4388 6484.0906 1441.4388 6484.0906
 endline
 
-point 850.836 7511.47 narrow-end -align bl -orientation 31.31587858533677
-line rock-border -clip off -close on
+point 850.6957 7511.3512 narrow-end -orientation 31.316 -align bl
+
+line rock-border -close on -clip off
   1429.8405 8693.3379
   1429.8405 8693.3379 1412.211 8699.833 1409.4274 8695.1936
   1406.6438 8690.5543 1401.0766 8688.6986 1401.0766 8678.4921
@@ -5776,7 +5893,7 @@ line rock-border -clip off -close on
   1429.8405 8693.3379
 endline
 
-line rock-border -clip off -close on
+line rock-border -close on -clip off
   1372.3128 8786.1244
   1360.2506 8772.2065 1342.6211 8762.9278 1337.0539 8754.577
   1331.4867 8746.2262 1337.9818 8692.41 1337.9818 8692.41
@@ -5786,7 +5903,7 @@ line rock-border -clip off -close on
   1409.4274 8729.5246 1372.3128 8786.1244 1372.3128 8786.1244
 endline
 
-line rock-border -clip off -close on
+line rock-border -close on -clip off
   1304.5786 8826.9505
   1304.5786 8826.9505 1273.9591 8835.3013 1263.7526 8808.3932
   1253.546 8781.4851 1249.8346 8780.5572 1254.4739 8774.0622
@@ -5797,7 +5914,7 @@ line rock-border -clip off -close on
   1341.6932 8826.9505 1304.5786 8826.9505 1304.5786 8826.9505
 endline
 
-line rock-border -clip off -close on
+line rock-border -close on -clip off
   1244.2674 8886.3339
   1244.2674 8886.3339 1234.9887 8859.4258 1236.8445 8854.7865
   1238.7002 8850.1471 1248.9067 8833.4456 1252.6182 8829.7341
@@ -5808,15 +5925,13 @@ line rock-border -clip off -close on
   1244.2674 8886.3339
 endline
 
-point 1427.75 6699.73 map-connection 
-point 1219.87 8860.0 map-connection 
+point 1427.75 6699.73 map-connection
+
+point 1219.87 8860.0 map-connection
+
 line label -scale xl -text Aglarond
   1782.0104 6710.7507
   1781.1643 6768.5367 1699.9635 8019.8073 1829.2201 8797.5913
-endline
-
-line rock-border -close on
-  1065.78 8074.53
 endline
 
 line rock-border -close on
@@ -5875,7 +5990,7 @@ line rock-border -close on
   1183.39 7583.1
 endline
 
-line wall 
+line wall
   860.0077 7519.8536
   866.2053 7521.6096 872.7821 7522.6988 878.7453 7524.8666
   883.7258 7528.9835 886.9472 7534.4858 890.1705 7539.9865
@@ -5924,7 +6039,7 @@ line rock-border -close on
   1077.48 7326.22
 endline
 
-line pit 
+line pit
   923.61 7657.51
   923.61 7657.51 936.4721 7617.0228 954.01 7612.06
   964.4981 7609.0922 973.0456 7623.5601 983.7366 7625.684
@@ -5935,10 +6050,14 @@ line pit
 endline
 
 point 1423.61 8739.5 breakdown-choke -align tr
+
 point 1295.61 8909.5 breakdown-choke -align tr
-point 1415.61 8591.5 popcorn -align r
-point 1303.61 8173.5 popcorn -align r
-line wall 
+
+point 1415.61 8592.5898 popcorn -align r
+
+point 1303.61 8174.5898 popcorn -align r
+
+line wall
   945.41 7409.32
   955.96 7396.97
   961.96 7390.29
@@ -5956,7 +6075,7 @@ line wall
   1037.05 7285.96
 endline
 
-line wall 
+line wall
   1036.2239 7285.072
   1034.8026 7279.5198 1034.2541 7273.7125 1034.3501 7267.7233
   1034.4241 7263.0826 1021.1076 7255.3802 1021.8494 7250.5551
@@ -5997,7 +6116,7 @@ line wall
   1187.475 6352.1458 1186.5475 6351.1879 1185.6199 6350.23
 endline
 
-line pit 
+line pit
   1287.4266 6556.8459
   1284.2582 6548.6658 1278.2281 6541.0725 1277.9215 6532.3056
   1277.4506 6518.8397 1283.4101 6505.5183 1289.8523 6493.6839
@@ -6032,9 +6151,11 @@ line wall -clip off -outline none
   1275.7288 6383.4485 1280.5481 6376.9651 1287.1071 6368.7419
 endline
 
-point 1177.61 6341.82 clay-choke -align bl -orientation 60.92368660384124
-point 1223.23 6305.41 clay-choke -align b -orientation 15.544635178356916
-line wall 
+point 1177.61 6341.82 clay-choke -orientation 60.924 -align bl
+
+point 1223.23 6305.41 clay-choke -orientation 15.545 -align b
+
+line wall
   1231.1985 6312.111
   1245.95 6320.08
   1253.3 6324.85
@@ -6045,7 +6166,7 @@ line wall
   1289.4008 6366.1878
 endline
 
-line wall 
+line wall
   1189.45 6342.91
   1197.78 6345.79
   1205.83 6348.07
@@ -6068,7 +6189,7 @@ line rock-border -close on
   1181.69 6882.48
 endline
 
-line contour 
+line contour
   1263.7319 7416.4131
   1267.0846 7417.3307 1270.7872 7417.302 1273.9475 7418.7987
   1278.7059 7421.0523 1282.9017 7424.5534 1286.4719 7428.4231
@@ -6076,7 +6197,7 @@ line contour
   1297.4244 7444.0447 1302.416 7447.9161 1306.8909 7452.2628
 endline
 
-line contour 
+line contour
   1027.8 7329.73
   1040.27 7321.55
   1049.44 7318.28
@@ -6088,7 +6209,7 @@ line contour
   1116.07 7342.27
 endline
 
-line contour 
+line contour
   1054.8997 7125.8878
   1063.8071 7123.586 1072.7601 7121.2857 1081.1006 7117.3171
   1088.0749 7114.8631 1095.5181 7113.4824 1102.8873 7113.354
@@ -6096,7 +6217,7 @@ line contour
   1122.8199 7120.3479 1126.7128 7125.2275 1130.0826 7130.1178
 endline
 
-line contour 
+line contour
   1067.8882 7050.7817
   1076.1978 7049.2427 1084.5666 7047.8345 1092.5264 7044.8961
   1097.8344 7043.3412 1103.6865 7042.832 1108.9214 7044.9721
@@ -6104,7 +6225,7 @@ line contour
   1125.2828 7051.1354 1126.6741 7051.8464 1128.0655 7052.5574
 endline
 
-line contour 
+line contour
   1093.9448 6934.9546
   1105.4848 6936.9946
   1112.6548 6940.2946
@@ -6112,7 +6233,7 @@ line contour
   1130.8987 6949.8078
 endline
 
-line contour 
+line contour
   1258.1658 7389.5495
   1271.4177 7387.1018 1284.9928 7382.5606 1298.3377 7384.5585
   1304.532 7385.4859 1310.4732 7388.4823 1315.4882 7392.2345
@@ -6120,7 +6241,7 @@ line contour
   1331.9187 7410.977 1336.0489 7414.3394 1339.9557 7417.9305
 endline
 
-line contour 
+line contour
   1178.62 7461.18
   1191.77 7460.51
   1201.68 7460.51
@@ -6136,7 +6257,7 @@ line contour
   1286.45 7528.56
 endline
 
-line floor-step 
+line floor-step
   1158.7886 7451.0894
   1169.0738 7453.9093
   1181.55 7457.33
@@ -6197,7 +6318,7 @@ line rock-border -close on
   1236.08 8219.7
 endline
 
-line wall 
+line wall
   1269.59 8160.5
   1267.9959 8170.257 1268.4756 8179.9142 1270.9912 8189.4733
   1275.5337 8211.0606 1282.4906 8232.0564 1287.9813 8253.4001
@@ -6275,16 +6396,26 @@ line rock-border -close on
 endline
 
 point 921.0 7630.32 stalactite -scale xs
+
 point 940.0 8283.32 stalactites -align l -scale s
+
 point 932.0 7807.32 stalactites -align l -scale s
+
 point 883.0 7567.32 stalactite -scale xs
+
 point 914.0 7590.32 stalactite -scale xs
-point 920.0 7559.32 popcorn -align br
-point 879.0 7627.32 popcorn -align l
-point 972.0 8088.32 popcorn -align l
-point 1014.0 8424.32 popcorn -align l
-point 1084.33 8740.28 popcorn -align l
-line wall 
+
+point 920.0 7560.4098 popcorn -align br
+
+point 879.0 7628.4098 popcorn -align l
+
+point 972.0 8089.4098 popcorn -align l
+
+point 1014.0 8425.4098 popcorn -align l
+
+point 1084.33 8741.3698 popcorn -align l
+
+line wall
   1210.2296 8862.3411
   1200.8091 8844.1344 1193.422 8825.7286 1180.955 8809.16
   1170.5593 8795.2814 1165.5347 8772.8147 1144.3789 8773.9465
@@ -6293,7 +6424,7 @@ line wall
   1092.8017 8626.4559 1074.4809 8610.9887 1066.0119 8592.5299
 endline
 
-line wall 
+line wall
   1062.688 8573.6342
   1053.1781 8530.8016 1064.3424 8485.0936 1055.2011 8442.0756
   1049.9167 8414.5567 1041.1642 8387.6366 1036.9419 8360.1134
@@ -6340,7 +6471,7 @@ line wall:blocks -close on -outline in
   1193.4916 6951.5178
 endline
 
-line pit 
+line pit
   1226.88 7274.0697
   1221.5669 7259.9974
   1206.9335 7234.0537
@@ -6371,7 +6502,7 @@ line pit
   1324.85 7103.78
 endline
 
-line contour 
+line contour
   1223.6929 7260.4415
   1222.6865 7247.1461 1223.3588 7233.5424 1227.0879 7220.8233
   1233.4796 7199.0225 1241.0276 7174.6048 1258.857 7160.525
@@ -6379,7 +6510,7 @@ line contour
   1307.6304 7150.2072 1323.1872 7152.6949 1338.6487 7153.062
 endline
 
-line contour 
+line contour
   1243.2147 7338.8197
   1258.1971 7324.9946 1271.9367 7306.7661 1291.621 7301.5453
   1300.6759 7299.1437 1310.4283 7302.9115 1319.4591 7305.4025
@@ -6387,7 +6518,7 @@ line contour
   1348.575 7318.0539 1352.5002 7320.6757 1356.5658 7323.0377
 endline
 
-line wall 
+line wall
   1512.6389 7199.7822
   1499.3716 7198.4089 1485.8363 7199.0631 1472.8035 7195.9779
   1465.4351 7188.0172 1467.5019 7175.7655 1461.4128 7167.7334
@@ -6485,7 +6616,7 @@ line rock-border -close on
   1377.6 6903.33
 endline
 
-line floor-step 
+line floor-step
   1376.09 6747.12
   1376.09 6756.97
   1377.82 6768.98
@@ -6513,7 +6644,7 @@ line floor-step
   1416.34 7021.64
 endline
 
-line wall 
+line wall
   1289.5395 6365.8848
   1295.0695 6363.1046 1301.7703 6362.9754 1307.7654 6363.5881
   1318.4237 6366.0227 1329.2019 6368.1088 1339.8615 6370.3851
@@ -6544,7 +6675,7 @@ line wall
   1422.4153 6696.3293 1424.2376 6699.0249 1426.06 6701.7204
 endline
 
-line border -close on -id AglarondVesuvDom-2p_clay_2 -visibility off
+line border -id AglarondVesuvDom-2p_clay_2 -close on -visibility off
   1459.8935 7075.3255
   1465.491 7085.9536
   1469.799 7097.1114
@@ -6580,7 +6711,7 @@ line border -close on -id AglarondVesuvDom-2p_clay_2 -visibility off
   1459.8935 7075.3255
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-2p_clay_2
 endarea
 
@@ -8840,39 +8971,73 @@ line u:splay -visibility off
 endline
 
 point 1126.07 7850.45 station-name -align t -scale xs -text "4/8"
+
 point 949.72 7992.9 station-name -align t -scale xs -text "4/9"
+
 point 890.982 7722.29 station-name -align t -scale xs -text "4/10"
+
 point 1176.41 7619.99 station-name -align t -scale xs -text "4/11"
+
 point 969.759 7206.92 station-name -align t -scale xs -text "4/12"
+
 point 1062.3 6764.31 station-name -align t -scale xs -text "4/13"
+
 point 1211.22 6595.03 station-name -align t -scale xs -text "4/14"
+
 point 1429.84 6630.19 station-name -align t -scale xs -text "4/15"
+
 point 1507.17 6492.38 station-name -align t -scale xs -text "4/16"
+
 point 1157.83 6395.08 station-name -align t -scale xs -text "4/17"
+
 point 979.92 8346.35 station-name -align t -scale xs -text "4/18"
+
 point 987.205 8519.72 station-name -align t -scale xs -text "4/18a"
+
 point 1278.63 8649.04 station-name -align t -scale xs -text "4/19"
+
 point 1168.53 7013.39 station-name -align t -scale xs -text "4/20"
+
 point 1330.33 7015.31 station-name -align t -scale xs -text "4/21"
+
 point 1468.89 7008.63 station-name -align t -scale xs -text "4/22"
+
 point 1437.19 6755.7 station-name -align t -scale xs -text "4/23"
+
 point 1114.07 7908.45 station -name 8
+
 point 1061.72 8008.9 station -name 9
+
 point 1001.46 7739.79 station -name 10
+
 point 1118.41 7615.99 station -name 11
+
 point 1082.91 7212.66 station -name 12
+
 point 1122.3 6782.31 station -name 13
+
 point 1208.25 6680.91 station -name 14
+
 point 1305.84 6700.19 station -name 15
+
 point 1323.84 6503.91 station -name 16
+
 point 1211.13 6409.54 station -name 17
+
 point 1063.92 8352.35 station -name 18
+
 point 1121.7 8567.28 station -name 18a
+
 point 1183.02 8613.37 station -name 19
+
 point 1174.9 7083.4 station -name 20
+
 point 1288.33 7003.31 station -name 21
+
 point 1396.06 7013.5 station -name 22
+
 point 1327.6 6759.18 station -name 23
+
 line rock-border -close on
   1100.51 8040.52
   1094.37 8028.1
@@ -9008,7 +9173,7 @@ line rock-border -close on
   1220.8 8658.67
 endline
 
-line border -close on -id AglarondVesuvDom-2p_clay_3 -visibility off
+line border -id AglarondVesuvDom-2p_clay_3 -close on -visibility off
   1289.7328 6559.2477
   1288.8049 6557.3919 1280.9181 6546.2576 1281.8459 6535.5871
   1282.7738 6524.9167 1284.6295 6514.7101 1286.0213 6508.679
@@ -9102,7 +9267,7 @@ line border -close on -id AglarondVesuvDom-2p_clay_3 -visibility off
   1293.1728 6563.6226 1289.7328 6559.2477 1289.7328 6559.2477
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-2p_clay_3
 endarea
 
@@ -9137,7 +9302,7 @@ line rock-border -close on
   1143.68 7575.65
 endline
 
-line border -close on -id AglarondVesuvDom-2p_clay_4 -visibility off
+line border -id AglarondVesuvDom-2p_clay_4 -close on -visibility off
   1302.7229 8295.2837
   1302.7229 8295.2837 1321.2802 8299.923 1325.9195 8305.4902
   1330.5589 8311.0574 1334.2703 8321.2639 1336.1261 8326.8311
@@ -9181,11 +9346,11 @@ line border -close on -id AglarondVesuvDom-2p_clay_4 -visibility off
   1302.7229 8295.2837
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-2p_clay_4
 endarea
 
-line border -close on -id AglarondVesuvDom-2p_u_smallblocks_2 -visibility off
+line border -id AglarondVesuvDom-2p_u_smallblocks_2 -close on -visibility off
   1219.215 8489.2075
   1219.215 8489.2075 1241.4838 8515.1878 1242.4117 8520.755
   1243.3395 8526.3221 1249.8346 8549.5188 1238.7002 8554.1581
@@ -9213,7 +9378,7 @@ line border -close on -id AglarondVesuvDom-2p_u_smallblocks_2 -visibility off
   1180.2447 8499.414 1219.215 8489.2075 1219.215 8489.2075
 endline
 
-area u:smallblocks 
+area u:smallblocks
   AglarondVesuvDom-2p_u_smallblocks_2
 endarea
 
@@ -9227,7 +9392,7 @@ line rock-border -close on
   1369.59 6787.68
 endline
 
-line border -close on -id AglarondVesuvDom-2p_u_smallblocks_3 -visibility off
+line border -id AglarondVesuvDom-2p_u_smallblocks_3 -close on -visibility off
   1236.7482 7060.9463
   1236.7482 7060.9463 1225.5945 7007.8022 1226.9067 7004.5217
   1228.2189 7001.2412 1241.997 6995.9924 1245.9336 6995.3363
@@ -9251,7 +9416,7 @@ line border -close on -id AglarondVesuvDom-2p_u_smallblocks_3 -visibility off
   1243.3092 7059.6341 1236.7482 7060.9463 1236.7482 7060.9463
 endline
 
-area u:smallblocks 
+area u:smallblocks
   AglarondVesuvDom-2p_u_smallblocks_3
 endarea
 
@@ -9285,7 +9450,7 @@ line rock-border -close on
   1079.72 8294.95
 endline
 
-line border -close on -id AglarondVesuvDom-2p_clay_5 -visibility off
+line border -id AglarondVesuvDom-2p_clay_5 -close on -visibility off
   1304.5786 7074.2129
   1317.5687 7092.7702
   1308.2901 7103.9046
@@ -9408,16 +9573,17 @@ line border -close on -id AglarondVesuvDom-2p_clay_5 -visibility off
   1290.6607 7065.8621 1304.5786 7074.2129 1304.5786 7074.2129
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-2p_clay_5
 endarea
 
 endscrap
 
 
+
 scrap AglarondVesuvDom-3p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
-line wall 
+line wall
   1470.3198 4824.9579
   1470.3198 4824.9579 1409.9586 4885.3191 1403.3976 4893.8484
   1396.8366 4902.3777 1386.9951 4916.1558 1381.0902 4924.6851
@@ -9426,73 +9592,85 @@ line wall
   1360.7511 5046.7197 1360.095 5063.1222 1360.095 5063.1222
 endline
 
-line contour 
+line contour
   923.226 3132.1771
   923.226 3132.1771 998.847 3122.8985 1032.7141 3128.0017
 endline
 
-line contour 
+line contour
   892.2084 2569.9221
   892.2084 2569.9221 927.1428 2592.9293 946.9468 2598.5886
   965.2672 2603.8239 1003.9503 2602.83 1003.9503 2602.83
 endline
 
-line contour 
+line contour
   984.0012 2430.7109
   956.1652 2431.1749 945.4948 2435.8142 918.1227 2433.0306
   890.7507 2430.247 871.1819 2466.1636 871.1819 2466.1636
 endline
 
-line contour 
+line contour
   789.9442 1933.5259
   789.9442 1933.5259 891.6397 1947.9601 917.8837 1963.7065
 endline
 
-line contour 
+line contour
   774.1978 2083.7727
   774.1978 2083.7727 876.5494 2060.8092 926.413 2061.4653
 endline
 
 point 1300.11 5203.77 station-name -align t -scale xs -text "4/40"
-point 1404.21 5025.34 station-name -align t -scale xs -text "4/41"
-point 961.648 4912.66 station-name -align t -scale xs -text "4/42"
-point 680.539 5261.53 station-name -align t -scale xs -text "4/43"
-point 1035.92 4399.41 station-name -align t -scale xs -text "4/44"
-point 1121.62 4184.3 station-name -align t -scale xs -text "4/45"
-point 1375.33 4039.81 station-name -align t -scale xs -text "4/46"
-point 1057.9 3522.38 station-name -align t -scale xs -text "4/47"
-point 954.308 3406.8 station-name -align t -scale xs -text "4/48"
-point 1095.94 3176.59 station-name -align t -scale xs -text "4/49"
-point 1086.4 3098.47 station-name -align t -scale xs -text "4/50"
-point 1068.99 2944.72 station-name -align t -scale xs -text "4/51"
-point 828.476 2654.28 station-name -align t -scale xs -text "4/52"
-point 1113.93 2436.95 station-name -align t -scale xs -text "4/53"
-point 1076.31 2143.8 station-name -align t -scale xs -text "4/54"
-point 760.912 1671.03 station-name -align t -scale xs -text "4/55"
-point 786.059 1426.41 station-name -align t -scale xs -text "4/56"
-point 707.899 1138.92 station-name -align t -scale xs -text "4/57"
-point 572.543 1105.71 station-name -align t -scale xs -text "4/58"
-point 697.359 888.967 station-name -align t -scale xs -text "4/59"
-line wall -clip off -outline none -subtype presumed
-  1169.1699 324.1129
-  1173.063 323.0748 1302.1257 450.1289 1385.2099 448.5192
-  1449.9652 447.2645 1517.0755 360.898 1549.7079 345.1081
-  1590.3861 325.4251 1573.3275 337.2349 1637.6252 295.2445
-  1701.923 253.2541 1749.1622 221.7613 1758.3476 216.5125
-endline
 
-line rock-edge 
+point 1404.21 5025.34 station-name -align t -scale xs -text "4/41"
+
+point 961.648 4912.66 station-name -align t -scale xs -text "4/42"
+
+point 680.539 5261.53 station-name -align t -scale xs -text "4/43"
+
+point 1035.92 4399.41 station-name -align t -scale xs -text "4/44"
+
+point 1121.62 4184.3 station-name -align t -scale xs -text "4/45"
+
+point 1375.33 4039.81 station-name -align t -scale xs -text "4/46"
+
+point 1057.9 3522.38 station-name -align t -scale xs -text "4/47"
+
+point 954.308 3406.8 station-name -align t -scale xs -text "4/48"
+
+point 1095.94 3176.59 station-name -align t -scale xs -text "4/49"
+
+point 1086.4 3098.47 station-name -align t -scale xs -text "4/50"
+
+point 1068.99 2944.72 station-name -align t -scale xs -text "4/51"
+
+point 828.476 2654.28 station-name -align t -scale xs -text "4/52"
+
+point 1113.93 2436.95 station-name -align t -scale xs -text "4/53"
+
+point 1076.31 2143.8 station-name -align t -scale xs -text "4/54"
+
+point 760.912 1671.03 station-name -align t -scale xs -text "4/55"
+
+point 786.059 1426.41 station-name -align t -scale xs -text "4/56"
+
+point 707.899 1138.92 station-name -align t -scale xs -text "4/57"
+
+point 572.543 1105.71 station-name -align t -scale xs -text "4/58"
+
+point 697.359 888.967 station-name -align t -scale xs -text "4/59"
+
+line rock-edge
   678.9655 1034.0417
   681.2851 1027.7786 684.9966 1018.7319 685.6925 1016.6442
   686.3884 1014.5565 689.6359 1008.5254 689.6359 1008.5254
 endline
 
-line rock-edge 
+line rock-edge
   686.8523 1072.3161
   690.7957 1079.2751 702.626 1086.698 702.626 1086.698
 endline
 
-line rock-edge 
+line rock-edge
   631.4123 1022.2114
   636.0517 1024.995 671.0786 1032.8818 672.2384 1032.8818
   673.3982 1032.8818 679.8933 1032.1859 680.1253 1038.681
@@ -9502,28 +9680,28 @@ line rock-edge
   660.1762 1090.4095
 endline
 
-line contour 
+line contour
   622.5976 1013.3967
   617.9583 1006.9016 607.7518 978.1378 602.1846 929.8888
 endline
 
-line contour 
+line contour
   482.258 1083.2185
   476.6908 1068.3727 446.3032 963.2919 458.3655 911.3315
 endline
 
-line contour 
+line contour
   849.2879 1087.5229
   839.0813 1086.5951 758.9938 1063.5014 744.148 1031.0261
   729.3021 998.5508 708.8891 942.8789 708.8891 942.8789
 endline
 
-line contour 
+line contour
   835.1948 1010.2651
   835.1948 1010.2651 782.7806 956.3 774.4298 918.2575
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   999.7749 1487.9998
   999.7749 1487.9998 988.6405 1508.4128 978.8979 1516.7636
   969.1553 1525.1144 948.2784 1524.1865 936.68 1526.9701
@@ -9532,7 +9710,7 @@ line u:wall_flowstone
   934.8243 1596.0961 938.9997 1604.4469 940.8554 1623.4681
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   936.2161 1467.5867
   936.2161 1467.5867 924.1539 1467.1228 907.4523 1471.7621
   890.7507 1476.4015 894.4622 1483.8244 882.8638 1506.5571
@@ -9565,15 +9743,7 @@ line pit -close on
   245.3814 814.8756 254.5667 825.3732 254.5667 825.3732
 endline
 
-point 1178.79 810.897 label -align tr -scale l -text "Tor der Ewigkeit"
-line pit 
-  886.5753 983.705
-  886.5753 983.705 868.018 949.8379 863.3787 937.3118
-  858.7394 924.7856 847.605 894.1659 842.0378 875.1447
-  836.4706 856.1235 833.223 828.7515 833.223 828.7515
-endline
-
-line border -close on -id AglarondVesuvDom-3p_u_smallblocks_1 -visibility off
+line border -id AglarondVesuvDom-3p_u_smallblocks_1 -close on -visibility off
   568.1825 1073.379
   547.1873 1072.0668 536.6897 1079.94 496.0115 1068.1302
   455.3333 1056.3204 440.8991 1056.3204 408.0941 1037.9496
@@ -9591,29 +9761,28 @@ line border -close on -id AglarondVesuvDom-3p_u_smallblocks_1 -visibility off
   572.1191 1064.1936 568.1825 1073.379 568.1825 1073.379
 endline
 
-area u:smallblocks 
+area u:smallblocks
   AglarondVesuvDom-3p_u_smallblocks_1
 endarea
 
-line wall 
+line wall
   214.5446 776.8218
   225.0422 795.1926 283.4351 842.4318 290.6522 856.866
   297.8693 871.3002 309.023 887.0466 320.8328 893.6076
   332.6426 900.1686 354.2939 909.354 356.9183 909.354
   359.5427 909.354 371.0245 910.3382 371.0245 910.3382
-  494.6993 910.0101
-  494.6993 910.0101 528.1604 919.8516 544.5629 927.0687
-  560.9654 934.2858 579.9923 939.5346 591.8021 937.5663
-  603.6119 935.598 612.1412 917.8833 625.9193 919.8516
-  633.6705 920.9589 649.5199 927.2574 661.9028 932.5558
-  671.531 936.6756 679.0634 940.1907 679.0634 940.1907
-  679.0634 940.1907 726.3025 950.6883 734.1757 944.7834
-  742.0489 938.8785 782.7271 918.5394 788.632 910.0101
-  794.5369 901.4808 824.7175 860.8026 826.6858 856.2099
-  828.6541 851.6172 832.5907 828.6537 832.5907 828.6537
+  494.6993 910.0104
+  494.6993 910.0104 528.1604 919.8519 544.5629 927.069
+  560.9654 934.2861 579.9923 939.5349 591.8021 937.5666
+  603.6119 935.5983 612.1412 917.8836 625.9193 919.8519
+  633.6705 920.9592 649.5199 927.2577 661.9028 932.5561
+  671.531 936.6759 679.0634 940.191 679.0634 940.191
+  679.0634 940.191 726.3025 950.6886 734.1757 944.7837
+  739.7701 940.5879 761.928 929.1042 776.4043 919.748
+  smooth off
 endline
 
-line wall 
+line wall
   235.5399 958.5615
   270.3131 952.6566 295.2449 957.9054 299.1815 953.9688
   303.1181 950.0322 279.4985 936.2541 276.218 935.598
@@ -9624,7 +9793,7 @@ line wall
   161.4006 820.7805 150.903 808.9707 150.903 808.9707
 endline
 
-line floor-step 
+line floor-step
   436.9625 1060.257
   423.8405 1051.7277 362.0618 1030.1713 333.2987 1003.1763
   320.8235 991.4679 306.058 976.9798 305.7425 959.8737
@@ -9641,7 +9810,7 @@ line rock-border -close on
   600.3314 1008.4251 602.2997 1020.2349 602.2997 1020.2349
 endline
 
-line contour 
+line contour
   901.8851 1619.2927
   901.8851 1619.2927 879.9741 1606.228 868.4819 1600.7354
   855.838 1594.6923 841.9482 1591.4209 829.5116 1584.9617
@@ -9651,7 +9820,7 @@ line contour
   673.0829 1482.9131 662.4958 1452.277 662.4958 1452.277
 endline
 
-line contour 
+line contour
   847.141 1547.8471
   847.141 1547.8471 837.8624 1521.8669 812.81 1508.8768
   787.7577 1495.8866 762.7053 1485.6801 748.7873 1472.69
@@ -9659,19 +9828,19 @@ line contour
   698.6826 1413.3066 695.899 1401.2444 695.899 1401.2444
 endline
 
-line contour 
+line contour
   847.141 1417.946
   840.646 1417.946 786.8298 1425.3689 761.7774 1402.1722
   736.7251 1378.9756 731.1579 1334.4381 725.5907 1320.5201
   720.0235 1306.6021 712.6006 1291.7563 712.6006 1291.7563
 endline
 
-line contour 
+line contour
   922.2981 1800.6904
   907.9162 1796.0511 839.7181 1794.1953 839.7181 1794.1953
 endline
 
-line contour 
+line contour
   927.8653 1868.8885
   917.8908 1866.8008 861.059 1863.7852 861.059 1863.7852
 endline
@@ -9682,20 +9851,21 @@ line wall -id alt003
   858.0146 5237.4807
 endline
 
-point 1309.98 5367.14 rope -align l
-line u:texture 
+point 1309.98 5367.467 rope -align l
+
+line u:texture
   1433.5782 5300.6303
   1433.5782 5300.6303 1428.9855 5349.8378 1428.9855 5359.0232
   1428.9855 5368.2086 1428.3294 5404.2941 1428.3294 5404.2941
 endline
 
-line u:texture 
+line u:texture
   1433.5782 5300.6303
   1433.5782 5300.6303 1428.9855 5349.8378 1428.9855 5359.0232
   1428.9855 5368.2086 1428.3294 5404.2941 1428.3294 5404.2941
 endline
 
-line u:texture 
+line u:texture
   1422.3256 5754.905
   1422.3256 5754.905 1410.3787 5719.2369 1413.0868 5702.5438
   1418.3688 5669.986 1440.3726 5643.9157 1442.1075 5635.2413
@@ -9706,7 +9876,7 @@ line u:texture
   1448.6685 5328.1865 1451.949 5282.9156 1451.949 5282.9156
 endline
 
-line u:texture 
+line u:texture
   1471.632 5302.5986
   1467.0393 5319.0011 1474.9125 5416.1039 1475.5686 5426.6015
   1476.2247 5437.0991 1490.6589 5460.7187 1491.9711 5488.931
@@ -9721,8 +9891,9 @@ line u:splay -visibility off
   1516.75 5290.64
 endline
 
-point 143.714 5262.08 continuation -orientation 358.8077612618724
-line contour 
+point 143.6826 5263.5909 continuation -orientation 358.808
+
+line contour
   900.169 4965.3633
   900.169 4965.3633 820.1248 4924.6851 782.071 4932.5583
   744.0172 4940.4315 737.4562 4988.9829 723.022 5011.2903
@@ -9730,7 +9901,7 @@ line contour
   656.0999 5090.0223 612.7973 5112.3297 594.4265 5126.7639
 endline
 
-line contour 
+line contour
   922.4764 4886.6313
   922.4764 4886.6313 900.169 4849.8897 881.7982 4826.2701
   863.4274 4802.6506 837.1834 4801.3384 816.1882 4803.9628
@@ -9738,24 +9909,24 @@ line contour
   738.7684 4859.0751 686.2804 4864.3239 674.4706 4864.3239
 endline
 
-line contour 
+line contour
   1035.3256 4756.7236
   1035.3256 4756.7236 956.5936 4747.5382 934.2862 4727.8552
   911.9788 4708.1722 909.3544 4677.9916 872.6128 4651.7476
   835.8712 4625.5036 778.1344 4632.0646 778.1344 4632.0646
 endline
 
-line contour 
+line contour
   1047.1354 4558.5814
   1047.1354 4558.5814 898.8568 4515.2788 894.9202 4502.1568
 endline
 
-line contour 
+line contour
   1190.1651 4419.4882
   1190.1651 4419.4882 1048.4476 4347.3172 1037.95 4336.8197
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1320.3523 4268.3482
   1320.3523 4268.3482 1287.8771 4276.699 1262.8247 4280.4105
   1237.7723 4284.1219 1239.6281 4312.8857 1229.4215 4329.5873
@@ -9771,59 +9942,78 @@ line u:wall_flowstone
   1308.2901 5055.178 1337.9818 5066.3124 1337.9818 5066.3124
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1455.2295 4609.7572
   1438.827 4616.3182 1396.8366 4702.2673 1393.5561 4720.6381
   1390.2756 4739.0089 1409.9133 4759.6245 1422.4245 4776.4066
   1432.5935 4790.0469 1459.1661 4811.8359 1459.1661 4811.8359
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1363.962 4182.0567
   1363.962 4182.0567 1347.8263 4126.361 1325.9195 4110.6111
   1292.314 4086.4505 1243.8209 4081.1122 1203.4413 4090.1981
   1178.0787 4095.905 1139.4186 4134.7356 1139.4186 4134.7356
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1316.6409 4195.0468
   1316.6409 4195.0468 1314.4296 4164.4346 1304.5787 4154.2208
   1284.6509 4133.5588 1251.1941 4121.851 1222.9265 4126.8488
   1204.6139 4130.0865 1186.7397 4150.5093 1179.3168 4161.6437
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1311.0737 4224.7385
   1311.0737 4224.7385 1286.273 4182.9573 1265.1444 4175.0977
   1240.4951 4165.9284 1197.8741 4181.1289 1186.7397 4183.9125
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1318.4966 4261.8531
   1318.4966 4261.8531 1291.4627 4232.461 1273.9591 4223.8106
   1246.1692 4210.0767 1220.1429 4205.2534 1183.0283 4204.3255
 endline
 
-point 1309.04 3945.41 gradient -orientation 159.74677063377553
-point 1435.19 3917.02 gradient -orientation 120.42393933556592
-point 892.467 4670.16 gradient -orientation 148.40778980646652
-point 730.353 4989.2 gradient -orientation 242.83780922082246
-point 808.621 4807.33 gradient -orientation 195.43374875795038
-point 963.89 4532.38 gradient -orientation 163.33998904745616
-point 1115.53 4376.35 gradient -orientation 148.14541806542954
-point 1152.63 3772.73 gradient -orientation 188.67752289302325
-point 1184.55 3292.85 u:gradient_rock -orientation 287.7354842393015
-point 1211.55 3401.85 u:gradient_rock -orientation 287.7354842393015
-point 1119.55 3579.85 gradient -orientation 287.7354842393015
-point 872.085 1950.14 gradient -orientation 346.7510879378501
-point 873.853 2067.04 gradient -orientation 8.139226159384046
-point 924.904 2431.14 gradient -orientation 177.61967229072928
-point 944.613 2599.38 gradient -orientation 335.951877365129
-point 972.317 3129.31 gradient 
-point 863.55 1795.86 gradient 
-point 890.55 1864.86 gradient 
-point 1290.55 3692.86 gradient 
-line contour 
+point 1309.04 3945.41 gradient -orientation 159.747
+
+point 1435.19 3917.02 gradient -orientation 120.424
+
+point 892.467 4670.16 gradient -orientation 148.408
+
+point 730.353 4989.2 gradient -orientation 242.838
+
+point 808.621 4807.33 gradient -orientation 195.434
+
+point 963.89 4532.38 gradient -orientation 163.34
+
+point 1115.53 4376.35 gradient -orientation 148.145
+
+point 1152.63 3772.73 gradient -orientation 188.678
+
+point 1184.55 3292.85 u:gradient_rock -orientation 287.735
+
+point 1211.55 3401.85 u:gradient_rock -orientation 287.735
+
+point 1119.55 3579.85 gradient -orientation 287.735
+
+point 872.085 1950.14 gradient -orientation 346.751
+
+point 873.853 2067.04 gradient -orientation 8.139
+
+point 924.904 2431.14 gradient -orientation 177.62
+
+point 944.613 2599.38 gradient -orientation 335.952
+
+point 972.317 3129.31 gradient
+
+point 863.55 1795.86 gradient
+
+point 890.55 1864.86 gradient
+
+point 1290.55 3692.86 gradient
+
+line contour
   1104.8722 3512.1021
   1105.5283 3518.007 1125.2113 3601.9878 1131.7723 3611.8293
   1138.3333 3621.6708 1191.4773 3653.1636 1215.0969 3664.9734
@@ -9842,75 +10032,75 @@ line rock-border -close on
   1118.6503 3499.9643
 endline
 
-line u:texture 
+line u:texture
   1195.5545 3429.558
   1271.6394 3411.0006
 endline
 
-line u:texture 
+line u:texture
   1171.8939 3517.2412
   1249.3706 3517.7052
 endline
 
-line u:texture 
+line u:texture
   1166.3267 3475.4873
   1169.1103 3475.4873 1236.3805 3465.7447 1236.3805 3465.7447
 endline
 
-line u:texture 
+line u:texture
   1225.7101 3343.2665
   1220.1429 3348.3697 1167.2546 3369.7106 1167.2546 3369.7106
 endline
 
-line u:texture 
+line u:texture
   1170.0382 3237.9538
   1213.6478 3212.4375
 endline
 
-line u:texture 
+line u:texture
   1197.8741 3192.0244
   1196.0184 3204.0867 1196.0184 3240.2734 1196.4823 3244.4488
 endline
 
-line u:texture 
+line u:texture
   1130.14 3299.1929
   1203.9052 3259.2947
 endline
 
-line u:texture 
+line u:texture
   1142.2022 3269.9651
   1142.6661 3272.2848 1155.6563 3307.5437 1155.6563 3311.7191
 endline
 
-line u:texture 
+line u:texture
   1175.1414 3350.2255
   1175.6054 3356.2566 1182.1004 3409.6089 1183.0283 3411.9285
 endline
 
-line u:texture 
+line u:texture
   1208.5446 3511.674
   1209.0085 3503.7872 1212.256 3472.7037 1212.256 3465.2808
   1212.256 3457.8578 1208.5446 3434.6612 1208.5446 3434.6612
 endline
 
-line u:texture 
+line u:texture
   1250.2985 3462.9611
   1251.2264 3449.0431 1249.8346 3422.135 1247.9789 3417.4957
   1246.1231 3412.8564 1245.6592 3406.3613 1245.6592 3406.3613
 endline
 
-line u:texture 
+line u:texture
   1186.7397 3250.4799
   1187.6676 3256.5111 1191.3791 3302.9043 1192.7709 3309.3994
 endline
 
-line u:texture 
+line u:texture
   1234.1238 3382.1944
   1234.1238 3386.131 1243.3092 3439.9311 1243.9653 3452.397
   1244.6214 3464.8629 1241.3409 3487.8264 1241.3409 3487.8264
 endline
 
-line u:texture 
+line u:texture
   1179.0114 3229.3231
   1179.0114 3238.5085 1184.9163 3317.8966 1188.8529 3330.3625
   1192.7895 3342.8284 1206.5676 3377.6017 1209.192 3391.3798
@@ -9918,14 +10108,14 @@ line u:texture
   1219.0335 3485.202 1216.4091 3518.007 1216.4091 3525.2241
 endline
 
-line u:texture 
+line u:texture
   1146.8626 3260.1598
   1152.1114 3271.3135 1171.1382 3353.9821 1171.7943 3371.6968
   1172.4504 3389.4115 1186.2285 3467.4873 1189.509 3485.8581
   1192.7895 3504.2289 1191.4773 3539.6583 1194.1017 3545.5632
 endline
 
-line u:texture 
+line u:texture
   1102.9039 3260.1598
   1110.121 3271.9696 1129.1479 3308.0551 1135.0528 3329.7064
   1140.9577 3351.3577 1142.926 3354.6382 1143.5821 3379.57
@@ -9936,7 +10126,7 @@ line u:texture
   1173.7775 3548.3778 1181.1309 3581.1116 1193.5541 3588.7489
 endline
 
-line border -close on -id AglarondVesuvDom-3p_clay_1 -visibility off
+line border -id AglarondVesuvDom-3p_clay_1 -close on -visibility off
   884.2556 5204.5643
   875.9049 5199.925 840.646 5190.6463 832.2952 5189.7185
   823.9444 5188.7906 807.2428 5186.9349 796.1084 5180.4398
@@ -9963,7 +10153,7 @@ line border -close on -id AglarondVesuvDom-3p_clay_1 -visibility off
   884.2556 5204.5643
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-3p_clay_1
 endarea
 
@@ -9998,33 +10188,34 @@ line rock-border -close on
 endline
 
 point 485.0212 5289.4702 label -align tr -scale xs -text "<bf>C10"
-line u:texture 
+
+line u:texture
   549.7602 5085.7975
   545.1209 5085.7975 490.8408 5081.1582 490.8408 5081.1582
 endline
 
-line u:texture 
+line u:texture
   563.2142 5130.3351
   559.5028 5132.6547 533.9865 5142.3973 533.9865 5142.3973
 endline
 
-line u:texture 
+line u:texture
   579.4519 5166.9858
   577.1322 5168.3776 531.6668 5208.2758 531.6668 5208.2758
 endline
 
-line u:texture 
+line u:texture
   506.6145 5100.6434
   506.6145 5076.9828 505.2227 5072.3435 509.862 5060.2813
   514.5013 5048.219 520.5324 5039.4043 520.5324 5039.4043
 endline
 
-line u:texture 
+line u:texture
   547.4405 5209.6676
   541.8734 5204.1004 534.9144 5193.8939 533.9865 5187.8627
 endline
 
-line u:texture 
+line u:texture
   576.2044 5212.4512
   575.2765 5207.8118 563.6782 5193.4299 559.5028 5182.2955
   555.3274 5171.1612 549.7602 5160.0268 548.8323 5147.9645
@@ -10033,7 +10224,7 @@ line u:texture
   550.6881 5041.26 554.3995 5029.6617 554.3995 5029.6617
 endline
 
-line pit 
+line pit
   530.1287 5223.5386
   529.6366 5103.1443
   514.0542 5102.1602
@@ -10041,7 +10232,7 @@ line pit
   475.1803 5107.2449
 endline
 
-line pit 
+line pit
   637.4435 5247.71
   629.0927 5241.6789 614.2468 5231.0085 603.1125 5218.4823
   591.9781 5205.9561 582.2355 5196.6775 583.6273 5188.3267
@@ -10130,8 +10321,9 @@ line rock-border -close on
   1134.72 5108.16
 endline
 
-point 1301.55 5148.62 air-draught -orientation 232.07918175719806 -scale xl
-line wall 
+point 1301.5857 5148.5741 air-draught -orientation 232.079 -scale xl
+
+line wall
   1334.8107 5097.917
   1323.4 5096.21
   1312.2239 5091.8026
@@ -10171,7 +10363,7 @@ line wall
   883.54 5216.65
 endline
 
-line wall 
+line wall
   857.3511 5237.9717
   846.8057 5246.7708 836.5036 5255.8334 826.8387 5265.575
   820.9196 5271.541 818.7284 5282.9936 810.5192 5284.7931
@@ -10187,7 +10379,7 @@ line wall
   317.205 5286.1106 315.3275 5286.4952 313.45 5286.8798
 endline
 
-line wall:presumed 
+line wall:presumed
   83.4718 5225.5329
   92.5057 5219.7424 120.6266 5206.0384 130.364 5201.5269
   147.6296 5195.3921 164.5971 5188.3983 182.2083 5183.2815
@@ -10196,7 +10388,7 @@ line wall:presumed
   277.0907 5161.7277 298.3206 5157.9902 310.2926 5154.7679
 endline
 
-line wall:presumed 
+line wall:presumed
   310.3157 5287.5605
   293.6361 5286.9281 278.8678 5294.282 263.29 5298.97
   232.1583 5308.5522 196.4272 5296.4049 168.418 5314.807
@@ -10244,7 +10436,7 @@ line rock-border -close on
   321.5688 5255.314
 endline
 
-line wall 
+line wall
   311.62 5155.96
   340.7674 5134.6092 378.5712 5132.9985 413.1023 5128.3533
   435.4441 5125.0978 454.5184 5114.2397 475.62 5107.05
@@ -10265,7 +10457,7 @@ line wall
   1184.5328 4203.9581 1188.4192 4190.285 1186.9395 4181.5866
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1433.72 4367.67
   1393.8287 4391.813 1360.8949 4425.7291 1341.3763 4468.3327
   1328.1932 4517.5575 1268.8694 4523.5786 1237.8776 4557.2835
@@ -10276,41 +10468,55 @@ line u:wall_flowstone
   1333.2101 4881.4854 1323.9073 4996.564 1352.0319 5012.8941
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1449.38 4443.76
   1393.1781 4502.1087 1337.8078 4562.2604 1298.2185 4633.4559
   1279.8375 4669.4221 1206.6969 4745.0846 1271.5968 4766.2395
   1462.7097 4813.5087 1343.7687 4889.5686 1367.7667 4940.3398
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1450.67 4538.36
   1436.2038 4559.6969 1421.9897 4581.2043 1408.0057 4602.8602
   1387.0612 4641.9357 1355.215 4675.765 1340.9428 4717.8574
   1342.345 4773.9711 1446.2665 4807.0293 1437.2741 4858.4938
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1448.81 4672.25
   1444.1401 4678.046 1440.6581 4684.6975 1437.8142 4691.5467
   1414.3465 4731.683 1437.8562 4784.3474 1479.63 4800.57
 endline
 
-point 1013.84 3748.14 popcorn 
-point 1084.84 3893.14 popcorn 
-point 1149.35 4167.24 popcorn 
-point 1040.98 4258.62 popcorn 
-point 1259.96 5022.88 popcorn 
-point 1310.01 4968.09 popcorn 
-point 1307.28 4018.52 stalagmite 
-point 1282.62 4002.22 stalagmite 
-point 1330.18 4106.63 stalagmite 
-point 1296.72 4194.3 stalagmite 
-point 1333.82 4892.4 stalagmite 
-point 1285.82 4917.51 stalagmite 
-point 1227.26 5014.0 stalagmite 
-point 1206.56 5043.07 stalagmite 
-line border -close on -id AglarondVesuvDom-3p_clay_2 -visibility off
+point 1013.84 3749.2298 popcorn
+
+point 1084.84 3894.2298 popcorn
+
+point 1149.35 4168.3298 popcorn
+
+point 1040.98 4259.7098 popcorn
+
+point 1259.96 5023.9698 popcorn
+
+point 1310.01 4969.1798 popcorn
+
+point 1307.28 4018.52 stalagmite
+
+point 1282.62 4002.22 stalagmite
+
+point 1330.18 4106.63 stalagmite
+
+point 1296.72 4194.3 stalagmite
+
+point 1333.82 4892.4 stalagmite
+
+point 1285.82 4917.51 stalagmite
+
+point 1227.26 5014.0 stalagmite
+
+point 1206.56 5043.07 stalagmite
+
+line border -id AglarondVesuvDom-3p_clay_2 -close on -visibility off
   1161.2641 4218.1401
   1181.2561 4210.1624 1288.5806 4225.3528 1289.3677 4265.2763
   1289.7393 4284.123 1263.7424 4290.9898 1237.4562 4317.1841
@@ -10327,11 +10533,11 @@ line border -close on -id AglarondVesuvDom-3p_clay_2 -visibility off
   1050.1629 4308.4719 1146.2751 4202.1016 1161.2641 4218.1401
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-3p_clay_2
 endarea
 
-line wall:presumed 
+line wall:presumed
   1368.9949 3675.4508
   1376.3228 3678.4878 1383.3054 3682.8807 1391.5268 3682.4094
   1396.9123 3681.4488 1399.8345 3685.3523 1402.8077 3689.1549
@@ -10344,7 +10550,7 @@ line wall:presumed
   1499.4031 3996.3296 1492.6826 4009.1074 1485.962 4021.8852
 endline
 
-line wall 
+line wall
   1486.6744 4024.3951
   1478.3316 4031.0402 1470.5092 4038.1961 1464.2573 4046.8938
   1450.9393 4064.243 1437.4327 4081.5585 1425.1472 4099.6287
@@ -10357,7 +10563,7 @@ line wall
   1428.4336 4418.7997 1448.9061 4431.1882 1454.8625 4448.1942
 endline
 
-line wall:presumed 
+line wall:presumed
   1455.7107 4448.3385
   1463.12 4460.37
   1462.66 4475.03
@@ -10391,7 +10597,7 @@ line wall:presumed
   1473.33 4803.86
 endline
 
-line contour 
+line contour
   1440.7083 4076.9414
   1421.1062 4057.6277 1384.7589 3998.7584 1364.0453 3979.8524
   1339.4449 3953.2002 1315.3791 3953.4262 1286.8524 3931.3185
@@ -10399,7 +10605,7 @@ line contour
   1174.5859 3920.925 1148.4585 3939.5611 1137.1612 3948.8015
 endline
 
-line contour 
+line contour
   1484.11 4025.2679
   1480.3495 3992.5295 1444.7334 3931.7028 1417.1904 3889.3897
   1395.9921 3856.8238 1377.7217 3817.5797 1342.4106 3799.9632
@@ -10407,13 +10613,13 @@ line contour
   1158.3769 3772.5798 1107.4186 3770.2834 1073.7203 3782.5678
 endline
 
-line border 
+line border
   728.52 2934.3
   714.56 2918.68
   702.77 2906.72
 endline
 
-line wall 
+line wall
   1186.69 4179.38
   1178.6223 4159.5293 1142.8805 4147.9276 1128.7024 4136.1544
   1118.6317 4113.5071 1152.035 4103.7924 1148.2082 4080.0893
@@ -10435,10 +10641,13 @@ line wall
   944.5799 3193.2122 927.2679 3163.2583 921.9321 3131.9503
 endline
 
-point 978.46 3392.0 popcorn 
-point 957.021 3313.8 popcorn 
-point 860.021 3211.62 air-draught -align l -orientation 201.8300086285766 -scale xl
-line wall 
+point 978.46 3393.0898 popcorn
+
+point 957.021 3314.8898 popcorn
+
+point 860.075 3211.5984 air-draught -orientation 201.83 -align l -scale xl
+
+line wall
   921.7622 3131.4552
   913.5678 3096.3644 908.1018 3058.8125 915.1406 3023.339
   911.2511 3008.4064 910.5913 2989.6345 914.6881 2972.2682
@@ -10517,7 +10726,7 @@ line wall
   407.3329 1052.367 345.1659 1038.449 315.4742 1050.5113
 endline
 
-line u:texture 
+line u:texture
   1083.83 2752.76
   1087.55 2735.47
   1089.74 2722.77
@@ -10532,7 +10741,7 @@ line u:texture
   1090.16 2610.62
 endline
 
-line u:texture 
+line u:texture
   1053.2 2730.55
   1053.64 2718.51
   1053.64 2704.55
@@ -10542,7 +10751,7 @@ line u:texture
   1054.3 2647.3
 endline
 
-line u:texture 
+line u:texture
   1105.58 2706.57
   1096.82 2704.23
   1086.38 2701.34
@@ -10554,7 +10763,7 @@ line u:texture
   1000.93 2690.37
 endline
 
-line u:texture 
+line u:texture
   1101.14 2666.16
   1091.0 2667.04
   1076.98 2666.84
@@ -10565,7 +10774,7 @@ line u:texture
   1005.7 2666.6
 endline
 
-line u:texture 
+line u:texture
   1020.35 2710.12
   1024.27 2691.84
   1026.02 2674.99
@@ -10577,7 +10786,7 @@ line u:texture
   1013.13 2579.96
 endline
 
-line u:texture 
+line u:texture
   1010.45 2541.08
   1009.02 2553.95
   1008.55 2566.85
@@ -10597,12 +10806,12 @@ line u:texture
   1007.33 2732.32
 endline
 
-line u:texture 
+line u:texture
   1011.87 2496.05
   1012.82 2510.25
 endline
 
-line u:texture 
+line u:texture
   1066.07 2723.89
   1069.8 2712.09
   1074.25 2698.4
@@ -10611,7 +10820,7 @@ line u:texture
   1071.61 2643.47
 endline
 
-line u:texture 
+line u:texture
   1021.68 2717.23
   1024.72 2708.47
   1026.88 2697.0
@@ -10620,26 +10829,26 @@ line u:texture
   1032.12 2654.35
 endline
 
-line u:texture 
+line u:texture
   1033.23 2626.89
   1032.79 2611.84
   1030.6 2598.79
   1025.76 2587.89
 endline
 
-line u:texture 
+line u:texture
   1101.14 2628.85
   1093.19 2628.85
   1081.23 2629.29
 endline
 
-line u:texture 
+line u:texture
   1032.18 2633.02
   1017.69 2633.48
   1008.76 2633.73
 endline
 
-line u:texture 
+line u:texture
   929.03 2072.29
   929.66 2086.39
   931.22 2101.12
@@ -10679,7 +10888,7 @@ line u:texture
   991.73 2526.28
 endline
 
-line u:texture 
+line u:texture
   1016.81 2396.01
   1018.07 2383.05
   1017.81 2373.53
@@ -10705,7 +10914,7 @@ line u:texture
   938.57 2016.78
 endline
 
-line u:texture 
+line u:texture
   999.88 2095.5
   987.02 2097.44
   977.45 2100.02
@@ -10715,7 +10924,7 @@ line u:texture
   934.56 2119.83
 endline
 
-line pit 
+line pit
   866.43 2294.71
   856.66 2302.1
   845.58 2307.46
@@ -10725,7 +10934,7 @@ line pit
   807.0 2303.7
 endline
 
-line pit 
+line pit
   823.24 2239.99
   832.89 2235.31
   841.53 2238.1
@@ -10736,7 +10945,8 @@ line pit
   862.25 2281.64
 endline
 
-point 830.26 2271.58 continuation 
+point 830.26 2273.0913 continuation
+
 line rock-border -close on
   891.9 1666.54
   877.01 1693.28
@@ -10803,7 +11013,7 @@ line rock-border -close on
   879.3912 1850.1832
 endline
 
-line u:texture 
+line u:texture
   937.39 2071.69
   932.67 2057.34
   930.98 2049.3
@@ -10848,7 +11058,7 @@ line u:texture
   931.87 1606.22
 endline
 
-line u:texture 
+line u:texture
   956.92 1655.31
   944.83 1655.85
   933.98 1654.51
@@ -10856,14 +11066,14 @@ line u:texture
   891.27 1658.02
 endline
 
-line u:texture 
+line u:texture
   936.3 1696.03
   925.64 1695.48
   915.08 1696.3
   905.6 1698.48
 endline
 
-line u:texture 
+line u:texture
   957.46 1720.46
   944.62 1724.46
   934.57 1726.93
@@ -10871,26 +11081,26 @@ line u:texture
   913.14 1734.21
 endline
 
-line u:texture 
+line u:texture
   958.0 1775.83
   941.05 1777.98
   925.64 1780.95
   916.77 1782.34
 endline
 
-line u:texture 
+line u:texture
   958.0 1800.8
   942.23 1803.45
   931.52 1806.48
 endline
 
-line u:texture 
+line u:texture
   972.66 1837.17
   950.83 1845.7
   939.46 1850.4
 endline
 
-line u:texture 
+line u:texture
   997.61 1885.49
   980.21 1886.03
   964.75 1885.77
@@ -10900,7 +11110,7 @@ line u:texture
   908.29 1887.36
 endline
 
-line u:texture 
+line u:texture
   985.68 1936.52
   970.6 1936.78
   951.49 1938.95
@@ -10908,7 +11118,7 @@ line u:texture
   919.87 1942.75
 endline
 
-line u:texture 
+line u:texture
   963.97 2048.35
   962.1 2035.24
   961.02 2026.37
@@ -10942,7 +11152,7 @@ line u:texture
   915.68 1643.37
 endline
 
-line u:texture 
+line u:texture
   974.28 1967.46
   972.95 1959.24
   973.44 1949.31
@@ -10973,7 +11183,7 @@ line u:texture
   955.83 1634.68
 endline
 
-line u:texture 
+line u:texture
   1013.01 2452.21
   1011.68 2443.73
   1010.34 2434.22
@@ -11020,7 +11230,7 @@ line u:texture
   927.79 1923.25
 endline
 
-line u:texture 
+line u:texture
   1027.72 2130.1
   1019.14 2133.61
   1006.44 2138.21
@@ -11030,7 +11240,7 @@ line u:texture
   951.11 2153.5
 endline
 
-line u:texture 
+line u:texture
   1028.8 2315.41
   1019.18 2317.27
   1009.14 2318.36
@@ -11038,7 +11248,7 @@ line u:texture
   984.62 2322.99
 endline
 
-line u:texture 
+line u:texture
   1022.81 2268.54
   1012.83 2270.75
   999.38 2272.9
@@ -11046,7 +11256,7 @@ line u:texture
   967.03 2280.42
 endline
 
-line u:texture 
+line u:texture
   1022.81 2200.96
   1010.76 2201.48
   993.09 2203.63
@@ -11054,7 +11264,7 @@ line u:texture
   958.44 2214.23
 endline
 
-line u:texture 
+line u:texture
   1042.97 2448.94
   1031.22 2450.53
   1013.97 2454.9
@@ -11062,7 +11272,7 @@ line u:texture
   981.04 2466.85
 endline
 
-line u:texture 
+line u:texture
   1089.82 2552.49
   1080.78 2547.05
   1067.62 2541.64
@@ -11072,7 +11282,7 @@ line u:texture
   1007.99 2533.13
 endline
 
-line u:texture 
+line u:texture
   1076.74 2610.81
   1072.5 2595.97
   1068.55 2578.01
@@ -11083,7 +11293,7 @@ line u:texture
   1046.06 2476.69
 endline
 
-line u:texture 
+line u:texture
   1054.41 2591.19
   1051.73 2575.65
   1050.1 2560.19
@@ -11094,7 +11304,7 @@ line u:texture
   1033.16 2454.39
 endline
 
-line u:texture 
+line u:texture
   1021.72 2567.75
   1020.63 2549.99
   1020.63 2529.16
@@ -11105,10 +11315,10 @@ line u:texture
   1003.2 2362.28
 endline
 
-line wall 
-  890.2868 985.5607
-  849.2675 991.6168 822.5888 1012.8377 840.8626 1054.0742
-  836.1277 1104.6859 886.9176 1124.2223 903.551 1164.7312
+line wall
+  840.04 1011.1809
+  833.472 1021.9484 832.903 1036.1126 840.8626 1054.0742
+  861.4573 1100.5481 886.9176 1124.2223 903.551 1164.7312
   917.6612 1184.4457 929.7259 1204.5061 933.8273 1228.9626
   942.4894 1257.0159 948.9327 1287.311 975.762 1303.8937
   996.4129 1315.2189 995.2217 1343.8973 1018.8198 1350.8687
@@ -11139,99 +11349,99 @@ line wall
   1019.51 2728.53
   1011.74 2739.46
   1011.03 2748.73
-  1011.23 2762.95
-  1011.67 2770.94
+  1011.2299 2762.95
+  1011.6699 2770.94
   1016.05 2786.48
-  1016.535 2800.065
-  1014.67 2803.46
-  1016.94 2816.74
-  1016.74 2827.0
-  1016.3 2837.63
-  1015.62 2848.49
-  1015.18 2858.87
-  1015.18 2867.84
-  1015.18 2876.54
-  1015.62 2886.27
-  1016.06 2895.41
-  1016.06 2904.28
-  1016.06 2918.17
-  1014.54 2933.09
-  1013.66 2946.08
-  1012.78 2957.14
-  1011.89 2965.15
-  1012.09 2977.48
-  1012.97 2990.44
-  1013.6 2998.71
-  1014.74 3008.25
-  1016.24 3015.99
-  1021.52 3028.56
-  1024.87 3043.75
-  1025.31 3054.11
-  1025.31 3066.83
-  1025.5 3079.61
-  1027.725 3090.88
-  1031.93 3096.75
-  1032.91 3107.4
-  1033.58 3117.77
-  1034.78 3129.48
-  1034.99 3139.77
-  1035.33 3147.91
-  1035.68 3159.16
-  1035.68 3167.45
-  1037.57 3179.19
-  1040.33 3188.02
-  1042.74 3197.12
-  1044.33 3206.74
-  1056.8377 3225.8777
-  1059.346 3244.0075 1064.3929 3260.1707 1064.0662 3277.0175
-  1066.4577 3299.8839 1072.7058 3301.623 1070.4727 3324.3506
-  1069.8411 3326.9687 1075.8428 3345.293 1080.4811 3359.3809
-  1081.722 3363.15 1077.2885 3383.5114 1078.1811 3387.5421
-  1083.5799 3411.921 1081.3143 3436.9586 1083.1742 3440.4734
-  1092.2909 3441.9305 1087.6602 3364.8937 1088.3669 3356.8391
-  1091.6797 3323.8687 1076.1006 3285.8812 1083.18 3253.22
-  1088.0283 3248.2958 1095.1903 3239.497 1102.3176 3245.4242
-  1108.5403 3249.2997 1113.6397 3254.182 1121.68 3252.04
-  1127.9617 3242.1025 1138.4712 3234.786 1150.5309 3235.0544
-  1160.3003 3235.0774 1170.0273 3230.5277 1173.252 3220.7631
-  1182.0397 3194.1999 1181.9738 3177.1726 1199.0151 3166.8796
-  1203.2183 3164.3409 1213.6926 3158.3638 1213.7356 3167.4405
-  1216.6732 3186.4784 1215.3144 3198.0118 1212.0285 3216.7915
-  1206.8211 3240.6489 1210.2768 3267.2265 1213.7162 3291.8177
-  1214.8448 3307.0414 1228.5317 3322.5332 1234.954 3336.7864
-  1247.4015 3357.6247 1234.7588 3355.127 1248.0213 3375.1764
-  1257.5562 3385.244 1273.1838 3412.8698 1281.3666 3424.0088
-  1279.2602 3435.9245 1275.1943 3447.4867 1268.2366 3457.4688
-  1269.5096 3473.2388 1262.4728 3488.3063 1261.1566 3503.9888
-  1257.4492 3515.1568 1256.5534 3526.9784 1253.5866 3538.3488
-  1241.0428 3541.4961 1228.4991 3544.6434 1215.9553 3547.7907
-  1206.5152 3561.2339 1200.7499 3576.6217 1193.9604 3591.4676
-  1209.1235 3592.9049 1224.4243 3596.8643 1239.5025 3596.745
-  1247.0872 3593.7662 1254.4398 3599.7498 1262.37 3598.75
-  1276.7886 3601.8929 1287.5178 3613.0731 1301.61 3617.29
-  1314.3142 3626.5408 1328.8391 3633.7746 1339.6543 3645.254
-  1347.4183 3655.2087 1360.8085 3665.5078 1366.6429 3676.6621
+  1016.5347 2800.065
+  1014.6697 2803.46
+  1016.9397 2816.74
+  1016.7397 2827.0
+  1016.2997 2837.63
+  1015.6197 2848.49
+  1015.1797 2858.87
+  1015.1797 2867.84
+  1015.1797 2876.54
+  1015.6197 2886.27
+  1016.0597 2895.41
+  1016.0597 2904.28
+  1016.0597 2918.17
+  1014.5397 2933.09
+  1013.6597 2946.08
+  1012.7797 2957.14
+  1011.8897 2965.15
+  1012.0897 2977.48
+  1012.9697 2990.44
+  1013.5996 2998.71
+  1014.7396 3008.25
+  1016.2397 3015.99
+  1021.5197 3028.56
+  1024.8696 3043.75
+  1025.3096 3054.11
+  1025.3096 3066.83
+  1025.4997 3079.61
+  1027.7247 3090.88
+  1031.9297 3096.75
+  1032.9097 3107.4
+  1033.5797 3117.77
+  1034.7797 3129.48
+  1034.9895 3139.77
+  1035.3295 3147.91
+  1035.6795 3159.16
+  1035.6795 3167.45
+  1037.5695 3179.19
+  1040.3295 3188.02
+  1042.7395 3197.12
+  1044.3295 3206.74
+  1056.8372 3225.8777
+  1059.3455 3244.0075 1064.3924 3260.1707 1064.0657 3277.0175
+  1066.4572 3299.8839 1072.7053 3301.623 1070.4722 3324.3506
+  1069.8406 3326.9687 1075.8423 3345.293 1080.4806 3359.3809
+  1081.7215 3363.15 1077.288 3383.5114 1078.1806 3387.5421
+  1083.5793 3411.921 1081.3138 3436.9586 1083.1737 3440.4734
+  1092.2904 3441.9305 1087.6597 3364.8937 1088.3664 3356.8391
+  1091.6792 3323.8687 1076.1001 3285.8812 1083.1795 3253.22
+  1088.0278 3248.2958 1095.1898 3239.497 1102.3171 3245.4242
+  1108.5398 3249.2997 1113.6392 3254.182 1121.6795 3252.04
+  1127.9612 3242.1025 1138.4707 3234.786 1150.5304 3235.0544
+  1160.2998 3235.0777 1170.0268 3230.5277 1173.2515 3220.7631
+  1182.0392 3194.1999 1181.9732 3177.1726 1199.0146 3166.8796
+  1203.2178 3164.3409 1213.6921 3158.3638 1213.7351 3167.4405
+  1216.6727 3186.4784 1215.3139 3198.0118 1212.028 3216.7915
+  1206.8206 3240.6489 1210.2763 3267.2265 1213.7157 3291.8177
+  1214.8443 3307.0414 1228.5312 3322.5332 1234.9534 3336.7864
+  1247.401 3357.6247 1234.7581 3355.127 1248.0208 3375.1764
+  1257.5557 3385.244 1273.1833 3412.8698 1281.3661 3424.0088
+  1279.2597 3435.9245 1275.1938 3447.4867 1268.2361 3457.4688
+  1269.5091 3473.2388 1262.4723 3488.3063 1261.1561 3503.9888
+  1257.4487 3515.1568 1256.5529 3526.9784 1253.5861 3538.3488
+  1241.0423 3541.4961 1228.4986 3544.6434 1215.9548 3547.7907
+  1206.5147 3561.2339 1200.7494 3576.6217 1193.9599 3591.4676
+  1209.123 3592.9049 1224.4238 3596.8643 1239.502 3596.745
+  1247.0867 3593.7662 1254.4393 3599.7498 1262.3695 3598.75
+  1276.7881 3601.8929 1287.5173 3613.0731 1301.6095 3617.29
+  1314.3137 3626.5408 1328.8386 3633.7746 1339.6538 3645.254
+  1347.4178 3655.2087 1360.808 3665.5078 1366.6424 3676.6621
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   892.9266 1143.4577
   872.1099 1161.4626 872.072 1200.8397 924.5976 1192.1581
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   880.4632 1130.3787
   839.5126 1152.0704 847.9789 1176.7033 856.6349 1199.4779
   864.1455 1219.2388 893.2634 1218.7707 911.9131 1230.5654
   942.5261 1249.9261 935.9039 1294.0309 987.3917 1314.4909
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   861.4756 1111.9648
   816.7171 1131.252 797.0416 1184.9914 856.0351 1223.4636
   866.6587 1234.8867 887.901 1249.1596 894.1826 1263.5821
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   827.7221 1115.6685
   802.5335 1143.7491 730.2814 1146.9356 791.2893 1174.8559
   818.0656 1203.8044
@@ -11241,14 +11451,14 @@ line u:wall_flowstone
   884.4226 1293.1724 889.0153 1318.7603 889.0153 1318.7603
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   892.1716 1325.4176
   905.6278 1384.8217 990.0339 1400.9495 994.789 1456.1417
   995.1521 1460.3556 992.5254 1465.3567 988.7768 1467.3155
   979.6138 1472.1036 957.9627 1463.784 957.9627 1463.784
 endline
 
-line u:wall_flowstone 
+line u:wall_flowstone
   896.9725 1267.113
   913.6049 1316.9222 963.9501 1335.816 988.4125 1376.5864
   1000.4898 1396.715 1016.832 1434.055 1014.8577 1441.8539
@@ -11276,7 +11486,7 @@ line rock-border -close on
   933.97 1517.72
 endline
 
-line pit 
+line pit
   853.7 1102.76
   832.9649 1110.8838 812.4129 1119.8866 790.8889 1125.6621
   775.7812 1129.7159 760.2763 1132.6654 744.6766 1133.8169
@@ -11285,10 +11495,11 @@ line pit
   640.021 1115.3673 633.6721 1115.8456 627.4086 1115.548
 endline
 
-line pit 
-  747.552 1305.5955
-  745.2678 1293.5358 742.5666 1281.5553 737.8503 1270.193
-  734.4996 1259.9354 734.4466 1247.9476 726.48 1239.8425
+line pit -outline in
+  817.3027 1353.2138
+  816.2934 1347.8847 773.4139 1346.0157 756.9008 1330.3851
+  736.0448 1310.6437 740.4825 1276.5344 737.8503 1270.193
+  733.7134 1260.2265 734.4466 1247.9476 726.48 1239.8425
   720.6217 1232.5366 714.2292 1223.8192 716.0022 1213.914
   713.9585 1204.3347 723.4639 1201.6186 730.7422 1200.0024
   749.1116 1195.7075 768.0149 1193.9701 786.8281 1193.2667
@@ -11297,122 +11508,10 @@ line pit
   840.8276 1239.3491 848.9485 1251.5302 857.2914 1263.4537
   862.8762 1275.0711 872.2176 1284.1873 880.3 1294.04
   878.621 1304.64 883.9591 1313.9656 887.4115 1323.5747
-  893.3782 1331.2639 887.1894 1338.268 883.244 1345.1795
+  893.3782 1331.2639 887.1895 1338.268 883.244 1345.1795
   879.2974 1351.5517 875.5691 1358.318 870.9075 1364.0832
   865.2462 1366.7687 859.5849 1369.4543 853.9236 1372.1398
   842.5549 1366.1071 831.1863 1360.0744 819.8176 1354.0417
-endline
-
-line pit 
-  809.46 1207.03
-endline
-
-line wall -clip off -outline none -subtype presumed
-  1829.28 235.72
-  1827.03 252.79
-  1822.35 280.84
-  1813.88 308.8
-  1800.73 339.07
-  1790.61 357.76
-  1779.0 379.44
-  1770.35 396.74
-  1761.72 418.59
-  1758.61 434.04
-  1752.39 454.99
-  1749.31 475.92
-  1748.46 493.9
-  1750.02 519.0
-  1750.02 543.27
-  1751.57 564.24
-  1752.22 582.86
-  1754.45 599.35
-  1763.11 625.79
-  1770.01 652.27
-  1775.54 667.11
-  1782.41 693.52
-  1788.63 712.2
-  1799.49 735.48
-  1811.91 758.13
-  1819.08 780.01
-  1827.47 800.16
-  1845.23 817.27
-  1862.4 829.11
-  1873.47 840.86
-  1885.04 863.99
-  1899.02 883.53
-  1917.45 902.85
-  1929.24 913.08
-  1947.11 930.72
-  1953.63 948.84
-  1952.98 964.72
-  1948.3 979.69
-  1940.57 1002.22
-  1934.29 1017.97
-  1926.52 1037.3
-  1918.74 1056.86
-  1917.88 1075.48
-  1919.43 1095.69
-  1920.99 1116.11
-  1919.43 1131.67
-  1917.88 1149.44
-  1911.9 1171.61
-  1907.22 1188.75
-  1900.78 1205.63
-endline
-
-line wall -clip off -outline none -subtype presumed
-  1481.812 1221.562
-  1465.512 1215.042
-  1448.732 1205.792
-  1430.602 1193.632
-  1412.642 1180.122
-  1386.802 1161.592
-  1360.342 1148.192
-  1332.792 1137.132
-  1304.832 1127.812
-  1273.682 1118.462
-  1244.602 1109.042
-  1222.092 1099.752
-  1200.882 1091.072
-  1185.302 1087.142
-  1169.832 1082.462
-  1151.772 1079.322
-  1125.352 1069.992
-  1093.722 1067.612
-  1071.842 1068.352
-  1048.492 1069.172
-  1028.932 1069.912
-  1007.542 1073.712
-  978.232 1084.722
-endline
-
-line wall -clip off -outline none -subtype presumed
-  832.92 794.45
-  842.97 786.88
-  850.09 774.53
-  854.92 762.43
-  861.98 738.67
-  866.5 716.87
-  866.5 702.47
-  864.01 678.22
-  862.15 655.78
-  859.69 635.43
-  857.19 617.88
-  852.86 601.74
-  847.29 583.69
-  839.91 566.46
-  832.35 550.07
-  826.17 536.4
-  819.94 524.59
-  812.55 511.05
-  805.07 496.66
-  799.46 483.6
-  792.67 471.83
-  782.11 453.15
-  774.6 434.0
-  770.19 417.88
-  765.89 403.43
-  757.05 387.56
 endline
 
 line u:splay -visibility off
@@ -12851,25 +12950,44 @@ line u:splay -visibility off
 endline
 
 point 1350.36 5056.32 station -name 41
+
 point 1013.84 4921.94 station -name 42
+
 point 688.89 5225.81 station -name 43
+
 point 1102.96 4422.37 station -name 44
+
 point 1200.49 4227.45 station -name 45
+
 point 1323.31 4030.28 station -name 46
+
 point 1111.37 3503.68 station -name 47
+
 point 1044.92 3442.88 station -name 48
+
 point 1023.93 3206.67 station -name 49
+
 point 1011.77 3119.2 station -name 50
+
 point 994.52 2949.64 station -name 51
+
 point 996.11 2649.36 station -name 52
+
 point 987.63 2462.87 station -name 53
+
 point 931.97 2153.31 station -name 54
+
 point 855.39 1675.95 station -name 55
+
 point 861.68 1419.68 station -name 56
+
 point 768.13 1172.15 station -name 57
+
 point 685.11 1068.37 station -name 58
+
 point 702.23 965.98 station -name 59
-line border -close on -id AglarondVesuvDom-3p_clay_3 -visibility off
+
+line border -id AglarondVesuvDom-3p_clay_3 -close on -visibility off
   1177.9 3573.08
   1240.6373 3616.3052 1322.981 3590.157 1362.6528 3656.7581
   1402.3343 3705.0745 1511.1832 3815.9289 1508.1586 3886.5824
@@ -12899,7 +13017,7 @@ line border -close on -id AglarondVesuvDom-3p_clay_3 -visibility off
   1177.9 3573.08
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-3p_clay_3
 endarea
 
@@ -12936,7 +13054,7 @@ line rock-border -close on
   691.7 1008.4
 endline
 
-line border -close on -id AglarondVesuvDom-3p_clay_4 -visibility off
+line border -id AglarondVesuvDom-3p_clay_4 -close on -visibility off
   829.0477 1370.6248
   844.3574 1385.0067 846.2132 1410.0591 847.141 1411.9148
   848.0689 1413.7706 848.5328 1417.482 845.7492 1428.1525
@@ -12986,11 +13104,11 @@ line border -close on -id AglarondVesuvDom-3p_clay_4 -visibility off
   811.8822 1359.9544 829.0477 1370.6248 829.0477 1370.6248
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-3p_clay_4
 endarea
 
-line border -close on -id AglarondVesuvDom-3p_clay_5 -visibility off
+line border -id AglarondVesuvDom-3p_clay_5 -close on -visibility off
   992.023 3031.1809
   985.6964 3026.2602 1025.9514 3116.8862 1055.7762 3227.2625
   1064.9391 3261.1726 1069.2554 3320.7137 1075.8485 3349.6781
@@ -13035,11 +13153,11 @@ line border -close on -id AglarondVesuvDom-3p_clay_5 -visibility off
   1006.4572 2980.0051 992.023 3031.1809 992.023 3031.1809
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-3p_clay_5
 endarea
 
-line u:wall_flowstone 
+line u:wall_flowstone
   1359.3227 4292.9366
   1359.3227 4292.9366 1279.0623 4290.153 1265.1443 4317.0611
   1251.2263 4343.9692 1244.2674 4418.6624 1227.5658 4436.2918
@@ -13064,38 +13182,43 @@ endline
 endscrap
 
 
+
 scrap AglarondVesuvDom-4p -projection plan -scale [0 0 96 0 0 0 500 0 inch]
 
-line floor-step 
+line floor-step
   1543.04 8935.5107
   1544.8958 8947.573 1538.4007 8970.7696 1542.1122 8986.5433
   1545.8236 9002.317 1544.8958 9022.7301 1552.3187 9027.3694
   1559.7416 9032.0087 1572.7317 9057.989 1572.7317 9057.989
 endline
 
-line contour 
+line contour
   1446.542 9081.6495
   1452.1092 9078.8659 1531.9056 9045.9267 1546.7515 9054.2775
   1561.5973 9062.6283 1577.371 9098.815 1577.371 9098.815
 endline
 
-line contour 
+line contour
   1502.2139 9193.4573
   1507.7811 9192.5294 1504.9975 9177.6836 1530.9778 9183.2508
   1556.958 9188.818 1596.8562 9209.231 1596.8562 9209.231
 endline
 
-line contour 
+line contour
   1479.0173 9121.0838
   1482.7288 9115.5166 1523.5549 9090.4643 1551.3908 9113.6609
   1579.2268 9136.8575 1594.0726 9162.8378 1594.0726 9162.8378
 endline
 
-point 1521.15 9058.54 gradient -orientation 1.483570381761497
-point 1618.07 9095.76 air-draught -orientation 188.27787420474425
-point 1541.52 9111.24 gradient -orientation 351.09903416286556
-point 1548.37 9191.34 gradient -orientation 353.93964517693195
-line pit 
+point 1521.15 9058.54 gradient -orientation 1.484
+
+point 1618.1275 9095.7516 air-draught -orientation 188.278
+
+point 1541.52 9111.24 gradient -orientation 351.099
+
+point 1548.37 9191.34 gradient -orientation 353.94
+
+line pit
   1326.6339 8661.8299
   1326.6339 8661.8299 1382.4024 8684.7934 1386.9951 8696.6032
   1391.5878 8708.413 1401.4293 8716.9423 1409.9586 8735.3131
@@ -13104,7 +13227,7 @@ line pit
   1412.0861 8796.1246 1386.339 8804.2036 1386.339 8804.2036
 endline
 
-line pit 
+line pit
   1408.6464 8848.1623
   1413.2391 8842.2574 1436.8587 8819.2939 1448.0124 8823.8866
   1459.1661 8828.4793 1467.6954 8829.7915 1476.8808 8848.8184
@@ -13117,12 +13240,18 @@ line pit
   1413.2391 8947.8894 1396.8366 8913.1162 1396.8366 8913.1162
 endline
 
-point 1457.95 9163.58 popcorn -align l
-point 1429.52 8955.9 stalactite 
-point 1459.82 9098.25 stalactite 
-point 1494.21 9074.78 stalactite 
-point 1516.52 9000.9 stalactite 
-point 1599.74 9018.59 popcorn -align r
+point 1457.95 9164.6698 popcorn -align l
+
+point 1429.52 8955.9 stalactite
+
+point 1459.82 9098.25 stalactite
+
+point 1494.21 9074.78 stalactite
+
+point 1516.52 9000.9 stalactite
+
+point 1599.74 9019.6798 popcorn -align r
+
 line wall -close on -outline in
   1499.1882 8985.9432
   1499.1882 8985.9432 1495.2516 8974.7895 1493.2833 8970.1969
@@ -13136,7 +13265,7 @@ line wall -close on -outline in
   1500.5004 9011.5311 1499.1882 8985.9432 1499.1882 8985.9432
 endline
 
-line wall 
+line wall
   1309.218 8491.9911
   1314.7852 8504.9812 1358.3948 8570.8597 1364.8899 8576.4269
   1371.3849 8581.9941 1379.7357 8580.1383 1382.5193 8594.9842
@@ -13151,7 +13280,7 @@ line wall
   1596.8562 9151.7034 1597.7841 9208.3032 1597.7841 9208.3032
 endline
 
-line wall 
+line wall
   1504.0697 9205.5196
   1504.0697 9205.5196 1502.2139 9173.0443 1502.2139 9167.4771
   1502.2139 9161.9099 1501.2861 9157.2706 1497.5746 9151.7034
@@ -13180,11 +13309,16 @@ line wall
 endline
 
 point 1566.93 9330.97 station -name 0
+
 point 1454.77 8942.93 station -name 2
+
 point 1463.51 8882.19 station-name -align t -scale xs -text "4/2"
+
 point 1622.56 8936.96 station-name -align t -scale xs -text "4/1"
+
 point 1542.6 8959.73 station -name 1
-line border -close on -id AglarondVesuvDom-4p_clay_1 -visibility off
+
+line border -id AglarondVesuvDom-4p_clay_1 -close on -visibility off
   1535.6171 8974.4811
   1535.6171 8974.4811 1536.081 9012.0596 1543.504 9023.6579
   1550.9269 9035.2563 1558.8137 9039.4317 1563.917 9050.566
@@ -13213,9 +13347,10 @@ line border -close on -id AglarondVesuvDom-4p_clay_1 -visibility off
   1503.6057 8974.4811 1535.6171 8974.4811 1535.6171 8974.4811
 endline
 
-area clay 
+area clay
   AglarondVesuvDom-4p_clay_1
 endarea
 
 endscrap
+
 

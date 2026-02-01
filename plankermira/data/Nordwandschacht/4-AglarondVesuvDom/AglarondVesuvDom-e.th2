@@ -6,7 +6,12 @@ encoding  utf-8
 
 scrap AglarondVesuvDom-1e -projection extended -scale [0 0 39.3701 0 0 0 1 0 m]
 
-point 6159.5068 1703.4373 continuation
+line wall -subtype invisible
+  4937.5401 1837.443
+  4987.1119 1535.3356
+endline
+
+point 6159.5068 1704.9486 continuation
 
 line u:texture
   6674.7502 1492.9459
@@ -44,12 +49,12 @@ line wall -subtype invisible
 endline
 
 line wall -subtype invisible
-  6096.0309 137.147
+  6071.768 129.5648
   6209.7629 175.0576
-  6326.5276 140.1798
-  6326.5276 140.1798 6411.4475 99.2363 6419.0296 99.2363
-  6426.6117 99.2363 6510.0151 120.4663 6510.0151 120.4663
-  6570.6722 162.9262
+  6326.5277 140.1798
+  6326.5277 140.1798 6411.4473 99.2363 6419.0298 99.2363
+  6426.6116 99.2363 6510.0154 120.4663 6510.0154 120.4663
+  6570.6725 162.9262
 endline
 
 line wall -subtype blocks
@@ -865,18 +870,19 @@ line rock-border -close on
 endline
 
 line wall:clay
-  6996.8022 1400.3772
-  7012.5525 1400.5532 7028.0484 1397.4022 7043.6582 1395.7298
-  7054.1048 1393.9728 7064.5436 1392.2911 7075.1514 1391.9229
-  7085.9979 1391.3589 7095.4544 1385.3814 7105.1622 1381.0972
-  7110.1762 1376.4159 7116.5893 1372.9229 7119.3973 1366.3683
-  7120.9867 1362.514 7126.1697 1363.314 7129.464 1361.6678
-  7142.0235 1357.6103 7155.264 1356.1418 7168.1543 1353.7609
-  7174.7939 1350.737 7180.9315 1346.2064 7188.4338 1345.7717
-  7194.261 1343.9684 7200.3226 1341.6002 7205.1997 1338.0608
-  7208.4881 1332.9483 7210.2592 1327.2666 7211.3748 1321.3325
-  7214.7585 1308.8771 7218.1273 1296.4164 7219.8979 1283.6039
-  7222.5728 1270.9809 7226.6884 1258.5906 7231.2922 1246.5472
+  6996.8024 1400.3772
+  7012.5526 1400.5533 7028.0482 1397.4022 7043.6583 1395.7298
+  7054.1045 1393.9728 7064.5438 1392.2911 7075.1517 1391.9229
+  7085.9978 1391.3591 7095.4542 1385.3814 7105.1622 1381.0972
+  7110.1761 1376.4159 7116.5891 1372.9229 7119.3971 1366.3683
+  7120.9868 1362.514 7126.1698 1363.314 7129.4638 1361.6678
+  7142.0235 1357.6103 7155.2638 1356.1418 7168.1542 1353.7609
+  7174.7938 1350.737 7180.9313 1346.2064 7188.4341 1345.7717
+  7194.2611 1343.9684 7200.3224 1341.6002 7205.1997 1338.0608
+  7208.4878 1332.9483 7210.2595 1327.2666 7211.3749 1321.3325
+  7214.7584 1308.8771 7217.2165 1296.2572 7219.8978 1283.6039
+  7221.9351 1273.99 7224.8082 1264.511 7228.0958 1255.2174
+  7229.1252 1252.3086 7230.5254 1244.4578 7239.2285 1242.9097
 endline
 
 line wall:blocks
@@ -953,7 +959,7 @@ line rock-border -close on
   6558.49 272.83
 endline
 
-line rock-border -close on
+line rock-border -close on -clip off
   6584.17 234.68
   6567.82 249.55
   6557.32 238.02
@@ -965,7 +971,7 @@ line rock-border -close on
   6584.17 234.68
 endline
 
-line rock-border -close on
+line rock-border -close on -clip off
   6560.05 186.79
   6553.46 204.44
   6551.1 224.1
@@ -982,7 +988,7 @@ line rock-border -close on
   6560.05 186.79
 endline
 
-line rock-border -close on
+line rock-border -close on -clip off
   6527.36 145.91
   6500.53 167.7
   6484.17 172.78
@@ -996,7 +1002,7 @@ line rock-border -close on
   6527.36 145.91
 endline
 
-line rock-border -close on
+line rock-border -close on -clip off
   6430.47 132.68
   6409.71 144.8
   6388.12 149.81
@@ -1008,7 +1014,7 @@ line rock-border -close on
   6430.47 132.68
 endline
 
-line rock-border -close on
+line rock-border -close on -clip off
   6375.99 149.42
   6334.4 169.56
   6305.11 175.5
@@ -1036,7 +1042,7 @@ line rock-border -close on
   6484.56 209.76
 endline
 
-line rock-border -close on
+line rock-border -close on -clip off
   6185.52 198.53
   6151.74 199.82
   6119.9 192.0
@@ -2883,11 +2889,11 @@ point 6488.8526 306.738 station-name -align t -scale xs -text "4/19"
 
 point 4866.402 1044.7119 station-name -align t -scale xs -text "4/20"
 
-point 5465.25 1418.01 station-name -align t -scale xs -text "4/24"
+point 5475.6667 1397.1767 station-name -align t -scale xs -text "4/24"
 
-point 5372.62 1551.36 station-name -align t -scale xs -text "4/25"
+point 5351.7868 1530.5266 station-name -align t -scale xs -text "4/25"
 
-point 5223.65 1296.07 station-name -align t -scale xs -text "4/29"
+point 5202.8166 1285.6533 station-name -align t -scale xs -text "4/29"
 
 point 5438.32 1283.36 station-name -align t -scale xs -text "4/30"
 
@@ -2937,15 +2943,15 @@ endscrap
 
 scrap AglarondVesuvDom-2e -projection extended -scale [0 0 96 0 0 0 500 0 inch]
 
-point 2707.892 2452.6646 water-flow -orientation 181.846
+point 2707.9055 2452.6642 water-flow -orientation 181.846
 
-point 2723.517 2259.9562 water-flow -orientation 181.846
+point 2723.5305 2259.9558 water-flow -orientation 181.846
 
-point 2345.56 1892.46 label -align tr -text Schwere-Geburt
+point 2345.56 1892.46 label -align tr -text "Schwere<br>Geburt" -scale xl
 
 point 4314.7095 1642.5965 station-name -align t -scale xs -text "4/33"
 
-point 4685.1994 1515.6303 station-name -align t -scale xs -text "4/32"
+point 4612.2446 1528.7247 station-name -align t -scale xs -text "4/32"
 
 line u:texture
   4403.8327 1311.2363
@@ -3027,7 +3033,7 @@ endline
 
 point 5092.24 1531.45 station-name -align t -scale xs -text "4/26"
 
-point 5286.86 1426.89 station-name -align t -scale xs -text "4/27"
+point 5276.4433 1406.0566 station-name -align t -scale xs -text "4/27"
 
 point 4899.1124 1448.6206 station-name -align t -scale xs -text "4/31"
 
@@ -3040,9 +3046,15 @@ point 5112.53 1432.02 station -name 28
 point 4891.26 1439.21 station -name 31
 
 line wall -subtype clay
-  4757.8139 1232.8898
-  4757.8139 1232.8898 4794.0294 1290.231 4815.1551 1302.3028
-  4836.2808 1314.3747 4837.7898 1300.7939 4846.8437 1317.3926
+  4610.0337 1054.2442
+  4610.0337 1054.2442 4614.7845 1060.3374 4622.847 1070.6157
+  4629.9663 1079.6916 4639.6677 1092.0307 4650.9605 1106.3193
+  4660.5511 1118.4542 4692.8019 1131.9952 4704.0811 1146.1375
+  4712.3435 1156.4972 4732.5516 1172.7915 4740.3027 1183.4803
+  4748.9988 1195.4721 4754.0145 1216.5946 4761.045 1227.7882
+  4768.4555 1239.5866 4775.1883 1250.074 4781.2329 1259.1964
+  4797.7502 1284.1238 4809.1293 1298.8595 4815.1551 1302.3028
+  4836.2808 1314.3746 4837.7898 1300.7939 4846.8437 1317.3926
   4855.8976 1333.9914 4870.9874 1347.5722 4870.9874 1347.5722
   4870.9874 1347.5722 4904.1849 1359.6441 4908.7119 1365.68
   4913.2388 1371.7159 4929.8376 1385.2967 4935.8735 1386.8057
@@ -3229,7 +3241,7 @@ line wall -subtype blocks
   3660.7854 1613.1527 3680.4022 1625.979 3680.4022 1625.979
 endline
 
-point 3550.2336 1601.9042 water-flow -orientation 181.846
+point 3550.2471 1601.9038 water-flow -orientation 181.846
 
 line wall
   3542.3305 1627.488
@@ -4086,7 +4098,7 @@ point 2399.3683 2441.3006 flowstone
 
 point 2482.7016 2357.9673 flowstone
 
-point 2867.17 2802.384 continuation
+point 2867.17 2803.8953 continuation
 
 point 1493.1178 2144.4255 crystal
 
@@ -4128,11 +4140,7 @@ line u:texture
   752.8688 1696.3664
 endline
 
-line label -scale l -text Vesuv-Dom
-  1271.3776 2328.4182
-  1271.3776 2328.4182 1636.4638 2639.0864 1941.8038 2786.3483
-  2157.0518 2890.16 2485.2716 2956.8842 2485.2716 2956.8842
-endline
+point 2155.2716 2966.8842 label -scale xl -text "Vesuv Dom" -align br
 
 line rock-border -close on
   2679.524 2719.6197
@@ -5193,7 +5201,7 @@ line u:splay -visibility off
   141.78 1604.67
 endline
 
-point 2335.3133 2265.8524 air-draught -orientation 271.442 -scale xl
+point 2335.3118 2265.7943 air-draught -orientation 271.442 -scale xl
 
 point 2472.1504 2260.5001 station-name -align t -scale xs -text "4/42"
 
@@ -5290,13 +5298,13 @@ line wall -subtype invisible
   -2488.5434 833.9432
 endline
 
-point -2359.2225 1150.2037 water-flow -orientation 180.0 -scale s
+point -2359.209 1150.2037 water-flow -orientation 180.0 -scale s
 
-point -2360.839 1463.9078 water-flow -orientation 180.0 -scale s
+point -2360.8255 1463.9078 water-flow -orientation 180.0 -scale s
 
-point -2661.6755 986.987 continuation -scale xl
+point -2661.6755 988.4983 continuation -scale xl
 
-point -1271.0418 814.3519 continuation
+point -1271.0418 815.8632 continuation
 
 line u:texture
   -1329.9633 1293.3664
@@ -5417,7 +5425,7 @@ point -2141.213 994.5509 stalagmite
 
 point -2075.8778 987.8226 stalagmite
 
-point -448.5654 985.6501 air-draught -orientation 271.442 -scale xl
+point -448.5669 985.592 air-draught -orientation 271.442 -scale xl
 
 line wall -subtype presumed
   -1139.4585 1332.351

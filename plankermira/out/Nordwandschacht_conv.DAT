@@ -336,4 +336,15 @@ DECLINATION:    0.00  FORMAT: DMMDLRUDLDAN  CORRECTIONS:  0.00 0.00 0.00
      nws.5.33      nws.5.34     9.74   250.27    -29.3     0.00     0.00     0.00     0.00   
      nws.5.34      nws.5.35    17.85   269.77    -59.4     0.00     0.00     0.00     0.00   
      nws.5.33      nws.5.36    12.89   333.57      8.2     0.00     0.00     0.00     0.00   
-     nws.5.36      nws.5.37    26.77   345.47    -68.7     0.00     0.00     0.00     0.00   
+     nws.5.36      nws.5.37    26.77   345.47    -68.7     0.00     0.00     0.00     0.00   ?
+SURVEY NAME: NWS6
+SURVEY DATE: 8 25 2025
+SURVEY TEAM:
+?
+DECLINATION:    0.00  FORMAT: DDDDUDRLLADN
+
+                FROM                   TO   LENGTH  BEARING      INC     LEFT       UP     DOWN    RIGHT   FLAGS  COMMENTS
+
+               NWS61                NWS62     1.00     0.00     1.00     0.00     0.00     0.00     0.00
+
+
