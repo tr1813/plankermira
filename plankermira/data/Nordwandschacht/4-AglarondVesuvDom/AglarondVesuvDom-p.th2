@@ -283,11 +283,11 @@ line water-flow
   1458.1403 5246.3182 1399.6848 5251.4215 1399.6848 5251.4215
 endline
 
-point 1543.0237 6227.6912 continuation -orientation 0.52
+point 1543.0374 6229.2024 continuation -orientation 0.52
 
-point 1460.0237 5996.6912 continuation -orientation 0.52
+point 1460.0374 5998.2024 continuation -orientation 0.52
 
-point 1505.0237 5221.6912 continuation -orientation 0.52
+point 1505.0374 5223.2024 continuation -orientation 0.52
 
 line border -id AglarondVesuvDom-1p_clay_1 -close on -visibility off
   1277.6705 5819.739
@@ -540,7 +540,7 @@ point 1024.44 7928.83 label -align tl -scale xs -text "<bf>P16"
 
 point 1198.69 8932.8 label -align tl -scale xs -text "<bf>P15"
 
-point 1365.42 7822.9698 popcorn -align tr -scale s
+point 1365.42 7824.0596 popcorn -align tr -scale s
 
 point 1541.19 5342.85 label -align r -scale l -text "Schwere Geburt"
 
@@ -1127,17 +1127,17 @@ line floor-step
   1156.8834 7550.9273 1155.5762 7558.782 1154.51 7566.34
 endline
 
-point 1224.09 7840.0698 popcorn -align b -scale s
+point 1224.09 7841.1596 popcorn -align b -scale s
 
-point 1033.74 7530.8398 popcorn
+point 1033.74 7531.9296 popcorn
 
-point 1055.67 7440.1098 popcorn
+point 1055.67 7441.1996 popcorn
 
-point 1139.4081 7607.7372 air-draught -orientation 182.8
+point 1139.4662 7607.7344 air-draught -orientation 182.8
 
-point 1215.5879 7544.5544 air-draught -orientation 185.523 -align t
+point 1215.6458 7544.5488 air-draught -orientation 185.523 -align t
 
-point 1280.4956 7907.0161 air-draught -orientation 141.65 -align tr
+point 1280.5412 7907.0522 air-draught -orientation 141.65 -align tr
 
 line pit
   1103.2003 7344.0367
@@ -1279,13 +1279,13 @@ line contour
   1421.317 7271.6422 1424.9814 7262.319 1428.32 7253.04
 endline
 
-point 1516.99 7430.0498 popcorn -align r -scale s
+point 1516.99 7431.1396 popcorn -align r -scale s
 
-point 1641.91 6446.3298 popcorn -align l -scale s
+point 1641.91 6447.4196 popcorn -align l -scale s
 
-point 1337.45 6470.6898 popcorn -align l -scale s
+point 1337.45 6471.7796 popcorn -align l -scale s
 
-point 1399.45 7563.6898 popcorn -align l -scale s
+point 1399.45 7564.7796 popcorn -align l -scale s
 
 point 1472.99 7375.9 stalactite
 
@@ -5880,7 +5880,7 @@ line wall -subtype presumed -clip off -outline none
   1436.7994 6471.1005 1441.4388 6484.0906 1441.4388 6484.0906
 endline
 
-point 850.6957 7511.3512 narrow-end -orientation 31.316 -align bl
+point 850.5554 7511.2324 narrow-end -orientation 31.316 -align bl
 
 line rock-border -close on -clip off
   1429.8405 8693.3379
@@ -6053,9 +6053,9 @@ point 1423.61 8739.5 breakdown-choke -align tr
 
 point 1295.61 8909.5 breakdown-choke -align tr
 
-point 1415.61 8592.5898 popcorn -align r
+point 1415.61 8593.6796 popcorn -align r
 
-point 1303.61 8174.5898 popcorn -align r
+point 1303.61 8175.6796 popcorn -align r
 
 line wall
   945.41 7409.32
@@ -6405,15 +6405,15 @@ point 883.0 7567.32 stalactite -scale xs
 
 point 914.0 7590.32 stalactite -scale xs
 
-point 920.0 7560.4098 popcorn -align br
+point 920.0 7561.4996 popcorn -align br
 
-point 879.0 7628.4098 popcorn -align l
+point 879.0 7629.4996 popcorn -align l
 
-point 972.0 8089.4098 popcorn -align l
+point 972.0 8090.4996 popcorn -align l
 
-point 1014.0 8425.4098 popcorn -align l
+point 1014.0 8426.4996 popcorn -align l
 
-point 1084.33 8741.3698 popcorn -align l
+point 1084.33 8742.4596 popcorn -align l
 
 line wall
   1210.2296 8862.3411
@@ -9583,6 +9583,47 @@ endscrap
 
 scrap AglarondVesuvDom-3p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
+point 267.5147 1015.3559 continuation
+
+point -24.1521 598.6888 continuation
+
+line wall -subtype presumed
+  149.7621 803.986
+  149.7621 803.986 118.2332 785.5943 105.0962 777.712
+  91.9592 769.8297 52.5481 764.5751 23.6466 751.4381
+  -5.2548 738.3006 -18.3918 733.0459 -39.4111 717.2818
+  -60.4303 701.5172 -73.5674 691.0073 -84.077 683.1255
+  -94.5866 675.2432 -105.0962 654.2239 -115.6058 638.4594
+  -126.1155 622.6948 -131.3703 601.6755 -131.3703 601.6755
+  -131.3703 601.6755 -136.6251 580.6562 -131.3703 570.1468
+  -126.1155 559.6374 -120.8607 528.1083 -91.9592 520.226
+  -63.0577 512.3437 -18.3918 517.5989 15.7644 541.2452
+  49.9207 564.8921 91.9592 572.7744 107.7236 601.6755
+  123.4881 630.5771 157.6443 680.4979 168.154 696.2625
+  178.6636 712.0266 212.8199 780.3391 212.8199 780.3391
+endline
+
+point 218.9409 993.4261 label -align tl -scale xs -text "<bf>C10"
+
+point 127.1075 662.5829 label -align tl -scale xs -text "<bf>P15"
+
+point 776.3984 3200.1796 label -align tl -scale xs -text 12.08.2024
+
+line floor-step
+  864.088 1273.9628
+  864.088 1273.9628 871.3133 1288.0852 874.9261 1299.2519
+  878.5387 1310.4185 881.4945 1316.0014 883.1367 1323.2269
+  884.7788 1330.4524 885.7641 1338.3347 886.0925 1343.9175
+  886.4209 1349.5009 886.7494 1355.4129 886.0925 1359.6822
+  885.4357 1363.9519 882.1514 1376.4322 876.8966 1379.0592
+  871.6417 1381.6868 869.9997 1387.2702 860.8037 1384.9712
+  851.6078 1382.6717 845.6961 1377.7458 839.1276 1374.1328
+  832.5591 1370.5203 817.78 1363.2946 809.2409 1358.6967
+  800.7019 1354.0988 794.4617 1350.8149 788.55 1347.2019
+  782.6384 1343.5894 764.575 1337.0207 764.575 1337.0207
+  smooth off
+endline
+
 line wall
   1470.3198 4824.9579
   1470.3198 4824.9579 1409.9586 4885.3191 1403.3976 4893.8484
@@ -9647,13 +9688,15 @@ point 828.476 2654.28 station-name -align t -scale xs -text "4/52"
 
 point 1113.93 2436.95 station-name -align t -scale xs -text "4/53"
 
+point 1211.4741 2643.8735 label -align r -scale l -text R3J-Gang
+
 point 1076.31 2143.8 station-name -align t -scale xs -text "4/54"
 
 point 760.912 1671.03 station-name -align t -scale xs -text "4/55"
 
 point 786.059 1426.41 station-name -align t -scale xs -text "4/56"
 
-point 707.899 1138.92 station-name -align t -scale xs -text "4/57"
+point 1005.6205 1102.2274 station-name -align t -scale xs -text "4/57"
 
 point 572.543 1105.71 station-name -align t -scale xs -text "4/58"
 
@@ -9783,8 +9826,8 @@ line wall
 endline
 
 line wall
-  235.5399 958.5615
-  270.3131 952.6566 295.2449 957.9054 299.1815 953.9688
+  234.611 972.4954
+  256.3792 960.088 295.2449 957.9054 299.1815 953.9688
   303.1181 950.0322 279.4985 936.2541 276.218 935.598
   272.9375 934.9419 246.6935 927.0687 246.6935 919.1955
   246.6935 911.3223 247.3496 905.4174 244.0691 900.8247
@@ -9851,7 +9894,7 @@ line wall -id alt003
   858.0146 5237.4807
 endline
 
-point 1309.98 5367.467 rope -align l
+point 1309.98 5367.794 rope -align l
 
 line u:texture
   1433.5782 5300.6303
@@ -9891,7 +9934,7 @@ line u:splay -visibility off
   1516.75 5290.64
 endline
 
-point 143.6826 5263.5909 continuation -orientation 358.808
+point 143.6512 5265.1018 continuation -orientation 358.808
 
 line contour
   900.169 4965.3633
@@ -10321,7 +10364,7 @@ line rock-border -close on
   1134.72 5108.16
 endline
 
-point 1301.5857 5148.5741 air-draught -orientation 232.079 -scale xl
+point 1301.6214 5148.5282 air-draught -orientation 232.079 -scale xl
 
 line wall
   1334.8107 5097.917
@@ -10488,17 +10531,17 @@ line u:wall_flowstone
   1414.3465 4731.683 1437.8562 4784.3474 1479.63 4800.57
 endline
 
-point 1013.84 3749.2298 popcorn
+point 1013.84 3750.3196 popcorn
 
-point 1084.84 3894.2298 popcorn
+point 1084.84 3895.3196 popcorn
 
-point 1149.35 4168.3298 popcorn
+point 1149.35 4169.4196 popcorn
 
-point 1040.98 4259.7098 popcorn
+point 1040.98 4260.7996 popcorn
 
-point 1259.96 5023.9698 popcorn
+point 1259.96 5025.0596 popcorn
 
-point 1310.01 4969.1798 popcorn
+point 1310.01 4970.2696 popcorn
 
 point 1307.28 4018.52 stalagmite
 
@@ -10613,12 +10656,6 @@ line contour
   1158.3769 3772.5798 1107.4186 3770.2834 1073.7203 3782.5678
 endline
 
-line border
-  728.52 2934.3
-  714.56 2918.68
-  702.77 2906.72
-endline
-
 line wall
   1186.69 4179.38
   1178.6223 4159.5293 1142.8805 4147.9276 1128.7024 4136.1544
@@ -10641,11 +10678,11 @@ line wall
   944.5799 3193.2122 927.2679 3163.2583 921.9321 3131.9503
 endline
 
-point 978.46 3393.0898 popcorn
+point 978.46 3394.1796 popcorn
 
-point 957.021 3314.8898 popcorn
+point 957.021 3315.9796 popcorn
 
-point 860.075 3211.5984 air-draught -orientation 201.83 -align l -scale xl
+point 843.4082 3204.1453 air-draught -orientation 201.83 -align l -scale xl
 
 line wall
   921.7622 3131.4552
@@ -10945,7 +10982,7 @@ line pit
   862.25 2281.64
 endline
 
-point 830.26 2273.0913 continuation
+point 830.26 2274.6026 continuation
 
 line rock-border -close on
   891.9 1666.54
@@ -11495,9 +11532,8 @@ line pit
   640.021 1115.3673 633.6721 1115.8456 627.4086 1115.548
 endline
 
-line pit -outline in
-  817.3027 1353.2138
-  816.2934 1347.8847 773.4139 1346.0157 756.9008 1330.3851
+line pit -close on -outline in
+  756.9008 1330.3851
   736.0448 1310.6437 740.4825 1276.5344 737.8503 1270.193
   733.7134 1260.2265 734.4466 1247.9476 726.48 1239.8425
   720.6217 1232.5366 714.2292 1223.8192 716.0022 1213.914
@@ -11506,12 +11542,16 @@ line pit -outline in
   796.058 1190.7784 806.9671 1192.6771 813.3044 1200.2031
   822.3524 1207.2043 824.9482 1219.1023 831.8308 1227.8682
   840.8276 1239.3491 848.9485 1251.5302 857.2914 1263.4537
-  862.8762 1275.0711 872.2176 1284.1873 880.3 1294.04
-  878.621 1304.64 883.9591 1313.9656 887.4115 1323.5747
-  893.3782 1331.2639 887.1895 1338.268 883.244 1345.1795
-  879.2974 1351.5517 875.5691 1358.318 870.9075 1364.0832
-  865.2462 1366.7687 859.5849 1369.4543 853.9236 1372.1398
-  842.5549 1366.1071 831.1863 1360.0744 819.8176 1354.0417
+  smooth off
+  857.2914 1263.4537 859.49 1278.2327 857.5193 1284.1443
+  855.5487 1290.056 852.5929 1297.2813 846.3528 1301.8793
+  840.1127 1306.4773 834.8579 1311.0752 831.2452 1313.7026
+  827.6325 1316.3301 832.2305 1316.9869 823.0345 1319.2859
+  813.8386 1321.5849 817.7797 1316.9869 810.5544 1323.2269
+  803.329 1329.4671 805.628 1331.4376 797.0889 1333.0797
+  788.5499 1334.7219 785.9224 1335.0503 781.9813 1334.7219
+  778.0402 1334.3935 756.9006 1330.3851 756.9006 1330.3851
+  756.9008 1330.3851
 endline
 
 line u:splay -visibility off
@@ -13212,7 +13252,7 @@ endline
 
 point 1521.15 9058.54 gradient -orientation 1.484
 
-point 1618.1275 9095.7516 air-draught -orientation 188.278
+point 1618.185 9095.7432 air-draught -orientation 188.278
 
 point 1541.52 9111.24 gradient -orientation 351.099
 
@@ -13240,7 +13280,7 @@ line pit
   1413.2391 8947.8894 1396.8366 8913.1162 1396.8366 8913.1162
 endline
 
-point 1457.95 9164.6698 popcorn -align l
+point 1457.95 9165.7596 popcorn -align l
 
 point 1429.52 8955.9 stalactite
 
@@ -13250,7 +13290,7 @@ point 1494.21 9074.78 stalactite
 
 point 1516.52 9000.9 stalactite
 
-point 1599.74 9019.6798 popcorn -align r
+point 1599.74 9020.7696 popcorn -align r
 
 line wall -close on -outline in
   1499.1882 8985.9432

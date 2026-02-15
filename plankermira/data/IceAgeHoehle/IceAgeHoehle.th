@@ -10,6 +10,7 @@ endmap
 
 map m-all-e -projection extended 
     m-all-e@1
+    m-all-e@2
 endmap
 
 centreline 

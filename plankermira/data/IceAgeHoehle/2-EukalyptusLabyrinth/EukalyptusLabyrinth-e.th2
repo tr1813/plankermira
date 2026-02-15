@@ -1,0 +1,649 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -250.0 -500.0 250.0 500.0
+##XTHERION## xth_me_area_zoom_to 100
+
+
+
+scrap EukalyptusLabyrinth-4e -projection extended -scale [500 500 m]
+
+line wall -subtype blocks
+  5.7274 127.3997
+  10.285 127.3997
+  26.6059 131.1584
+  38.4518 134.4995
+  42.635 135.885
+endline
+
+line wall
+  18.365 220.845
+  14.325 200.7446
+  13.0298 189.0034
+  6.2246 184.7079
+  -7.016 188.2875
+  -15.1775 189.0034
+  -27.9091 194.0149
+endline
+
+line wall
+  69.9217 185.9003
+  64.5603 182.6391 58.6885 177.6724 53.8373 176.1168
+  48.9862 174.5613 44.0672 176.7331 42.122 176.9286
+  40.1769 177.124 34.9602 177.0992 34.2211 178.37
+  33.482 179.6407 31.5854 180.1246 29.7511 185.98
+  27.9167 191.8353 24.1889 207.5097 23.0473 213.1887
+  21.9057 218.8677 22.86 217.6837 22.7663 219.9313
+  smooth off
+endline
+
+line wall
+  42.635 135.885
+  54.9828 149.4845
+  61.4175 154.4793
+  69.9217 159.9203
+endline
+
+line wall
+  -30.3551 187.4284
+  -13.8889 178.37
+  -13.8889 178.37 -6.954 172.11 -5.41 172.11
+  -3.866 172.11 5.8706 169.0571 6.1569 167.4071
+  6.4433 165.7571 5.7274 127.3997 5.7274 127.3997
+endline
+
+line survey
+  69.9217 168.5803
+  69.9217 185.9003
+endline
+
+line survey
+  69.9217 168.5803
+  69.9217 159.9203
+endline
+
+point 69.9126 168.805 station -name 15
+
+point 69.9126 168.8049 station-name -align tr -scale xs -text 15
+
+point 42.635 167.385 station -name 16
+
+point 18.365 165.735 station -name 17
+
+point 10.285 127.695 station -name 18
+
+point -29.185 191.005 station -name 19
+
+line survey
+  69.765 168.805
+  42.635 167.385
+endline
+
+line survey
+  42.635 167.385
+  18.365 165.735
+endline
+
+line survey
+  42.635 167.385
+  42.635 176.835
+endline
+
+line survey
+  42.635 167.385
+  42.635 135.885
+endline
+
+line survey
+  18.365 165.735
+  10.285 127.695
+endline
+
+line survey
+  18.365 165.735
+  18.365 220.845
+endline
+
+line survey
+  18.365 165.735
+  18.365 165.735
+endline
+
+line survey
+  18.365 165.735
+  -29.185 191.005
+endline
+
+point 42.635 167.3849 station-name -align tr -scale xs -text 16
+
+point 18.365 165.7349 station-name -align tr -scale xs -text 17
+
+point 10.285 127.6949 station-name -align tr -scale xs -text 18
+
+point -29.185 191.005 station-name -align tr -scale xs -text 19
+
+endscrap
+
+
+
+scrap EukalyptusLabyrinth-5e -projection extended -scale [500 500 m]
+
+line wall
+  87.8602 108.9853
+  111.3494 130.2472
+endline
+
+line wall
+  109.7294 140.9793
+  109.7294 140.9793 77.809 124.1558 69.47 120.2208
+  61.131 116.2858 45.7415 107.1629 45.7415 107.1629
+  38.8568 100.5187
+  38.8568 96.6561
+  38.8388 96.0656
+endline
+
+line wall -subtype blocks
+  38.8388 96.0656
+  38.8388 96.0656 56.2434 94.6358 69.47 100.5408
+  73.5316 102.3542 77.5417 103.1533 80.1666 104.3558
+  86.0897 107.0692 87.8602 108.9853 87.8602 108.9853
+  smooth off
+endline
+
+point 41.78 96.3608 station -name 14
+
+line survey
+  110.5 136.9908
+  69.47 112.3508
+endline
+
+line survey
+  69.47 112.3508
+  41.78 96.3608
+endline
+
+line survey
+  69.47 112.3508
+  69.47 100.5408
+endline
+
+point 69.47 112.3508 station-name -align tr -scale xs -text 13
+
+point 41.78 96.3608 station-name -align tr -scale xs -text 14
+
+point 110.6127 136.9571 station -name 12
+
+point 69.47 112.3508 station -name 13
+
+line survey
+  69.47 112.3508
+  69.47 120.2208
+endline
+
+endscrap
+
+
+
+scrap EukalyptusLabyrinth-3e -projection extended -scale [500 500 m]
+
+point 156.1 144.2958 station -name 10
+
+point 208.5 136.8958 station -name 11
+
+line survey
+  139.56 126.5758
+  156.1 144.2958
+endline
+
+line survey
+  156.1 144.2958
+  208.5 136.8958
+endline
+
+line survey
+  156.1 144.2958
+  156.1 183.6658
+endline
+
+line survey
+  156.1 144.0312
+  156.1 136.1612
+endline
+
+point 156.1 144.2957 station-name -align tr -scale xs -text 10
+
+point 208.5 136.8957 station-name -align tr -scale xs -text 11
+
+point 219.7946 -51.0558 station-name -align tr -scale xs -text 1
+
+endscrap
+
+
+
+scrap EukalyptusLabyrinth-2e -projection extended -scale [500 500 m]
+
+point 219.53 -52.6433 station -name 1
+
+point 179.22 -53.6633 station -name 3
+
+point 139.66 -37.6833 station -name 4
+
+point 138.5 -58.0033 station -name 5
+
+point 90.41 -23.0333 station -name 6
+
+point 98.52 -70.2033 station -name 7
+
+point 253.1 -58.5533 station -name 0
+
+line survey
+  253.1 -58.5533
+  219.53 -52.6433
+endline
+
+line survey
+  253.1 -58.5533
+  253.1 -32.5633
+endline
+
+line survey
+  253.1 -58.5533
+  253.1 -72.7233
+endline
+
+point 253.0999 -58.5533 station-name -align tr -scale xs -text 0
+
+line survey
+  219.53 -52.6433
+  219.53 -40.8333
+endline
+
+line survey
+  219.53 -52.6433
+  219.53 -60.5233
+endline
+
+line survey
+  219.53 -52.6433
+  179.22 -53.6633
+endline
+
+line survey
+  179.22 -53.6633
+  139.66 -37.6833
+endline
+
+line survey
+  179.22 -53.6633
+  179.22 -45.7933
+endline
+
+line survey
+  179.22 -53.6633
+  179.22 -57.6033
+endline
+
+line survey
+  179.22 -53.6633
+  138.5 -58.0033
+endline
+
+line survey
+  138.5 -58.0033
+  90.41 -23.0333
+endline
+
+line survey
+  138.5 -58.0033
+  138.5 -50.1233
+endline
+
+line survey
+  138.5 -58.0033
+  138.5 -64.2933
+endline
+
+line survey
+  138.5 -58.0033
+  98.52 -70.2033
+endline
+
+line survey
+  139.56 -45.4033
+  139.56 -29.6533
+endline
+
+point 179.22 -53.6633 station-name -align tr -scale xs -text 3
+
+point 139.66 -37.6833 station-name -align tr -scale xs -text 4
+
+point 138.5 -58.0033 station-name -align tr -scale xs -text 5
+
+point 90.41 -23.0333 station-name -align tr -scale xs -text 6
+
+point 98.52 -70.2033 station-name -align tr -scale xs -text 7
+
+endscrap
+
+
+
+scrap EukalyptusLabyrinth-1e -projection extended -scale [0.0 0.0 500 1000.0 -250 -500 250 500]
+
+point 260.71 65.8343 station -name 2
+
+line survey
+  219.53 53.2343
+  260.71 65.8343
+endline
+
+point 260.71 65.8343 station-name -align tr -scale xs -text 2
+
+line wall -subtype blocks
+  -273.4822 -117.2247
+  -256.7297 -117.5376
+  -240.4066 -117.5421
+endline
+
+line wall
+  -36.0825 -68.086
+  -36.0825 -68.086 -35.5097 -15.7503 -35.5097 -13.8889
+  -35.5097 -12.0275 -35.9393 -1.7182 -33.7915 0.0
+  -31.6438 1.7182 -10.1661 15.7732 -8.0183 19.055
+  -5.8706 22.3368 3.7798 34.3295 8.19 34.6247
+  12.6002 34.92 31.2643 35.2153 33.745 33.58
+  36.2257 31.9447 51.1168 21.9072 51.6896 20.9049
+  52.2623 19.9026 59.3 16.5 59.3 16.5
+  59.3 16.5 77.606 34.0779 80.6128 38.2302
+  83.6197 42.3826 79.2124 49.0422 85.64 49.02
+  92.0676 48.9979 95.9336 47.8467 98.6541 47.2509
+  101.3746 46.655 105.0206 44.7122 110.5 44.69
+  115.9794 44.6679 139.56 56.5 139.56 56.5
+endline
+
+line wall -subtype blocks
+  139.56 56.5
+  139.56 56.5 150.4868 55.8821 153.7801 54.525
+  157.0733 53.1679 169.88 37.76 169.88 37.76
+  smooth off
+  194.705 42.8121
+  214.8059 46.4119
+  253.1222 36.5741
+endline
+
+line wall
+  -240.4066 -117.5421
+  -240.4066 -117.5421 -232.3859 -64.2504 -228.02 -46.73
+  -223.6541 -29.2096 -223.6541 9.7932 -220.3608 12.8866
+endline
+
+line wall -subtype blocks
+  -220.3608 12.8866
+  -217.0676 15.98 -179.4101 5.5842 -179.4101 5.5842
+  -179.4101 5.5842 -176.1517 4.2955 -167.4 4.2955
+  -158.6483 4.2955 -134.3394 4.1521 -119.79 4.13
+endline
+
+line wall -subtype sand
+  -119.79 4.13
+  -105.2405 4.1079 -89.15 3.8321 -83.02 3.5
+  -76.89 3.1679 -55.6987 -0.7159 -52.5487 -1.575
+endline
+
+line wall
+  -52.5487 -1.575
+  -49.3986 -2.4341 -48.11 -25.63 -47.8236 -30.2119
+  -47.5372 -34.7938 -45.5326 -68.3653 -45.5326 -68.3653
+endline
+
+line wall
+  218.3563 62.5716
+  218.3563 62.5716 185.04 65.3329 169.88 66.1
+  154.72 66.8671 146.6566 60.1347 139.2647 60.43
+  131.8728 60.7253 113.7549 51.7479 110.5 51.77
+  107.2451 51.7922 98.3677 56.3174 96.2199 57.3847
+  94.0722 58.4521 90.0944 74.9779 85.64 75.0
+  81.1856 75.0222 72.2083 78.9351 59.3 75.55
+  46.3918 72.165 17.3823 67.2567 8.19 62.48
+  -1.0023 57.7033 -8.9255 43.9576 -12.6002 41.6667
+  -16.275 39.3757 -14.8912 33.7915 -19.0435 30.7847
+  -23.1959 27.7778 -29.7824 17.8981 -32.0733 16.7526
+  -34.3643 15.6071 -34.5155 7.915 -40.74 6.34
+  -46.9645 4.765 -72.5406 19.2279 -83.02 19.25
+  -93.4994 19.2721 -110.8572 19.8579 -119.79 19.88
+  -128.7228 19.9021 -157.9672 15.6879 -167.4 15.71
+  -176.8328 15.7322 -224.654 31.9879 -228.02 32.01
+  -231.386 32.0322 -238.73 30.4983 -244.365 29.7824
+  -250.0 29.0664 -250.0 28.5448 -250.0 24.1521
+  -250.0 19.7595 -259.8797 -19.4731 -259.8797 -31.3574
+  -259.8797 -43.2417 -270.6186 -98.2245 -270.6186 -98.2245
+endline
+
+point -298.7668 -36.1012 label -align tr -scale xl -text Koalaschacht
+
+point 219.5299 53.19 station -name 1
+
+point 219.53 53.9837 station-name -align tr -scale xs -text 1
+
+point 169.88 56.65 station -name 8
+
+point 139.56 60.43 station -name 9
+
+point 110.5 48.62 station -name 12
+
+point 85.64 57.68 station -name 15
+
+point 59.3 32.24 station -name 20
+
+point 8.19 34.92 station -name 21
+
+point -40.74 3.19 station -name 22
+
+point -40.74 -68.07 station -name 23
+
+point -83.02 11.38 station -name 24
+
+point -119.79 12.01 station -name 25
+
+point -167.4 7.83 station -name 26
+
+point -228.02 24.13 station -name 27
+
+point -260.71 -117.52 station -name 28
+
+line survey
+  219.53 53.19
+  169.88 56.65
+endline
+
+line survey
+  169.88 56.65
+  139.56 60.43
+endline
+
+line survey
+  169.88 56.65
+  169.88 66.1
+endline
+
+line survey
+  169.88 56.65
+  169.88 37.76
+endline
+
+line survey
+  139.56 60.43
+  139.56 56.5
+endline
+
+line survey
+  139.56 60.43
+  110.5 48.62
+endline
+
+line survey
+  110.5 48.62
+  110.5 51.77
+endline
+
+line survey
+  110.5 48.62
+  110.5 44.69
+endline
+
+line survey
+  110.5 48.62
+  85.64 57.68
+endline
+
+line survey
+  85.64 57.68
+  85.64 75.0
+endline
+
+line survey
+  85.64 57.68
+  85.64 49.02
+endline
+
+line survey
+  85.64 57.68
+  59.3 32.24
+endline
+
+line survey
+  59.3 32.24
+  8.19 34.92
+endline
+
+line survey
+  59.3 32.24
+  59.3 75.55
+endline
+
+line survey
+  59.3 32.24
+  59.3 16.5
+endline
+
+line survey
+  8.19 34.92
+  -40.74 3.19
+endline
+
+line survey
+  8.19 34.92
+  8.19 62.48
+endline
+
+line survey
+  8.19 34.92
+  8.19 34.92
+endline
+
+line survey
+  -40.74 3.19
+  -40.74 -68.07
+endline
+
+line survey
+  -40.74 3.19
+  -83.02 11.38
+endline
+
+line survey
+  -40.74 3.19
+  -40.74 6.34
+endline
+
+line survey
+  -40.74 3.19
+  -40.74 -4.69
+endline
+
+line survey
+  -83.02 11.38
+  -119.79 12.01
+endline
+
+line survey
+  -83.02 11.38
+  -83.02 19.25
+endline
+
+line survey
+  -83.02 11.38
+  -83.02 3.5
+endline
+
+line survey
+  -119.79 12.01
+  -167.4 7.83
+endline
+
+line survey
+  -119.79 12.01
+  -119.79 19.88
+endline
+
+line survey
+  -119.79 12.01
+  -119.79 4.13
+endline
+
+line survey
+  -167.4 7.83
+  -228.02 24.13
+endline
+
+line survey
+  -167.4 7.83
+  -167.4 15.71
+endline
+
+line survey
+  -167.4 7.83
+  -167.4 -63.03
+endline
+
+line survey
+  -228.02 24.13
+  -260.71 -117.52
+endline
+
+line survey
+  -228.02 24.13
+  -228.02 32.01
+endline
+
+line survey
+  -228.02 24.13
+  -228.02 -46.73
+endline
+
+point 169.88 56.65 station-name -align tr -scale xs -text 8
+
+point 139.56 60.43 station-name -align tr -scale xs -text 9
+
+point 110.5 48.62 station-name -align tr -scale xs -text 12
+
+point 85.64 57.68 station-name -align tr -scale xs -text 15
+
+point 59.3 32.24 station-name -align tr -scale xs -text 20
+
+point 8.19 34.92 station-name -align tr -scale xs -text 21
+
+point -40.74 3.19 station-name -align tr -scale xs -text 22
+
+point -40.74 -68.07 station-name -align tr -scale xs -text 23
+
+point -83.02 11.38 station-name -align tr -scale xs -text 24
+
+point -119.79 12.01 station-name -align tr -scale xs -text 25
+
+point -167.4 7.83 station-name -align tr -scale xs -text 26
+
+point -228.02 24.13 station-name -align tr -scale xs -text 27
+
+point -260.71 -117.52 station-name -align tr -scale xs -text 28
+
+endscrap
+
+

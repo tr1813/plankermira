@@ -89,13 +89,23 @@ survey 6 -title "Weisserschacht"
     5 . 7.25 351.4 -44.6
   endcenterline
 
-  # input "6-weisserschacht-1p.th2"
+  input "6-weisserschacht-p.th2"
   input "6-weisserschacht-e.th2"
 
-  # map m1p -projection plan
-  #   6-weisserschacht-1p
-  #   6-weisserschacht-1p1
-  # endmap
+  map m-all-p -projection plan
+    m1p [-10 0 m] none
+    m2p
+  endmap
+
+  map m1p -projection plan 
+    6-weisserschacht-1p
+  endmap
+
+  map m2p -projection plan 
+    6-weisserschacht-2p
+  endmap
+
+
   map m-all-e -projection extended
      Weisserschacht-1e
    endmap
