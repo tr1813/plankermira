@@ -5,9 +5,9 @@ source ../data/IceAgeHoehle/IceAgeHoehle.th
 
 select m-all-p@iah
 
-export model -fmt survex -o ../out/IceAgeHoehle.3d
-export database -o ../out/IceAgeHoehle.csv
-export database -o ../out/IceAgeHoehle.sql
+export model -fmt survex -o ../out/IceAgeHoehle/IceAgeHoehle.3d
+export database -o ../out/IceAgeHoehle/IceAgeHoehle.csv
+export database -o ../out/IceAgeHoehle/IceAgeHoehle.sql
 
 
 input ../layouts/detailed-p.thl 
@@ -26,15 +26,15 @@ layout local
     \size[12]\bf \the\cavename{} 1625/597 \ss
     \si \par \size[10]Westl. Schneiderkare, Totes Gebirge, Steirmark - Auseerland \ss
     \par Katastergebiet: 1625 
-    \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth
-    \par Eingangskoordinaten (MGI GK 31): X :  / Y : 
-    \par Vermessung 2024 --- \the\topoteam
+    \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth, Seehöhe: 2030 m
+    \par Eingangskoordinaten (UTM 33N): X :  426931  / Y : 5275826
+    \par Vermessung 2024-2025 --- \the\topoteam
     \par Verein für Höhlenkunde in Obersteier
     \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
       \def\maplayout{
-          \legendbox{\the\numexpr 1\relax}{\the\numexpr 99\relax}{NE}{\customheader}
-          \legendbox{\the\numexpr-24\relax}{\the\numexpr63\relax}{S}{\northarrow}
-          \legendbox{\the\numexpr-24\relax}{\the\numexpr62\relax}{N}{\scalebar}
+          \legendbox{\the\numexpr 90\relax}{\the\numexpr 120\relax}{NE}{\customheader}
+          \legendbox{\the\numexpr 15\relax}{\the\numexpr53\relax}{S}{\northarrow}
+          \legendbox{\the\numexpr 15\relax}{\the\numexpr52\relax}{N}{\scalebar}
 
           %\legendbox{\the\numexpr0\relax}{\the\numexpr0\relax}{NW}{\hbox{\loadpicture{"omuhako_cave-L.pdf"}}}
      }

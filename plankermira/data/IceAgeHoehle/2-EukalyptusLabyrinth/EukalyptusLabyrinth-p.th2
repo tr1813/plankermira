@@ -1,13 +1,20 @@
 encoding  utf-8
+##XTHERION## xth_me_area_adjust 0.0 0.0 1600.0 1200.0
 ##XTHERION## xth_me_area_zoom_to 100
+
+
 
 scrap EukalyptusLabyrinth-2p -projection plan -scale [0 0 96 0 0 0 500 0 inch]
 
 point 1041.7181 -104.4557 station-name -align t -scale xs -text "2/13"
+
 point 955.8661 -131.2566 station-name -align t -scale xs -text "2/12"
+
 point 1055.55 -120.617 stalagmite -scale s
+
 point 999.453 -140.266 stalagmite -scale s
-line wall 
+
+line wall
   989.4195 -198.8431
   992.9751 -180.7127
   1014.3078 -170.6703
@@ -29,8 +36,10 @@ line wall
 endline
 
 point 982.119 -175.366 station -name 13
+
 point 1040.95 -137.864 station -name 14
-line border -close on -id EukalyptusLabyrinth-2p_u_smallblocks_1 -visibility off
+
+line border -id EukalyptusLabyrinth-2p_u_smallblocks_1 -close on -visibility off
   989.4195 -198.8431
   992.9751 -180.7127
   1014.3078 -170.6703
@@ -53,20 +62,52 @@ line border -close on -id EukalyptusLabyrinth-2p_u_smallblocks_1 -visibility off
   989.4195 -198.8431
 endline
 
-area u:smallblocks 
+area u:smallblocks
   EukalyptusLabyrinth-2p_u_smallblocks_1
 endarea
 
 endscrap
 
 
+
 scrap EukalyptusLabyrinth-1p -projection plan -scale [0 0 96 0 0 0 500 0 inch]
 
+line border -id f7941de8c3ed4f64a7b2e0f8ecb24069 -close on -visibility off
+  1219.2385 -484.7587
+  1229.9492 -462.7422
+  1250.3791 -447.6678
+  1262.2798 -425.2546
+  1262.2798 -425.2546 1266.4451 -408.3952 1265.85 -407.0067
+  1265.255 -405.6183 1264.0649 -403.2381 1263.0732 -401.8497
+  1262.0815 -400.4613 1253.5525 -393.9158 1253.5525 -393.9158
+  smooth off
+  1253.5525 -393.9158 1239.8667 -393.3208 1236.098 -393.3208
+  1232.3294 -393.3208 1226.1807 -407.4034 1226.1807 -407.4034
+  smooth off
+  1209.7178 -413.7505
+  1172.0319 -392.1307
+  1152.1972 -378.8414
+  1147.4369 -392.329
+  1178.1807 -455.4034
+  1204.3625 -464.5273
+  1214.6765 -492.6926
+  1219.2385 -484.7587
+endline
+
+area u:smallblocks -clip off
+  f7941de8c3ed4f64a7b2e0f8ecb24069
+endarea
+
 point 774.2345 -224.677 station-name -align t -scale xs -text "2/16"
-point 1169.12 -361.027 gradient -orientation 242.55126382165153
-point 1056.91 -504.771 gradient -orientation 86.75562827732175
-point 1064.62 -600.505 gradient -orientation 92.73375919008735
+
+point 1169.12 -361.027 gradient -orientation 242.551
+
+point 1056.91 -504.771 gradient -orientation 86.756
+
+point 1064.62 -600.505 gradient -orientation 92.734
+
 point 739.6749 -484.2155 station-name -align t -scale xs -text "2/21"
+
 line u:wall_flowstone -close on
   962.3433 -255.4676
   953.0449 -257.699
@@ -114,13 +155,19 @@ line rock-border -close on
   1064.6313 -365.3693
 endline
 
-point 936.513 -324.086 continuation -scale s
-point 714.875 -227.701 narrow-end -scale s
-point 174.39 -591.579 air-draught -orientation 45.62834764042893
-point 555.312 -562.876 air-draught -orientation 15.028819643745402
+point 936.513 -323.7958 continuation -scale s
+
+point 714.8638 -227.7345 narrow-end -scale s
+
+point 174.3822 -591.571 air-draught -orientation 45.628
+
+point 555.3012 -562.8731 air-draught -orientation 15.029
+
 point 903.2371 -66.6681 label -align tr -scale xs -text Eukalyptuslabyrinth
-point 47.2244 -738.589 label -align tr -scale xs -text Koalaschacht
-line pit 
+
+point 134.1003 -683.8452 label -align tr -scale xs -text Koalaschacht
+
+line pit
   319.9 -521.8513
   304.3111 -497.584
   293.0978 -486.4268
@@ -130,7 +177,7 @@ line pit
   229.6465 -454.0696
 endline
 
-line pit 
+line pit
   574.1152 -514.0413
   566.1834 -506.0916
   557.0217 -500.0945
@@ -139,7 +186,7 @@ line pit
   525.5694 -498.0026
 endline
 
-line pit 
+line pit
   740.811 -322.4277
   753.5747 -312.9601
   758.9895 -308.2267
@@ -155,7 +202,7 @@ line pit
   694.01 -292.4475
 endline
 
-line floor-step 
+line floor-step
   863.0343 -335.4453
   855.6852 -323.2168
   846.0155 -318.4834
@@ -165,7 +212,7 @@ line floor-step
   813.5263 -324.4004
 endline
 
-line chimney 
+line chimney
   1083.5001 -324.7963
   1075.3777 -340.181
   1076.1513 -357.1429
@@ -220,13 +267,20 @@ line rock-border -close on
 endline
 
 point 1060.0924 -262.0028 station-name -align t -scale xs -text "2/10"
+
 point 1184.0345 -187.2463 station-name -align t -scale xs -text "2/11"
+
 point 1108.1761 -307.3041 station-name -align t -scale xs -text "2/8"
+
 point 1264.9443 -695.4112 station-name -align t -scale xs -text "2/7"
+
 point 1139.8871 -645.9764 station-name -align t -scale xs -text "2/5"
-point 1131.5466 -550.6016 station-name -align t -scale xs -text "2/3"
+
+point 1122.8193 -542.6677 station-name -align t -scale xs -text "2/3"
+
 point 1092.4301 -433.3767 station-name -align t -scale xs -text "2/1"
-line border -close on -id EukalyptusLabyrinth-1p_sand_1 -visibility off
+
+line border -id EukalyptusLabyrinth-1p_sand_1 -close on -visibility off
   1189.3459 -747.5142
   1234.1988 -696.1895
   1229.8231 -667.1798
@@ -254,11 +308,11 @@ line border -close on -id EukalyptusLabyrinth-1p_sand_1 -visibility off
   1189.3459 -747.5142
 endline
 
-area sand 
+area sand
   EukalyptusLabyrinth-1p_sand_1
 endarea
 
-line border -close on -id EukalyptusLabyrinth-1p_sand_2 -visibility off
+line border -id EukalyptusLabyrinth-1p_sand_2 -close on -visibility off
   732.3022 -261.285
   757.8296 -280.2204
   767.1126 -305.4663
@@ -279,65 +333,65 @@ line border -close on -id EukalyptusLabyrinth-1p_sand_2 -visibility off
   732.3022 -261.285
 endline
 
-area sand 
+area sand
   EukalyptusLabyrinth-1p_sand_2
 endarea
 
-line contour 
+line contour
   1175.1233 -389.3561
   1175.1233 -389.3561 1162.5419 -385.1725 1158.1663 -380.4307
   1153.7906 -375.6884 1153.2436 -351.4211 1153.2436 -351.4211
 endline
 
-line contour 
+line contour
   1186.6103 -379.0357
   1186.6103 -379.0357 1179.499 -377.3623 1175.9441 -367.8782
   1172.3884 -358.394 1170.474 -339.7056 1170.474 -339.7056
 endline
 
-line contour 
+line contour
   1205.4815 -368.7152
   1205.4815 -368.7152 1189.8915 -359.2311 1188.5245 -353.9313
   1187.1566 -348.6316 1187.1566 -332.1745 1187.1566 -332.1745
 endline
 
-line contour 
+line contour
   1080.4931 -589.6332
   1080.4931 -589.6332 1091.7067 -600.5116 1091.9801 -610.2749
   1092.2538 -620.0373 1084.8696 -642.9101 1084.8696 -642.9101
 endline
 
-line contour 
+line contour
   1045.2122 -581.5441
   1045.2122 -581.5441 1048.2208 -582.1021 1056.1521 -595.2118
   1064.0834 -608.3218 1055.0587 -615.5746 1055.3314 -623.3846
   1055.6058 -631.1946 1056.1521 -635.3792 1056.1521 -635.3792
 endline
 
-line contour 
+line contour
   1024.974 -580.9862
   1024.974 -580.9862 1040.5632 -597.1643 1028.8025 -619.4791
 endline
 
-line contour 
+line contour
   1069.0062 -491.1683
   1069.0062 -491.1683 1076.6648 -495.9101 1077.7582 -504.8363
   1078.8527 -513.7622 1082.9546 -530.2195 1074.7497 -548.9081
 endline
 
-line contour 
+line contour
   1045.7596 -486.9847
   1045.7596 -486.9847 1056.4113 -504.1293 1056.1376 -513.3346
   1055.8642 -522.5396 1052.8701 -540.5407 1052.8701 -540.5407
 endline
 
-line contour 
+line contour
   1017.0421 -483.6372
   1017.0421 -483.6372 1024.1535 -498.6994 1024.1535 -508.1836
   1024.1535 -517.6677 1018.41 -527.4302 1018.41 -527.4302
 endline
 
-line wall 
+line wall
   613.1731 -372.9222
   660.361 -347.7496
   682.7935 -337.4193
@@ -370,7 +424,7 @@ line wall
   611.4477 -431.4774
 endline
 
-line wall 
+line wall
   700.199 -251.8181
   699.8123 -278.2477
   691.6898 -291.6599
@@ -383,8 +437,10 @@ line wall
 endline
 
 point 882.2924 -369.5447 station-name -align t -scale xs -text "2/15"
+
 point 890.0323 -254.1796 station-name -align t -scale xs -text "2/14"
-line wall 
+
+line wall
   899.779 -199.3525
   876.1851 -223.415
   864.9682 -239.1943
@@ -401,8 +457,9 @@ line wall
   722.6326 -249.8454
 endline
 
-line wall 
-  1224.3611 -391.1815
+line wall
+  1235.4685 -387.8096
+  1226.2795 -391.2231
   1217.311 -393.068
   1209.3107 -385.1739
   1192.6281 -385.7319
@@ -410,7 +467,7 @@ line wall
   1177.8589 -392.1471
   1175.9447 -386.8473
   1184.1495 -378.7582
-  1196.7301 -372.9004
+  1196.7302 -372.9004
   1208.7641 -365.0902
   1217.5154 -358.3956
   1225.1741 -349.7491
@@ -421,10 +478,10 @@ line wall
   1191.26 -329.3865
   1166.6456 -340.544
   1148.5949 -352.8167
-  1133.2789 -362.022
+  1133.279 -362.022
   1122.8861 -359.5115
   1117.6897 -357.8382
-  1118.5105 -350.3065
+  1118.5104 -350.3065
   1115.7755 -339.4278
   1107.2972 -328.8285
   1098.2714 -321.0183
@@ -461,7 +518,7 @@ line wall
   989.4195 -198.8431
 endline
 
-line wall 
+line wall
   611.4478 -431.4774
   598.0466 -427.0147
   586.286 -420.5987
@@ -500,7 +557,7 @@ line wall
   156.623 -562.5785
 endline
 
-line wall 
+line wall
   193.5453 -608.324
   207.4935 -609.7191
   224.9969 -610.8342
@@ -580,7 +637,7 @@ line wall
   919.9519 -309.0239
 endline
 
-line wall 
+line wall
   932.081 -296.7879
   918.7312 -285.7427
   915.6367 -277.0643
@@ -661,49 +718,90 @@ line wall
   1205.7233 -522.4294
   1224.7705 -481.6296
   1232.7745 -466.005
-  1249.658 -451.0775
+  1250.1002 -451.2545
+  1254.22 -448.1023
 endline
 
 point 1201.66 -434.264 station -name 0
+
 point 1121.85 -407.877 station -name 1
+
 point 1210.1 -347.873 station -name 2
+
 point 1099.78 -527.881 station -name 3
+
 point 996.828 -505.379 station -name 4
+
 point 1121.85 -632.886 station -name 5
+
 point 996.828 -587.885 station -name 6
+
 point 1217.45 -692.887 station -name 7
+
 point 1018.89 -310.371 station -name 8
+
 point 974.765 -235.368 station -name 9
+
 point 1018.89 -235.368 station -name 10
+
 point 1143.91 -152.865 station -name 11
+
 point 893.871 -257.87 station -name 12
+
 point 842.394 -302.872 station -name 15
+
 point 776.208 -265.37 station -name 16
+
 point 717.375 -295.372 station -name 17
+
 point 746.791 -302.872 station -name 18
+
 point 599.711 -362.875 station -name 19
+
 point 820.331 -377.875 station -name 20
+
 point 695.314 -445.378 station -name 21
+
 point 562.941 -482.88 station -name 22
+
 point 743.004 -365.893 station-name -align t -scale xs -text "2/18"
+
 point 669.2507 -286.8704 station-name -align t -scale xs -text "2/17"
+
 point 597.3872 -331.41 station-name -align t -scale xs -text "2/19"
+
 point 988.6321 -658.132 station-name -align t -scale xs -text "2/6"
+
 point 1184.8018 -325.6206 station-name -align t -scale xs -text "2/2"
+
 point 981.3151 -485.8063 station-name -align t -scale xs -text "2/4"
+
 point 854.5952 -415.9441 station-name -align t -scale xs -text "2/20"
+
 point 496.754 -400.376 station-name -align t -scale xs -text "2/24"
+
 point 495.9127 -261.8762 station-name -align t -scale xs -text "2/25"
+
 point 334.966 -325.373 station-name -align t -scale xs -text "2/26"
+
 point 239.4354 -505.7284 station-name -align t -scale xs -text "2/27"
+
 point 270.8096 -600.635 station-name -align t -scale xs -text "2/28"
-point 518.8163 -586.884 station-name -align t -scale xs -text "2/23"
+
+point 501.1445 -600.9092 station-name -align t -scale xs -text "2/23"
+
 point 533.524 -542.881 station -name 23
+
 point 555.588 -362.875 station -name 24
+
 point 496.754 -280.37 station -name 25
+
 point 401.151 -362.875 station -name 26
+
 point 276.134 -490.38 station -name 27
+
 point 298.197 -580.383 station -name 28
+
 line rock-border -close on
   410.1124 -380.4172
   418.6218 -371.3442
@@ -716,7 +814,7 @@ line rock-border -close on
   410.1124 -380.4172
 endline
 
-line border -close on -id EukalyptusLabyrinth-1p_sand_3 -visibility off
+line border -id EukalyptusLabyrinth-1p_sand_3 -close on -visibility off
   534.5952 -482.523
   572.8846 -493.6805
   588.2002 -481.4078
@@ -745,11 +843,11 @@ line border -close on -id EukalyptusLabyrinth-1p_sand_3 -visibility off
   534.5952 -482.523
 endline
 
-area sand 
+area sand
   EukalyptusLabyrinth-1p_sand_3
 endarea
 
-line border -close on -id EukalyptusLabyrinth-1p_u_smallblocks_1 -visibility off
+line border -id EukalyptusLabyrinth-1p_u_smallblocks_1 -close on -visibility off
   1035.641 -226.4588
   1091.4338 -224.2266
   1114.9548 -212.5119
@@ -791,9 +889,10 @@ line border -close on -id EukalyptusLabyrinth-1p_u_smallblocks_1 -visibility off
   1035.641 -226.4588
 endline
 
-area u:smallblocks 
+area u:smallblocks
   EukalyptusLabyrinth-1p_u_smallblocks_1
 endarea
 
 endscrap
+
 
