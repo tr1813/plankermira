@@ -55,6 +55,9 @@ survey nw -title "Nordwandschacht"
     ### 2025 ###
     join Weisserschacht-1e@6 AglarondVesuvDom-4e@4
     join Ewigkeit-1e@7 AglarondVesuvDom-4e@4
+
+    join Ewigkeit-1p@7 AglarondVesuvDom-3p@4
+
     centreline 
         cs epsg:31258
         fix 10@3 500497.8 277599.1 2092

@@ -3,11 +3,6 @@ source ../data/Nordwandschacht/Nordwandschacht.th
 
 select m-all-p@nw
 
-export map -fmt esri -o ../out/Nordwandschacht-plan
-export model -fmt survex -o ../out/Nordwandschacht.3d
-export database -o ../out/Nordwandschacht.csv
-export database -o ../out/Nordwandschacht.sql
-
 input ../layouts/detailed-p.thl 
 
 layout local
@@ -19,24 +14,24 @@ layout local
     symbol-assign line wall:blocks MYEE
     #color map-fg altitude
     symbol-show point label
-    #     code tex-map
-    #  \def\customheader{
-    # \size[26]\bf \the\cavename{} 1625/141 \ss
-    # \si \par \size[20]Plankermira Nordwand, Totes Gebirge, Steirmark - Auseerland \ss
-    # \par Katastergebiet: 1625 
-    # \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth
-    # \par Eingangskoordinaten (MGI GK 31): X : 500499 / Y : 277600,  Sh : 2092 m 
-    # \par Vermessung 2023 -- 2025 --- \the\topoteam
-    # \par Verein für Höhlenkunde in Obersteier
-    # \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
-    #   \def\maplayout{
-    #       \legendbox{\the\numexpr 1\relax}{\the\numexpr 99\relax}{NW}{\customheader}
-    #       \legendbox{\the\numexpr14\relax}{\the\numexpr83\relax}{S}{\northarrow}
-    #       \legendbox{\the\numexpr14\relax}{\the\numexpr82\relax}{N}{\scalebar}
+        code tex-map
+     \def\customheader{
+    \size[26]\bf \the\cavename{} 1625/141 \ss
+    \si \par \size[20]Plankermira Nordwand, Totes Gebirge, Steirmark - Auseerland \ss
+    \par Katastergebiet: 1625 
+    \par Gesamtlänge: \the\cavelength, Niveaudifferenz: \the\cavedepth, Seehöhe: 2092 m
+    \par Eingangskoordinaten (UTM 33N): X : 425223 / Y : 5276230
+    \par Vermessung 2023 -- 2025 --- \the\topoteam
+    \par Verein für Höhlenkunde in Obersteier
+    \par Entwurf und Zeichnung Tanguy Racine --- Grade (UIS v1) 5-4-EF}
+      \def\maplayout{
+          \legendbox{\the\numexpr 1\relax}{\the\numexpr 99\relax}{NW}{\customheader}
+          \legendbox{\the\numexpr14\relax}{\the\numexpr83\relax}{S}{\northarrow}
+          \legendbox{\the\numexpr14\relax}{\the\numexpr82\relax}{N}{\scalebar}
 
-    #       %\legendbox{\the\numexpr0\relax}{\the\numexpr0\relax}{NW}{\hbox{\loadpicture{"omuhako_cave-L.pdf"}}}
-    #  }
-    # endcode 
+          %\legendbox{\the\numexpr0\relax}{\the\numexpr0\relax}{NW}{\hbox{\loadpicture{"omuhako_cave-L.pdf"}}}
+     }
+    endcode 
 
 endlayout
 
@@ -57,7 +52,7 @@ maps-offset on
 export map -projection plan -o ../out/Nordwandschacht/Nordwandschacht.pdf -layout local
 export model -o ../out/Nordwandschacht/Nordwandschacht.lox
 export model -o ../out/Nordwandschacht/Nordwandschacht.3d
-export database -o ../out/Nordwandschacht/Nordwandschacht.sql
 
+export map -fmt esri -o ../out/Nordwandschacht/Nordwandschacht-plan
+export database -o ../out/Nordwandschacht/Nordwandschacht.sql
 #export map -projection plan -o ../out/Nordwandschacht_summary.pdf -layout summary -layout-debug station-names
-export map -fmt esri -projection plan -o ../out/Nordwandschacht-plan
