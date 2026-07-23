@@ -606,7 +606,7 @@ point 565.09 1227.32 station -name 11
 
 point 302.44 1530.93 station -name 17
 
-point 688.5229 1464.5382 label -align t -scale xs -text "<bf>P135"
+point 688.5229 1464.5382 label -align t -scale xs -text "<bf>P115"
 
 line pit -outline in
   769.8393 1421.8492
@@ -3300,7 +3300,7 @@ endline
 
 point 3129.5567 1190.8523 map-connection
 
-point 3301.8454 1606.5952 label -align t -scale xs -text "<bf>P135"
+point 3301.8454 1606.5952 label -align t -scale xs -text "<bf>P115"
 
 point 3605.5412 1649.9329 label -align tr -text "Schacht der Ewigkeit"
 
