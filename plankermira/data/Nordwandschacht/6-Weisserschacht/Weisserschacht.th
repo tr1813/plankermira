@@ -6,7 +6,7 @@ survey 6 -title "Weisserschacht"
     date 2025.08.11 
     team "Tanguy Racine"
     team  "Robin Jeutter"
-    team  "Peter Jeutte" 
+    team  "Peter Jeutter" 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

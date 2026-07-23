@@ -6,7 +6,7 @@ survey 7 -title "Schacht der Ewigkeit"
     date 2025.08.12 
     team "Tanguy Racine"
     team  "Robin Jeutter"
-    team  "Peter Jeutte"  
+    team  "Peter Jeutter"  
     units length meters
     units compass clino degrees
     data normal from to length compass clino
