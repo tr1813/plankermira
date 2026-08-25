@@ -1,7 +1,7 @@
 source "../data/Plankermira.th"
 
 export model -o "../out/Plankermira/Plankermira.3d" -fmt survex
-export model -o "../out/Plankermira/Plankermira.lox"
+#export model -o "../out/Plankermira/Plankermira.lox"
 export model -o "../out/Plankermira/Plankermira.kml"
 export model -o "../out/Plankermira/Plankermira" -fmt esri
 export database -o "../out/Plankermira/Plankermira.sql"

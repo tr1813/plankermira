@@ -24,6 +24,11 @@ survey nw -title "Nordwandschacht"
     equate 5@6  57@4
     equate 18@7  58@4
 
+    ### 2026 ### 
+    input "./8-TouchingTheVoid/TouchingTheVoid.th"
+
+    equate 16@7 0@8
+
     map m-all-p -projection plan
         m-all-p@3 [-40 0 m] none
         m-all-p@1

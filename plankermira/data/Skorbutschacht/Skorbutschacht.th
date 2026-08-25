@@ -1,0 +1,72 @@
+encoding utf-8
+# 2026.08.25 created by TopoDroid v 6.3.63
+
+survey Skorbutschacht -title "Skorbutschacht"
+    # shaft in fracture 
+
+  centerline
+    cs epsg:32633
+    fix 0 425047 5275835 1997
+    date 2026.08.20 
+    team "Tanguy Racine"  
+    team "Becka Lawson"
+    team  "Iris Koller" 
+    explo-date 2026.08.20 
+    explo-team "Tanguy Racine"  
+    explo-team "Becka Lawson"
+    explo-team  "Iris Koller" 
+
+
+    station 0 ""
+    mark 0 1 2 3 painted
+
+    units length meter
+    units compass clino degree
+    data normal from to length compass clino
+    # extend auto
+    0 . 1.50 28.2 -11.6
+    0 . 3.43 72.2 8.0
+    0 . 2.71 312.0 -61.0
+    extend right
+    0 1 2.64 18.1 -66.5
+    # extend auto
+    1 . 2.66 97.4 24.9
+    1 . 1.06 182.1 -12.7
+    1 . 1.43 111.9 -64.8
+    1 . 9.38 105.7 -80.2
+    1 . 1.61 262.9 6.1
+    1 . 1.43 262.5 -51.1
+    1 . 5.53 115.0 -81.5
+    1 . 5.53 118.4 -82.1
+    extend right
+    1 2 5.53 111.4 -81.8
+    # extend auto
+    2 . 9.65 147.3 -80.5
+    2 . 9.91 119.6 -72.8
+    2 . 6.65 109.8 -66.0
+    2 . 1.54 278.8 -38.4
+    2 . 2.03 262.7 -72.5
+    2 . 4.60 226.8 -80.6
+    2 . 5.90 165.2 -82.7
+    2 . 0.84 10.9 -10.4
+    extend right
+    2 3 9.58 130.0 -77.6
+    # extend auto
+    3 . 1.22 101.8 -3.0
+    3 . 0.20 354.3 -10.2
+    3 . 0.47 187.7 -7.3
+    3 . 1.16 264.1 9.4
+    3 . 1.78 272.6 46.8
+  endcenterline
+
+  # input "Skorbutschacht-1p.th2"
+  # input "Skorbutschacht-1s.th2"
+
+  # map m1p -projection plan
+  #   Skorbutschacht-1p
+  # endmap
+  # map m1s -projection extended
+  #   Skorbutschacht-1s
+  # endmap
+
+endsurvey
