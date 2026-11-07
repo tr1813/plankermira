@@ -1,0 +1,3 @@
+source "../data/Schneemausschacht/Schneemausschacht.th"
+#cs epsg:32633
+export model -o "../out/Schneemausschacht.3d"

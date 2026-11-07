@@ -282,7 +282,7 @@ survey 7 -title "Schacht der Ewigkeit"
 
   map m-all-p -projection plan
      m1p
-     m2p [30 0 m] none
+     m2p [20 20 m] none
   endmap
 
   input "Ewigkeit-e.th2"

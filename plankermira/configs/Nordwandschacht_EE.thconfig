@@ -35,6 +35,8 @@ endlayout
 source
     map m-local-e -projection extended
         m-all-e@nw
+        8@nw
+        5@nw
     endmap
 endsource
 

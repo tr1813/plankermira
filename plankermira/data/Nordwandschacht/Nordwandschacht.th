@@ -36,7 +36,10 @@ survey nw -title "Nordwandschacht"
         m-all-p@4
         m-all-p@5 [60 0 m] none
         m-all-p@7     
-        m-all-p@6 [-10 0 m] none
+        m-all-p@6 [-10 10 m] none
+        m-underlay-p@8
+        m-offset1-p@8 [40 40 m] none
+        m-offset2-p@8 [10 10 m] none
     endmap
 
     map m-all-e -projection extended
@@ -71,5 +74,5 @@ survey nw -title "Nordwandschacht"
         station 10@3 entrance
     endcentreline
 
-    input "../DEM/510287_clipped.th"
+    #input "../DEM/510287_clipped.th"
 endsurvey

@@ -434,13 +434,27 @@ survey 8 -title "Touching the Void"
     29 . 19.60 22.2 86.6
   endcenterline
 
-  # input "8-highhopes-1p.th2"
+  input "TouchingTheVoid-p.th2"
   # input "8-highhopes-1s.th2"
 
-  # map m1p -projection plan
-  #   8-highhopes-1p
-    #   8-highhopes-1p1
-  # endmap
+  map m-offset1-p -projection plan
+    TouchingTheVoid-3p
+  endmap
+
+  map m-offset2-p -projection plan
+    TouchingTheVoid-4p
+  endmap
+
+  map m-underlay-p -projection plan
+    TouchingTheVoid-3p-underlay
+    TouchingTheVoid-2p
+    TouchingTheVoid-1p
+    break 
+    TouchingTheVoid-4p-underlay
+    TouchingTheVoid-5p
+  endmap
+
+
   # map m1s -projection extended
   #   8-highhopes-1s
   # endmap

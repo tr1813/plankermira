@@ -50,10 +50,10 @@ endlayout
 maps-offset on
 
 export map -projection plan -o ../out/Nordwandschacht/Nordwandschacht.pdf -layout local
-export model -o ../out/Nordwandschacht/Nordwandschacht.lox
-export model -o ../out/Nordwandschacht/Nordwandschacht.3d
+#export model -o ../out/Nordwandschacht/Nordwandschacht.lox
+#export model -o ../out/Nordwandschacht/Nordwandschacht.3d
 
-export map -fmt esri -o ../out/Nordwandschacht/Nordwandschacht-plan
-export model -fmt esri -o ../out/Nordwandschacht/Nordwandschacht-plan
-export database -o ../out/Nordwandschacht/Nordwandschacht.sql
+#export map -fmt esri -o ../out/Nordwandschacht/Nordwandschacht-plan
+#export model -fmt esri -o ../out/Nordwandschacht/Nordwandschacht-plan
+#export database -o ../out/Nordwandschacht/Nordwandschacht.sql
 #export map -projection plan -o ../out/Nordwandschacht_summary.pdf -layout summary -layout-debug station-names
